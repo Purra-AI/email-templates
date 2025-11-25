@@ -363,61 +363,8 @@
           <!-- Body Content -->
           <tr>
             <td class="content">
-              <!-- Greeting -->
-              <p class="greeting">Hi {{ userName }},</p>
-
-              <!-- Main Content -->
-              <p class="body-text">
-                {{ mainContent }}
-              </p>
-
-              <!-- Optional: Info Card -->
-              <!-- Uncomment to use
-              <div class="info-card">
-                <h3 class="info-card-title">
-                  💡 {{ infoCardTitle }}
-                </h3>
-                <p class="info-card-text">
-                  {{ infoCardContent }}
-                </p>
-              </div>
-              -->
-
-              <!-- Optional: Features List -->
-              <!-- Uncomment to use
-              <ul class="features-list">
-                <li>{{ feature1 }}</li>
-                <li>{{ feature2 }}</li>
-                <li>{{ feature3 }}</li>
-              </ul>
-              -->
-
-              <!-- Call to Action Button -->
-              <div class="btn-container">
-                <a href="{{ ctaUrl }}?utm_source=email&utm_medium=email&utm_campaign={{ campaignName }}" class="btn-electric">
-                  {{ ctaText }}
-                </a>
-              </div>
-
-              <!-- Optional: Stats/Metrics -->
-              <!-- Uncomment to use
-              <table class="stats-container" border="0" cellpadding="0" cellspacing="0" width="100%">
-                <tr>
-                  <td class="stat-item">
-                    <span class="stat-value">{{ stat1Value }}</span>
-                    <span class="stat-label">{{ stat1Label }}</span>
-                  </td>
-                  <td class="stat-item">
-                    <span class="stat-value">{{ stat2Value }}</span>
-                    <span class="stat-label">{{ stat2Label }}</span>
-                  </td>
-                  <td class="stat-item">
-                    <span class="stat-value">{{ stat3Value }}</span>
-                    <span class="stat-label">{{ stat3Label }}</span>
-                  </td>
-                </tr>
-              </table>
-              -->
+              <!-- Dynamic Main Content (Generated from JSON) -->
+              {{ mainContent }}
 
               <!-- Divider -->
               <div class="divider"></div>

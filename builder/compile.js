@@ -5,11 +5,10 @@
  *
  * Compiles email templates by:
  * 1. Loading content JSON files with translations
- * 2. Loading corresponding template HTML files
- * 3. Replacing data-i18n attributes with translated content
+ * 2. Using purra-modern-template.html as the base template
+ * 3. Dynamically generating content sections from JSON data
  * 4. Replacing {{ variables }} with dynamic placeholders
- * 5. Wrapping in base layout
- * 6. Outputting compiled HTML for each language
+ * 5. Outputting compiled HTML for each language
  */
 
 const fs = require('fs');
@@ -18,9 +17,8 @@ const path = require('path');
 // Configuration
 const CONFIG = {
   contentDir: path.join(__dirname, '..', 'content'),
-  templatesDir: path.join(__dirname, '..', 'templates'),
+  baseTemplate: path.join(__dirname, '..', 'base-templates', 'purra-modern-template.html'),
   compiledDir: path.join(__dirname, '..', 'compiled'),
-  baseLayout: path.join(__dirname, 'templates', 'base-layout.html'),
   languages: ['en', 'he', 'hi', 'fr', 'zh', 'ja', 'de'],
   fontMap: {
     en: "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
@@ -35,92 +33,94 @@ const CONFIG = {
 };
 
 /**
- * Get value from nested object using dot notation
- * @param {Object} obj - Object to search
- * @param {String} path - Dot-notation path (e.g., "body.greeting")
- * @returns {*} Value at path or undefined
+ * Generate HTML content from JSON translation data
+ * @param {Object} translation - Translation object for a specific language
+ * @returns {String} Generated HTML content
  */
-function getNestedValue(obj, path) {
-  return path.split(/[\.\[\]]/).filter(Boolean).reduce((acc, key) => {
-    return acc && acc[key] !== undefined ? acc[key] : undefined;
-  }, obj);
-}
+function generateContentHTML(translation) {
+  let html = '';
 
-/**
- * Replace data-i18n attributes with translated content
- * @param {String} html - HTML template
- * @param {Object} translations - Translation object for language
- * @returns {String} HTML with translations applied
- */
-function applyTranslations(html, translations) {
-  // Match data-i18n attributes: data-i18n="body.greeting"
-  const regex = /(<[^>]+data-i18n=["']([^"']+)["'][^>]*>)([^<]*)/g;
+  // Greeting
+  if (translation.body?.greeting) {
+    html += `<p class="greeting">${translation.body.greeting}</p>\n`;
+  }
 
-  return html.replace(regex, (match, openTag, i18nKey, existingContent) => {
-    const translatedValue = getNestedValue(translations, i18nKey);
+  // Intro
+  if (translation.body?.intro) {
+    html += `<p class="body-text">${translation.body.intro}</p>\n`;
+  }
 
-    if (translatedValue !== undefined) {
-      // Remove data-i18n attribute and replace content
-      const cleanedTag = openTag.replace(/\s*data-i18n=["'][^"']+["']/, '');
-      return `${cleanedTag}${translatedValue}`;
+  // Sections - iterate through body object
+  if (translation.body) {
+    Object.keys(translation.body).forEach(key => {
+      if (key === 'greeting' || key === 'intro' || key === 'footer') return;
+
+      const section = translation.body[key];
+
+      // If section has title and description
+      if (typeof section === 'object' && section.title) {
+        html += `<div class="section">\n`;
+        html += `  <h2 class="section-title">${section.title}</h2>\n`;
+
+        if (section.description) {
+          html += `  <p class="body-text">${section.description}</p>\n`;
+        }
+
+        // Handle items array (bullet points)
+        if (section.items && Array.isArray(section.items)) {
+          html += `  <ul class="feature-list">\n`;
+          section.items.forEach(item => {
+            html += `    <li>${item}</li>\n`;
+          });
+          html += `  </ul>\n`;
+        }
+
+        // Handle nested properties
+        Object.keys(section).forEach(subKey => {
+          if (subKey !== 'title' && subKey !== 'description' && subKey !== 'items') {
+            const value = section[subKey];
+            if (typeof value === 'string') {
+              html += `  <p class="body-text"><strong>${subKey}:</strong> ${value}</p>\n`;
+            }
+          }
+        });
+
+        html += `</div>\n`;
+      }
+      // Simple string value
+      else if (typeof section === 'string') {
+        html += `<p class="body-text">${section}</p>\n`;
+      }
+    });
+  }
+
+  // Footer text
+  if (translation.body?.footer) {
+    html += `<p class="body-text" style="margin-top: 30px;">${translation.body.footer}</p>\n`;
+  }
+
+  // CTA Buttons
+  if (translation.cta) {
+    html += `<table border="0" cellpadding="0" cellspacing="0" class="cta-container">\n`;
+    html += `  <tr>\n`;
+
+    if (translation.cta.primary) {
+      html += `    <td class="cta-cell">\n`;
+      html += `      <a href="${translation.cta.primary.url}" class="cta-button">${translation.cta.primary.text}</a>\n`;
+      html += `    </td>\n`;
     }
 
-    // If translation not found, keep original
-    console.warn(`⚠️  Translation not found for key: ${i18nKey}`);
-    return match;
-  });
-}
+    if (translation.cta.secondary) {
+      html += `    <td class="cta-cell">\n`;
+      html += `      <a href="${translation.cta.secondary.url}" class="cta-button-secondary">${translation.cta.secondary.text}</a>\n`;
+      html += `    </td>\n`;
+    }
 
-/**
- * Replace {{ variable }} placeholders with runtime placeholders
- * @param {String} html - HTML content
- * @param {Array} dynamicFields - List of dynamic field names
- * @returns {String} HTML with preserved dynamic placeholders
- */
-function preserveDynamicFields(html, dynamicFields) {
-  // Ensure dynamic fields remain as {{ variable }} for runtime replacement
+    html += `  </tr>\n`;
+    html += `</table>\n`;
+  }
+
   return html;
-}
-
-/**
- * Wrap content in base layout
- * @param {String} contentHtml - Compiled content HTML
- * @param {Object} metadata - Email metadata
- * @param {String} lang - Language code
- * @returns {String} Complete HTML email
- */
-function wrapInLayout(contentHtml, metadata, lang) {
-  let layout = fs.readFileSync(CONFIG.baseLayout, 'utf-8');
-
-  const isRTL = CONFIG.rtlLanguages.includes(lang);
-  const dir = isRTL ? 'rtl' : 'ltr';
-  const startSide = isRTL ? 'right' : 'left';
-  const endSide = isRTL ? 'left' : 'right';
-  const fontFamily = CONFIG.fontMap[lang] || CONFIG.fontMap.en;
-
-  // Replace layout variables
-  layout = layout.replace(/\{\{\s*lang\s*\}\}/g, lang);
-  layout = layout.replace(/\{\{\s*dir\s*\}\}/g, dir);
-  layout = layout.replace(/\{\{\s*startSide\s*\}\}/g, startSide);
-  layout = layout.replace(/\{\{\s*endSide\s*\}\}/g, endSide);
-  layout = layout.replace(/\{\{\s*fontFamily\s*\}\}/g, fontFamily);
-  layout = layout.replace(/\{\{\s*subject\s*\}\}/g, metadata.subject || '');
-  layout = layout.replace(/\{\{\s*preheader\s*\}\}/g, metadata.preheader || '');
-  layout = layout.replace(/\{\{\s*campaignName\s*\}\}/g, metadata.campaignName || '');
-
-  // Replace preheader in data-i18n
-  layout = layout.replace(/data-i18n="preheader"[^>]*>[^<]*/g,
-    `data-i18n="preheader">${metadata.preheader || ''}`);
-  layout = layout.replace(/data-i18n="subject"[^>]*>[^<]*/g,
-    `data-i18n="subject">${metadata.subject || ''}`);
-
-  // Insert content
-  layout = layout.replace(/\{\{\s*content\s*\}\}/g, contentHtml);
-
-  // Add unsubscribe URL placeholder
-  layout = layout.replace(/\{\{\s*unsubscribeUrl\s*\}\}/g, '{{ unsubscribeUrl }}');
-
-  return layout;
 }
 
 /**
@@ -131,19 +131,12 @@ function compileTemplate(contentPath) {
   try {
     // Load content JSON
     const content = JSON.parse(fs.readFileSync(contentPath, 'utf-8'));
-    const { id, category, campaignName, layout, translations, dynamicFields } = content;
+    const { id, category, campaignName, translations } = content;
 
     console.log(`\n📧 Compiling: ${id} (${category})`);
 
-    // Find corresponding template
-    const templatePath = path.join(CONFIG.templatesDir, category, `${id}.html`);
-
-    if (!fs.existsSync(templatePath)) {
-      console.error(`❌ Template not found: ${templatePath}`);
-      return;
-    }
-
-    let templateHtml = fs.readFileSync(templatePath, 'utf-8');
+    // Load base template
+    let baseTemplate = fs.readFileSync(CONFIG.baseTemplate, 'utf-8');
 
     // Compile for each language
     CONFIG.languages.forEach(lang => {
@@ -154,31 +147,32 @@ function compileTemplate(contentPath) {
 
       console.log(`  └─ ${lang}`);
 
-      // Apply translations
-      let compiledHtml = applyTranslations(templateHtml, translations[lang]);
+      const translation = translations[lang];
+      const isRTL = CONFIG.rtlLanguages.includes(lang);
 
-      // Preserve dynamic fields
-      compiledHtml = preserveDynamicFields(compiledHtml, dynamicFields);
+      // Generate content HTML from JSON
+      const contentHTML = generateContentHTML(translation);
 
-      // Replace cta.primary.url, cta.secondary.url patterns
-      compiledHtml = compiledHtml.replace(/\{\{\s*cta\.primary\.url\s*\}\}/g,
-        translations[lang].cta?.primary?.url || '{{ ctaUrl }}');
-      compiledHtml = compiledHtml.replace(/\{\{\s*cta\.secondary\.url\s*\}\}/g,
-        translations[lang].cta?.secondary?.url || '{{ ctaSecondaryUrl }}');
+      // Replace template variables
+      let compiledHtml = baseTemplate
+        .replace(/\{\{\s*emailTitle\s*\}\}/g, translation.subject || 'Purra')
+        .replace(/\{\{\s*preheaderText\s*\}\}/g, translation.preheader || '')
+        .replace(/\{\{\s*headerTitle\s*\}\}/g, translation.header?.title || '')
+        .replace(/\{\{\s*headerSubtitle\s*\}\}/g, translation.header?.subtitle || '')
+        .replace(/\{\{\s*mainContent\s*\}\}/g, contentHTML)
+        .replace(/\{\{\s*campaignName\s*\}\}/g, campaignName || id)
+        .replace(/\{\{\s*currentYear\s*\}\}/g, new Date().getFullYear());
 
-      // Replace stats placeholders if they exist
-      compiledHtml = compiledHtml.replace(/\{\{\s*stats\.(\w+)\s*\}\}/g, '{{ $1 }}');
-
-      // Replace support.email
-      compiledHtml = compiledHtml.replace(/\{\{\s*support\.email\s*\}\}/g,
-        translations[lang].support?.email || 'info@purra.ai');
-
-      // Wrap in layout
-      const fullHtml = wrapInLayout(compiledHtml, {
-        subject: translations[lang].subject,
-        preheader: translations[lang].preheader,
-        campaignName
-      }, lang);
+      // Set language and direction
+      compiledHtml = compiledHtml.replace(/lang="en"/, `lang="${lang}"`);
+      if (isRTL) {
+        compiledHtml = compiledHtml.replace(/<html/, '<html dir="rtl"');
+        compiledHtml = compiledHtml.replace(/font-family: 'Inter'[^;]+;/,
+          `font-family: ${CONFIG.fontMap[lang]};`);
+      } else if (lang !== 'en') {
+        compiledHtml = compiledHtml.replace(/font-family: 'Inter'[^;]+;/,
+          `font-family: ${CONFIG.fontMap[lang]};`);
+      }
 
       // Ensure output directory exists
       const outputDir = path.join(CONFIG.compiledDir, lang, category);
@@ -186,7 +180,7 @@ function compileTemplate(contentPath) {
 
       // Write compiled file
       const outputPath = path.join(outputDir, `${id}.html`);
-      fs.writeFileSync(outputPath, fullHtml, 'utf-8');
+      fs.writeFileSync(outputPath, compiledHtml, 'utf-8');
     });
 
     console.log(`✅ Compiled ${id} for ${CONFIG.languages.length} languages`);
@@ -225,15 +219,9 @@ function findContentFiles(dir) {
 function main() {
   console.log('🚀 Purra Email Template Compiler\n');
   console.log(`Content directory: ${CONFIG.contentDir}`);
-  console.log(`Templates directory: ${CONFIG.templatesDir}`);
+  console.log(`Base template: ${CONFIG.baseTemplate}`);
   console.log(`Output directory: ${CONFIG.compiledDir}`);
   console.log(`Languages: ${CONFIG.languages.join(', ')}\n`);
-
-  // Clean compiled directory
-  if (fs.existsSync(CONFIG.compiledDir)) {
-    fs.rmSync(CONFIG.compiledDir, { recursive: true, force: true });
-  }
-  fs.mkdirSync(CONFIG.compiledDir, { recursive: true });
 
   // Find all content files
   const contentFiles = findContentFiles(CONFIG.contentDir);
@@ -251,4 +239,4 @@ if (require.main === module) {
   main();
 }
 
-module.exports = { compileTemplate, applyTranslations, getNestedValue };
+module.exports = { compileTemplate, generateContentHTML };
