@@ -1,0 +1,366 @@
+{
+  "id": "due-diligence-report-ready",
+  "category": "reports",
+  "campaignName": "report_ready_dd",
+  "layout": "base",
+  "dynamicFields": [
+    "firstName",
+    "vendorName",
+    "reportUrl",
+    "researchDuration",
+    "insightsCount",
+    "riskScore"
+  ],
+  "translations": {
+    "en": {
+      "subject": "Your Due Diligence Report for {{ vendorName }} is Ready",
+      "preheader": "Deep research completed with {{ insightsCount }} key insights",
+      "header": {
+        "title": "Report Ready",
+        "subtitle": "Your vendor research is complete"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "Great news! We've completed the deep due diligence research on **{{ vendorName }}**.",
+        "stats": {
+          "title": "Research Summary",
+          "items": [
+            {
+              "label": "Research Duration",
+              "value": "{{ researchDuration }}"
+            },
+            {
+              "label": "Key Insights",
+              "value": "{{ insightsCount }}"
+            },
+            {
+              "label": "Risk Score",
+              "value": "{{ riskScore }}/100"
+            }
+          ]
+        },
+        "highlights": {
+          "title": "What's Included",
+          "items": [
+            "Company overview and financial health",
+            "Risk assessment and compliance status",
+            "Market position and competitive analysis",
+            "Customer reviews and reputation metrics",
+            "Technology stack and security posture"
+          ]
+        },
+        "footer": "Access your complete report to make informed procurement decisions."
+      },
+      "cta": {
+        "primary": {
+          "text": "View Full Report",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "Research Another Vendor",
+          "url": "https://app.purra.ai/research/new"
+        }
+      }
+    },
+    "he": {
+      "subject": "דוח בדיקת הנאותות שלך עבור {{ vendorName }} מוכן",
+      "preheader": "מחקר מעמיק הושלם עם {{ insightsCount }} תובנות מפתח",
+      "header": {
+        "title": "הדוח מוכן",
+        "subtitle": "מחקר הספק שלך הושלם"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "חדשות מצוינות! השלמנו את מחקר בדיקת הנאותות המעמיק על **{{ vendorName }}**.",
+        "stats": {
+          "title": "סיכום המחקר",
+          "items": [
+            {
+              "label": "משך המחקר",
+              "value": "{{ researchDuration }}"
+            },
+            {
+              "label": "תובנות מפתח",
+              "value": "{{ insightsCount }}"
+            },
+            {
+              "label": "ציון סיכון",
+              "value": "{{ riskScore }}/100"
+            }
+          ]
+        },
+        "highlights": {
+          "title": "מה כלול",
+          "items": [
+            "סקירת החברה ובריאות פיננסית",
+            "הערכת סיכונים וסטטוס תאימות",
+            "מיקום בשוק וניתוח תחרותי",
+            "ביקורות לקוחות ומדדי מוניטין",
+            "מערך טכנולוגי ותנוחת אבטחה"
+          ]
+        },
+        "footer": "גש לדוח המלא שלך כדי לקבל החלטות רכש מושכלות."
+      },
+      "cta": {
+        "primary": {
+          "text": "צפה בדוח המלא",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "חקור ספק נוסף",
+          "url": "https://app.purra.ai/research/new"
+        }
+      }
+    },
+    "hi": {
+      "subject": "{{ vendorName }} के लिए आपकी उचित परिश्रम रिपोर्ट तैयार है",
+      "preheader": "{{ insightsCount }} प्रमुख अंतर्दृष्टि के साथ गहन शोध पूर्ण",
+      "header": {
+        "title": "रिपोर्ट तैयार",
+        "subtitle": "आपका विक्रेता शोध पूर्ण हो गया है"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "बढ़िया खबर! हमने **{{ vendorName }}** पर गहन उचित परिश्रम शोध पूरा कर लिया है।",
+        "stats": {
+          "title": "शोध सारांश",
+          "items": [
+            {
+              "label": "शोध अवधि",
+              "value": "{{ researchDuration }}"
+            },
+            {
+              "label": "प्रमुख अंतर्दृष्टि",
+              "value": "{{ insightsCount }}"
+            },
+            {
+              "label": "जोखिम स्कोर",
+              "value": "{{ riskScore }}/100"
+            }
+          ]
+        },
+        "highlights": {
+          "title": "क्या शामिल है",
+          "items": [
+            "कंपनी अवलोकन और वित्तीय स्वास्थ्य",
+            "जोखिम मूल्यांकन और अनुपालन स्थिति",
+            "बाजार स्थिति और प्रतिस्पर्धी विश्लेषण",
+            "ग्राहक समीक्षा और प्रतिष्ठा मेट्रिक्स",
+            "प्रौद्योगिकी स्टैक और सुरक्षा स्थिति"
+          ]
+        },
+        "footer": "सूचित खरीद निर्णय लेने के लिए अपनी पूरी रिपोर्ट तक पहुँचें।"
+      },
+      "cta": {
+        "primary": {
+          "text": "पूर्ण रिपोर्ट देखें",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "दूसरे विक्रेता का शोध करें",
+          "url": "https://app.purra.ai/research/new"
+        }
+      }
+    },
+    "fr": {
+      "subject": "Votre rapport de diligence raisonnable pour {{ vendorName }} est prêt",
+      "preheader": "Recherche approfondie terminée avec {{ insightsCount }} informations clés",
+      "header": {
+        "title": "Rapport prêt",
+        "subtitle": "Votre recherche de fournisseur est terminée"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Excellente nouvelle ! Nous avons terminé la recherche approfondie de diligence raisonnable sur **{{ vendorName }}**.",
+        "stats": {
+          "title": "Résumé de la recherche",
+          "items": [
+            {
+              "label": "Durée de recherche",
+              "value": "{{ researchDuration }}"
+            },
+            {
+              "label": "Informations clés",
+              "value": "{{ insightsCount }}"
+            },
+            {
+              "label": "Score de risque",
+              "value": "{{ riskScore }}/100"
+            }
+          ]
+        },
+        "highlights": {
+          "title": "Ce qui est inclus",
+          "items": [
+            "Aperçu de l'entreprise et santé financière",
+            "Évaluation des risques et statut de conformité",
+            "Position sur le marché et analyse concurrentielle",
+            "Avis clients et mesures de réputation",
+            "Stack technologique et posture de sécurité"
+          ]
+        },
+        "footer": "Accédez à votre rapport complet pour prendre des décisions d'approvisionnement éclairées."
+      },
+      "cta": {
+        "primary": {
+          "text": "Voir le rapport complet",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "Rechercher un autre fournisseur",
+          "url": "https://app.purra.ai/research/new"
+        }
+      }
+    },
+    "zh": {
+      "subject": "您关于 {{ vendorName }} 的尽职调查报告已准备就绪",
+      "preheader": "深度研究完成，包含 {{ insightsCount }} 个关键洞察",
+      "header": {
+        "title": "报告已准备就绪",
+        "subtitle": "您的供应商研究已完成"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "好消息！我们已完成对 **{{ vendorName }}** 的深度尽职调查研究。",
+        "stats": {
+          "title": "研究摘要",
+          "items": [
+            {
+              "label": "研究时长",
+              "value": "{{ researchDuration }}"
+            },
+            {
+              "label": "关键洞察",
+              "value": "{{ insightsCount }}"
+            },
+            {
+              "label": "风险评分",
+              "value": "{{ riskScore }}/100"
+            }
+          ]
+        },
+        "highlights": {
+          "title": "包含内容",
+          "items": [
+            "公司概况和财务健康状况",
+            "风险评估和合规状态",
+            "市场地位和竞争分析",
+            "客户评论和声誉指标",
+            "技术栈和安全态势"
+          ]
+        },
+        "footer": "访问您的完整报告以做出明智的采购决策。"
+      },
+      "cta": {
+        "primary": {
+          "text": "查看完整报告",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "研究另一个供应商",
+          "url": "https://app.purra.ai/research/new"
+        }
+      }
+    },
+    "ja": {
+      "subject": "{{ vendorName }} のデューデリジェンスレポートの準備が整いました",
+      "preheader": "{{ insightsCount }} の主要な洞察を含む詳細な調査が完了",
+      "header": {
+        "title": "レポート準備完了",
+        "subtitle": "ベンダー調査が完了しました"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "素晴らしいニュースです！**{{ vendorName }}** の詳細なデューデリジェンス調査が完了しました。",
+        "stats": {
+          "title": "調査概要",
+          "items": [
+            {
+              "label": "調査期間",
+              "value": "{{ researchDuration }}"
+            },
+            {
+              "label": "主要な洞察",
+              "value": "{{ insightsCount }}"
+            },
+            {
+              "label": "リスクスコア",
+              "value": "{{ riskScore }}/100"
+            }
+          ]
+        },
+        "highlights": {
+          "title": "含まれる内容",
+          "items": [
+            "会社概要と財務健全性",
+            "リスク評価とコンプライアンス状況",
+            "市場ポジションと競合分析",
+            "顧客レビューと評判指標",
+            "テクノロジースタックとセキュリティ態勢"
+          ]
+        },
+        "footer": "完全なレポートにアクセスして、情報に基づいた調達決定を行ってください。"
+      },
+      "cta": {
+        "primary": {
+          "text": "完全なレポートを表示",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "別のベンダーを調査",
+          "url": "https://app.purra.ai/research/new"
+        }
+      }
+    },
+    "de": {
+      "subject": "Ihr Due-Diligence-Bericht für {{ vendorName }} ist fertig",
+      "preheader": "Detaillierte Recherche mit {{ insightsCount }} wichtigen Erkenntnissen abgeschlossen",
+      "header": {
+        "title": "Bericht fertig",
+        "subtitle": "Ihre Lieferantenrecherche ist abgeschlossen"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Großartige Neuigkeiten! Wir haben die detaillierte Due-Diligence-Recherche zu **{{ vendorName }}** abgeschlossen.",
+        "stats": {
+          "title": "Recherchezusammenfassung",
+          "items": [
+            {
+              "label": "Recherche-Dauer",
+              "value": "{{ researchDuration }}"
+            },
+            {
+              "label": "Wichtige Erkenntnisse",
+              "value": "{{ insightsCount }}"
+            },
+            {
+              "label": "Risiko-Score",
+              "value": "{{ riskScore }}/100"
+            }
+          ]
+        },
+        "highlights": {
+          "title": "Was enthalten ist",
+          "items": [
+            "Unternehmensübersicht und finanzielle Gesundheit",
+            "Risikobewertung und Compliance-Status",
+            "Marktposition und Wettbewerbsanalyse",
+            "Kundenbewertungen und Reputationsmetriken",
+            "Technologie-Stack und Sicherheitslage"
+          ]
+        },
+        "footer": "Greifen Sie auf Ihren vollständigen Bericht zu, um fundierte Beschaffungsentscheidungen zu treffen."
+      },
+      "cta": {
+        "primary": {
+          "text": "Vollständigen Bericht anzeigen",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "Einen anderen Lieferanten recherchieren",
+          "url": "https://app.purra.ai/research/new"
+        }
+      }
+    }
+  }
+}

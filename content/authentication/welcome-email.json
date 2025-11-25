@@ -1,0 +1,329 @@
+{
+  "id": "welcome-email",
+  "category": "authentication",
+  "campaignName": "welcome_email",
+  "layout": "base",
+  "dynamicFields": [
+    "firstName",
+    "email",
+    "dashboardUrl",
+    "companyName"
+  ],
+  "translations": {
+    "en": {
+      "subject": "Welcome to Purra - Let's Get Started!",
+      "preheader": "Your AI-powered procurement platform is ready",
+      "header": {
+        "title": "Welcome to Purra",
+        "subtitle": "Your intelligent procurement journey starts here"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "Welcome to Purra! We're thrilled to have you on board. Your account is now active and ready to transform how you manage procurement.",
+        "features": [
+          {
+            "title": "AI-Powered Vendor Research",
+            "description": "Get comprehensive due diligence reports on any vendor in minutes, not days."
+          },
+          {
+            "title": "Smart Price Monitoring",
+            "description": "Track vendor pricing automatically and get alerts on changes that matter."
+          },
+          {
+            "title": "Procurement Analytics",
+            "description": "Make data-driven decisions with real-time insights and custom reports."
+          }
+        ],
+        "nextSteps": {
+          "title": "Get Started in 3 Easy Steps",
+          "steps": [
+            "Complete your company profile",
+            "Add your first vendor for research",
+            "Explore your personalized dashboard"
+          ]
+        },
+        "footer": "Need help getting started? Our team is here to support you every step of the way."
+      },
+      "cta": {
+        "primary": {
+          "text": "Go to Dashboard",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "Schedule a Demo",
+          "url": "http://calendly.com/purra-info/purra-demo"
+        }
+      }
+    },
+    "he": {
+      "subject": "ברוכים הבאים ל-Purra - בואו נתחיל!",
+      "preheader": "פלטפורמת הרכש המבוססת AI שלכם מוכנה",
+      "header": {
+        "title": "ברוכים הבאים ל-Purra",
+        "subtitle": "מסע הרכש החכם שלכם מתחיל כאן"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "ברוכים הבאים ל-Purra! אנחנו שמחים שהצטרפתם אלינו. החשבון שלכם פעיל ומוכן לשנות את הדרך שבה אתם מנהלים רכש.",
+        "features": [
+          {
+            "title": "מחקר ספקים מבוסס AI",
+            "description": "קבלו דוחות בדיקת נאותות מקיפים על כל ספק תוך דקות, לא ימים."
+          },
+          {
+            "title": "ניטור מחירים חכם",
+            "description": "עקבו אחר תמחור ספקים באופן אוטומטי וקבלו התראות על שינויים חשובים."
+          },
+          {
+            "title": "אנליטיקה של רכש",
+            "description": "קבלו החלטות מבוססות נתונים עם תובנות בזמן אמת ודוחות מותאמים אישית."
+          }
+        ],
+        "nextSteps": {
+          "title": "התחילו ב-3 שלבים פשוטים",
+          "steps": [
+            "השלימו את פרופיל החברה שלכם",
+            "הוסיפו את הספק הראשון שלכם למחקר",
+            "חקרו את לוח הבקרה המותאם אישית שלכם"
+          ]
+        },
+        "footer": "צריכים עזרה להתחיל? הצוות שלנו כאן כדי לתמוך בכם בכל שלב."
+      },
+      "cta": {
+        "primary": {
+          "text": "עברו ללוח הבקרה",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "קבעו הדגמה",
+          "url": "http://calendly.com/purra-info/purra-demo"
+        }
+      }
+    },
+    "hi": {
+      "subject": "Purra में आपका स्वागत है - चलिए शुरू करते हैं!",
+      "preheader": "आपका AI-संचालित खरीद प्लेटफ़ॉर्म तैयार है",
+      "header": {
+        "title": "Purra में आपका स्वागत है",
+        "subtitle": "आपकी बुद्धिमान खरीद यात्रा यहाँ से शुरू होती है"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "Purra में आपका स्वागत है! हम आपके साथ होने से रोमांचित हैं। आपका खाता अब सक्रिय है और खरीद प्रबंधन को बदलने के लिए तैयार है।",
+        "features": [
+          {
+            "title": "AI-संचालित विक्रेता अनुसंधान",
+            "description": "किसी भी विक्रेता पर व्यापक उचित परिश्रम रिपोर्ट मिनटों में प्राप्त करें, दिनों में नहीं।"
+          },
+          {
+            "title": "स्मार्ट मूल्य निगरानी",
+            "description": "विक्रेता मूल्य निर्धारण को स्वचालित रूप से ट्रैक करें और महत्वपूर्ण परिवर्तनों पर अलर्ट प्राप्त करें।"
+          },
+          {
+            "title": "खरीद विश्लेषण",
+            "description": "वास्तविक समय की जानकारी और कस्टम रिपोर्ट के साथ डेटा-संचालित निर्णय लें।"
+          }
+        ],
+        "nextSteps": {
+          "title": "3 आसान चरणों में शुरू करें",
+          "steps": [
+            "अपनी कंपनी प्रोफ़ाइल पूर्ण करें",
+            "अनुसंधान के लिए अपना पहला विक्रेता जोड़ें",
+            "अपने वैयक्तिकृत डैशबोर्ड का अन्वेषण करें"
+          ]
+        },
+        "footer": "शुरू करने में मदद चाहिए? हमारी टीम हर कदम पर आपका समर्थन करने के लिए यहाँ है।"
+      },
+      "cta": {
+        "primary": {
+          "text": "डैशबोर्ड पर जाएं",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "डेमो शेड्यूल करें",
+          "url": "http://calendly.com/purra-info/purra-demo"
+        }
+      }
+    },
+    "fr": {
+      "subject": "Bienvenue sur Purra - Commençons !",
+      "preheader": "Votre plateforme d'approvisionnement alimentée par l'IA est prête",
+      "header": {
+        "title": "Bienvenue sur Purra",
+        "subtitle": "Votre parcours d'approvisionnement intelligent commence ici"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Bienvenue sur Purra ! Nous sommes ravis de vous accueillir. Votre compte est maintenant actif et prêt à transformer votre gestion des achats.",
+        "features": [
+          {
+            "title": "Recherche de fournisseurs par IA",
+            "description": "Obtenez des rapports de diligence raisonnable complets sur n'importe quel fournisseur en quelques minutes, pas des jours."
+          },
+          {
+            "title": "Surveillance intelligente des prix",
+            "description": "Suivez automatiquement les prix des fournisseurs et recevez des alertes sur les changements importants."
+          },
+          {
+            "title": "Analytique des achats",
+            "description": "Prenez des décisions basées sur les données avec des informations en temps réel et des rapports personnalisés."
+          }
+        ],
+        "nextSteps": {
+          "title": "Commencez en 3 étapes simples",
+          "steps": [
+            "Complétez le profil de votre entreprise",
+            "Ajoutez votre premier fournisseur pour la recherche",
+            "Explorez votre tableau de bord personnalisé"
+          ]
+        },
+        "footer": "Besoin d'aide pour commencer ? Notre équipe est là pour vous accompagner à chaque étape."
+      },
+      "cta": {
+        "primary": {
+          "text": "Accéder au tableau de bord",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "Planifier une démo",
+          "url": "http://calendly.com/purra-info/purra-demo"
+        }
+      }
+    },
+    "zh": {
+      "subject": "欢迎使用 Purra - 让我们开始吧！",
+      "preheader": "您的AI驱动采购平台已准备就绪",
+      "header": {
+        "title": "欢迎使用 Purra",
+        "subtitle": "您的智能采购之旅从这里开始"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "欢迎使用 Purra！我们很高兴您的加入。您的账户现已激活，准备改变您管理采购的方式。",
+        "features": [
+          {
+            "title": "AI驱动的供应商研究",
+            "description": "在几分钟内获得任何供应商的全面尽职调查报告，而不是几天。"
+          },
+          {
+            "title": "智能价格监控",
+            "description": "自动跟踪供应商定价，并获得重要变化的警报。"
+          },
+          {
+            "title": "采购分析",
+            "description": "通过实时洞察和自定义报告做出数据驱动的决策。"
+          }
+        ],
+        "nextSteps": {
+          "title": "3个简单步骤开始",
+          "steps": [
+            "完善您的公司资料",
+            "添加您的第一个供应商进行研究",
+            "探索您的个性化仪表板"
+          ]
+        },
+        "footer": "需要帮助入门吗？我们的团队随时为您提供支持。"
+      },
+      "cta": {
+        "primary": {
+          "text": "前往仪表板",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "安排演示",
+          "url": "http://calendly.com/purra-info/purra-demo"
+        }
+      }
+    },
+    "ja": {
+      "subject": "Purraへようこそ - 始めましょう！",
+      "preheader": "AI搭載の調達プラットフォームの準備が整いました",
+      "header": {
+        "title": "Purraへようこそ",
+        "subtitle": "インテリジェントな調達の旅がここから始まります"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "Purraへようこそ！ご参加いただき嬉しく思います。アカウントがアクティブになり、調達管理を変革する準備が整いました。",
+        "features": [
+          {
+            "title": "AI搭載のベンダー調査",
+            "description": "数日ではなく数分で、あらゆるベンダーの包括的なデューデリジェンスレポートを取得できます。"
+          },
+          {
+            "title": "スマート価格モニタリング",
+            "description": "ベンダーの価格設定を自動的に追跡し、重要な変更についてアラートを受け取ります。"
+          },
+          {
+            "title": "調達分析",
+            "description": "リアルタイムの洞察とカスタムレポートでデータ駆動型の意思決定を行います。"
+          }
+        ],
+        "nextSteps": {
+          "title": "3つの簡単なステップで始める",
+          "steps": [
+            "会社プロフィールを完成させる",
+            "調査用に最初のベンダーを追加する",
+            "パーソナライズされたダッシュボードを探索する"
+          ]
+        },
+        "footer": "始めるのにサポートが必要ですか？私たちのチームがあらゆる段階でサポートします。"
+      },
+      "cta": {
+        "primary": {
+          "text": "ダッシュボードへ",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "デモを予約",
+          "url": "http://calendly.com/purra-info/purra-demo"
+        }
+      }
+    },
+    "de": {
+      "subject": "Willkommen bei Purra - Legen wir los!",
+      "preheader": "Ihre KI-gestützte Beschaffungsplattform ist bereit",
+      "header": {
+        "title": "Willkommen bei Purra",
+        "subtitle": "Ihre intelligente Beschaffungsreise beginnt hier"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Willkommen bei Purra! Wir freuen uns, Sie an Bord zu haben. Ihr Konto ist jetzt aktiv und bereit, die Art und Weise zu transformieren, wie Sie Beschaffung verwalten.",
+        "features": [
+          {
+            "title": "KI-gestützte Lieferantenrecherche",
+            "description": "Erhalten Sie umfassende Due-Diligence-Berichte über jeden Lieferanten in Minuten, nicht Tagen."
+          },
+          {
+            "title": "Intelligente Preisüberwachung",
+            "description": "Verfolgen Sie Lieferantenpreise automatisch und erhalten Sie Warnungen zu wichtigen Änderungen."
+          },
+          {
+            "title": "Beschaffungsanalyse",
+            "description": "Treffen Sie datengestützte Entscheidungen mit Echtzeit-Einblicken und benutzerdefinierten Berichten."
+          }
+        ],
+        "nextSteps": {
+          "title": "Beginnen Sie in 3 einfachen Schritten",
+          "steps": [
+            "Vervollständigen Sie Ihr Firmenprofil",
+            "Fügen Sie Ihren ersten Lieferanten für die Recherche hinzu",
+            "Erkunden Sie Ihr personalisiertes Dashboard"
+          ]
+        },
+        "footer": "Benötigen Sie Hilfe beim Einstieg? Unser Team unterstützt Sie bei jedem Schritt."
+      },
+      "cta": {
+        "primary": {
+          "text": "Zum Dashboard",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "Demo planen",
+          "url": "http://calendly.com/purra-info/purra-demo"
+        }
+      }
+    }
+  }
+}

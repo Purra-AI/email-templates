@@ -1,0 +1,71 @@
+<!-- Header Section -->
+<tr>
+  <td class="header">
+    <img src="https://purra.ai/Logo_1.png" alt="Purra Logo" class="header-logo" width="150" />
+    <h1 class="header-title" data-i18n="header.title"></h1>
+    <p class="header-subtitle" data-i18n="header.subtitle"></p>
+  </td>
+</tr>
+
+<!-- Body Content -->
+<tr>
+  <td class="content">
+    <!-- Greeting -->
+    <p class="greeting" data-i18n="body.greeting"></p>
+
+    <!-- Intro Text -->
+    <p class="body-text" data-i18n="body.intro"></p>
+
+    <!-- Features List -->
+    <div class="info-card">
+      <h3 class="info-card-title" data-i18n="body.features[0].title"></h3>
+      <p class="info-card-text" data-i18n="body.features[0].description"></p>
+    </div>
+
+    <div class="info-card">
+      <h3 class="info-card-title" data-i18n="body.features[1].title"></h3>
+      <p class="info-card-text" data-i18n="body.features[1].description"></p>
+    </div>
+
+    <div class="info-card">
+      <h3 class="info-card-title" data-i18n="body.features[2].title"></h3>
+      <p class="info-card-text" data-i18n="body.features[2].description"></p>
+    </div>
+
+    <!-- Next Steps -->
+    <div style="margin: 30px 0;">
+      <h3 style="font-size: 18px; font-weight: 600; color: #0d1e4c; margin: 0 0 15px 0;" data-i18n="body.nextSteps.title"></h3>
+      <ul class="features-list">
+        <li data-i18n="body.nextSteps.steps[0]"></li>
+        <li data-i18n="body.nextSteps.steps[1]"></li>
+        <li data-i18n="body.nextSteps.steps[2]"></li>
+      </ul>
+    </div>
+
+    <!-- Primary CTA Button -->
+    <div class="btn-container">
+      <a href="{{ cta.primary.url }}?utm_source=email&utm_medium=email&utm_campaign={{ campaignName }}"
+         class="btn-electric"
+         data-i18n="cta.primary.text"></a>
+    </div>
+
+    <!-- Secondary CTA Button -->
+    <div class="btn-container">
+      <a href="{{ cta.secondary.url }}?utm_source=email&utm_medium=email&utm_campaign={{ campaignName }}"
+         class="btn-secondary"
+         data-i18n="cta.secondary.text"></a>
+    </div>
+
+    <!-- Divider -->
+    <div class="divider"></div>
+
+    <!-- Footer Message -->
+    <p class="body-text" data-i18n="body.footer"></p>
+
+    <p class="body-text">
+      <span data-i18n="_common.bestRegards">Best regards</span>,<br>
+      <strong>The Purra Team</strong><br>
+      <a href="mailto:info@purra.ai" style="color: #0d9cdb; text-decoration: none;">info@purra.ai</a>
+    </p>
+  </td>
+</tr>

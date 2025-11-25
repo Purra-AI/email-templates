@@ -1,0 +1,31 @@
+{
+  "name": "purra-email-templates",
+  "version": "1.0.0",
+  "description": "Multi-language email template system for Purra with automated build process",
+  "main": "builder/compile.js",
+  "scripts": {
+    "build": "node builder/compile.js",
+    "build:watch": "nodemon --watch content --watch templates --watch builder --exec 'npm run build'",
+    "clean": "rm -rf compiled",
+    "prebuild": "npm run clean"
+  },
+  "keywords": [
+    "email",
+    "templates",
+    "i18n",
+    "purra",
+    "multilanguage"
+  ],
+  "author": "Purra Team",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Purra-AI/email-templates.git"
+  }
+}
