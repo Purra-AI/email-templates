@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="{{ lang }}" dir="{{ dir }}" xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title data-i18n="subject">{{ subject }}</title>
-  <!--[if !mso]><!-->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!--<![endif]-->
   <style>
     /* General reset for better email compatibility */
-    body, table, td, a {
+    body,
+    table,
+    td,
+    a {
       text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
       -webkit-text-size-adjust: 100%;
     }
-    table, td {
+
+    table,
+    td {
       mso-table-lspace: 0pt;
       mso-table-rspace: 0pt;
     }
+
     img {
       -ms-interpolation-mode: bicubic;
       border: 0;
@@ -27,6 +31,7 @@
       max-width: 100%;
       height: auto;
     }
+
     body {
       margin: 0;
       padding: 0;
@@ -45,16 +50,19 @@
       overflow: hidden;
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     }
+
     /* Header with Electric Gradient */
     .header {
       background: linear-gradient(135deg, #0d1e4c 0%, #113391 50%, #1e40af 100%);
       padding: 40px 20px;
       text-align: center;
     }
+
     .header-logo {
       max-width: 150px;
       margin: 0 auto 20px;
     }
+
     .header-title {
       color: #ffffff;
       font-size: 28px;
@@ -62,33 +70,39 @@
       margin: 0;
       letter-spacing: -0.5px;
     }
+
     .header-subtitle {
       color: rgba(255, 255, 255, 0.9);
       font-size: 16px;
       margin: 10px 0 0 0;
       font-weight: 400;
     }
+
     /* Content Section */
     .content {
       padding: 40px 30px;
     }
+
     .greeting {
       font-size: 18px;
       font-weight: 600;
       color: #1f1f1f;
       margin: 0 0 20px 0;
     }
+
     .body-text {
       font-size: 16px;
       color: #4a4a4a;
       line-height: 1.8;
       margin: 0 0 20px 0;
     }
+
     /* Electric Button */
     .btn-container {
       text-align: center;
       margin: 30px 0;
     }
+
     .btn-electric {
       display: inline-block;
       padding: 14px 32px;
@@ -99,7 +113,14 @@
       font-size: 16px;
       font-weight: 600;
       box-shadow: 0 4px 20px rgba(13, 30, 76, 0.3);
+      transition: all 0.3s ease;
     }
+
+    .btn-electric:hover {
+      background: linear-gradient(135deg, #113391, #1e40af);
+      box-shadow: 0 6px 30px rgba(17, 51, 145, 0.5);
+    }
+
     .btn-secondary {
       display: inline-block;
       padding: 12px 28px;
@@ -112,6 +133,7 @@
       border: 2px solid #0d1e4c;
       margin-top: 10px;
     }
+
     /* Info Card - Glassmorphism Style */
     .info-card {
       background: linear-gradient(145deg, #f8f9fb 0%, #ffffff 100%);
@@ -120,12 +142,16 @@
       padding: 20px;
       margin: 20px 0;
     }
+
     .info-card-title {
       font-size: 16px;
       font-weight: 600;
       color: #0d1e4c;
       margin: 0 0 12px 0;
+      display: flex;
+      align-items: center;
     }
+
     .info-card-text {
       font-size: 14px;
       color: #4a4a4a;
@@ -138,6 +164,7 @@
       padding: 0;
       margin: 20px 0;
     }
+
     .features-list li {
       padding: 12px 0;
       padding-{{ startSide }}: 32px;
@@ -146,9 +173,11 @@
       color: #4a4a4a;
       border-bottom: 1px solid #f0f0f0;
     }
+
     .features-list li:last-child {
       border-bottom: none;
     }
+
     .features-list li:before {
       content: "✓";
       position: absolute;
@@ -163,6 +192,7 @@
       width: 100%;
       margin: 30px 0;
     }
+
     .stat-item {
       display: table-cell;
       text-align: center;
@@ -170,9 +200,11 @@
       background: linear-gradient(145deg, #f8f9fb 0%, #ffffff 100%);
       border-{{ endSide }}: 1px solid #e5e7eb;
     }
+
     .stat-item:last-child {
       border-{{ endSide }}: none;
     }
+
     .stat-value {
       font-size: 28px;
       font-weight: 700;
@@ -180,12 +212,14 @@
       display: block;
       margin-bottom: 5px;
     }
+
     .stat-label {
       font-size: 13px;
       color: #6b7280;
       text-transform: uppercase;
       letter-spacing: 0.5px;
     }
+
     /* Divider with Glow */
     .divider {
       height: 1px;
@@ -193,6 +227,7 @@
       margin: 30px 0;
       opacity: 0.3;
     }
+
     /* Footer */
     .footer {
       background-color: #f8f9fb;
@@ -200,22 +235,82 @@
       text-align: center;
       border-top: 1px solid #e5e7eb;
     }
+
     .footer-text {
       font-size: 13px;
       color: #6b7280;
       line-height: 1.6;
       margin: 0 0 15px 0;
     }
+
     .footer-text a {
       color: #0d9cdb;
       text-decoration: none;
     }
+
+    .footer-text a:hover {
+      text-decoration: underline;
+    }
+
     .social-links {
       margin: 20px 0;
     }
+
     .social-links a {
       display: inline-block;
       margin: 0 8px;
+    }
+
+    .social-links img {
+      width: 32px;
+      height: 32px;
+      opacity: 0.7;
+      transition: opacity 0.3s ease;
+    }
+
+    .social-links img:hover {
+      opacity: 1;
+    }
+
+    .powered-by {
+      font-size: 12px;
+      color: #9ca3af;
+      margin-top: 15px;
+    }
+
+    .powered-by a {
+      color: #0d1e4c;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    /* Badge/Tag */
+    .badge {
+      display: inline-block;
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.3px;
+      text-transform: uppercase;
+    }
+
+    .badge-success {
+      background-color: rgba(34, 197, 94, 0.1);
+      color: #16a34a;
+      border: 1px solid rgba(34, 197, 94, 0.3);
+    }
+
+    .badge-warning {
+      background-color: rgba(251, 191, 36, 0.1);
+      color: #ca8a04;
+      border: 1px solid rgba(251, 191, 36, 0.3);
+    }
+
+    .badge-info {
+      background-color: rgba(13, 156, 219, 0.1);
+      color: #0369a1;
+      border: 1px solid rgba(13, 156, 219, 0.3);
     }
     /* Responsive */
     @media only screen and (max-width: 600px) {
@@ -223,31 +318,38 @@
         width: 100% !important;
         border-radius: 0;
       }
+
       .content {
         padding: 30px 20px !important;
       }
+
       .header {
         padding: 30px 20px !important;
       }
+
       .header-title {
         font-size: 24px !important;
       }
+
       .btn-electric {
         padding: 12px 24px !important;
         font-size: 15px !important;
       }
+
       .stat-item {
         display: block !important;
         border-{{ endSide }}: none !important;
         border-bottom: 1px solid #e5e7eb;
         padding: 15px !important;
       }
+
       .stat-item:last-child {
         border-bottom: none;
       }
     }
   </style>
 </head>
+
 <body>
   <!-- Preheader Text (hidden but shown in email preview) -->
   <div style="display: none; max-height: 0px; overflow: hidden;" data-i18n="preheader">{{ preheader }}</div>
@@ -256,6 +358,7 @@
   <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #f5f5f5;">
     <tr>
       <td align="center" valign="top" style="padding: 30px 0;">
+
         <!-- Inner Container Table -->
         <table class="email-container" border="0" cellpadding="0" cellspacing="0" width="100%">
 
@@ -272,23 +375,35 @@
                 <a href="{{ unsubscribeUrl }}">Unsubscribe</a> |
                 <a href="https://purra.ai/terms?utm_source=email&utm_medium=email&utm_campaign={{ campaignName }}">Terms & Privacy Policy</a>
               </p>
+
+              <!-- Social Links -->
               <div class="social-links">
-                <a href="https://www.linkedin.com/company/purra?utm_source=email&utm_medium=email&utm_campaign={{ campaignName }}">
+                <a href="https://www.linkedin.com/company/purra?utm_source=email&utm_medium=email&utm_campaign={{ campaignName }}" style="display: inline-block; margin: 0 8px;">
                   <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" fill="#0a0f24"/>
                   </svg>
                 </a>
-                <a href="https://www.instagram.com/purra.ai?utm_source=email&utm_medium=email&utm_campaign={{ campaignName }}">
+                <a href="https://www.instagram.com/purra.ai?utm_source=email&utm_medium=email&utm_campaign={{ campaignName }}" style="display: inline-block; margin: 0 8px;">
                   <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" fill="#0a0f24"/>
                   </svg>
                 </a>
               </div>
+
+              <!-- Powered By -->
+              <p class="powered-by">
+                Powered by <a href="https://purra.ai/?utm_source=email&utm_medium=email&utm_campaign={{ campaignName }}">Purra.ai</a>
+              </p>
             </td>
           </tr>
+
         </table>
+        <!-- End Inner Container Table -->
+
       </td>
     </tr>
   </table>
+  <!-- End Outer Table -->
 </body>
+
 </html>
