@@ -1,0 +1,374 @@
+{
+  "id": "suspicious-login-alert",
+  "category": "authentication",
+  "campaignName": "suspicious_login_alert",
+  "layout": "simple",
+  "dynamicFields": [
+    "firstName",
+    "loginTime",
+    "loginLocation",
+    "ipAddress",
+    "deviceInfo",
+    "secureAccountUrl",
+    "supportUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "⚠️ Unusual Sign-In Detected",
+      "preheader": "We detected a login from an unrecognized device or location",
+      "header": {
+        "title": "Security Alert",
+        "subtitle": "Unusual account activity detected"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "We detected a sign-in to your Purra account from an unrecognized device or location. If this was you, you can disregard this email.",
+        "loginDetails": {
+          "title": "Login Details",
+          "time": "Time: {{ loginTime }}",
+          "location": "Location: {{ loginLocation }}",
+          "ipAddress": "IP Address: {{ ipAddress }}",
+          "device": "Device: {{ deviceInfo }}"
+        },
+        "wasntYou": {
+          "title": "⚠️ Wasn't You?",
+          "description": "If you don't recognize this activity, your account may have been compromised. Take action immediately:",
+          "actions": [
+            "Change your password right away",
+            "Enable two-factor authentication",
+            "Review recent account activity",
+            "Check authorized devices and sessions",
+            "Contact our security team"
+          ]
+        },
+        "securityTips": {
+          "title": "🔒 Security Best Practices",
+          "items": [
+            "Use a strong, unique password",
+            "Enable two-factor authentication",
+            "Never share your password",
+            "Be cautious of phishing emails",
+            "Keep your devices secure"
+          ]
+        },
+        "footer": "This is an automated security alert. We take your account security seriously."
+      },
+      "cta": {
+        "primary": {
+          "text": "Secure My Account",
+          "url": "{{ secureAccountUrl }}"
+        },
+        "secondary": {
+          "text": "Contact Security Team",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "⚠️ זוהתה כניסה חריגה",
+      "preheader": "זיהינו התחברות ממכשיר או מיקום לא מזוהה",
+      "header": {
+        "title": "התראת אבטחה",
+        "subtitle": "זוהתה פעילות חשבון חריגה"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "זיהינו כניסה לחשבון Purra שלכם ממכשיר או מיקום לא מזוהה. אם זה היה אתם, אתם יכולים להתעלם מאימייל זה.",
+        "loginDetails": {
+          "title": "פרטי התחברות",
+          "time": "זמן: {{ loginTime }}",
+          "location": "מיקום: {{ loginLocation }}",
+          "ipAddress": "כתובת IP: {{ ipAddress }}",
+          "device": "מכשיר: {{ deviceInfo }}"
+        },
+        "wasntYou": {
+          "title": "⚠️ זה לא היה אתם?",
+          "description": "אם אתם לא מזהים פעילות זו, החשבון שלכם עלול להיפגע. פעלו מיד:",
+          "actions": [
+            "שנו את הסיסמה שלכם מיד",
+            "הפעילו אימות דו-שלבי",
+            "בדקו פעילות חשבון אחרונה",
+            "בדקו מכשירים והפעלות מורשות",
+            "צרו קשר עם צוות האבטחה שלנו"
+          ]
+        },
+        "securityTips": {
+          "title": "🔒 שיטות עבודה מומלצות לאבטחה",
+          "items": [
+            "השתמשו בסיסמה חזקה וייחודית",
+            "הפעילו אימות דו-שלבי",
+            "לעולם אל תשתפו את הסיסמה שלכם",
+            "היזהרו מאימיילי פישינג",
+            "שמרו על המכשירים שלכם מאובטחים"
+          ]
+        },
+        "footer": "זוהי התראת אבטחה אוטומטית. אנחנו רציניים לגבי אבטחת החשבון שלכם."
+      },
+      "cta": {
+        "primary": {
+          "text": "אבטחו את החשבון שלי",
+          "url": "{{ secureAccountUrl }}"
+        },
+        "secondary": {
+          "text": "צרו קשר עם צוות אבטחה",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "⚠️ असामान्य साइन-इन का पता चला",
+      "preheader": "हमने एक अपरिचित डिवाइस या स्थान से लॉगिन का पता लगाया",
+      "header": {
+        "title": "सुरक्षा चेतावनी",
+        "subtitle": "असामान्य खाता गतिविधि का पता चला"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "हमने आपके Purra खाते में एक अपरिचित डिवाइस या स्थान से साइन-इन का पता लगाया। यदि यह आप थे, तो आप इस ईमेल को अनदेखा कर सकते हैं।",
+        "loginDetails": {
+          "title": "लॉगिन विवरण",
+          "time": "समय: {{ loginTime }}",
+          "location": "स्थान: {{ loginLocation }}",
+          "ipAddress": "IP पता: {{ ipAddress }}",
+          "device": "डिवाइस: {{ deviceInfo }}"
+        },
+        "wasntYou": {
+          "title": "⚠️ आप नहीं थे?",
+          "description": "यदि आप इस गतिविधि को पहचान नहीं पाते हैं, तो आपका खाता समझौता किया जा सकता है। तुरंत कार्रवाई करें:",
+          "actions": [
+            "तुरंत अपना पासवर्ड बदलें",
+            "दो-कारक प्रमाणीकरण सक्षम करें",
+            "हाल की खाता गतिविधि की समीक्षा करें",
+            "अधिकृत उपकरणों और सत्रों की जांच करें",
+            "हमारी सुरक्षा टीम से संपर्क करें"
+          ]
+        },
+        "securityTips": {
+          "title": "🔒 सुरक्षा सर्वोत्तम प्रथाएं",
+          "items": [
+            "एक मजबूत, अनूठा पासवर्ड उपयोग करें",
+            "दो-कारक प्रमाणीकरण सक्षम करें",
+            "कभी भी अपना पासवर्ड साझा न करें",
+            "फ़िशिंग ईमेल से सावधान रहें",
+            "अपने उपकरणों को सुरक्षित रखें"
+          ]
+        },
+        "footer": "यह एक स्वचालित सुरक्षा अलर्ट है। हम आपके खाते की सुरक्षा को गंभीरता से लेते हैं।"
+      },
+      "cta": {
+        "primary": {
+          "text": "मेरा खाता सुरक्षित करें",
+          "url": "{{ secureAccountUrl }}"
+        },
+        "secondary": {
+          "text": "सुरक्षा टीम से संपर्क करें",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "⚠️ Connexion inhabituelle détectée",
+      "preheader": "Nous avons détecté une connexion depuis un appareil ou un emplacement non reconnu",
+      "header": {
+        "title": "Alerte de sécurité",
+        "subtitle": "Activité de compte inhabituelle détectée"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Nous avons détecté une connexion à votre compte Purra depuis un appareil ou un emplacement non reconnu. Si c'était vous, vous pouvez ignorer cet email.",
+        "loginDetails": {
+          "title": "Détails de connexion",
+          "time": "Heure : {{ loginTime }}",
+          "location": "Emplacement : {{ loginLocation }}",
+          "ipAddress": "Adresse IP : {{ ipAddress }}",
+          "device": "Appareil : {{ deviceInfo }}"
+        },
+        "wasntYou": {
+          "title": "⚠️ Ce n'était pas vous ?",
+          "description": "Si vous ne reconnaissez pas cette activité, votre compte peut avoir été compromis. Agissez immédiatement :",
+          "actions": [
+            "Changez votre mot de passe immédiatement",
+            "Activez l'authentification à deux facteurs",
+            "Examinez l'activité récente du compte",
+            "Vérifiez les appareils et sessions autorisés",
+            "Contactez notre équipe de sécurité"
+          ]
+        },
+        "securityTips": {
+          "title": "🔒 Meilleures pratiques de sécurité",
+          "items": [
+            "Utilisez un mot de passe fort et unique",
+            "Activez l'authentification à deux facteurs",
+            "Ne partagez jamais votre mot de passe",
+            "Méfiez-vous des emails de phishing",
+            "Gardez vos appareils sécurisés"
+          ]
+        },
+        "footer": "Il s'agit d'une alerte de sécurité automatisée. Nous prenons la sécurité de votre compte au sérieux."
+      },
+      "cta": {
+        "primary": {
+          "text": "Sécuriser mon compte",
+          "url": "{{ secureAccountUrl }}"
+        },
+        "secondary": {
+          "text": "Contacter l'équipe de sécurité",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "⚠️ 检测到异常登录",
+      "preheader": "我们检测到从无法识别的设备或位置登录",
+      "header": {
+        "title": "安全警报",
+        "subtitle": "检测到异常账户活动"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "我们检测到从无法识别的设备或位置登录您的 Purra 账户。如果这是您本人，您可以忽略此电子邮件。",
+        "loginDetails": {
+          "title": "登录详情",
+          "time": "时间：{{ loginTime }}",
+          "location": "位置：{{ loginLocation }}",
+          "ipAddress": "IP 地址：{{ ipAddress }}",
+          "device": "设备：{{ deviceInfo }}"
+        },
+        "wasntYou": {
+          "title": "⚠️ 不是您？",
+          "description": "如果您不认识此活动，您的账户可能已被入侵。立即采取行动：",
+          "actions": [
+            "立即更改您的密码",
+            "启用双因素身份验证",
+            "查看最近的账户活动",
+            "检查授权设备和会话",
+            "联系我们的安全团队"
+          ]
+        },
+        "securityTips": {
+          "title": "🔒 安全最佳实践",
+          "items": [
+            "使用强大且唯一的密码",
+            "启用双因素身份验证",
+            "切勿分享您的密码",
+            "警惕网络钓鱼电子邮件",
+            "保护您的设备安全"
+          ]
+        },
+        "footer": "这是自动安全警报。我们认真对待您的账户安全。"
+      },
+      "cta": {
+        "primary": {
+          "text": "保护我的账户",
+          "url": "{{ secureAccountUrl }}"
+        },
+        "secondary": {
+          "text": "联系安全团队",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "⚠️ 異常なサインインが検出されました",
+      "preheader": "認識されていないデバイスまたは場所からのログインを検出しました",
+      "header": {
+        "title": "セキュリティ警告",
+        "subtitle": "異常なアカウント活動を検出"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "認識されていないデバイスまたは場所からPurraアカウントへのサインインを検出しました。これがあなた自身である場合は、このメールを無視できます。",
+        "loginDetails": {
+          "title": "ログイン詳細",
+          "time": "時刻：{{ loginTime }}",
+          "location": "場所：{{ loginLocation }}",
+          "ipAddress": "IPアドレス：{{ ipAddress }}",
+          "device": "デバイス：{{ deviceInfo }}"
+        },
+        "wasntYou": {
+          "title": "⚠️ あなたではありませんか？",
+          "description": "このアクティビティに覚えがない場合、アカウントが侵害されている可能性があります。すぐに対処してください：",
+          "actions": [
+            "すぐにパスワードを変更してください",
+            "二要素認証を有効にする",
+            "最近のアカウント活動を確認",
+            "承認されたデバイスとセッションを確認",
+            "セキュリティチームに連絡"
+          ]
+        },
+        "securityTips": {
+          "title": "🔒 セキュリティのベストプラクティス",
+          "items": [
+            "強力で一意のパスワードを使用",
+            "二要素認証を有効にする",
+            "パスワードを共有しない",
+            "フィッシングメールに注意",
+            "デバイスを安全に保つ"
+          ]
+        },
+        "footer": "これは自動セキュリティアラートです。アカウントのセキュリティを真剣に考えています。"
+      },
+      "cta": {
+        "primary": {
+          "text": "アカウントを保護",
+          "url": "{{ secureAccountUrl }}"
+        },
+        "secondary": {
+          "text": "セキュリティチームに連絡",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "⚠️ Ungewöhnliche Anmeldung erkannt",
+      "preheader": "Wir haben eine Anmeldung von einem nicht erkannten Gerät oder Standort festgestellt",
+      "header": {
+        "title": "Sicherheitswarnung",
+        "subtitle": "Ungewöhnliche Kontoaktivität erkannt"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Wir haben eine Anmeldung bei Ihrem Purra-Konto von einem nicht erkannten Gerät oder Standort festgestellt. Wenn Sie das waren, können Sie diese E-Mail ignorieren.",
+        "loginDetails": {
+          "title": "Anmeldedetails",
+          "time": "Zeit: {{ loginTime }}",
+          "location": "Standort: {{ loginLocation }}",
+          "ipAddress": "IP-Adresse: {{ ipAddress }}",
+          "device": "Gerät: {{ deviceInfo }}"
+        },
+        "wasntYou": {
+          "title": "⚠️ Waren Sie das nicht?",
+          "description": "Wenn Sie diese Aktivität nicht erkennen, könnte Ihr Konto kompromittiert worden sein. Handeln Sie sofort:",
+          "actions": [
+            "Ändern Sie Ihr Passwort sofort",
+            "Aktivieren Sie die Zwei-Faktor-Authentifizierung",
+            "Überprüfen Sie die letzte Kontoaktivität",
+            "Überprüfen Sie autorisierte Geräte und Sitzungen",
+            "Kontaktieren Sie unser Sicherheitsteam"
+          ]
+        },
+        "securityTips": {
+          "title": "🔒 Sicherheits-Best-Practices",
+          "items": [
+            "Verwenden Sie ein starkes, einzigartiges Passwort",
+            "Aktivieren Sie die Zwei-Faktor-Authentifizierung",
+            "Geben Sie Ihr Passwort niemals weiter",
+            "Seien Sie vorsichtig bei Phishing-E-Mails",
+            "Halten Sie Ihre Geräte sicher"
+          ]
+        },
+        "footer": "Dies ist eine automatisierte Sicherheitswarnung. Wir nehmen die Sicherheit Ihres Kontos ernst."
+      },
+      "cta": {
+        "primary": {
+          "text": "Mein Konto sichern",
+          "url": "{{ secureAccountUrl }}"
+        },
+        "secondary": {
+          "text": "Sicherheitsteam kontaktieren",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    }
+  }
+}
