@@ -1,0 +1,190 @@
+{
+  "id": "payment-success",
+  "category": "billing",
+  "campaignName": "payment_success",
+  "layout": "simple",
+  "dynamicFields": [
+    "firstName",
+    "amount",
+    "invoiceNumber",
+    "nextBillingDate",
+    "invoiceUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "Payment Received - Thank You!",
+      "preheader": "Your payment of ${{ amount }} was processed successfully",
+      "header": {
+        "title": "Payment Successful",
+        "subtitle": "Thank you for your payment"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "We've successfully received your payment of **${{ amount }}**. Your Purra subscription is now active and all features are available.",
+        "details": {
+          "title": "Payment Details",
+          "invoiceNumber": "Invoice #{{ invoiceNumber }}",
+          "amount": "${{ amount }}",
+          "nextBilling": "Next billing date: {{ nextBillingDate }}"
+        },
+        "footer": "A detailed receipt has been sent to your email. You can also download your invoice anytime from your account."
+      },
+      "cta": {
+        "primary": {
+          "text": "Download Invoice",
+          "url": "{{ invoiceUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "התשלום התקבל - תודה!",
+      "preheader": "התשלום שלכם בסך ${{ amount }} עובד בהצלחה",
+      "header": {
+        "title": "התשלום הצליח",
+        "subtitle": "תודה על התשלום שלכם"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "קיבלנו בהצלחה את התשלום שלכם בסך **${{ amount }}**. המנוי שלכם ל-Purra פעיל כעת וכל התכונות זמינות.",
+        "details": {
+          "title": "פרטי תשלום",
+          "invoiceNumber": "חשבונית #{{ invoiceNumber }}",
+          "amount": "${{ amount }}",
+          "nextBilling": "תאריך חיוב הבא: {{ nextBillingDate }}"
+        },
+        "footer": "קבלה מפורטת נשלחה לאימייל שלכם. אתם יכולים גם להוריד את החשבונית שלכם בכל עת מהחשבון שלכם."
+      },
+      "cta": {
+        "primary": {
+          "text": "הורידו חשבונית",
+          "url": "{{ invoiceUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "भुगतान प्राप्त हुआ - धन्यवाद!",
+      "preheader": "आपका ${{ amount }} का भुगतान सफलतापूर्वक प्रोसेस हो गया",
+      "header": {
+        "title": "भुगतान सफल",
+        "subtitle": "आपके भुगतान के लिए धन्यवाद"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "हमें आपका **${{ amount }}** का भुगतान सफलतापूर्वक प्राप्त हो गया है। आपकी Purra सदस्यता अब सक्रिय है और सभी सुविधाएं उपलब्ध हैं।",
+        "details": {
+          "title": "भुगतान विवरण",
+          "invoiceNumber": "चालान #{{ invoiceNumber }}",
+          "amount": "${{ amount }}",
+          "nextBilling": "अगली बिलिंग तिथि: {{ nextBillingDate }}"
+        },
+        "footer": "एक विस्तृत रसीद आपके ईमेल पर भेजी गई है। आप अपने खाते से किसी भी समय अपना चालान डाउनलोड भी कर सकते हैं।"
+      },
+      "cta": {
+        "primary": {
+          "text": "चालान डाउनलोड करें",
+          "url": "{{ invoiceUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "Paiement reçu - Merci !",
+      "preheader": "Votre paiement de ${{ amount }} a été traité avec succès",
+      "header": {
+        "title": "Paiement réussi",
+        "subtitle": "Merci pour votre paiement"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Nous avons bien reçu votre paiement de **${{ amount }}**. Votre abonnement Purra est maintenant actif et toutes les fonctionnalités sont disponibles.",
+        "details": {
+          "title": "Détails du paiement",
+          "invoiceNumber": "Facture #{{ invoiceNumber }}",
+          "amount": "${{ amount }}",
+          "nextBilling": "Date de facturation suivante : {{ nextBillingDate }}"
+        },
+        "footer": "Un reçu détaillé a été envoyé à votre email. Vous pouvez également télécharger votre facture à tout moment depuis votre compte."
+      },
+      "cta": {
+        "primary": {
+          "text": "Télécharger la facture",
+          "url": "{{ invoiceUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "已收到付款 - 谢谢！",
+      "preheader": "您的 ${{ amount }} 付款已成功处理",
+      "header": {
+        "title": "付款成功",
+        "subtitle": "感谢您的付款"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "我们已成功收到您的 **${{ amount }}** 付款。您的 Purra 订阅现已激活，所有功能均可使用。",
+        "details": {
+          "title": "付款详情",
+          "invoiceNumber": "发票 #{{ invoiceNumber }}",
+          "amount": "${{ amount }}",
+          "nextBilling": "下次计费日期：{{ nextBillingDate }}"
+        },
+        "footer": "详细收据已发送到您的电子邮件。您也可以随时从您的帐户下载发票。"
+      },
+      "cta": {
+        "primary": {
+          "text": "下载发票",
+          "url": "{{ invoiceUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "お支払いを受領しました - ありがとうございます！",
+      "preheader": "${{ amount }} のお支払いが正常に処理されました",
+      "header": {
+        "title": "支払い成功",
+        "subtitle": "お支払いありがとうございます"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "**${{ amount }}** のお支払いを正常に受領しました。Purraサブスクリプションが有効になり、すべての機能が利用可能です。",
+        "details": {
+          "title": "支払い詳細",
+          "invoiceNumber": "請求書 #{{ invoiceNumber }}",
+          "amount": "${{ amount }}",
+          "nextBilling": "次回請求日：{{ nextBillingDate }}"
+        },
+        "footer": "詳細な領収書がメールで送信されました。アカウントからいつでも請求書をダウンロードすることもできます。"
+      },
+      "cta": {
+        "primary": {
+          "text": "請求書をダウンロード",
+          "url": "{{ invoiceUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "Zahlung erhalten - Vielen Dank!",
+      "preheader": "Ihre Zahlung von ${{ amount }} wurde erfolgreich verarbeitet",
+      "header": {
+        "title": "Zahlung erfolgreich",
+        "subtitle": "Vielen Dank für Ihre Zahlung"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Wir haben Ihre Zahlung von **${{ amount }}** erfolgreich erhalten. Ihr Purra-Abonnement ist jetzt aktiv und alle Funktionen sind verfügbar.",
+        "details": {
+          "title": "Zahlungsdetails",
+          "invoiceNumber": "Rechnung #{{ invoiceNumber }}",
+          "amount": "${{ amount }}",
+          "nextBilling": "Nächstes Abrechnungsdatum: {{ nextBillingDate }}"
+        },
+        "footer": "Eine detaillierte Quittung wurde an Ihre E-Mail gesendet. Sie können Ihre Rechnung auch jederzeit von Ihrem Konto herunterladen."
+      },
+      "cta": {
+        "primary": {
+          "text": "Rechnung herunterladen",
+          "url": "{{ invoiceUrl }}"
+        }
+      }
+    }
+  }
+}

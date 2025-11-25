@@ -1,0 +1,272 @@
+{
+  "id": "trial-expired",
+  "category": "billing",
+  "campaignName": "trial_expired",
+  "layout": "base",
+  "dynamicFields": [
+    "firstName",
+    "upgradeUrl",
+    "contactUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "Your Purra Trial Has Ended",
+      "preheader": "Upgrade now to restore full access",
+      "header": {
+        "title": "Trial Ended",
+        "subtitle": "Your access has been limited"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "Your Purra free trial has ended. Your account is now in view-only mode, and you won't be able to run new vendor research or access real-time analytics.",
+        "whatYouLost": {
+          "title": "What You're Missing",
+          "items": [
+            "New vendor due diligence reports",
+            "Real-time price monitoring and alerts",
+            "Advanced procurement analytics",
+            "Custom report generation",
+            "Team collaboration features"
+          ]
+        },
+        "offer": {
+          "title": "Special Upgrade Offer",
+          "description": "Upgrade within the next 7 days and get **2 months free** on any annual plan!"
+        },
+        "footer": "Questions about plans or pricing? Our team is ready to help you find the perfect fit."
+      },
+      "cta": {
+        "primary": {
+          "text": "Restore Full Access",
+          "url": "{{ upgradeUrl }}"
+        },
+        "secondary": {
+          "text": "Talk to Sales",
+          "url": "{{ contactUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "תקופת הניסיון של Purra הסתיימה",
+      "preheader": "שדרגו עכשיו כדי לשחזר גישה מלאה",
+      "header": {
+        "title": "תקופת הניסיון הסתיימה",
+        "subtitle": "הגישה שלכם הוגבלה"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "תקופת הניסיון החינמית של Purra הסתיימה. החשבון שלכם נמצא כעת במצב צפייה בלבד, ולא תוכלו להריץ מחקר ספקים חדש או לגשת לאנליטיקה בזמן אמת.",
+        "whatYouLost": {
+          "title": "מה שאתם מפסידים",
+          "items": [
+            "דוחות בדיקת נאותות חדשים של ספקים",
+            "ניטור מחירים והתראות בזמן אמת",
+            "אנליטיקה מתקדמת של רכש",
+            "יצירת דוחות מותאמים אישית",
+            "תכונות שיתוף פעולה של צוות"
+          ]
+        },
+        "offer": {
+          "title": "הצעת שדרוג מיוחדת",
+          "description": "שדרגו תוך 7 הימים הקרובים וקבלו **חודשיים חינם** בכל תוכנית שנתית!"
+        },
+        "footer": "יש שאלות לגבי תוכניות או תמחור? הצוות שלנו מוכן לעזור לכם למצוא את ההתאמה המושלמת."
+      },
+      "cta": {
+        "primary": {
+          "text": "שחזרו גישה מלאה",
+          "url": "{{ upgradeUrl }}"
+        },
+        "secondary": {
+          "text": "דברו עם מכירות",
+          "url": "{{ contactUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "आपका Purra ट्रायल समाप्त हो गया है",
+      "preheader": "पूर्ण पहुंच बहाल करने के लिए अभी अपग्रेड करें",
+      "header": {
+        "title": "ट्रायल समाप्त",
+        "subtitle": "आपकी पहुंच सीमित कर दी गई है"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "आपका Purra मुफ्त ट्रायल समाप्त हो गया है। आपका खाता अब केवल-देखने मोड में है, और आप नया विक्रेता अनुसंधान नहीं चला सकेंगे या वास्तविक समय विश्लेषण तक पहुंच नहीं पाएंगे।",
+        "whatYouLost": {
+          "title": "आप क्या खो रहे हैं",
+          "items": [
+            "नई विक्रेता उचित परिश्रम रिपोर्ट",
+            "वास्तविक समय मूल्य निगरानी और अलर्ट",
+            "उन्नत खरीद विश्लेषण",
+            "कस्टम रिपोर्ट जनरेशन",
+            "टीम सहयोग सुविधाएँ"
+          ]
+        },
+        "offer": {
+          "title": "विशेष अपग्रेड ऑफर",
+          "description": "अगले 7 दिनों के भीतर अपग्रेड करें और किसी भी वार्षिक योजना पर **2 महीने मुफ्त** पाएं!"
+        },
+        "footer": "योजनाओं या मूल्य निर्धारण के बारे में प्रश्न? हमारी टीम आपको सही फिट खोजने में मदद के लिए तैयार है।"
+      },
+      "cta": {
+        "primary": {
+          "text": "पूर्ण पहुंच बहाल करें",
+          "url": "{{ upgradeUrl }}"
+        },
+        "secondary": {
+          "text": "बिक्री से बात करें",
+          "url": "{{ contactUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "Votre essai Purra est terminé",
+      "preheader": "Mettez à niveau maintenant pour restaurer l'accès complet",
+      "header": {
+        "title": "Essai terminé",
+        "subtitle": "Votre accès a été limité"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Votre essai gratuit Purra est terminé. Votre compte est maintenant en mode lecture seule et vous ne pourrez pas effectuer de nouvelles recherches de fournisseurs ni accéder aux analyses en temps réel.",
+        "whatYouLost": {
+          "title": "Ce qui vous manque",
+          "items": [
+            "Nouveaux rapports de diligence raisonnable sur les fournisseurs",
+            "Surveillance des prix et alertes en temps réel",
+            "Analytique avancée des achats",
+            "Génération de rapports personnalisés",
+            "Fonctionnalités de collaboration d'équipe"
+          ]
+        },
+        "offer": {
+          "title": "Offre de mise à niveau spéciale",
+          "description": "Mettez à niveau dans les 7 prochains jours et obtenez **2 mois gratuits** sur n'importe quel plan annuel !"
+        },
+        "footer": "Des questions sur les plans ou les prix ? Notre équipe est prête à vous aider à trouver l'ajustement parfait."
+      },
+      "cta": {
+        "primary": {
+          "text": "Restaurer l'accès complet",
+          "url": "{{ upgradeUrl }}"
+        },
+        "secondary": {
+          "text": "Parler aux ventes",
+          "url": "{{ contactUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "您的 Purra 试用已结束",
+      "preheader": "立即升级以恢复完全访问权限",
+      "header": {
+        "title": "试用已结束",
+        "subtitle": "您的访问权限已受限"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "您的 Purra 免费试用已结束。您的帐户现在处于仅查看模式，您将无法运行新的供应商研究或访问实时分析。",
+        "whatYouLost": {
+          "title": "您正在错过的内容",
+          "items": [
+            "新供应商尽职调查报告",
+            "实时价格监控和警报",
+            "高级采购分析",
+            "自定义报告生成",
+            "团队协作功能"
+          ]
+        },
+        "offer": {
+          "title": "特别升级优惠",
+          "description": "在接下来的 7 天内升级，任何年度计划均可获得 **2 个月免费**！"
+        },
+        "footer": "对计划或定价有疑问？我们的团队随时准备帮助您找到完美的选择。"
+      },
+      "cta": {
+        "primary": {
+          "text": "恢复完全访问权限",
+          "url": "{{ upgradeUrl }}"
+        },
+        "secondary": {
+          "text": "与销售交谈",
+          "url": "{{ contactUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "あなたのPurraトライアルは終了しました",
+      "preheader": "今すぐアップグレードしてフルアクセスを復元してください",
+      "header": {
+        "title": "トライアル終了",
+        "subtitle": "アクセスが制限されました"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "Purra無料トライアルが終了しました。アカウントは閲覧専用モードになり、新しいベンダー調査を実行したり、リアルタイム分析にアクセスしたりできなくなります。",
+        "whatYouLost": {
+          "title": "見逃している機能",
+          "items": [
+            "新しいベンダーデューデリジェンスレポート",
+            "リアルタイム価格監視とアラート",
+            "高度な調達分析",
+            "カスタムレポート生成",
+            "チームコラボレーション機能"
+          ]
+        },
+        "offer": {
+          "title": "特別アップグレードオファー",
+          "description": "今後7日以内にアップグレードすると、年間プランで**2か月無料**になります！"
+        },
+        "footer": "プランや価格についての質問はありますか？私たちのチームは最適な選択を見つけるお手伝いをする準備ができています。"
+      },
+      "cta": {
+        "primary": {
+          "text": "フルアクセスを復元",
+          "url": "{{ upgradeUrl }}"
+        },
+        "secondary": {
+          "text": "営業に相談",
+          "url": "{{ contactUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "Ihre Purra-Testversion ist beendet",
+      "preheader": "Jetzt upgraden, um vollen Zugriff wiederherzustellen",
+      "header": {
+        "title": "Testversion beendet",
+        "subtitle": "Ihr Zugriff wurde eingeschränkt"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Ihre kostenlose Purra-Testversion ist beendet. Ihr Konto befindet sich jetzt im Nur-Lese-Modus und Sie können keine neuen Lieferantenrecherchen durchführen oder auf Echtzeit-Analysen zugreifen.",
+        "whatYouLost": {
+          "title": "Was Ihnen fehlt",
+          "items": [
+            "Neue Lieferanten-Due-Diligence-Berichte",
+            "Echtzeit-Preisüberwachung und -Warnungen",
+            "Erweiterte Beschaffungsanalytik",
+            "Benutzerdefinierte Berichterstellung",
+            "Team-Kollaborationsfunktionen"
+          ]
+        },
+        "offer": {
+          "title": "Spezielles Upgrade-Angebot",
+          "description": "Upgraden Sie innerhalb der nächsten 7 Tage und erhalten Sie **2 Monate kostenlos** bei jedem Jahresplan!"
+        },
+        "footer": "Fragen zu Plänen oder Preisen? Unser Team ist bereit, Ihnen bei der Suche nach der perfekten Lösung zu helfen."
+      },
+      "cta": {
+        "primary": {
+          "text": "Vollen Zugriff wiederherstellen",
+          "url": "{{ upgradeUrl }}"
+        },
+        "secondary": {
+          "text": "Mit Vertrieb sprechen",
+          "url": "{{ contactUrl }}"
+        }
+      }
+    }
+  }
+}

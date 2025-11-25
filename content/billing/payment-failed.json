@@ -1,0 +1,225 @@
+{
+  "id": "payment-failed",
+  "category": "billing",
+  "campaignName": "payment_failed",
+  "layout": "simple",
+  "dynamicFields": [
+    "firstName",
+    "amount",
+    "lastFourDigits",
+    "updatePaymentUrl",
+    "retryDate"
+  ],
+  "translations": {
+    "en": {
+      "subject": "Payment Failed - Action Required",
+      "preheader": "Update your payment method to avoid service interruption",
+      "header": {
+        "title": "Payment Failed",
+        "subtitle": "We couldn't process your payment"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "We were unable to process your payment of **${{ amount }}** using the card ending in **{{ lastFourDigits }}**.",
+        "reasons": {
+          "title": "Common Reasons",
+          "items": [
+            "Insufficient funds",
+            "Expired card",
+            "Incorrect billing information",
+            "Card issuer declined the transaction"
+          ]
+        },
+        "action": "Please update your payment method within **{{ retryDate }}** to avoid service interruption.",
+        "warning": "If we don't receive payment by {{ retryDate }}, your account will be suspended and you'll lose access to all features.",
+        "footer": "Need help? Contact our billing team at billing@purra.ai"
+      },
+      "cta": {
+        "primary": {
+          "text": "Update Payment Method",
+          "url": "{{ updatePaymentUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "התשלום נכשל - נדרשת פעולה",
+      "preheader": "עדכנו את אמצעי התשלום שלכם כדי למנוע הפרעה בשירות",
+      "header": {
+        "title": "התשלום נכשל",
+        "subtitle": "לא הצלחנו לעבד את התשלום שלכם"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "לא הצלחנו לעבד את התשלום שלכם בסך **${{ amount }}** באמצעות הכרטיס המסתיים ב-**{{ lastFourDigits }}**.",
+        "reasons": {
+          "title": "סיבות נפוצות",
+          "items": [
+            "אין מספיק כספים",
+            "כרטיס פג תוקף",
+            "מידע חיוב שגוי",
+            "מנפיק הכרטיס דחה את העסקה"
+          ]
+        },
+        "action": "אנא עדכנו את אמצעי התשלום שלכם עד **{{ retryDate }}** כדי למנוע הפרעה בשירות.",
+        "warning": "אם לא נקבל תשלום עד {{ retryDate }}, החשבון שלכם יושעה ותאבדו גישה לכל התכונות.",
+        "footer": "צריכים עזרה? צרו קשר עם צוות החיוב שלנו ב-billing@purra.ai"
+      },
+      "cta": {
+        "primary": {
+          "text": "עדכנו אמצעי תשלום",
+          "url": "{{ updatePaymentUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "भुगतान विफल - कार्रवाई आवश्यक है",
+      "preheader": "सेवा में रुकावट से बचने के लिए अपनी भुगतान विधि अपडेट करें",
+      "header": {
+        "title": "भुगतान विफल",
+        "subtitle": "हम आपका भुगतान प्रोसेस नहीं कर सके"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "हम **{{ lastFourDigits }}** में समाप्त होने वाले कार्ड का उपयोग करके **${{ amount }}** का आपका भुगतान प्रोसेस करने में असमर्थ थे।",
+        "reasons": {
+          "title": "सामान्य कारण",
+          "items": [
+            "अपर्याप्त धनराशि",
+            "समाप्त हो चुका कार्ड",
+            "गलत बिलिंग जानकारी",
+            "कार्ड जारीकर्ता ने लेनदेन को अस्वीकार कर दिया"
+          ]
+        },
+        "action": "सेवा में रुकावट से बचने के लिए कृपया **{{ retryDate }}** तक अपनी भुगतान विधि अपडेट करें।",
+        "warning": "यदि हमें {{ retryDate }} तक भुगतान प्राप्त नहीं होता है, तो आपका खाता निलंबित कर दिया जाएगा और आप सभी सुविधाओं तक पहुंच खो देंगे।",
+        "footer": "मदद चाहिए? billing@purra.ai पर हमारी बिलिंग टीम से संपर्क करें"
+      },
+      "cta": {
+        "primary": {
+          "text": "भुगतान विधि अपडेट करें",
+          "url": "{{ updatePaymentUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "Échec du paiement - Action requise",
+      "preheader": "Mettez à jour votre mode de paiement pour éviter toute interruption de service",
+      "header": {
+        "title": "Échec du paiement",
+        "subtitle": "Nous n'avons pas pu traiter votre paiement"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Nous n'avons pas pu traiter votre paiement de **${{ amount }}** avec la carte se terminant par **{{ lastFourDigits }}**.",
+        "reasons": {
+          "title": "Raisons courantes",
+          "items": [
+            "Fonds insuffisants",
+            "Carte expirée",
+            "Informations de facturation incorrectes",
+            "L'émetteur de la carte a refusé la transaction"
+          ]
+        },
+        "action": "Veuillez mettre à jour votre mode de paiement avant le **{{ retryDate }}** pour éviter toute interruption de service.",
+        "warning": "Si nous ne recevons pas le paiement avant le {{ retryDate }}, votre compte sera suspendu et vous perdrez l'accès à toutes les fonctionnalités.",
+        "footer": "Besoin d'aide ? Contactez notre équipe de facturation à billing@purra.ai"
+      },
+      "cta": {
+        "primary": {
+          "text": "Mettre à jour le mode de paiement",
+          "url": "{{ updatePaymentUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "付款失败 - 需要操作",
+      "preheader": "更新您的付款方式以避免服务中断",
+      "header": {
+        "title": "付款失败",
+        "subtitle": "我们无法处理您的付款"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "我们无法使用尾号为 **{{ lastFourDigits }}** 的卡处理您的 **${{ amount }}** 付款。",
+        "reasons": {
+          "title": "常见原因",
+          "items": [
+            "资金不足",
+            "卡已过期",
+            "账单信息不正确",
+            "发卡机构拒绝了交易"
+          ]
+        },
+        "action": "请在 **{{ retryDate }}** 之前更新您的付款方式以避免服务中断。",
+        "warning": "如果我们在 {{ retryDate }} 之前没有收到付款，您的帐户将被暂停，您将失去对所有功能的访问权限。",
+        "footer": "需要帮助？请通过 billing@purra.ai 联系我们的计费团队"
+      },
+      "cta": {
+        "primary": {
+          "text": "更新付款方式",
+          "url": "{{ updatePaymentUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "支払いが失敗しました - 対応が必要です",
+      "preheader": "サービスの中断を避けるために支払い方法を更新してください",
+      "header": {
+        "title": "支払い失敗",
+        "subtitle": "お支払いを処理できませんでした"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "**{{ lastFourDigits }}** で終わるカードを使用して **${{ amount }}** のお支払いを処理できませんでした。",
+        "reasons": {
+          "title": "一般的な理由",
+          "items": [
+            "残高不足",
+            "有効期限切れのカード",
+            "請求情報の誤り",
+            "カード発行会社が取引を拒否した"
+          ]
+        },
+        "action": "サービスの中断を避けるため、**{{ retryDate }}** までにお支払い方法を更新してください。",
+        "warning": "{{ retryDate }} までにお支払いを受け取らない場合、アカウントが停止され、すべての機能へのアクセスが失われます。",
+        "footer": "サポートが必要ですか？billing@purra.ai で請求チームにお問い合わせください"
+      },
+      "cta": {
+        "primary": {
+          "text": "支払い方法を更新",
+          "url": "{{ updatePaymentUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "Zahlung fehlgeschlagen - Aktion erforderlich",
+      "preheader": "Aktualisieren Sie Ihre Zahlungsmethode, um Serviceunterbrechungen zu vermeiden",
+      "header": {
+        "title": "Zahlung fehlgeschlagen",
+        "subtitle": "Wir konnten Ihre Zahlung nicht verarbeiten"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Wir konnten Ihre Zahlung von **${{ amount }}** mit der Karte, die auf **{{ lastFourDigits }}** endet, nicht verarbeiten.",
+        "reasons": {
+          "title": "Häufige Gründe",
+          "items": [
+            "Unzureichende Mittel",
+            "Abgelaufene Karte",
+            "Falsche Rechnungsinformationen",
+            "Kartenaussteller lehnte die Transaktion ab"
+          ]
+        },
+        "action": "Bitte aktualisieren Sie Ihre Zahlungsmethode bis **{{ retryDate }}**, um Serviceunterbrechungen zu vermeiden.",
+        "warning": "Wenn wir bis {{ retryDate }} keine Zahlung erhalten, wird Ihr Konto gesperrt und Sie verlieren den Zugriff auf alle Funktionen.",
+        "footer": "Brauchen Sie Hilfe? Kontaktieren Sie unser Abrechnungsteam unter billing@purra.ai"
+      },
+      "cta": {
+        "primary": {
+          "text": "Zahlungsmethode aktualisieren",
+          "url": "{{ updatePaymentUrl }}"
+        }
+      }
+    }
+  }
+}
