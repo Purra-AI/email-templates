@@ -1,0 +1,125 @@
+{
+  "id": "otp-verification",
+  "category": "authentication",
+  "campaignName": "otp_verification",
+  "layout": "simple",
+  "dynamicFields": [
+    "firstName",
+    "otpCode",
+    "expiryMinutes"
+  ],
+  "translations": {
+    "en": {
+      "subject": "Your Purra Verification Code",
+      "preheader": "Use this code to verify your identity",
+      "header": {
+        "title": "Verification Code",
+        "subtitle": "Complete your secure login"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "Here's your one-time password (OTP) to verify your identity:",
+        "codeDisplay": "{{ otpCode }}",
+        "instructions": "Enter this code in the verification screen to continue. This code will expire in {{ expiryMinutes }} minutes.",
+        "warning": "For your security, never share this code with anyone, including Purra support staff.",
+        "footer": "If you didn't request this code, please ignore this email and ensure your account is secure."
+      }
+    },
+    "he": {
+      "subject": "קוד האימות של Purra שלך",
+      "preheader": "השתמש בקוד זה כדי לאמת את זהותך",
+      "header": {
+        "title": "קוד אימות",
+        "subtitle": "השלם את הכניסה המאובטחת שלך"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "הנה הסיסמה החד-פעמית (OTP) שלך לאימות הזהות שלך:",
+        "codeDisplay": "{{ otpCode }}",
+        "instructions": "הזן קוד זה במסך האימות כדי להמשיך. קוד זה יפוג תוך {{ expiryMinutes }} דקות.",
+        "warning": "לביטחונך, לעולם אל תשתף קוד זה עם אף אחד, כולל צוות התמיכה של Purra.",
+        "footer": "אם לא ביקשת קוד זה, אנא התעלם מאימייל זה וודא שהחשבון שלך מאובטח."
+      }
+    },
+    "hi": {
+      "subject": "आपका Purra सत्यापन कोड",
+      "preheader": "अपनी पहचान सत्यापित करने के लिए इस कोड का उपयोग करें",
+      "header": {
+        "title": "सत्यापन कोड",
+        "subtitle": "अपना सुरक्षित लॉगिन पूरा करें"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "आपकी पहचान सत्यापित करने के लिए यहाँ आपका वन-टाइम पासवर्ड (OTP) है:",
+        "codeDisplay": "{{ otpCode }}",
+        "instructions": "जारी रखने के लिए सत्यापन स्क्रीन में इस कोड को दर्ज करें। यह कोड {{ expiryMinutes }} मिनट में समाप्त हो जाएगा।",
+        "warning": "आपकी सुरक्षा के लिए, इस कोड को किसी के साथ साझा न करें, Purra सहायता स्टाफ सहित।",
+        "footer": "यदि आपने इस कोड का अनुरोध नहीं किया है, तो कृपया इस ईमेल को अनदेखा करें और सुनिश्चित करें कि आपका खाता सुरक्षित है।"
+      }
+    },
+    "fr": {
+      "subject": "Votre code de vérification Purra",
+      "preheader": "Utilisez ce code pour vérifier votre identité",
+      "header": {
+        "title": "Code de vérification",
+        "subtitle": "Complétez votre connexion sécurisée"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Voici votre mot de passe à usage unique (OTP) pour vérifier votre identité :",
+        "codeDisplay": "{{ otpCode }}",
+        "instructions": "Entrez ce code sur l'écran de vérification pour continuer. Ce code expirera dans {{ expiryMinutes }} minutes.",
+        "warning": "Pour votre sécurité, ne partagez jamais ce code avec qui que ce soit, y compris le personnel d'assistance Purra.",
+        "footer": "Si vous n'avez pas demandé ce code, veuillez ignorer cet email et assurez-vous que votre compte est sécurisé."
+      }
+    },
+    "zh": {
+      "subject": "您的 Purra 验证码",
+      "preheader": "使用此代码验证您的身份",
+      "header": {
+        "title": "验证码",
+        "subtitle": "完成您的安全登录"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "这是您的一次性密码（OTP）用于验证您的身份：",
+        "codeDisplay": "{{ otpCode }}",
+        "instructions": "在验证屏幕中输入此代码以继续。此代码将在 {{ expiryMinutes }} 分钟后过期。",
+        "warning": "为了您的安全，切勿与任何人分享此代码，包括 Purra 支持人员。",
+        "footer": "如果您没有请求此代码，请忽略此电子邮件并确保您的帐户安全。"
+      }
+    },
+    "ja": {
+      "subject": "あなたのPurra確認コード",
+      "preheader": "このコードを使用して本人確認を行ってください",
+      "header": {
+        "title": "確認コード",
+        "subtitle": "安全なログインを完了してください"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "本人確認のためのワンタイムパスワード（OTP）は次のとおりです：",
+        "codeDisplay": "{{ otpCode }}",
+        "instructions": "続行するには、確認画面でこのコードを入力してください。このコードは {{ expiryMinutes }} 分後に期限切れになります。",
+        "warning": "セキュリティのため、Purraサポートスタッフを含め、誰ともこのコードを共有しないでください。",
+        "footer": "このコードをリクエストしていない場合は、このメールを無視し、アカウントが安全であることを確認してください。"
+      }
+    },
+    "de": {
+      "subject": "Ihr Purra-Bestätigungscode",
+      "preheader": "Verwenden Sie diesen Code, um Ihre Identität zu überprüfen",
+      "header": {
+        "title": "Bestätigungscode",
+        "subtitle": "Schließen Sie Ihre sichere Anmeldung ab"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Hier ist Ihr Einmalpasswort (OTP) zur Überprüfung Ihrer Identität:",
+        "codeDisplay": "{{ otpCode }}",
+        "instructions": "Geben Sie diesen Code auf dem Bestätigungsbildschirm ein, um fortzufahren. Dieser Code läuft in {{ expiryMinutes }} Minuten ab.",
+        "warning": "Zu Ihrer Sicherheit teilen Sie diesen Code niemals mit jemandem, einschließlich Purra-Supportmitarbeitern.",
+        "footer": "Wenn Sie diesen Code nicht angefordert haben, ignorieren Sie diese E-Mail bitte und stellen Sie sicher, dass Ihr Konto sicher ist."
+      }
+    }
+  }
+}

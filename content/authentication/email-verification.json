@@ -1,0 +1,167 @@
+{
+  "id": "email-verification",
+  "category": "authentication",
+  "campaignName": "email_verification",
+  "layout": "simple",
+  "dynamicFields": [
+    "firstName",
+    "verificationUrl",
+    "verificationCode"
+  ],
+  "translations": {
+    "en": {
+      "subject": "Verify Your Purra Email Address",
+      "preheader": "Please confirm your email to activate your account",
+      "header": {
+        "title": "Verify Your Email",
+        "subtitle": "Just one more step to get started"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "Thanks for signing up for Purra! Please verify your email address to activate your account and start using our platform.",
+        "codeLabel": "Your verification code:",
+        "code": "{{ verificationCode }}",
+        "expiry": "This code will expire in 24 hours.",
+        "footer": "If you didn't create a Purra account, you can safely ignore this email."
+      },
+      "cta": {
+        "primary": {
+          "text": "Verify Email Address",
+          "url": "{{ verificationUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "אמת את כתובת האימייל שלך ב-Purra",
+      "preheader": "אנא אשר את האימייל שלך כדי להפעיל את החשבון",
+      "header": {
+        "title": "אמת את האימייל שלך",
+        "subtitle": "רק עוד צעד אחד כדי להתחיל"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "תודה שנרשמת ל-Purra! אנא אמת את כתובת האימייל שלך כדי להפעיל את החשבון ולהתחיל להשתמש בפלטפורמה שלנו.",
+        "codeLabel": "קוד האימות שלך:",
+        "code": "{{ verificationCode }}",
+        "expiry": "קוד זה יפוג תוך 24 שעות.",
+        "footer": "אם לא יצרת חשבון Purra, אתה יכול להתעלם מאימייל זה בבטחה."
+      },
+      "cta": {
+        "primary": {
+          "text": "אמת כתובת אימייל",
+          "url": "{{ verificationUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "अपना Purra ईमेल पता सत्यापित करें",
+      "preheader": "अपना खाता सक्रिय करने के लिए कृपया अपना ईमेल पुष्टि करें",
+      "header": {
+        "title": "अपना ईमेल सत्यापित करें",
+        "subtitle": "शुरू करने के लिए बस एक और कदम"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "Purra के लिए साइन अप करने के लिए धन्यवाद! अपना खाता सक्रिय करने और हमारे प्लेटफ़ॉर्म का उपयोग शुरू करने के लिए कृपया अपना ईमेल पता सत्यापित करें।",
+        "codeLabel": "आपका सत्यापन कोड:",
+        "code": "{{ verificationCode }}",
+        "expiry": "यह कोड 24 घंटों में समाप्त हो जाएगा।",
+        "footer": "यदि आपने Purra खाता नहीं बनाया है, तो आप इस ईमेल को सुरक्षित रूप से अनदेखा कर सकते हैं।"
+      },
+      "cta": {
+        "primary": {
+          "text": "ईमेल पता सत्यापित करें",
+          "url": "{{ verificationUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "Vérifiez votre adresse email Purra",
+      "preheader": "Veuillez confirmer votre email pour activer votre compte",
+      "header": {
+        "title": "Vérifiez votre email",
+        "subtitle": "Une dernière étape pour commencer"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Merci de vous être inscrit sur Purra ! Veuillez vérifier votre adresse email pour activer votre compte et commencer à utiliser notre plateforme.",
+        "codeLabel": "Votre code de vérification :",
+        "code": "{{ verificationCode }}",
+        "expiry": "Ce code expirera dans 24 heures.",
+        "footer": "Si vous n'avez pas créé de compte Purra, vous pouvez ignorer cet email en toute sécurité."
+      },
+      "cta": {
+        "primary": {
+          "text": "Vérifier l'adresse email",
+          "url": "{{ verificationUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "验证您的 Purra 电子邮件地址",
+      "preheader": "请确认您的电子邮件以激活您的帐户",
+      "header": {
+        "title": "验证您的电子邮件",
+        "subtitle": "开始使用前的最后一步"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "感谢您注册 Purra！请验证您的电子邮件地址以激活您的帐户并开始使用我们的平台。",
+        "codeLabel": "您的验证码：",
+        "code": "{{ verificationCode }}",
+        "expiry": "此代码将在 24 小时内过期。",
+        "footer": "如果您没有创建 Purra 帐户，您可以安全地忽略此电子邮件。"
+      },
+      "cta": {
+        "primary": {
+          "text": "验证电子邮件地址",
+          "url": "{{ verificationUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "Purraのメールアドレスを確認してください",
+      "preheader": "アカウントを有効にするためにメールを確認してください",
+      "header": {
+        "title": "メールを確認",
+        "subtitle": "開始まであと一歩です"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "Purraにご登録いただきありがとうございます！アカウントを有効にしてプラットフォームの使用を開始するには、メールアドレスを確認してください。",
+        "codeLabel": "あなたの確認コード：",
+        "code": "{{ verificationCode }}",
+        "expiry": "このコードは24時間後に期限切れになります。",
+        "footer": "Purraアカウントを作成していない場合は、このメールを無視しても問題ありません。"
+      },
+      "cta": {
+        "primary": {
+          "text": "メールアドレスを確認",
+          "url": "{{ verificationUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "Bestätigen Sie Ihre Purra-E-Mail-Adresse",
+      "preheader": "Bitte bestätigen Sie Ihre E-Mail, um Ihr Konto zu aktivieren",
+      "header": {
+        "title": "Bestätigen Sie Ihre E-Mail",
+        "subtitle": "Nur noch ein Schritt, um loszulegen"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Vielen Dank für Ihre Anmeldung bei Purra! Bitte bestätigen Sie Ihre E-Mail-Adresse, um Ihr Konto zu aktivieren und unsere Plattform zu nutzen.",
+        "codeLabel": "Ihr Bestätigungscode:",
+        "code": "{{ verificationCode }}",
+        "expiry": "Dieser Code läuft in 24 Stunden ab.",
+        "footer": "Wenn Sie kein Purra-Konto erstellt haben, können Sie diese E-Mail sicher ignorieren."
+      },
+      "cta": {
+        "primary": {
+          "text": "E-Mail-Adresse bestätigen",
+          "url": "{{ verificationUrl }}"
+        }
+      }
+    }
+  }
+}
