@@ -1,0 +1,330 @@
+{
+  "id": "inactive-user-7d",
+  "category": "re-engagement",
+  "campaignName": "inactive_user_7d",
+  "layout": "base",
+  "dynamicFields": [
+    "firstName",
+    "lastLoginDate",
+    "recentFeatures",
+    "dashboardUrl",
+    "supportUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "We miss you, {{ firstName }}! 👋",
+      "preheader": "It's been a week - see what's new in Purra",
+      "header": {
+        "title": "We Miss You!",
+        "subtitle": "Come back and see what's new"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "We noticed you haven't logged into Purra since **{{ lastLoginDate }}**. We've been busy improving the platform and we'd love to have you back!",
+        "whatYouMissed": {
+          "title": "What You've Missed",
+          "items": [
+            "**New vendor intelligence features** - Better risk detection and compliance monitoring",
+            "**Enhanced price alerts** - More accurate predictions and faster notifications",
+            "**Improved analytics** - New dashboards and visualization options",
+            "**Performance upgrades** - Faster report generation and search"
+          ]
+        },
+        "quickWins": {
+          "title": "🚀 Quick Things You Can Do Today",
+          "items": [
+            "Run a vendor due diligence check (takes 5 minutes)",
+            "Set up price alerts for your key products",
+            "Review your weekly procurement insights",
+            "Explore our new comparison tools"
+          ]
+        },
+        "needHelp": {
+          "title": "Need Help Getting Started?",
+          "description": "Our team is here to help. Book a quick 15-minute session or reach out anytime."
+        },
+        "footer": "Your data and preferences are exactly as you left them. Jump back in anytime!"
+      },
+      "cta": {
+        "primary": {
+          "text": "Welcome Back",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "Get Help",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "אנחנו מתגעגעים אליכם, {{ firstName }}! 👋",
+      "preheader": "עבר שבוע - ראו מה חדש ב-Purra",
+      "header": {
+        "title": "אנחנו מתגעגעים אליכם!",
+        "subtitle": "חזרו וראו מה חדש"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "שמנו לב שלא נכנסתם ל-Purra מאז **{{ lastLoginDate }}**. היינו עסוקים בשיפור הפלטפורמה ונשמח לראות אתכם חוזרים!",
+        "whatYouMissed": {
+          "title": "מה פספסתם",
+          "items": [
+            "**תכונות מודיעין ספקים חדשות** - זיהוי סיכונים טוב יותר וניטור ציות",
+            "**התראות מחיר משופרות** - תחזיות מדויקות יותר והתראות מהירות יותר",
+            "**אנליטיקה משופרת** - לוחות בקרה חדשים ואפשרויות ויזואליזציה",
+            "**שדרוגי ביצועים** - יצירת דוחות וחיפוש מהירים יותר"
+          ]
+        },
+        "quickWins": {
+          "title": "🚀 דברים מהירים שאתם יכולים לעשות היום",
+          "items": [
+            "הריצו בדיקת בדיקת נאותות של ספק (לוקח 5 דקות)",
+            "הגדירו התראות מחיר למוצרים המרכזיים שלכם",
+            "בדקו את תובנות הרכש השבועיות שלכם",
+            "חקרו את כלי ההשוואה החדשים שלנו"
+          ]
+        },
+        "needHelp": {
+          "title": "צריכים עזרה להתחיל?",
+          "description": "הצוות שלנו כאן כדי לעזור. הזמינו פגישה מהירה של 15 דקות או פנו אלינו בכל עת."
+        },
+        "footer": "הנתונים וההעדפות שלכם בדיוק כפי שהשארתם אותם. קפצו חזרה בכל עת!"
+      },
+      "cta": {
+        "primary": {
+          "text": "ברוכים השבים",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "קבלו עזרה",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "हम आपको मिस कर रहे हैं, {{ firstName }}! 👋",
+      "preheader": "एक सप्ताह हो गया - Purra में नया क्या है देखें",
+      "header": {
+        "title": "हम आपको मिस कर रहे हैं!",
+        "subtitle": "वापस आएं और देखें कि नया क्या है"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "हमने नोटिस किया कि आपने **{{ lastLoginDate }}** के बाद से Purra में लॉग इन नहीं किया है। हम प्लेटफ़ॉर्म को बेहतर बनाने में व्यस्त रहे हैं और हम आपका स्वागत करना पसंद करेंगे!",
+        "whatYouMissed": {
+          "title": "आपने क्या मिस किया",
+          "items": [
+            "**नई विक्रेता खुफिया सुविधाएं** - बेहतर जोखिम पहचान और अनुपालन निगरानी",
+            "**उन्नत मूल्य अलर्ट** - अधिक सटीक भविष्यवाणियां और तेज़ सूचनाएं",
+            "**बेहतर विश्लेषण** - नए डैशबोर्ड और विज़ुअलाइज़ेशन विकल्प",
+            "**प्रदर्शन अपग्रेड** - तेज़ रिपोर्ट जनरेशन और खोज"
+          ]
+        },
+        "quickWins": {
+          "title": "🚀 आज आप जो त्वरित काम कर सकते हैं",
+          "items": [
+            "विक्रेता उचित परिश्रम जांच चलाएं (5 मिनट लगते हैं)",
+            "अपने प्रमुख उत्पादों के लिए मूल्य अलर्ट सेट करें",
+            "अपनी साप्ताहिक खरीद अंतर्दृष्टि की समीक्षा करें",
+            "हमारे नए तुलना उपकरणों का अन्वेषण करें"
+          ]
+        },
+        "needHelp": {
+          "title": "शुरू करने में मदद चाहिए?",
+          "description": "हमारी टीम मदद के लिए यहां है। एक त्वरित 15 मिनट का सत्र बुक करें या किसी भी समय संपर्क करें।"
+        },
+        "footer": "आपका डेटा और प्राथमिकताएं बिल्कुल वैसी ही हैं जैसी आपने छोड़ी थीं। किसी भी समय वापस कूदें!"
+      },
+      "cta": {
+        "primary": {
+          "text": "वापस स्वागत है",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "मदद लें",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "Vous nous manquez, {{ firstName }} ! 👋",
+      "preheader": "Cela fait une semaine - voyez les nouveautés de Purra",
+      "header": {
+        "title": "Vous nous manquez !",
+        "subtitle": "Revenez voir les nouveautés"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Nous avons remarqué que vous ne vous êtes pas connecté à Purra depuis **{{ lastLoginDate }}**. Nous avons été occupés à améliorer la plateforme et nous serions ravis de vous revoir !",
+        "whatYouMissed": {
+          "title": "Ce que vous avez manqué",
+          "items": [
+            "**Nouvelles fonctionnalités d'intelligence fournisseur** - Meilleure détection des risques et surveillance de la conformité",
+            "**Alertes de prix améliorées** - Prédictions plus précises et notifications plus rapides",
+            "**Analyses améliorées** - Nouveaux tableaux de bord et options de visualisation",
+            "**Mises à niveau des performances** - Génération de rapports et recherche plus rapides"
+          ]
+        },
+        "quickWins": {
+          "title": "🚀 Choses rapides que vous pouvez faire aujourd'hui",
+          "items": [
+            "Effectuez un contrôle de diligence raisonnable d'un fournisseur (prend 5 minutes)",
+            "Configurez des alertes de prix pour vos produits clés",
+            "Consultez vos informations hebdomadaires sur les achats",
+            "Explorez nos nouveaux outils de comparaison"
+          ]
+        },
+        "needHelp": {
+          "title": "Besoin d'aide pour commencer ?",
+          "description": "Notre équipe est là pour vous aider. Réservez une session rapide de 15 minutes ou contactez-nous à tout moment."
+        },
+        "footer": "Vos données et préférences sont exactement comme vous les avez laissées. Revenez quand vous voulez !"
+      },
+      "cta": {
+        "primary": {
+          "text": "Bon retour",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "Obtenir de l'aide",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "我们想念您，{{ firstName }}！👋",
+      "preheader": "已经一周了 - 看看 Purra 的新功能",
+      "header": {
+        "title": "我们想念您！",
+        "subtitle": "回来看看有什么新内容"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "我们注意到您自 **{{ lastLoginDate }}** 以来就没有登录 Purra。我们一直在忙于改进平台，很希望您回来！",
+        "whatYouMissed": {
+          "title": "您错过的内容",
+          "items": [
+            "**新的供应商情报功能** - 更好的风险检测和合规监控",
+            "**增强的价格警报** - 更准确的预测和更快的通知",
+            "**改进的分析** - 新的仪表板和可视化选项",
+            "**性能升级** - 更快的报告生成和搜索"
+          ]
+        },
+        "quickWins": {
+          "title": "🚀 您今天可以做的快速事情",
+          "items": [
+            "进行供应商尽职调查检查（需要 5 分钟）",
+            "为您的关键产品设置价格警报",
+            "查看您的每周采购见解",
+            "探索我们的新比较工具"
+          ]
+        },
+        "needHelp": {
+          "title": "需要帮助入门？",
+          "description": "我们的团队随时为您提供帮助。预订 15 分钟的快速会议或随时联系我们。"
+        },
+        "footer": "您的数据和偏好设置与您离开时完全相同。随时回来！"
+      },
+      "cta": {
+        "primary": {
+          "text": "欢迎回来",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "获取帮助",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "{{ firstName }}さん、お待ちしていました！👋",
+      "preheader": "1週間が経過しました - Purraの新機能をご覧ください",
+      "header": {
+        "title": "お待ちしていました！",
+        "subtitle": "戻って新機能をご覧ください"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "**{{ lastLoginDate }}** 以降、Purraにログインされていないことに気づきました。プラットフォームの改善に取り組んでおり、ぜひ戻ってきていただきたいです！",
+        "whatYouMissed": {
+          "title": "見逃した内容",
+          "items": [
+            "**新しいベンダーインテリジェンス機能** - より優れたリスク検出とコンプライアンス監視",
+            "**強化された価格アラート** - より正確な予測とより速い通知",
+            "**改善された分析** - 新しいダッシュボードと視覚化オプション",
+            "**パフォーマンスアップグレード** - より高速なレポート生成と検索"
+          ]
+        },
+        "quickWins": {
+          "title": "🚀 今日できる素早いこと",
+          "items": [
+            "ベンダーデューデリジェンスチェックを実行（5分かかります）",
+            "主要製品の価格アラートを設定",
+            "週次調達インサイトを確認",
+            "新しい比較ツールを探索"
+          ]
+        },
+        "needHelp": {
+          "title": "始めるのに助けが必要ですか？",
+          "description": "私たちのチームがお手伝いします。15分の簡単なセッションを予約するか、いつでもご連絡ください。"
+        },
+        "footer": "あなたのデータと設定は離れたときのままです。いつでも戻ってきてください！"
+      },
+      "cta": {
+        "primary": {
+          "text": "おかえりなさい",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "ヘルプを取得",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "Wir vermissen Sie, {{ firstName }}! 👋",
+      "preheader": "Es ist eine Woche her - sehen Sie, was bei Purra neu ist",
+      "header": {
+        "title": "Wir vermissen Sie!",
+        "subtitle": "Kommen Sie zurück und sehen Sie, was neu ist"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Wir haben bemerkt, dass Sie sich seit **{{ lastLoginDate }}** nicht bei Purra angemeldet haben. Wir waren damit beschäftigt, die Plattform zu verbessern, und würden uns freuen, Sie zurückzuhaben!",
+        "whatYouMissed": {
+          "title": "Was Sie verpasst haben",
+          "items": [
+            "**Neue Lieferanten-Intelligence-Funktionen** - Bessere Risikoerkennung und Compliance-Überwachung",
+            "**Verbesserte Preiswarnungen** - Genauere Vorhersagen und schnellere Benachrichtigungen",
+            "**Verbesserte Analytik** - Neue Dashboards und Visualisierungsoptionen",
+            "**Performance-Upgrades** - Schnellere Berichterstellung und Suche"
+          ]
+        },
+        "quickWins": {
+          "title": "🚀 Schnelle Dinge, die Sie heute tun können",
+          "items": [
+            "Führen Sie eine Lieferanten-Due-Diligence-Prüfung durch (dauert 5 Minuten)",
+            "Richten Sie Preiswarnungen für Ihre Hauptprodukte ein",
+            "Überprüfen Sie Ihre wöchentlichen Beschaffungseinblicke",
+            "Erkunden Sie unsere neuen Vergleichstools"
+          ]
+        },
+        "needHelp": {
+          "title": "Brauchen Sie Hilfe beim Einstieg?",
+          "description": "Unser Team ist hier, um zu helfen. Buchen Sie eine schnelle 15-minütige Sitzung oder melden Sie sich jederzeit."
+        },
+        "footer": "Ihre Daten und Einstellungen sind genau so, wie Sie sie hinterlassen haben. Springen Sie jederzeit zurück!"
+      },
+      "cta": {
+        "primary": {
+          "text": "Willkommen zurück",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "Hilfe erhalten",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    }
+  }
+}

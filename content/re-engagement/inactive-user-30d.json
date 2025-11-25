@@ -1,0 +1,317 @@
+{
+  "id": "inactive-user-30d",
+  "category": "re-engagement",
+  "campaignName": "inactive_user_30d",
+  "layout": "base",
+  "dynamicFields": [
+    "firstName",
+    "accountCreatedDate",
+    "specialOfferCode",
+    "offerExpiry",
+    "dashboardUrl",
+    "feedbackUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "Special Offer: Come Back to Purra - 25% Off 🎁",
+      "preheader": "We want you back! Exclusive discount inside",
+      "header": {
+        "title": "We'd Love to See You Again",
+        "subtitle": "Here's something special for you"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "It's been a month since you last used Purra, and we miss having you as part of our community. We want to make it worth your while to come back.",
+        "specialOffer": {
+          "title": "🎁 Exclusive 25% Off",
+          "description": "As a valued member, we're offering you **25% off your next 3 months** when you reactivate your account. Use code:",
+          "code": "{{ specialOfferCode }}",
+          "expiry": "Offer expires: {{ offerExpiry }}"
+        },
+        "whatYouGet": {
+          "title": "What You'll Get",
+          "items": [
+            "**Unlimited vendor due diligence** - Research as many suppliers as you need",
+            "**Real-time price monitoring** - Never miss a price change again",
+            "**Advanced risk alerts** - Stay ahead of vendor issues",
+            "**Priority support** - Get help when you need it most",
+            "**Custom analytics** - Insights tailored to your business"
+          ]
+        },
+        "feedback": {
+          "title": "Help Us Improve",
+          "description": "If something prevented you from using Purra, we'd love to hear about it. Your feedback helps us build a better product for everyone."
+        },
+        "footer": "This offer is exclusive to you and expires on {{ offerExpiry }}. Don't miss out!"
+      },
+      "cta": {
+        "primary": {
+          "text": "Claim 25% Off",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "Share Feedback",
+          "url": "{{ feedbackUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "הצעה מיוחדת: חזרו ל-Purra - 25% הנחה 🎁",
+      "preheader": "אנחנו רוצים אתכם בחזרה! הנחה בלעדית בפנים",
+      "header": {
+        "title": "נשמח לראות אתכם שוב",
+        "subtitle": "הנה משהו מיוחד עבורכם"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "עבר חודש מאז שהשתמשתם ב-Purra לאחרונה, ואנחנו מתגעגעים שתהיו חלק מהקהילה שלנו. אנחנו רוצים לגרום לזה להיות שווה עבורכם לחזור.",
+        "specialOffer": {
+          "title": "🎁 25% הנחה בלעדית",
+          "description": "כחבר מוערך, אנחנו מציעים לכם **25% הנחה על 3 החודשים הבאים** כשאתם מפעילים מחדש את החשבון שלכם. השתמשו בקוד:",
+          "code": "{{ specialOfferCode }}",
+          "expiry": "ההצעה פגה: {{ offerExpiry }}"
+        },
+        "whatYouGet": {
+          "title": "מה תקבלו",
+          "items": [
+            "**בדיקת נאותות ספקים ללא הגבלה** - חקרו כמה ספקים שאתם צריכים",
+            "**ניטור מחירים בזמן אמת** - לעולם אל תפספסו שינוי מחיר שוב",
+            "**התראות סיכון מתקדמות** - הישארו לפני בעיות ספקים",
+            "**תמיכה עדיפה** - קבלו עזרה כשאתם הכי צריכים אותה",
+            "**אנליטיקה מותאמת אישית** - תובנות מותאמות לעסק שלכם"
+          ]
+        },
+        "feedback": {
+          "title": "עזרו לנו להשתפר",
+          "description": "אם משהו מנע מכם להשתמש ב-Purra, נשמח לשמוע על זה. המשוב שלכם עוזר לנו לבנות מוצר טוב יותר עבור כולם."
+        },
+        "footer": "ההצעה הזו בלעדית עבורכם ופגה ב-{{ offerExpiry }}. אל תפספסו!"
+      },
+      "cta": {
+        "primary": {
+          "text": "תבעו 25% הנחה",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "שתפו משוב",
+          "url": "{{ feedbackUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "विशेष ऑफ़र: Purra पर वापस आएं - 25% छूट 🎁",
+      "preheader": "हम आपको वापस चाहते हैं! अंदर विशेष छूट",
+      "header": {
+        "title": "हम आपको फिर से देखना पसंद करेंगे",
+        "subtitle": "आपके लिए कुछ खास है"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "आपने Purra का आखिरी उपयोग किए एक महीना हो गया है, और हम आपको अपने समुदाय के हिस्से के रूप में याद कर रहे हैं। हम चाहते हैं कि वापस आना आपके लिए सार्थक हो।",
+        "specialOffer": {
+          "title": "🎁 विशेष 25% छूट",
+          "description": "एक मूल्यवान सदस्य के रूप में, जब आप अपना खाता पुनः सक्रिय करते हैं तो हम आपको **अगले 3 महीनों पर 25% छूट** दे रहे हैं। कोड का उपयोग करें:",
+          "code": "{{ specialOfferCode }}",
+          "expiry": "ऑफ़र समाप्ति: {{ offerExpiry }}"
+        },
+        "whatYouGet": {
+          "title": "आपको क्या मिलेगा",
+          "items": [
+            "**असीमित विक्रेता उचित परिश्रम** - जितने आपूर्तिकर्ताओं की आवश्यकता हो उनका शोध करें",
+            "**वास्तविक समय मूल्य निगरानी** - कभी भी मूल्य परिवर्तन न चूकें",
+            "**उन्नत जोखिम अलर्ट** - विक्रेता समस्याओं से आगे रहें",
+            "**प्राथमिकता सहायता** - जब आपको सबसे अधिक आवश्यकता हो तब मदद प्राप्त करें",
+            "**कस्टम विश्लेषण** - आपके व्यवसाय के अनुरूप अंतर्दृष्टि"
+          ]
+        },
+        "feedback": {
+          "title": "हमें बेहतर बनाने में मदद करें",
+          "description": "यदि कुछ ने आपको Purra का उपयोग करने से रोका, तो हम इसके बारे में सुनना पसंद करेंगे। आपकी प्रतिक्रिया हमें सभी के लिए एक बेहतर उत्पाद बनाने में मदद करती है।"
+        },
+        "footer": "यह ऑफ़र आपके लिए विशेष है और {{ offerExpiry }} को समाप्त हो जाएगा। इसे न चूकें!"
+      },
+      "cta": {
+        "primary": {
+          "text": "25% छूट का दावा करें",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "प्रतिक्रिया साझा करें",
+          "url": "{{ feedbackUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "Offre spéciale : Revenez sur Purra - 25% de réduction 🎁",
+      "preheader": "Nous vous voulons de retour ! Réduction exclusive à l'intérieur",
+      "header": {
+        "title": "Nous serions ravis de vous revoir",
+        "subtitle": "Voici quelque chose de spécial pour vous"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Cela fait un mois que vous avez utilisé Purra pour la dernière fois, et vous nous manquez dans notre communauté. Nous voulons que cela vaille la peine pour vous de revenir.",
+        "specialOffer": {
+          "title": "🎁 25% de réduction exclusive",
+          "description": "En tant que membre apprécié, nous vous offrons **25% de réduction sur vos 3 prochains mois** lorsque vous réactivez votre compte. Utilisez le code :",
+          "code": "{{ specialOfferCode }}",
+          "expiry": "L'offre expire : {{ offerExpiry }}"
+        },
+        "whatYouGet": {
+          "title": "Ce que vous obtiendrez",
+          "items": [
+            "**Diligence raisonnable illimitée des fournisseurs** - Recherchez autant de fournisseurs que nécessaire",
+            "**Surveillance des prix en temps réel** - Ne manquez plus jamais un changement de prix",
+            "**Alertes de risque avancées** - Anticipez les problèmes des fournisseurs",
+            "**Support prioritaire** - Obtenez de l'aide quand vous en avez le plus besoin",
+            "**Analyses personnalisées** - Informations adaptées à votre entreprise"
+          ]
+        },
+        "feedback": {
+          "title": "Aidez-nous à nous améliorer",
+          "description": "Si quelque chose vous a empêché d'utiliser Purra, nous aimerions en entendre parler. Vos commentaires nous aident à créer un meilleur produit pour tout le monde."
+        },
+        "footer": "Cette offre vous est exclusive et expire le {{ offerExpiry }}. Ne la manquez pas !"
+      },
+      "cta": {
+        "primary": {
+          "text": "Réclamer 25% de réduction",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "Partager vos commentaires",
+          "url": "{{ feedbackUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "特别优惠：回到 Purra - 75折 🎁",
+      "preheader": "我们希望您回来！内有独家折扣",
+      "header": {
+        "title": "我们很想再次见到您",
+        "subtitle": "这里有特别的东西给您"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "自您上次使用 Purra 已经一个月了，我们很想念您作为我们社区的一部分。我们想让您回来是值得的。",
+        "specialOffer": {
+          "title": "🎁 独家 75折",
+          "description": "作为尊贵的会员，当您重新激活账户时，我们为您提供**接下来 3 个月 75折优惠**。使用代码：",
+          "code": "{{ specialOfferCode }}",
+          "expiry": "优惠到期：{{ offerExpiry }}"
+        },
+        "whatYouGet": {
+          "title": "您将获得什么",
+          "items": [
+            "**无限供应商尽职调查** - 研究您需要的任意数量的供应商",
+            "**实时价格监控** - 再也不会错过价格变化",
+            "**高级风险警报** - 领先于供应商问题",
+            "**优先支持** - 在您最需要时获得帮助",
+            "**自定义分析** - 针对您业务的洞察"
+          ]
+        },
+        "feedback": {
+          "title": "帮助我们改进",
+          "description": "如果有什么阻止您使用 Purra，我们很想听听。您的反馈有助于我们为每个人构建更好的产品。"
+        },
+        "footer": "此优惠专属于您，将于 {{ offerExpiry }} 到期。不要错过！"
+      },
+      "cta": {
+        "primary": {
+          "text": "领取 75折",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "分享反馈",
+          "url": "{{ feedbackUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "特別オファー：Purraに戻る - 25%オフ 🎁",
+      "preheader": "あなたに戻ってきてほしいです！中に独占割引",
+      "header": {
+        "title": "またお会いできることを楽しみにしています",
+        "subtitle": "あなたへの特別なもの"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "Purraを最後に使用してから1か月が経過しました。コミュニティの一員としてあなたがいないのが寂しいです。戻ってくる価値があるようにしたいと思います。",
+        "specialOffer": {
+          "title": "🎁 独占 25%オフ",
+          "description": "大切なメンバーとして、アカウントを再アクティブ化すると**次の3か月間25%オフ**を提供します。コードを使用：",
+          "code": "{{ specialOfferCode }}",
+          "expiry": "オファー期限：{{ offerExpiry }}"
+        },
+        "whatYouGet": {
+          "title": "得られるもの",
+          "items": [
+            "**無制限のベンダーデューデリジェンス** - 必要なだけサプライヤーを調査",
+            "**リアルタイム価格監視** - 価格変更を見逃さない",
+            "**高度なリスクアラート** - ベンダーの問題に先行",
+            "**優先サポート** - 最も必要なときにヘルプを取得",
+            "**カスタム分析** - ビジネスに合わせた洞察"
+          ]
+        },
+        "feedback": {
+          "title": "改善にご協力ください",
+          "description": "Purraの使用を妨げるものがあった場合は、ぜひお聞かせください。あなたのフィードバックは、全員にとってより良い製品を構築するのに役立ちます。"
+        },
+        "footer": "このオファーはあなた専用で、{{ offerExpiry }} に期限切れになります。お見逃しなく！"
+      },
+      "cta": {
+        "primary": {
+          "text": "25%オフを請求",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "フィードバックを共有",
+          "url": "{{ feedbackUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "Sonderangebot: Kommen Sie zurück zu Purra - 25% Rabatt 🎁",
+      "preheader": "Wir wollen Sie zurück! Exklusiver Rabatt im Inneren",
+      "header": {
+        "title": "Wir würden Sie gerne wiedersehen",
+        "subtitle": "Hier ist etwas Besonderes für Sie"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Es ist einen Monat her, seit Sie Purra zuletzt verwendet haben, und wir vermissen Sie als Teil unserer Community. Wir möchten, dass es sich für Sie lohnt, zurückzukommen.",
+        "specialOffer": {
+          "title": "🎁 Exklusive 25% Rabatt",
+          "description": "Als geschätztes Mitglied bieten wir Ihnen **25% Rabatt auf Ihre nächsten 3 Monate**, wenn Sie Ihr Konto reaktivieren. Verwenden Sie den Code:",
+          "code": "{{ specialOfferCode }}",
+          "expiry": "Angebot läuft ab: {{ offerExpiry }}"
+        },
+        "whatYouGet": {
+          "title": "Was Sie erhalten",
+          "items": [
+            "**Unbegrenzte Lieferanten-Due-Diligence** - Recherchieren Sie so viele Lieferanten wie nötig",
+            "**Echtzeit-Preisüberwachung** - Verpassen Sie nie wieder eine Preisänderung",
+            "**Erweiterte Risikowarnungen** - Bleiben Sie Lieferantenproblemen voraus",
+            "**Prioritäts-Support** - Erhalten Sie Hilfe, wenn Sie sie am meisten brauchen",
+            "**Benutzerdefinierte Analytik** - Einblicke, die auf Ihr Geschäft zugeschnitten sind"
+          ]
+        },
+        "feedback": {
+          "title": "Helfen Sie uns, besser zu werden",
+          "description": "Wenn etwas Sie davon abgehalten hat, Purra zu verwenden, würden wir gerne davon hören. Ihr Feedback hilft uns, ein besseres Produkt für alle zu entwickeln."
+        },
+        "footer": "Dieses Angebot ist exklusiv für Sie und läuft am {{ offerExpiry }} ab. Verpassen Sie es nicht!"
+      },
+      "cta": {
+        "primary": {
+          "text": "25% Rabatt einfordern",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "Feedback teilen",
+          "url": "{{ feedbackUrl }}"
+        }
+      }
+    }
+  }
+}

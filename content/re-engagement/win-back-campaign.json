@@ -1,0 +1,302 @@
+{
+  "id": "win-back-campaign",
+  "category": "re-engagement",
+  "campaignName": "win_back",
+  "layout": "base",
+  "dynamicFields": [
+    "firstName",
+    "cancelledDate",
+    "topFeatureUsed",
+    "reactivateUrl",
+    "calendlyUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "One Last Thing Before You Go, {{ firstName }}",
+      "preheader": "Let's fix what went wrong - talk to our team",
+      "header": {
+        "title": "We Want to Make Things Right",
+        "subtitle": "Let's talk about what happened"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "We noticed you cancelled your Purra account on **{{ cancelledDate }}**. Before you go, we'd really like to understand what went wrong and see if we can fix it.",
+        "personalNote": {
+          "title": "📊 We Noticed You Loved {{ topFeatureUsed }}",
+          "description": "You were actively using our {{ topFeatureUsed }} features, which tells us you found value in Purra. Something must have changed, and we want to help."
+        },
+        "whatWeCanDo": {
+          "title": "How We Can Help",
+          "items": [
+            "**Talk to our team** - Schedule a quick 15-minute call to discuss your concerns",
+            "**Custom solution** - We might be able to adjust pricing or features for your needs",
+            "**Training & support** - Maybe we didn't explain things well enough",
+            "**Feature requests** - Tell us what's missing and we'll prioritize it",
+            "**Special pricing** - We can work with you on a plan that fits your budget"
+          ]
+        },
+        "commitment": {
+          "title": "Our Promise",
+          "description": "If you give us 15 minutes, we'll listen carefully and do everything we can to address your concerns. No pressure, no sales pitch - just a genuine conversation about how we can help."
+        },
+        "footer": "Your feedback matters to us. Even if you don't come back, we'd love to hear what we could do better."
+      },
+      "cta": {
+        "primary": {
+          "text": "Schedule a Call",
+          "url": "{{ calendlyUrl }}"
+        },
+        "secondary": {
+          "text": "Reactivate Account",
+          "url": "{{ reactivateUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "דבר אחד אחרון לפני שאתם הולכים, {{ firstName }}",
+      "preheader": "בואו נתקן מה שהשתבש - שוחחו עם הצוות שלנו",
+      "header": {
+        "title": "אנחנו רוצים לתקן את הדברים",
+        "subtitle": "בואו נדבר על מה שקרה"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "שמנו לב שביטלתם את חשבון Purra שלכם ב-**{{ cancelledDate }}**. לפני שאתם הולכים, נשמח באמת להבין מה השתבש ולראות אם אנחנו יכולים לתקן את זה.",
+        "personalNote": {
+          "title": "📊 שמנו לב שאהבתם את {{ topFeatureUsed }}",
+          "description": "השתמשתם באופן פעיל בתכונות {{ topFeatureUsed }} שלנו, מה שאומר לנו שמצאתם ערך ב-Purra. משהו בטח השתנה, ואנחנו רוצים לעזור."
+        },
+        "whatWeCanDo": {
+          "title": "איך אנחנו יכולים לעזור",
+          "items": [
+            "**שוחחו עם הצוות שלנו** - תזמנו שיחה מהירה של 15 דקות כדי לדון בדאגות שלכם",
+            "**פתרון מותאם אישית** - אולי נוכל להתאים תמחור או תכונות לצרכים שלכם",
+            "**הדרכה ותמיכה** - אולי לא הסברנו דברים מספיק טוב",
+            "**בקשות לתכונות** - ספרו לנו מה חסר ואנחנו נתעדף את זה",
+            "**תמחור מיוחד** - אנחנו יכולים לעבוד איתכם על תוכנית שמתאימה לתקציב שלכם"
+          ]
+        },
+        "commitment": {
+          "title": "ההבטחה שלנו",
+          "description": "אם תתנו לנו 15 דקות, נקשיב בעיון ונעשה כל מה שאנחנו יכולים כדי לטפל בדאגות שלכם. בלי לחץ, בלי מצגת מכירות - רק שיחה אמיתית על איך אנחנו יכולים לעזור."
+        },
+        "footer": "המשוב שלכם חשוב לנו. גם אם לא תחזרו, נשמח לשמוע מה היינו יכולים לעשות טוב יותר."
+      },
+      "cta": {
+        "primary": {
+          "text": "תזמנו שיחה",
+          "url": "{{ calendlyUrl }}"
+        },
+        "secondary": {
+          "text": "הפעילו מחדש חשבון",
+          "url": "{{ reactivateUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "जाने से पहले एक आखिरी बात, {{ firstName }}",
+      "preheader": "आइए ठीक करें कि क्या गलत हुआ - हमारी टीम से बात करें",
+      "header": {
+        "title": "हम चीजों को सही करना चाहते हैं",
+        "subtitle": "आइए बात करें कि क्या हुआ"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "हमने नोटिस किया कि आपने **{{ cancelledDate }}** को अपना Purra खाता रद्द कर दिया। जाने से पहले, हम वास्तव में यह समझना चाहेंगे कि क्या गलत हुआ और देखें कि क्या हम इसे ठीक कर सकते हैं।",
+        "personalNote": {
+          "title": "📊 हमने नोटिस किया कि आपको {{ topFeatureUsed }} पसंद आया",
+          "description": "आप हमारी {{ topFeatureUsed }} सुविधाओं का सक्रिय रूप से उपयोग कर रहे थे, जो हमें बताता है कि आपको Purra में मूल्य मिला। कुछ बदल गया होगा, और हम मदद करना चाहते हैं।"
+        },
+        "whatWeCanDo": {
+          "title": "हम कैसे मदद कर सकते हैं",
+          "items": [
+            "**हमारी टीम से बात करें** - अपनी चिंताओं पर चर्चा करने के लिए एक त्वरित 15 मिनट की कॉल शेड्यूल करें",
+            "**कस्टम समाधान** - हम आपकी आवश्यकताओं के लिए मूल्य निर्धारण या सुविधाओं को समायोजित करने में सक्षम हो सकते हैं",
+            "**प्रशिक्षण और समर्थन** - शायद हमने चीजों को पर्याप्त अच्छी तरह से नहीं समझाया",
+            "**फीचर अनुरोध** - हमें बताएं कि क्या गायब है और हम इसे प्राथमिकता देंगे",
+            "**विशेष मूल्य निर्धारण** - हम आपके बजट के अनुरूप योजना पर आपके साथ काम कर सकते हैं"
+          ]
+        },
+        "commitment": {
+          "title": "हमारा वादा",
+          "description": "यदि आप हमें 15 मिनट देते हैं, तो हम सावधानी से सुनेंगे और आपकी चिंताओं को दूर करने के लिए वह सब कुछ करेंगे जो हम कर सकते हैं। कोई दबाव नहीं, कोई बिक्री पिच नहीं - सिर्फ एक वास्तविक बातचीत कि हम कैसे मदद कर सकते हैं।"
+        },
+        "footer": "आपकी प्रतिक्रिया हमारे लिए मायने रखती है। भले ही आप वापस न आएं, हम सुनना पसंद करेंगे कि हम क्या बेहतर कर सकते थे।"
+      },
+      "cta": {
+        "primary": {
+          "text": "कॉल शेड्यूल करें",
+          "url": "{{ calendlyUrl }}"
+        },
+        "secondary": {
+          "text": "खाता पुनः सक्रिय करें",
+          "url": "{{ reactivateUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "Une dernière chose avant de partir, {{ firstName }}",
+      "preheader": "Réparons ce qui n'a pas marché - parlez à notre équipe",
+      "header": {
+        "title": "Nous voulons arranger les choses",
+        "subtitle": "Parlons de ce qui s'est passé"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Nous avons remarqué que vous avez annulé votre compte Purra le **{{ cancelledDate }}**. Avant de partir, nous aimerions vraiment comprendre ce qui n'a pas marché et voir si nous pouvons le réparer.",
+        "personalNote": {
+          "title": "📊 Nous avons remarqué que vous aimiez {{ topFeatureUsed }}",
+          "description": "Vous utilisiez activement nos fonctionnalités {{ topFeatureUsed }}, ce qui nous dit que vous avez trouvé de la valeur dans Purra. Quelque chose a dû changer, et nous voulons aider."
+        },
+        "whatWeCanDo": {
+          "title": "Comment nous pouvons aider",
+          "items": [
+            "**Parlez à notre équipe** - Planifiez un appel rapide de 15 minutes pour discuter de vos préoccupations",
+            "**Solution personnalisée** - Nous pourrions ajuster les prix ou les fonctionnalités selon vos besoins",
+            "**Formation et support** - Peut-être que nous n'avons pas assez bien expliqué les choses",
+            "**Demandes de fonctionnalités** - Dites-nous ce qui manque et nous le prioriserons",
+            "**Tarification spéciale** - Nous pouvons travailler avec vous sur un plan qui correspond à votre budget"
+          ]
+        },
+        "commitment": {
+          "title": "Notre promesse",
+          "description": "Si vous nous donnez 15 minutes, nous écouterons attentivement et ferons tout ce que nous pouvons pour répondre à vos préoccupations. Pas de pression, pas de discours commercial - juste une conversation sincère sur la façon dont nous pouvons aider."
+        },
+        "footer": "Vos commentaires comptent pour nous. Même si vous ne revenez pas, nous aimerions savoir ce que nous pourrions faire mieux."
+      },
+      "cta": {
+        "primary": {
+          "text": "Planifier un appel",
+          "url": "{{ calendlyUrl }}"
+        },
+        "secondary": {
+          "text": "Réactiver le compte",
+          "url": "{{ reactivateUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "在您离开之前还有最后一件事，{{ firstName }}",
+      "preheader": "让我们解决出错的问题 - 与我们的团队交谈",
+      "header": {
+        "title": "我们想把事情做好",
+        "subtitle": "让我们谈谈发生了什么"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "我们注意到您在 **{{ cancelledDate }}** 取消了您的 Purra 账户。在您离开之前，我们真的想了解出了什么问题，看看我们是否可以解决它。",
+        "personalNote": {
+          "title": "📊 我们注意到您喜欢 {{ topFeatureUsed }}",
+          "description": "您积极使用我们的 {{ topFeatureUsed }} 功能，这告诉我们您在 Purra 中找到了价值。一定发生了什么变化，我们想提供帮助。"
+        },
+        "whatWeCanDo": {
+          "title": "我们如何帮助",
+          "items": [
+            "**与我们的团队交谈** - 安排快速 15 分钟通话讨论您的顾虑",
+            "**定制解决方案** - 我们可能能够根据您的需求调整价格或功能",
+            "**培训和支持** - 也许我们没有解释得足够好",
+            "**功能请求** - 告诉我们缺少什么，我们会优先考虑",
+            "**特殊定价** - 我们可以与您合作制定适合您预算的计划"
+          ]
+        },
+        "commitment": {
+          "title": "我们的承诺",
+          "description": "如果您给我们 15 分钟，我们会仔细倾听并尽一切努力解决您的顾虑。没有压力，没有销售宣传 - 只是真诚地讨论我们如何提供帮助。"
+        },
+        "footer": "您的反馈对我们很重要。即使您不回来，我们也很想听听我们可以做得更好的地方。"
+      },
+      "cta": {
+        "primary": {
+          "text": "安排通话",
+          "url": "{{ calendlyUrl }}"
+        },
+        "secondary": {
+          "text": "重新激活账户",
+          "url": "{{ reactivateUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "行く前に最後に一つ、{{ firstName }}さん",
+      "preheader": "何が問題だったかを修正しましょう - チームと話してください",
+      "header": {
+        "title": "私たちは物事を正しくしたい",
+        "subtitle": "何が起こったか話しましょう"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "**{{ cancelledDate }}** にPurraアカウントをキャンセルされたことに気づきました。去る前に、何が問題だったのかを本当に理解し、それを修正できるかどうか確認したいと思います。",
+        "personalNote": {
+          "title": "📊 {{ topFeatureUsed }} を気に入っていただいていたことに気づきました",
+          "description": "{{ topFeatureUsed }} 機能を積極的に使用されていたことから、Purraに価値を見出していただいていたことがわかります。何かが変わったに違いなく、私たちは助けたいと思っています。"
+        },
+        "whatWeCanDo": {
+          "title": "私たちができること",
+          "items": [
+            "**チームと話す** - 懸念事項について話し合うために15分の簡単な通話をスケジュール",
+            "**カスタムソリューション** - ニーズに合わせて価格や機能を調整できるかもしれません",
+            "**トレーニングとサポート** - 十分にうまく説明できなかったかもしれません",
+            "**機能リクエスト** - 何が足りないか教えてください。優先します",
+            "**特別価格** - 予算に合ったプランで協力できます"
+          ]
+        },
+        "commitment": {
+          "title": "私たちの約束",
+          "description": "15分いただければ、注意深く耳を傾け、懸念事項に対処するためにできる限りのことをします。プレッシャーはありません、営業トークもありません - どうすれば役立つかについての誠実な会話だけです。"
+        },
+        "footer": "あなたのフィードバックは私たちにとって重要です。戻ってこなくても、どうすればもっと良くできたか聞きたいです。"
+      },
+      "cta": {
+        "primary": {
+          "text": "通話をスケジュール",
+          "url": "{{ calendlyUrl }}"
+        },
+        "secondary": {
+          "text": "アカウントを再アクティブ化",
+          "url": "{{ reactivateUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "Eine letzte Sache, bevor Sie gehen, {{ firstName }}",
+      "preheader": "Lassen Sie uns beheben, was schief gelaufen ist - sprechen Sie mit unserem Team",
+      "header": {
+        "title": "Wir möchten die Dinge richtig machen",
+        "subtitle": "Lassen Sie uns darüber sprechen, was passiert ist"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Wir haben bemerkt, dass Sie Ihr Purra-Konto am **{{ cancelledDate }}** gekündigt haben. Bevor Sie gehen, möchten wir wirklich verstehen, was schief gelaufen ist, und sehen, ob wir es beheben können.",
+        "personalNote": {
+          "title": "📊 Wir haben bemerkt, dass Sie {{ topFeatureUsed }} geliebt haben",
+          "description": "Sie haben unsere {{ topFeatureUsed }}-Funktionen aktiv genutzt, was uns sagt, dass Sie Wert in Purra gefunden haben. Etwas muss sich geändert haben, und wir möchten helfen."
+        },
+        "whatWeCanDo": {
+          "title": "Wie wir helfen können",
+          "items": [
+            "**Sprechen Sie mit unserem Team** - Vereinbaren Sie einen schnellen 15-minütigen Anruf, um Ihre Bedenken zu besprechen",
+            "**Maßgeschneiderte Lösung** - Wir können möglicherweise Preise oder Funktionen an Ihre Bedürfnisse anpassen",
+            "**Schulung & Support** - Vielleicht haben wir die Dinge nicht gut genug erklärt",
+            "**Funktionswünsche** - Sagen Sie uns, was fehlt, und wir werden es priorisieren",
+            "**Sonderpreise** - Wir können mit Ihnen an einem Plan arbeiten, der zu Ihrem Budget passt"
+          ]
+        },
+        "commitment": {
+          "title": "Unser Versprechen",
+          "description": "Wenn Sie uns 15 Minuten geben, werden wir sorgfältig zuhören und alles tun, um Ihre Bedenken anzusprechen. Kein Druck, keine Verkaufspräsentation - nur ein ehrliches Gespräch darüber, wie wir helfen können."
+        },
+        "footer": "Ihr Feedback ist uns wichtig. Auch wenn Sie nicht zurückkommen, würden wir gerne hören, was wir besser machen könnten."
+      },
+      "cta": {
+        "primary": {
+          "text": "Anruf vereinbaren",
+          "url": "{{ calendlyUrl }}"
+        },
+        "secondary": {
+          "text": "Konto reaktivieren",
+          "url": "{{ reactivateUrl }}"
+        }
+      }
+    }
+  }
+}
