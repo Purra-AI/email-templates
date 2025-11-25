@@ -1,0 +1,328 @@
+{
+  "id": "customer-story",
+  "category": "marketing",
+  "campaignName": "marketing_customer_story",
+  "layout": "base",
+  "dynamicFields": [
+    "firstName",
+    "customerName",
+    "customerCompany",
+    "industry",
+    "challenge",
+    "solution",
+    "results",
+    "quote",
+    "caseStudyUrl",
+    "dashboardUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "Case Study: How {{ customerCompany }} Achieved {{ results }}",
+      "preheader": "Real results from procurement teams like yours",
+      "header": {
+        "title": "Customer Success Story",
+        "subtitle": "{{ customerCompany }}"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "We're excited to share how {{ customerCompany }}, a {{ industry }} company, transformed their procurement process with Purra.",
+        "challenge": {
+          "title": "The Challenge",
+          "description": "{{ challenge }}"
+        },
+        "solution": {
+          "title": "The Solution",
+          "description": "{{ solution }}"
+        },
+        "results": {
+          "title": "The Results",
+          "description": "{{ results }}"
+        },
+        "testimonial": {
+          "title": "What They Say",
+          "quote": "{{ quote }}",
+          "attribution": "— {{ customerName }}, {{ customerCompany }}"
+        },
+        "cta_section": {
+          "title": "Ready for Similar Results?",
+          "description": "See how Purra can transform your procurement operations with data-driven insights and automation."
+        },
+        "footer": "Join hundreds of companies achieving procurement excellence."
+      },
+      "cta": {
+        "primary": {
+          "text": "Read Full Case Study",
+          "url": "{{ caseStudyUrl }}"
+        },
+        "secondary": {
+          "text": "Explore Purra",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "מקרה בוחן: איך {{ customerCompany }} השיגו {{ results }}",
+      "preheader": "תוצאות אמיתיות מצוותי רכש כמוכם",
+      "header": {
+        "title": "סיפור הצלחה של לקוח",
+        "subtitle": "{{ customerCompany }}"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "אנו נרגשים לשתף איך {{ customerCompany }}, חברת {{ industry }}, שינתה את תהליך הרכש שלה עם Purra.",
+        "challenge": {
+          "title": "האתגר",
+          "description": "{{ challenge }}"
+        },
+        "solution": {
+          "title": "הפתרון",
+          "description": "{{ solution }}"
+        },
+        "results": {
+          "title": "התוצאות",
+          "description": "{{ results }}"
+        },
+        "testimonial": {
+          "title": "מה הם אומרים",
+          "quote": "{{ quote }}",
+          "attribution": "— {{ customerName }}, {{ customerCompany }}"
+        },
+        "cta_section": {
+          "title": "מוכנים לתוצאות דומות?",
+          "description": "ראו כיצד Purra יכולה לשנות את פעולות הרכש שלכם עם תובנות מונחות נתונים ואוטומציה."
+        },
+        "footer": "הצטרפו למאות חברות המשיגות מצוינות ברכש."
+      },
+      "cta": {
+        "primary": {
+          "text": "קראו מקרה בוחן מלא",
+          "url": "{{ caseStudyUrl }}"
+        },
+        "secondary": {
+          "text": "חקרו את Purra",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "केस स्टडी: {{ customerCompany }} ने {{ results }} कैसे हासिल किया",
+      "preheader": "आपकी तरह की खरीद टीमों से वास्तविक परिणाम",
+      "header": {
+        "title": "ग्राहक सफलता की कहानी",
+        "subtitle": "{{ customerCompany }}"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "हम यह साझा करने के लिए उत्साहित हैं कि {{ customerCompany }}, एक {{ industry }} कंपनी ने Purra के साथ अपनी खरीद प्रक्रिया को कैसे बदल दिया।",
+        "challenge": {
+          "title": "चुनौती",
+          "description": "{{ challenge }}"
+        },
+        "solution": {
+          "title": "समाधान",
+          "description": "{{ solution }}"
+        },
+        "results": {
+          "title": "परिणाम",
+          "description": "{{ results }}"
+        },
+        "testimonial": {
+          "title": "वे क्या कहते हैं",
+          "quote": "{{ quote }}",
+          "attribution": "— {{ customerName }}, {{ customerCompany }}"
+        },
+        "cta_section": {
+          "title": "समान परिणामों के लिए तैयार?",
+          "description": "देखें कि Purra डेटा-संचालित अंतर्दृष्टि और स्वचालन के साथ आपके खरीद संचालन को कैसे बदल सकता है।"
+        },
+        "footer": "खरीद उत्कृष्टता हासिल करने वाली सैकड़ों कंपनियों में शामिल हों।"
+      },
+      "cta": {
+        "primary": {
+          "text": "पूर्ण केस स्टडी पढ़ें",
+          "url": "{{ caseStudyUrl }}"
+        },
+        "secondary": {
+          "text": "Purra का अन्वेषण करें",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "Étude de cas : Comment {{ customerCompany }} a atteint {{ results }}",
+      "preheader": "Résultats réels d'équipes d'approvisionnement comme la vôtre",
+      "header": {
+        "title": "Histoire de réussite client",
+        "subtitle": "{{ customerCompany }}"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Nous sommes ravis de partager comment {{ customerCompany }}, une entreprise {{ industry }}, a transformé son processus d'approvisionnement avec Purra.",
+        "challenge": {
+          "title": "Le défi",
+          "description": "{{ challenge }}"
+        },
+        "solution": {
+          "title": "La solution",
+          "description": "{{ solution }}"
+        },
+        "results": {
+          "title": "Les résultats",
+          "description": "{{ results }}"
+        },
+        "testimonial": {
+          "title": "Ce qu'ils disent",
+          "quote": "{{ quote }}",
+          "attribution": "— {{ customerName }}, {{ customerCompany }}"
+        },
+        "cta_section": {
+          "title": "Prêt pour des résultats similaires ?",
+          "description": "Découvrez comment Purra peut transformer vos opérations d'approvisionnement avec des insights basés sur les données et l'automatisation."
+        },
+        "footer": "Rejoignez des centaines d'entreprises atteignant l'excellence en approvisionnement."
+      },
+      "cta": {
+        "primary": {
+          "text": "Lire l'étude de cas complète",
+          "url": "{{ caseStudyUrl }}"
+        },
+        "secondary": {
+          "text": "Explorer Purra",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "案例研究：{{ customerCompany }}如何实现{{ results }}",
+      "preheader": "像您一样的采购团队的真实结果",
+      "header": {
+        "title": "客户成功案例",
+        "subtitle": "{{ customerCompany }}"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "我们很高兴分享{{ customerCompany }}，一家{{ industry }}公司，如何通过Purra改变其采购流程。",
+        "challenge": {
+          "title": "挑战",
+          "description": "{{ challenge }}"
+        },
+        "solution": {
+          "title": "解决方案",
+          "description": "{{ solution }}"
+        },
+        "results": {
+          "title": "结果",
+          "description": "{{ results }}"
+        },
+        "testimonial": {
+          "title": "他们的评价",
+          "quote": "{{ quote }}",
+          "attribution": "— {{ customerName }}, {{ customerCompany }}"
+        },
+        "cta_section": {
+          "title": "准备好获得类似结果了吗？",
+          "description": "看看Purra如何通过数据驱动的洞察和自动化来转变您的采购运营。"
+        },
+        "footer": "加入数百家实现采购卓越的公司。"
+      },
+      "cta": {
+        "primary": {
+          "text": "阅读完整案例研究",
+          "url": "{{ caseStudyUrl }}"
+        },
+        "secondary": {
+          "text": "探索Purra",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "ケーススタディ：{{ customerCompany }}が{{ results }}を達成した方法",
+      "preheader": "あなたのような調達チームからの実際の結果",
+      "header": {
+        "title": "顧客成功事例",
+        "subtitle": "{{ customerCompany }}"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "{{ customerCompany }}、{{ industry }}企業がPurraで調達プロセスをどのように変革したかを共有できることを嬉しく思います。",
+        "challenge": {
+          "title": "課題",
+          "description": "{{ challenge }}"
+        },
+        "solution": {
+          "title": "ソリューション",
+          "description": "{{ solution }}"
+        },
+        "results": {
+          "title": "結果",
+          "description": "{{ results }}"
+        },
+        "testimonial": {
+          "title": "お客様の声",
+          "quote": "{{ quote }}",
+          "attribution": "— {{ customerName }}, {{ customerCompany }}"
+        },
+        "cta_section": {
+          "title": "同様の結果を得る準備はできていますか？",
+          "description": "Purraがデータ駆動型のインサイトと自動化で調達業務をどのように変革できるかをご覧ください。"
+        },
+        "footer": "調達の卓越性を達成している何百もの企業に参加してください。"
+      },
+      "cta": {
+        "primary": {
+          "text": "完全なケーススタディを読む",
+          "url": "{{ caseStudyUrl }}"
+        },
+        "secondary": {
+          "text": "Purraを探索",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "Fallstudie: Wie {{ customerCompany }} {{ results }} erreicht hat",
+      "preheader": "Echte Ergebnisse von Beschaffungsteams wie Ihrem",
+      "header": {
+        "title": "Kundenerfolgsgeschichte",
+        "subtitle": "{{ customerCompany }}"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Wir freuen uns zu teilen, wie {{ customerCompany }}, ein {{ industry }}-Unternehmen, seinen Beschaffungsprozess mit Purra transformiert hat.",
+        "challenge": {
+          "title": "Die Herausforderung",
+          "description": "{{ challenge }}"
+        },
+        "solution": {
+          "title": "Die Lösung",
+          "description": "{{ solution }}"
+        },
+        "results": {
+          "title": "Die Ergebnisse",
+          "description": "{{ results }}"
+        },
+        "testimonial": {
+          "title": "Was sie sagen",
+          "quote": "{{ quote }}",
+          "attribution": "— {{ customerName }}, {{ customerCompany }}"
+        },
+        "cta_section": {
+          "title": "Bereit für ähnliche Ergebnisse?",
+          "description": "Sehen Sie, wie Purra Ihre Beschaffungsoperationen mit datengesteuerten Erkenntnissen und Automatisierung transformieren kann."
+        },
+        "footer": "Schließen Sie sich Hunderten von Unternehmen an, die Beschaffungsexzellenz erreichen."
+      },
+      "cta": {
+        "primary": {
+          "text": "Vollständige Fallstudie lesen",
+          "url": "{{ caseStudyUrl }}"
+        },
+        "secondary": {
+          "text": "Purra erkunden",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    }
+  }
+}

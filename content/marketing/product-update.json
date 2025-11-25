@@ -1,0 +1,389 @@
+{
+  "id": "product-update",
+  "category": "marketing",
+  "campaignName": "marketing_product_update",
+  "layout": "base",
+  "dynamicFields": [
+    "firstName",
+    "updateTitle",
+    "releaseDate",
+    "keyFeatures",
+    "benefitsDescription",
+    "videoUrl",
+    "docsUrl",
+    "dashboardUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "🚀 New in Purra: {{ updateTitle }}",
+      "preheader": "Discover the latest features designed to enhance your procurement workflow",
+      "header": {
+        "title": "Product Update",
+        "subtitle": "{{ updateTitle }}"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "We're excited to announce new features and improvements to Purra that will make your procurement even more efficient and data-driven.",
+        "announcement": {
+          "title": "🎉 What's New",
+          "releaseDate": "Released: {{ releaseDate }}"
+        },
+        "keyFeatures": {
+          "title": "✨ Key Features",
+          "description": "{{ keyFeatures }}"
+        },
+        "benefits": {
+          "title": "💡 How This Helps You",
+          "description": "{{ benefitsDescription }}"
+        },
+        "highlights": {
+          "title": "Feature Highlights",
+          "items": [
+            "**Enhanced Performance** - Faster analytics and report generation",
+            "**Improved UX** - Streamlined workflows and intuitive navigation",
+            "**Advanced Insights** - More powerful data visualization and predictions",
+            "**Better Integrations** - Seamless connectivity with your existing tools",
+            "**Mobile Optimized** - Full functionality on the go"
+          ]
+        },
+        "gettingStarted": {
+          "title": "Getting Started",
+          "description": "These features are now live in your account! No action required - just log in and start exploring. Check out our documentation and video tutorial to learn more."
+        },
+        "feedback": {
+          "title": "We Want Your Feedback",
+          "description": "Your input shapes our product roadmap. Let us know what you think about these updates and what you'd like to see next."
+        },
+        "footer": "Always improving, always innovating."
+      },
+      "cta": {
+        "primary": {
+          "text": "Try New Features",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "Watch Tutorial",
+          "url": "{{ videoUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "🚀 חדש ב-Purra: {{ updateTitle }}",
+      "preheader": "גלו את התכונות האחרונות שתוכננו לשיפור תהליך הרכש שלכם",
+      "header": {
+        "title": "עדכון מוצר",
+        "subtitle": "{{ updateTitle }}"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "אנו נרגשים להכריז על תכונות ושיפורים חדשים ל-Purra שיהפכו את הרכש שלכם ליעיל ומונחה נתונים עוד יותר.",
+        "announcement": {
+          "title": "🎉 מה חדש",
+          "releaseDate": "שוחרר: {{ releaseDate }}"
+        },
+        "keyFeatures": {
+          "title": "✨ תכונות מפתח",
+          "description": "{{ keyFeatures }}"
+        },
+        "benefits": {
+          "title": "💡 איך זה עוזר לכם",
+          "description": "{{ benefitsDescription }}"
+        },
+        "highlights": {
+          "title": "הדגשים של התכונות",
+          "items": [
+            "**ביצועים משופרים** - ניתוח מהיר יותר ויצירת דוחות",
+            "**חוויית משתמש משופרת** - תהליכי עבודה מייעלים וניווט אינטואיטיבי",
+            "**תובנות מתקדמות** - הצגת נתונים וחיזויים חזקים יותר",
+            "**אינטגרציות טובות יותר** - קישוריות חלקה עם הכלים הקיימים שלכם",
+            "**מותאם לנייד** - פונקציונליות מלאה בדרכים"
+          ]
+        },
+        "gettingStarted": {
+          "title": "איך להתחיל",
+          "description": "התכונות הללו כעת חיות בחשבון שלכם! לא נדרשת פעולה - פשוט התחברו והתחילו לחקור. בדקו את התיעוד ומדריך הווידאו שלנו כדי ללמוד עוד."
+        },
+        "feedback": {
+          "title": "אנחנו רוצים את המשוב שלכם",
+          "description": "הקלט שלכם מעצב את מפת הדרכים של המוצר שלנו. ספרו לנו מה אתם חושבים על העדכונים הללו ומה הייתם רוצים לראות הבא."
+        },
+        "footer": "תמיד משתפרים, תמיד חדשניים."
+      },
+      "cta": {
+        "primary": {
+          "text": "נסו תכונות חדשות",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "צפו במדריך",
+          "url": "{{ videoUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "🚀 Purra में नया: {{ updateTitle }}",
+      "preheader": "अपने खरीद वर्कफ़्लो को बेहतर बनाने के लिए डिज़ाइन की गई नवीनतम सुविधाओं की खोज करें",
+      "header": {
+        "title": "उत्पाद अपडेट",
+        "subtitle": "{{ updateTitle }}"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "हम Purra की नई सुविधाओं और सुधारों की घोषणा करने के लिए उत्साहित हैं जो आपकी खरीद को और भी अधिक कुशल और डेटा-संचालित बना देंगे।",
+        "announcement": {
+          "title": "🎉 क्या नया है",
+          "releaseDate": "जारी किया गया: {{ releaseDate }}"
+        },
+        "keyFeatures": {
+          "title": "✨ मुख्य सुविधाएं",
+          "description": "{{ keyFeatures }}"
+        },
+        "benefits": {
+          "title": "💡 यह आपकी कैसे मदद करता है",
+          "description": "{{ benefitsDescription }}"
+        },
+        "highlights": {
+          "title": "सुविधा हाइलाइट्स",
+          "items": [
+            "**बेहतर प्रदर्शन** - तेज़ विश्लेषण और रिपोर्ट जनरेशन",
+            "**सुधरा हुआ UX** - सुव्यवस्थित वर्कफ़्लो और सहज नेविगेशन",
+            "**उन्नत अंतर्दृष्टि** - अधिक शक्तिशाली डेटा विज़ुअलाइज़ेशन और भविष्यवाणियां",
+            "**बेहतर एकीकरण** - आपके मौजूदा टूल के साथ सहज कनेक्टिविटी",
+            "**मोबाइल अनुकूलित** - चलते-फिरते पूर्ण कार्यक्षमता"
+          ]
+        },
+        "gettingStarted": {
+          "title": "शुरू करना",
+          "description": "ये सुविधाएं अब आपके खाते में लाइव हैं! कोई कार्रवाई आवश्यक नहीं - बस लॉगिन करें और खोज शुरू करें। अधिक जानने के लिए हमारे दस्तावेज़ और वीडियो ट्यूटोरियल देखें।"
+        },
+        "feedback": {
+          "title": "हम आपकी प्रतिक्रिया चाहते हैं",
+          "description": "आपका इनपुट हमारे उत्पाद रोडमैप को आकार देता है। हमें बताएं कि आप इन अपडेट के बारे में क्या सोचते हैं और आप आगे क्या देखना चाहेंगे।"
+        },
+        "footer": "हमेशा सुधार, हमेशा नवाचार।"
+      },
+      "cta": {
+        "primary": {
+          "text": "नई सुविधाएं आज़माएं",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "ट्यूटोरियल देखें",
+          "url": "{{ videoUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "🚀 Nouveau dans Purra : {{ updateTitle }}",
+      "preheader": "Découvrez les dernières fonctionnalités conçues pour améliorer votre flux de travail d'approvisionnement",
+      "header": {
+        "title": "Mise à jour du produit",
+        "subtitle": "{{ updateTitle }}"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Nous sommes ravis d'annoncer de nouvelles fonctionnalités et améliorations de Purra qui rendront votre approvisionnement encore plus efficace et basé sur les données.",
+        "announcement": {
+          "title": "🎉 Quoi de neuf",
+          "releaseDate": "Publié : {{ releaseDate }}"
+        },
+        "keyFeatures": {
+          "title": "✨ Fonctionnalités clés",
+          "description": "{{ keyFeatures }}"
+        },
+        "benefits": {
+          "title": "💡 Comment cela vous aide",
+          "description": "{{ benefitsDescription }}"
+        },
+        "highlights": {
+          "title": "Points forts des fonctionnalités",
+          "items": [
+            "**Performances améliorées** - Analyses et génération de rapports plus rapides",
+            "**UX améliorée** - Workflows rationalisés et navigation intuitive",
+            "**Insights avancés** - Visualisation et prédictions de données plus puissantes",
+            "**Meilleures intégrations** - Connectivité transparente avec vos outils existants",
+            "**Optimisé pour mobile** - Fonctionnalité complète en déplacement"
+          ]
+        },
+        "gettingStarted": {
+          "title": "Pour commencer",
+          "description": "Ces fonctionnalités sont maintenant actives dans votre compte ! Aucune action requise - connectez-vous simplement et commencez à explorer. Consultez notre documentation et notre tutoriel vidéo pour en savoir plus."
+        },
+        "feedback": {
+          "title": "Nous voulons vos commentaires",
+          "description": "Votre contribution façonne notre feuille de route produit. Faites-nous savoir ce que vous pensez de ces mises à jour et ce que vous aimeriez voir ensuite."
+        },
+        "footer": "Toujours en amélioration, toujours innovant."
+      },
+      "cta": {
+        "primary": {
+          "text": "Essayer les nouvelles fonctionnalités",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "Regarder le tutoriel",
+          "url": "{{ videoUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "🚀 Purra新功能：{{ updateTitle }}",
+      "preheader": "发现旨在增强您采购工作流程的最新功能",
+      "header": {
+        "title": "产品更新",
+        "subtitle": "{{ updateTitle }}"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "我们很高兴宣布Purra的新功能和改进，这些将使您的采购更加高效和数据驱动。",
+        "announcement": {
+          "title": "🎉 新功能",
+          "releaseDate": "发布日期：{{ releaseDate }}"
+        },
+        "keyFeatures": {
+          "title": "✨ 关键功能",
+          "description": "{{ keyFeatures }}"
+        },
+        "benefits": {
+          "title": "💡 如何帮助您",
+          "description": "{{ benefitsDescription }}"
+        },
+        "highlights": {
+          "title": "功能亮点",
+          "items": [
+            "**增强性能** - 更快的分析和报告生成",
+            "**改进的用户体验** - 简化的工作流程和直观的导航",
+            "**高级洞察** - 更强大的数据可视化和预测",
+            "**更好的集成** - 与现有工具的无缝连接",
+            "**移动优化** - 随时随地的完整功能"
+          ]
+        },
+        "gettingStarted": {
+          "title": "开始使用",
+          "description": "这些功能现已在您的账户中上线！无需任何操作 - 只需登录并开始探索。查看我们的文档和视频教程了解更多信息。"
+        },
+        "feedback": {
+          "title": "我们需要您的反馈",
+          "description": "您的意见塑造我们的产品路线图。让我们知道您对这些更新的看法以及您希望接下来看到什么。"
+        },
+        "footer": "始终改进，始终创新。"
+      },
+      "cta": {
+        "primary": {
+          "text": "试用新功能",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "观看教程",
+          "url": "{{ videoUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "🚀 Purraの新機能：{{ updateTitle }}",
+      "preheader": "調達ワークフローを強化するために設計された最新機能を発見してください",
+      "header": {
+        "title": "製品アップデート",
+        "subtitle": "{{ updateTitle }}"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "Purraの新機能と改善を発表できることを嬉しく思います。これらにより、調達がさらに効率的でデータ駆動型になります。",
+        "announcement": {
+          "title": "🎉 新機能",
+          "releaseDate": "リリース日：{{ releaseDate }}"
+        },
+        "keyFeatures": {
+          "title": "✨ 主な機能",
+          "description": "{{ keyFeatures }}"
+        },
+        "benefits": {
+          "title": "💡 どのように役立つか",
+          "description": "{{ benefitsDescription }}"
+        },
+        "highlights": {
+          "title": "機能のハイライト",
+          "items": [
+            "**パフォーマンス向上** - より高速な分析とレポート生成",
+            "**UX改善** - 合理化されたワークフローと直感的なナビゲーション",
+            "**高度なインサイト** - より強力なデータ視覚化と予測",
+            "**統合の改善** - 既存ツールとのシームレスな接続",
+            "**モバイル最適化** - 外出先での完全な機能性"
+          ]
+        },
+        "gettingStarted": {
+          "title": "始める",
+          "description": "これらの機能はアカウントで利用可能になりました！アクションは不要です - ログインして探索を開始してください。詳細については、ドキュメントとビデオチュートリアルをご覧ください。"
+        },
+        "feedback": {
+          "title": "フィードバックをお待ちしています",
+          "description": "あなたの意見が製品ロードマップを形作ります。これらのアップデートについてどう思うか、次に何を見たいかを教えてください。"
+        },
+        "footer": "常に改善、常に革新。"
+      },
+      "cta": {
+        "primary": {
+          "text": "新機能を試す",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "チュートリアルを見る",
+          "url": "{{ videoUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "🚀 Neu in Purra: {{ updateTitle }}",
+      "preheader": "Entdecken Sie die neuesten Funktionen zur Verbesserung Ihres Beschaffungsworkflows",
+      "header": {
+        "title": "Produktaktualisierung",
+        "subtitle": "{{ updateTitle }}"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Wir freuen uns, neue Funktionen und Verbesserungen für Purra anzukündigen, die Ihre Beschaffung noch effizienter und datengesteuerter machen.",
+        "announcement": {
+          "title": "🎉 Was ist neu",
+          "releaseDate": "Veröffentlicht: {{ releaseDate }}"
+        },
+        "keyFeatures": {
+          "title": "✨ Hauptmerkmale",
+          "description": "{{ keyFeatures }}"
+        },
+        "benefits": {
+          "title": "💡 Wie Ihnen das hilft",
+          "description": "{{ benefitsDescription }}"
+        },
+        "highlights": {
+          "title": "Funktionshighlights",
+          "items": [
+            "**Verbesserte Leistung** - Schnellere Analysen und Berichtsgenerierung",
+            "**Verbesserte UX** - Optimierte Workflows und intuitive Navigation",
+            "**Erweiterte Einblicke** - Leistungsfähigere Datenvisualisierung und Vorhersagen",
+            "**Bessere Integrationen** - Nahtlose Konnektivität mit Ihren vorhandenen Tools",
+            "**Mobil optimiert** - Volle Funktionalität unterwegs"
+          ]
+        },
+        "gettingStarted": {
+          "title": "Erste Schritte",
+          "description": "Diese Funktionen sind jetzt in Ihrem Konto verfügbar! Keine Aktion erforderlich - melden Sie sich einfach an und beginnen Sie zu erkunden. Schauen Sie sich unsere Dokumentation und das Video-Tutorial an, um mehr zu erfahren."
+        },
+        "feedback": {
+          "title": "Wir möchten Ihr Feedback",
+          "description": "Ihr Input formt unsere Produkt-Roadmap. Lassen Sie uns wissen, was Sie über diese Updates denken und was Sie als Nächstes sehen möchten."
+        },
+        "footer": "Immer verbessern, immer innovieren."
+      },
+      "cta": {
+        "primary": {
+          "text": "Neue Funktionen ausprobieren",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "Tutorial ansehen",
+          "url": "{{ videoUrl }}"
+        }
+      }
+    }
+  }
+}

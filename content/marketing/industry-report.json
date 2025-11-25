@@ -1,0 +1,339 @@
+{
+  "id": "industry-report",
+  "category": "marketing",
+  "campaignName": "marketing_industry_report",
+  "layout": "base",
+  "dynamicFields": [
+    "firstName",
+    "reportTitle",
+    "industry",
+    "keyFindings",
+    "trendHighlight",
+    "downloadUrl",
+    "dashboardUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "📊 New Industry Report: {{ reportTitle }}",
+      "preheader": "Essential insights for {{ industry }} procurement professionals",
+      "header": {
+        "title": "Industry Report",
+        "subtitle": "{{ reportTitle }}"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "We've just released our latest industry report with exclusive data and insights for {{ industry }} procurement teams.",
+        "keyFindings": {
+          "title": "🔍 Key Findings",
+          "description": "{{ keyFindings }}"
+        },
+        "trendHighlight": {
+          "title": "📈 Trend to Watch",
+          "description": "{{ trendHighlight }}"
+        },
+        "reportIncludes": {
+          "title": "What's Inside",
+          "items": [
+            "Market trends and forecasts",
+            "Benchmarking data from industry peers",
+            "Cost optimization strategies",
+            "Supply chain risk analysis",
+            "Technology adoption insights",
+            "Expert recommendations"
+          ]
+        },
+        "value": {
+          "title": "Why This Matters",
+          "description": "Stay ahead of the competition with data-driven insights that inform your procurement strategy and help you identify cost-saving opportunities."
+        },
+        "footer": "Empowering smarter procurement decisions."
+      },
+      "cta": {
+        "primary": {
+          "text": "Download Full Report",
+          "url": "{{ downloadUrl }}"
+        },
+        "secondary": {
+          "text": "Learn More",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "📊 דוח תעשייה חדש: {{ reportTitle }}",
+      "preheader": "תובנות חיוניות לאנשי מקצוע ברכש {{ industry }}",
+      "header": {
+        "title": "דוח תעשייה",
+        "subtitle": "{{ reportTitle }}"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "זה עתה פרסמנו את דוח התעשייה האחרון שלנו עם נתונים ותובנות בלעדיות עבור צוותי רכש ב{{ industry }}.",
+        "keyFindings": {
+          "title": "🔍 ממצאים מרכזיים",
+          "description": "{{ keyFindings }}"
+        },
+        "trendHighlight": {
+          "title": "📈 מגמה לעקוב",
+          "description": "{{ trendHighlight }}"
+        },
+        "reportIncludes": {
+          "title": "מה בפנים",
+          "items": [
+            "מגמות שוק ותחזיות",
+            "נתוני השוואה מעמיתים בתעשייה",
+            "אסטרטגיות אופטימיזציה של עלויות",
+            "ניתוח סיכוני שרשרת אספקה",
+            "תובנות אימוץ טכנולוגיה",
+            "המלצות מומחים"
+          ]
+        },
+        "value": {
+          "title": "למה זה חשוב",
+          "description": "הישארו לפני התחרות עם תובנות מונחות נתונים שמעדכנות את אסטרטגיית הרכש שלכם ועוזרות לכם לזהות הזדמנויות לחיסכון בעלויות."
+        },
+        "footer": "מעצימים החלטות רכש חכמות יותר."
+      },
+      "cta": {
+        "primary": {
+          "text": "הורידו דוח מלא",
+          "url": "{{ downloadUrl }}"
+        },
+        "secondary": {
+          "text": "למדו עוד",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "📊 नई उद्योग रिपोर्ट: {{ reportTitle }}",
+      "preheader": "{{ industry }} खरीद पेशेवरों के लिए आवश्यक अंतर्दृष्टि",
+      "header": {
+        "title": "उद्योग रिपोर्ट",
+        "subtitle": "{{ reportTitle }}"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "हमने अभी-अभी {{ industry }} खरीद टीमों के लिए विशेष डेटा और अंतर्दृष्टि के साथ अपनी नवीनतम उद्योग रिपोर्ट जारी की है।",
+        "keyFindings": {
+          "title": "🔍 मुख्य निष्कर्ष",
+          "description": "{{ keyFindings }}"
+        },
+        "trendHighlight": {
+          "title": "📈 देखने के लिए रुझान",
+          "description": "{{ trendHighlight }}"
+        },
+        "reportIncludes": {
+          "title": "अंदर क्या है",
+          "items": [
+            "बाजार के रुझान और पूर्वानुमान",
+            "उद्योग साथियों से बेंचमार्किंग डेटा",
+            "लागत अनुकूलन रणनीतियाँ",
+            "आपूर्ति श्रृंखला जोखिम विश्लेषण",
+            "प्रौद्योगिकी अपनाने की अंतर्दृष्टि",
+            "विशेषज्ञ सिफारिशें"
+          ]
+        },
+        "value": {
+          "title": "यह क्यों मायने रखता है",
+          "description": "डेटा-संचालित अंतर्दृष्टि के साथ प्रतिस्पर्धा से आगे रहें जो आपकी खरीद रणनीति को सूचित करती है और आपको लागत बचत के अवसरों की पहचान करने में मदद करती है।"
+        },
+        "footer": "स्मार्ट खरीद निर्णयों को सशक्त बनाना।"
+      },
+      "cta": {
+        "primary": {
+          "text": "पूर्ण रिपोर्ट डाउनलोड करें",
+          "url": "{{ downloadUrl }}"
+        },
+        "secondary": {
+          "text": "और जानें",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "📊 Nouveau rapport sectoriel : {{ reportTitle }}",
+      "preheader": "Insights essentiels pour les professionnels de l'approvisionnement {{ industry }}",
+      "header": {
+        "title": "Rapport sectoriel",
+        "subtitle": "{{ reportTitle }}"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Nous venons de publier notre dernier rapport sectoriel avec des données et insights exclusifs pour les équipes d'approvisionnement {{ industry }}.",
+        "keyFindings": {
+          "title": "🔍 Principales conclusions",
+          "description": "{{ keyFindings }}"
+        },
+        "trendHighlight": {
+          "title": "📈 Tendance à surveiller",
+          "description": "{{ trendHighlight }}"
+        },
+        "reportIncludes": {
+          "title": "Ce qui est inclus",
+          "items": [
+            "Tendances et prévisions du marché",
+            "Données de benchmarking des pairs du secteur",
+            "Stratégies d'optimisation des coûts",
+            "Analyse des risques de la chaîne d'approvisionnement",
+            "Insights sur l'adoption de la technologie",
+            "Recommandations d'experts"
+          ]
+        },
+        "value": {
+          "title": "Pourquoi c'est important",
+          "description": "Gardez une longueur d'avance sur la concurrence avec des insights basés sur les données qui éclairent votre stratégie d'approvisionnement et vous aident à identifier les opportunités d'économies."
+        },
+        "footer": "Renforcer les décisions d'approvisionnement plus intelligentes."
+      },
+      "cta": {
+        "primary": {
+          "text": "Télécharger le rapport complet",
+          "url": "{{ downloadUrl }}"
+        },
+        "secondary": {
+          "text": "En savoir plus",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "📊 新行业报告：{{ reportTitle }}",
+      "preheader": "{{ industry }}采购专业人士的重要洞察",
+      "header": {
+        "title": "行业报告",
+        "subtitle": "{{ reportTitle }}"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "我们刚刚发布了最新的行业报告，为{{ industry }}采购团队提供独家数据和洞察。",
+        "keyFindings": {
+          "title": "🔍 关键发现",
+          "description": "{{ keyFindings }}"
+        },
+        "trendHighlight": {
+          "title": "📈 值得关注的趋势",
+          "description": "{{ trendHighlight }}"
+        },
+        "reportIncludes": {
+          "title": "报告内容",
+          "items": [
+            "市场趋势和预测",
+            "来自行业同行的基准数据",
+            "成本优化策略",
+            "供应链风险分析",
+            "技术采用洞察",
+            "专家建议"
+          ]
+        },
+        "value": {
+          "title": "为什么重要",
+          "description": "通过数据驱动的洞察保持竞争优势，这些洞察为您的采购策略提供信息并帮助您识别成本节省机会。"
+        },
+        "footer": "赋能更智能的采购决策。"
+      },
+      "cta": {
+        "primary": {
+          "text": "下载完整报告",
+          "url": "{{ downloadUrl }}"
+        },
+        "secondary": {
+          "text": "了解更多",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "📊 新しい業界レポート：{{ reportTitle }}",
+      "preheader": "{{ industry }}調達プロフェッショナルのための重要なインサイト",
+      "header": {
+        "title": "業界レポート",
+        "subtitle": "{{ reportTitle }}"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "{{ industry }}調達チーム向けの独占データとインサイトを含む最新の業界レポートをリリースしました。",
+        "keyFindings": {
+          "title": "🔍 主要な発見",
+          "description": "{{ keyFindings }}"
+        },
+        "trendHighlight": {
+          "title": "📈 注目すべきトレンド",
+          "description": "{{ trendHighlight }}"
+        },
+        "reportIncludes": {
+          "title": "含まれる内容",
+          "items": [
+            "市場トレンドと予測",
+            "業界同業者からのベンチマークデータ",
+            "コスト最適化戦略",
+            "サプライチェーンリスク分析",
+            "テクノロジー採用のインサイト",
+            "専門家の推奨事項"
+          ]
+        },
+        "value": {
+          "title": "なぜ重要か",
+          "description": "調達戦略を通知し、コスト削減の機会を特定するのに役立つデータ駆動型のインサイトで競争に先んじてください。"
+        },
+        "footer": "よりスマートな調達決定を支援。"
+      },
+      "cta": {
+        "primary": {
+          "text": "完全なレポートをダウンロード",
+          "url": "{{ downloadUrl }}"
+        },
+        "secondary": {
+          "text": "詳細を見る",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "📊 Neuer Branchenbericht: {{ reportTitle }}",
+      "preheader": "Wesentliche Erkenntnisse für {{ industry }}-Beschaffungsprofis",
+      "header": {
+        "title": "Branchenbericht",
+        "subtitle": "{{ reportTitle }}"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Wir haben gerade unseren neuesten Branchenbericht mit exklusiven Daten und Erkenntnissen für {{ industry }}-Beschaffungsteams veröffentlicht.",
+        "keyFindings": {
+          "title": "🔍 Wichtige Erkenntnisse",
+          "description": "{{ keyFindings }}"
+        },
+        "trendHighlight": {
+          "title": "📈 Zu beobachtender Trend",
+          "description": "{{ trendHighlight }}"
+        },
+        "reportIncludes": {
+          "title": "Was enthalten ist",
+          "items": [
+            "Markttrends und Prognosen",
+            "Benchmarking-Daten von Branchenkollegen",
+            "Kostenoptimierungsstrategien",
+            "Lieferketten-Risikoanalyse",
+            "Technologieadoptions-Erkenntnisse",
+            "Expertenempfehlungen"
+          ]
+        },
+        "value": {
+          "title": "Warum das wichtig ist",
+          "description": "Bleiben Sie der Konkurrenz mit datengesteuerten Erkenntnissen voraus, die Ihre Beschaffungsstrategie informieren und Ihnen helfen, Kosteneinsparmöglichkeiten zu identifizieren."
+        },
+        "footer": "Intelligentere Beschaffungsentscheidungen ermöglichen."
+      },
+      "cta": {
+        "primary": {
+          "text": "Vollständigen Bericht herunterladen",
+          "url": "{{ downloadUrl }}"
+        },
+        "secondary": {
+          "text": "Mehr erfahren",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    }
+  }
+}
