@@ -1,0 +1,301 @@
+{
+  "id": "feature-spotlight",
+  "category": "marketing",
+  "campaignName": "feature_spotlight",
+  "layout": "base",
+  "dynamicFields": [
+    "firstName",
+    "featureName",
+    "featureUrl",
+    "tutorialUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "New Feature: {{ featureName }}",
+      "preheader": "Discover what's new in Purra and how it can help you",
+      "header": {
+        "title": "Introducing {{ featureName }}",
+        "subtitle": "A powerful new way to work smarter"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "We're excited to introduce **{{ featureName }}** - a feature designed to make your procurement workflow even more efficient.",
+        "whatIsIt": {
+          "title": "What is {{ featureName }}?",
+          "description": "This powerful new feature helps you streamline vendor research, automate repetitive tasks, and gain deeper insights into your supply chain - all with just a few clicks."
+        },
+        "keyBenefits": {
+          "title": "Key Benefits",
+          "items": [
+            "**Save time** - Automate manual processes and focus on strategic decisions",
+            "**Better insights** - Get more comprehensive data analysis",
+            "**Easy to use** - Intuitive interface requires no training",
+            "**Seamless integration** - Works perfectly with your existing workflow",
+            "**Instant results** - See improvements immediately"
+          ]
+        },
+        "howToUse": {
+          "title": "Getting Started",
+          "description": "{{ featureName }} is now available in your dashboard. Click below to try it out, or watch our quick tutorial to learn how to make the most of it."
+        },
+        "footer": "Have questions or feedback? We'd love to hear from you!"
+      },
+      "cta": {
+        "primary": {
+          "text": "Try {{ featureName }}",
+          "url": "{{ featureUrl }}"
+        },
+        "secondary": {
+          "text": "Watch Tutorial",
+          "url": "{{ tutorialUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "תכונה חדשה: {{ featureName }}",
+      "preheader": "גלו מה חדש ב-Purra ואיך זה יכול לעזור לכם",
+      "header": {
+        "title": "מציגים את {{ featureName }}",
+        "subtitle": "דרך חדשה ועוצמתית לעבוד בצורה חכמה יותר"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "אנחנו נרגשים להציג את **{{ featureName }}** - תכונה שנועדה להפוך את זרימת העבודה של הרכש שלכם ליעילה עוד יותר.",
+        "whatIsIt": {
+          "title": "מה זה {{ featureName }}?",
+          "description": "תכונה עוצמתית חדשה זו עוזרת לכם לייעל מחקר ספקים, להפוך משימות חוזרות לאוטומטיות, ולקבל תובנות עמוקות יותר על שרשרת האספקה שלכם - הכל בכמה קליקים בלבד."
+        },
+        "keyBenefits": {
+          "title": "יתרונות מפתח",
+          "items": [
+            "**חסכו זמן** - הפכו תהליכים ידניים לאוטומטיים והתמקדו בהחלטות אסטרטגיות",
+            "**תובנות טובות יותר** - קבלו ניתוח נתונים מקיף יותר",
+            "**קל לשימוש** - ממשק אינטואיטיבי שלא דורש הדרכה",
+            "**אינטגרציה חלקה** - עובד בצורה מושלמת עם זרימת העבודה הקיימת שלכם",
+            "**תוצאות מיידיות** - ראו שיפורים מיד"
+          ]
+        },
+        "howToUse": {
+          "title": "התחלה",
+          "description": "{{ featureName }} זמין כעת בלוח הבקרה שלכם. לחצו למטה כדי לנסות אותו, או צפו במדריך המהיר שלנו כדי ללמוד איך להפיק ממנו את המיטב."
+        },
+        "footer": "יש שאלות או משוב? נשמח לשמוע מכם!"
+      },
+      "cta": {
+        "primary": {
+          "text": "נסו את {{ featureName }}",
+          "url": "{{ featureUrl }}"
+        },
+        "secondary": {
+          "text": "צפו במדריך",
+          "url": "{{ tutorialUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "नई सुविधा: {{ featureName }}",
+      "preheader": "Purra में नया क्या है और यह आपकी कैसे मदद कर सकता है, जानें",
+      "header": {
+        "title": "{{ featureName }} का परिचय",
+        "subtitle": "अधिक स्मार्ट तरीके से काम करने का एक शक्तिशाली नया तरीका"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "हम **{{ featureName }}** पेश करने के लिए उत्साहित हैं - एक ऐसी सुविधा जो आपके खरीद वर्कफ़्लो को और अधिक कुशल बनाने के लिए डिज़ाइन की गई है।",
+        "whatIsIt": {
+          "title": "{{ featureName }} क्या है?",
+          "description": "यह शक्तिशाली नई सुविधा आपको विक्रेता अनुसंधान को सुव्यवस्थित करने, दोहराए जाने वाले कार्यों को स्वचालित करने और अपनी आपूर्ति श्रृंखला में गहरी जानकारी प्राप्त करने में मदद करती है - यह सब कुछ क्लिक के साथ।"
+        },
+        "keyBenefits": {
+          "title": "मुख्य लाभ",
+          "items": [
+            "**समय बचाएं** - मैनुअल प्रक्रियाओं को स्वचालित करें और रणनीतिक निर्णयों पर ध्यान केंद्रित करें",
+            "**बेहतर अंतर्दृष्टि** - अधिक व्यापक डेटा विश्लेषण प्राप्त करें",
+            "**उपयोग में आसान** - सहज ज्ञान युक्त इंटरफ़ेस को प्रशिक्षण की आवश्यकता नहीं है",
+            "**सहज एकीकरण** - आपके मौजूदा वर्कफ़्लो के साथ पूरी तरह से काम करता है",
+            "**तत्काल परिणाम** - तुरंत सुधार देखें"
+          ]
+        },
+        "howToUse": {
+          "title": "शुरुआत करना",
+          "description": "{{ featureName }} अब आपके डैशबोर्ड में उपलब्ध है। इसे आज़माने के लिए नीचे क्लिक करें, या इसका अधिकतम लाभ उठाने का तरीका जानने के लिए हमारा त्वरित ट्यूटोरियल देखें।"
+        },
+        "footer": "प्रश्न या प्रतिक्रिया है? हम आपसे सुनना पसंद करेंगे!"
+      },
+      "cta": {
+        "primary": {
+          "text": "{{ featureName }} आज़माएं",
+          "url": "{{ featureUrl }}"
+        },
+        "secondary": {
+          "text": "ट्यूटोरियल देखें",
+          "url": "{{ tutorialUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "Nouvelle fonctionnalité : {{ featureName }}",
+      "preheader": "Découvrez les nouveautés de Purra et comment elles peuvent vous aider",
+      "header": {
+        "title": "Présentation de {{ featureName }}",
+        "subtitle": "Une nouvelle façon puissante de travailler plus intelligemment"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Nous sommes ravis de présenter **{{ featureName }}** - une fonctionnalité conçue pour rendre votre flux de travail d'approvisionnement encore plus efficace.",
+        "whatIsIt": {
+          "title": "Qu'est-ce que {{ featureName }} ?",
+          "description": "Cette nouvelle fonctionnalité puissante vous aide à rationaliser la recherche de fournisseurs, à automatiser les tâches répétitives et à obtenir des informations plus approfondies sur votre chaîne d'approvisionnement - le tout en quelques clics."
+        },
+        "keyBenefits": {
+          "title": "Avantages clés",
+          "items": [
+            "**Gagnez du temps** - Automatisez les processus manuels et concentrez-vous sur les décisions stratégiques",
+            "**Meilleures informations** - Obtenez une analyse de données plus complète",
+            "**Facile à utiliser** - Interface intuitive ne nécessitant aucune formation",
+            "**Intégration transparente** - Fonctionne parfaitement avec votre flux de travail existant",
+            "**Résultats instantanés** - Voyez les améliorations immédiatement"
+          ]
+        },
+        "howToUse": {
+          "title": "Commencer",
+          "description": "{{ featureName }} est maintenant disponible dans votre tableau de bord. Cliquez ci-dessous pour l'essayer, ou regardez notre tutoriel rapide pour apprendre à en tirer le meilleur parti."
+        },
+        "footer": "Vous avez des questions ou des commentaires ? Nous serions ravis de vous entendre !"
+      },
+      "cta": {
+        "primary": {
+          "text": "Essayer {{ featureName }}",
+          "url": "{{ featureUrl }}"
+        },
+        "secondary": {
+          "text": "Regarder le tutoriel",
+          "url": "{{ tutorialUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "新功能：{{ featureName }}",
+      "preheader": "发现 Purra 的新功能以及它如何帮助您",
+      "header": {
+        "title": "介绍 {{ featureName }}",
+        "subtitle": "更智能工作的强大新方式"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "我们很高兴推出 **{{ featureName }}** - 这是一项旨在使您的采购工作流程更加高效的功能。",
+        "whatIsIt": {
+          "title": "{{ featureName }} 是什么？",
+          "description": "这个强大的新功能可帮助您简化供应商研究、自动化重复性任务并更深入地了解您的供应链 - 只需点击几下即可。"
+        },
+        "keyBenefits": {
+          "title": "主要优势",
+          "items": [
+            "**节省时间** - 自动化手动流程并专注于战略决策",
+            "**更好的洞察** - 获得更全面的数据分析",
+            "**易于使用** - 直观的界面无需培训",
+            "**无缝集成** - 与您现有的工作流程完美配合",
+            "**即时结果** - 立即看到改进"
+          ]
+        },
+        "howToUse": {
+          "title": "入门",
+          "description": "{{ featureName }} 现已在您的仪表板中可用。点击下方尝试，或观看我们的快速教程了解如何充分利用它。"
+        },
+        "footer": "有疑问或反馈？我们很乐意听取您的意见！"
+      },
+      "cta": {
+        "primary": {
+          "text": "试用 {{ featureName }}",
+          "url": "{{ featureUrl }}"
+        },
+        "secondary": {
+          "text": "观看教程",
+          "url": "{{ tutorialUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "新機能：{{ featureName }}",
+      "preheader": "Purraの新機能とそれがどのように役立つかを発見してください",
+      "header": {
+        "title": "{{ featureName }} のご紹介",
+        "subtitle": "よりスマートに働く強力な新しい方法"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "調達ワークフローをさらに効率的にするために設計された **{{ featureName }}** をご紹介できることを嬉しく思います。",
+        "whatIsIt": {
+          "title": "{{ featureName }} とは？",
+          "description": "この強力な新機能は、ベンダー調査の合理化、反復タスクの自動化、サプライチェーンへのより深い洞察の獲得を支援します - すべてわずか数クリックで。"
+        },
+        "keyBenefits": {
+          "title": "主な利点",
+          "items": [
+            "**時間を節約** - 手動プロセスを自動化し、戦略的な決定に集中",
+            "**より良い洞察** - より包括的なデータ分析を取得",
+            "**使いやすい** - 直感的なインターフェースでトレーニング不要",
+            "**シームレスな統合** - 既存のワークフローと完璧に連携",
+            "**即座の結果** - すぐに改善を確認"
+          ]
+        },
+        "howToUse": {
+          "title": "始め方",
+          "description": "{{ featureName }} はダッシュボードで利用できるようになりました。以下をクリックして試すか、クイックチュートリアルを見て最大限に活用する方法を学んでください。"
+        },
+        "footer": "質問やフィードバックはありますか？ぜひお聞かせください！"
+      },
+      "cta": {
+        "primary": {
+          "text": "{{ featureName }} を試す",
+          "url": "{{ featureUrl }}"
+        },
+        "secondary": {
+          "text": "チュートリアルを見る",
+          "url": "{{ tutorialUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "Neue Funktion: {{ featureName }}",
+      "preheader": "Entdecken Sie, was neu bei Purra ist und wie es Ihnen helfen kann",
+      "header": {
+        "title": "Wir stellen vor: {{ featureName }}",
+        "subtitle": "Eine leistungsstarke neue Art, intelligenter zu arbeiten"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Wir freuen uns, **{{ featureName }}** vorzustellen - eine Funktion, die Ihren Beschaffungsworkflow noch effizienter macht.",
+        "whatIsIt": {
+          "title": "Was ist {{ featureName }}?",
+          "description": "Diese leistungsstarke neue Funktion hilft Ihnen, Lieferantenrecherchen zu optimieren, wiederkehrende Aufgaben zu automatisieren und tiefere Einblicke in Ihre Lieferkette zu gewinnen - alles mit nur wenigen Klicks."
+        },
+        "keyBenefits": {
+          "title": "Hauptvorteile",
+          "items": [
+            "**Zeit sparen** - Automatisieren Sie manuelle Prozesse und konzentrieren Sie sich auf strategische Entscheidungen",
+            "**Bessere Einblicke** - Erhalten Sie umfassendere Datenanalysen",
+            "**Einfach zu bedienen** - Intuitive Benutzeroberfläche erfordert keine Schulung",
+            "**Nahtlose Integration** - Funktioniert perfekt mit Ihrem bestehenden Workflow",
+            "**Sofortige Ergebnisse** - Sehen Sie Verbesserungen sofort"
+          ]
+        },
+        "howToUse": {
+          "title": "Erste Schritte",
+          "description": "{{ featureName }} ist jetzt in Ihrem Dashboard verfügbar. Klicken Sie unten, um es auszuprobieren, oder sehen Sie sich unser kurzes Tutorial an, um zu erfahren, wie Sie das Beste daraus machen."
+        },
+        "footer": "Haben Sie Fragen oder Feedback? Wir würden gerne von Ihnen hören!"
+      },
+      "cta": {
+        "primary": {
+          "text": "{{ featureName }} ausprobieren",
+          "url": "{{ featureUrl }}"
+        },
+        "secondary": {
+          "text": "Tutorial ansehen",
+          "url": "{{ tutorialUrl }}"
+        }
+      }
+    }
+  }
+}

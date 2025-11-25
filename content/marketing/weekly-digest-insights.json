@@ -1,0 +1,438 @@
+{
+  "id": "weekly-digest-insights",
+  "category": "marketing",
+  "campaignName": "weekly_digest",
+  "layout": "base",
+  "dynamicFields": [
+    "firstName",
+    "weekNumber",
+    "reportsCompleted",
+    "alertsTriggered",
+    "newVendors",
+    "topInsight",
+    "dashboardUrl",
+    "trendsUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "Your Weekly Procurement Insights - Week {{ weekNumber }}",
+      "preheader": "{{ reportsCompleted }} reports, {{ alertsTriggered }} alerts, and your top insight",
+      "header": {
+        "title": "Your Week in Review",
+        "subtitle": "Week {{ weekNumber }} procurement insights"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "Here's a summary of your procurement activity this week, plus some insights to help you make better decisions.",
+        "weeklyStats": {
+          "title": "This Week's Activity",
+          "metrics": [
+            {
+              "label": "Reports Completed",
+              "value": "{{ reportsCompleted }}"
+            },
+            {
+              "label": "Price Alerts",
+              "value": "{{ alertsTriggered }}"
+            },
+            {
+              "label": "New Vendors Added",
+              "value": "{{ newVendors }}"
+            }
+          ]
+        },
+        "topInsight": {
+          "title": "💡 Top Insight of the Week",
+          "description": "{{ topInsight }}"
+        },
+        "marketTrends": {
+          "title": "Market Trends to Watch",
+          "items": [
+            "Global shipping costs trending upward by 8% this month",
+            "Tech hardware prices stabilizing after Q3 volatility",
+            "New sustainability compliance requirements in EU markets"
+          ]
+        },
+        "actionItems": {
+          "title": "Recommended Actions",
+          "items": [
+            "Review vendors with upcoming contract renewals",
+            "Check price alerts for cost-saving opportunities",
+            "Update compliance documentation for EU suppliers"
+          ]
+        },
+        "footer": "Want more frequent updates? Adjust your notification preferences in settings."
+      },
+      "cta": {
+        "primary": {
+          "text": "View Full Dashboard",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "See Market Trends",
+          "url": "{{ trendsUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "התובנות השבועיות שלכם ברכש - שבוע {{ weekNumber }}",
+      "preheader": "{{ reportsCompleted }} דוחות, {{ alertsTriggered }} התראות והתובנה המובילה שלכם",
+      "header": {
+        "title": "השבוע שלכם בסקירה",
+        "subtitle": "תובנות רכש לשבוע {{ weekNumber }}"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "הנה סיכום של פעילות הרכש שלכם השבוע, בתוספת כמה תובנות שיעזרו לכם לקבל החלטות טובות יותר.",
+        "weeklyStats": {
+          "title": "פעילות השבוע",
+          "metrics": [
+            {
+              "label": "דוחות שהושלמו",
+              "value": "{{ reportsCompleted }}"
+            },
+            {
+              "label": "התראות מחיר",
+              "value": "{{ alertsTriggered }}"
+            },
+            {
+              "label": "ספקים חדשים שנוספו",
+              "value": "{{ newVendors }}"
+            }
+          ]
+        },
+        "topInsight": {
+          "title": "💡 התובנה המובילה של השבוע",
+          "description": "{{ topInsight }}"
+        },
+        "marketTrends": {
+          "title": "מגמות שוק לעקוב אחריהן",
+          "items": [
+            "עלויות משלוח עולמיות עולות ב-8% החודש",
+            "מחירי חומרה טכנולוגית מתייצבים לאחר תנודתיות ברבעון השלישי",
+            "דרישות ציות חדשות לקיימות בשווקי האיחוד האירופי"
+          ]
+        },
+        "actionItems": {
+          "title": "פעולות מומלצות",
+          "items": [
+            "בדקו ספקים עם חידושי חוזה קרובים",
+            "בדקו התראות מחיר להזדמנויות לחיסכון בעלויות",
+            "עדכנו תיעוד ציות עבור ספקים באיחוד האירופי"
+          ]
+        },
+        "footer": "רוצים עדכונים תכופים יותר? התאימו את העדפות ההתראות שלכם בהגדרות."
+      },
+      "cta": {
+        "primary": {
+          "text": "צפו בלוח הבקרה המלא",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "ראו מגמות שוק",
+          "url": "{{ trendsUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "आपकी साप्ताहिक खरीद अंतर्दृष्टि - सप्ताह {{ weekNumber }}",
+      "preheader": "{{ reportsCompleted }} रिपोर्ट, {{ alertsTriggered }} अलर्ट, और आपकी शीर्ष अंतर्दृष्टि",
+      "header": {
+        "title": "समीक्षा में आपका सप्ताह",
+        "subtitle": "सप्ताह {{ weekNumber }} खरीद अंतर्दृष्टि"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "यहां इस सप्ताह आपकी खरीद गतिविधि का सारांश है, साथ ही कुछ अंतर्दृष्टि जो आपको बेहतर निर्णय लेने में मदद करेगी।",
+        "weeklyStats": {
+          "title": "इस सप्ताह की गतिविधि",
+          "metrics": [
+            {
+              "label": "पूरी की गईं रिपोर्ट",
+              "value": "{{ reportsCompleted }}"
+            },
+            {
+              "label": "मूल्य अलर्ट",
+              "value": "{{ alertsTriggered }}"
+            },
+            {
+              "label": "नए जोड़े गए विक्रेता",
+              "value": "{{ newVendors }}"
+            }
+          ]
+        },
+        "topInsight": {
+          "title": "💡 सप्ताह की शीर्ष अंतर्दृष्टि",
+          "description": "{{ topInsight }}"
+        },
+        "marketTrends": {
+          "title": "देखने योग्य बाजार रुझान",
+          "items": [
+            "वैश्विक शिपिंग लागत इस महीने 8% ऊपर की ओर बढ़ रही है",
+            "तकनीकी हार्डवेयर की कीमतें Q3 अस्थिरता के बाद स्थिर हो रही हैं",
+            "EU बाजारों में नई स्थिरता अनुपालन आवश्यकताएं"
+          ]
+        },
+        "actionItems": {
+          "title": "अनुशंसित कार्रवाइयाँ",
+          "items": [
+            "आगामी अनुबंध नवीनीकरण वाले विक्रेताओं की समीक्षा करें",
+            "लागत बचत के अवसरों के लिए मूल्य अलर्ट की जाँच करें",
+            "EU आपूर्तिकर्ताओं के लिए अनुपालन दस्तावेज़ीकरण अपडेट करें"
+          ]
+        },
+        "footer": "अधिक बार अपडेट चाहते हैं? सेटिंग में अपनी सूचना प्राथमिकताओं को समायोजित करें।"
+      },
+      "cta": {
+        "primary": {
+          "text": "पूरा डैशबोर्ड देखें",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "बाजार रुझान देखें",
+          "url": "{{ trendsUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "Vos informations hebdomadaires sur les achats - Semaine {{ weekNumber }}",
+      "preheader": "{{ reportsCompleted }} rapports, {{ alertsTriggered }} alertes et votre meilleure information",
+      "header": {
+        "title": "Votre semaine en revue",
+        "subtitle": "Informations sur les achats de la semaine {{ weekNumber }}"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Voici un résumé de votre activité d'approvisionnement cette semaine, ainsi que quelques informations pour vous aider à prendre de meilleures décisions.",
+        "weeklyStats": {
+          "title": "Activité de cette semaine",
+          "metrics": [
+            {
+              "label": "Rapports complétés",
+              "value": "{{ reportsCompleted }}"
+            },
+            {
+              "label": "Alertes de prix",
+              "value": "{{ alertsTriggered }}"
+            },
+            {
+              "label": "Nouveaux fournisseurs ajoutés",
+              "value": "{{ newVendors }}"
+            }
+          ]
+        },
+        "topInsight": {
+          "title": "💡 Meilleure information de la semaine",
+          "description": "{{ topInsight }}"
+        },
+        "marketTrends": {
+          "title": "Tendances du marché à surveiller",
+          "items": [
+            "Les coûts d'expédition mondiaux augmentent de 8% ce mois-ci",
+            "Les prix du matériel informatique se stabilisent après la volatilité du T3",
+            "Nouvelles exigences de conformité en matière de durabilité sur les marchés européens"
+          ]
+        },
+        "actionItems": {
+          "title": "Actions recommandées",
+          "items": [
+            "Examinez les fournisseurs avec des renouvellements de contrat à venir",
+            "Vérifiez les alertes de prix pour des opportunités d'économies",
+            "Mettez à jour la documentation de conformité pour les fournisseurs européens"
+          ]
+        },
+        "footer": "Vous voulez des mises à jour plus fréquentes ? Ajustez vos préférences de notification dans les paramètres."
+      },
+      "cta": {
+        "primary": {
+          "text": "Voir le tableau de bord complet",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "Voir les tendances du marché",
+          "url": "{{ trendsUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "您的每周采购见解 - 第 {{ weekNumber }} 周",
+      "preheader": "{{ reportsCompleted }} 份报告，{{ alertsTriggered }} 个警报和您的顶级见解",
+      "header": {
+        "title": "您本周回顾",
+        "subtitle": "第 {{ weekNumber }} 周采购见解"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "以下是本周您的采购活动摘要，以及一些帮助您做出更好决策的见解。",
+        "weeklyStats": {
+          "title": "本周活动",
+          "metrics": [
+            {
+              "label": "已完成报告",
+              "value": "{{ reportsCompleted }}"
+            },
+            {
+              "label": "价格警报",
+              "value": "{{ alertsTriggered }}"
+            },
+            {
+              "label": "新增供应商",
+              "value": "{{ newVendors }}"
+            }
+          ]
+        },
+        "topInsight": {
+          "title": "💡 本周顶级见解",
+          "description": "{{ topInsight }}"
+        },
+        "marketTrends": {
+          "title": "值得关注的市场趋势",
+          "items": [
+            "本月全球运输成本上涨 8%",
+            "第三季度波动后技术硬件价格稳定",
+            "欧盟市场新的可持续性合规要求"
+          ]
+        },
+        "actionItems": {
+          "title": "推荐行动",
+          "items": [
+            "审查即将续约的供应商",
+            "检查价格警报以寻找节省成本的机会",
+            "更新欧盟供应商的合规文档"
+          ]
+        },
+        "footer": "想要更频繁的更新吗？在设置中调整您的通知偏好。"
+      },
+      "cta": {
+        "primary": {
+          "text": "查看完整仪表板",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "查看市场趋势",
+          "url": "{{ trendsUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "週次調達インサイト - 第{{ weekNumber }}週",
+      "preheader": "{{ reportsCompleted }}件のレポート、{{ alertsTriggered }}件のアラート、およびトップインサイト",
+      "header": {
+        "title": "今週の振り返り",
+        "subtitle": "第{{ weekNumber }}週の調達インサイト"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "今週の調達活動の概要と、より良い意思決定に役立ついくつかのインサイトをご紹介します。",
+        "weeklyStats": {
+          "title": "今週の活動",
+          "metrics": [
+            {
+              "label": "完了したレポート",
+              "value": "{{ reportsCompleted }}"
+            },
+            {
+              "label": "価格アラート",
+              "value": "{{ alertsTriggered }}"
+            },
+            {
+              "label": "追加された新しいベンダー",
+              "value": "{{ newVendors }}"
+            }
+          ]
+        },
+        "topInsight": {
+          "title": "💡 今週のトップインサイト",
+          "description": "{{ topInsight }}"
+        },
+        "marketTrends": {
+          "title": "注視すべき市場トレンド",
+          "items": [
+            "今月のグローバル配送コストは8%上昇傾向",
+            "第3四半期の変動後、テクノロジーハードウェア価格が安定化",
+            "EU市場での新しい持続可能性コンプライアンス要件"
+          ]
+        },
+        "actionItems": {
+          "title": "推奨アクション",
+          "items": [
+            "契約更新が近いベンダーを確認",
+            "コスト削減の機会を探すため価格アラートを確認",
+            "EUサプライヤーのコンプライアンス文書を更新"
+          ]
+        },
+        "footer": "より頻繁な更新をご希望ですか？設定で通知設定を調整してください。"
+      },
+      "cta": {
+        "primary": {
+          "text": "完全なダッシュボードを表示",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "市場トレンドを見る",
+          "url": "{{ trendsUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "Ihre wöchentlichen Beschaffungseinblicke - Woche {{ weekNumber }}",
+      "preheader": "{{ reportsCompleted }} Berichte, {{ alertsTriggered }} Alarme und Ihr Top-Einblick",
+      "header": {
+        "title": "Ihre Woche im Rückblick",
+        "subtitle": "Beschaffungseinblicke Woche {{ weekNumber }}"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Hier ist eine Zusammenfassung Ihrer Beschaffungsaktivitäten dieser Woche sowie einige Einblicke, die Ihnen helfen, bessere Entscheidungen zu treffen.",
+        "weeklyStats": {
+          "title": "Aktivität dieser Woche",
+          "metrics": [
+            {
+              "label": "Abgeschlossene Berichte",
+              "value": "{{ reportsCompleted }}"
+            },
+            {
+              "label": "Preisalarme",
+              "value": "{{ alertsTriggered }}"
+            },
+            {
+              "label": "Neue Lieferanten hinzugefügt",
+              "value": "{{ newVendors }}"
+            }
+          ]
+        },
+        "topInsight": {
+          "title": "💡 Top-Einblick der Woche",
+          "description": "{{ topInsight }}"
+        },
+        "marketTrends": {
+          "title": "Markttrends zum Beobachten",
+          "items": [
+            "Globale Versandkosten steigen diesen Monat um 8%",
+            "Technologie-Hardware-Preise stabilisieren sich nach Volatilität im 3. Quartal",
+            "Neue Nachhaltigkeits-Compliance-Anforderungen in EU-Märkten"
+          ]
+        },
+        "actionItems": {
+          "title": "Empfohlene Maßnahmen",
+          "items": [
+            "Überprüfen Sie Lieferanten mit bevorstehenden Vertragsverlängerungen",
+            "Überprüfen Sie Preisalarme auf Kosteneinsparungsmöglichkeiten",
+            "Aktualisieren Sie Compliance-Dokumentation für EU-Lieferanten"
+          ]
+        },
+        "footer": "Möchten Sie häufigere Updates? Passen Sie Ihre Benachrichtigungspräferenzen in den Einstellungen an."
+      },
+      "cta": {
+        "primary": {
+          "text": "Vollständiges Dashboard anzeigen",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "Markttrends ansehen",
+          "url": "{{ trendsUrl }}"
+        }
+      }
+    }
+  }
+}

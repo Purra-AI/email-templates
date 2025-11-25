@@ -1,0 +1,323 @@
+{
+  "id": "research-failed-error",
+  "category": "reports",
+  "campaignName": "research_failed",
+  "layout": "simple",
+  "dynamicFields": [
+    "firstName",
+    "vendorName",
+    "errorReason",
+    "retryUrl",
+    "supportUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "Research Failed: {{ vendorName }}",
+      "preheader": "We encountered an issue with your vendor research",
+      "header": {
+        "title": "Research Could Not Be Completed",
+        "subtitle": "{{ vendorName }}"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "We encountered an issue while researching **{{ vendorName }}** and were unable to complete your report.",
+        "errorDetails": {
+          "title": "What Happened?",
+          "description": "{{ errorReason }}"
+        },
+        "commonReasons": {
+          "title": "Common Reasons",
+          "items": [
+            "Vendor website is temporarily unavailable",
+            "Insufficient public information available",
+            "Company name or details may be incorrect",
+            "Data sources are currently experiencing issues"
+          ]
+        },
+        "nextSteps": {
+          "title": "What You Can Do",
+          "steps": [
+            "**Verify vendor details** - Double-check the company name and website URL",
+            "**Try again later** - Sometimes temporary issues resolve quickly",
+            "**Contact support** - Our team can manually assist with difficult cases"
+          ]
+        },
+        "footer": "We're sorry for the inconvenience. Our team has been notified and we're working to improve our data collection process."
+      },
+      "cta": {
+        "primary": {
+          "text": "Try Again",
+          "url": "{{ retryUrl }}"
+        },
+        "secondary": {
+          "text": "Contact Support",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "המחקר נכשל: {{ vendorName }}",
+      "preheader": "נתקלנו בבעיה במחקר הספק שלכם",
+      "header": {
+        "title": "לא ניתן היה להשלים את המחקר",
+        "subtitle": "{{ vendorName }}"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "נתקלנו בבעיה בזמן מחקר **{{ vendorName }}** ולא הצלחנו להשלים את הדוח שלכם.",
+        "errorDetails": {
+          "title": "מה קרה?",
+          "description": "{{ errorReason }}"
+        },
+        "commonReasons": {
+          "title": "סיבות נפוצות",
+          "items": [
+            "אתר הספק אינו זמין באופן זמני",
+            "אין מספיק מידע ציבורי זמין",
+            "שם החברה או הפרטים עשויים להיות שגויים",
+            "מקורות הנתונים חווים כרגע בעיות"
+          ]
+        },
+        "nextSteps": {
+          "title": "מה אתם יכולים לעשות",
+          "steps": [
+            "**אמתו פרטי ספק** - בדקו שוב את שם החברה וכתובת האתר",
+            "**נסו שוב מאוחר יותר** - לפעמים בעיות זמניות נפתרות במהירות",
+            "**צרו קשר עם תמיכה** - הצוות שלנו יכול לסייע ידנית במקרים קשים"
+          ]
+        },
+        "footer": "אנו מצטערים על אי הנוחות. הצוות שלנו קיבל הודעה ואנחנו עובדים לשיפור תהליך איסוף הנתונים שלנו."
+      },
+      "cta": {
+        "primary": {
+          "text": "נסו שוב",
+          "url": "{{ retryUrl }}"
+        },
+        "secondary": {
+          "text": "צרו קשר עם תמיכה",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "अनुसंधान विफल: {{ vendorName }}",
+      "preheader": "हमें आपके विक्रेता अनुसंधान में एक समस्या का सामना करना पड़ा",
+      "header": {
+        "title": "अनुसंधान पूरा नहीं हो सका",
+        "subtitle": "{{ vendorName }}"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "**{{ vendorName }}** पर शोध करते समय हमें एक समस्या का सामना करना पड़ा और हम आपकी रिपोर्ट पूरी करने में असमर्थ रहे।",
+        "errorDetails": {
+          "title": "क्या हुआ?",
+          "description": "{{ errorReason }}"
+        },
+        "commonReasons": {
+          "title": "सामान्य कारण",
+          "items": [
+            "विक्रेता वेबसाइट अस्थायी रूप से अनुपलब्ध है",
+            "अपर्याप्त सार्वजनिक जानकारी उपलब्ध है",
+            "कंपनी का नाम या विवरण गलत हो सकता है",
+            "डेटा स्रोत वर्तमान में समस्याओं का सामना कर रहे हैं"
+          ]
+        },
+        "nextSteps": {
+          "title": "आप क्या कर सकते हैं",
+          "steps": [
+            "**विक्रेता विवरण सत्यापित करें** - कंपनी के नाम और वेबसाइट URL को दोबारा जांचें",
+            "**बाद में फिर से प्रयास करें** - कभी-कभी अस्थायी समस्याएं जल्दी हल हो जाती हैं",
+            "**सहायता से संपर्क करें** - हमारी टीम कठिन मामलों में मैन्युअल रूप से सहायता कर सकती है"
+          ]
+        },
+        "footer": "असुविधा के लिए खेद है। हमारी टीम को सूचित कर दिया गया है और हम अपनी डेटा संग्रह प्रक्रिया में सुधार के लिए काम कर रहे हैं।"
+      },
+      "cta": {
+        "primary": {
+          "text": "फिर से प्रयास करें",
+          "url": "{{ retryUrl }}"
+        },
+        "secondary": {
+          "text": "सहायता से संपर्क करें",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "Recherche échouée : {{ vendorName }}",
+      "preheader": "Nous avons rencontré un problème avec votre recherche de fournisseur",
+      "header": {
+        "title": "La recherche n'a pas pu être terminée",
+        "subtitle": "{{ vendorName }}"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Nous avons rencontré un problème lors de la recherche de **{{ vendorName }}** et n'avons pas pu terminer votre rapport.",
+        "errorDetails": {
+          "title": "Que s'est-il passé ?",
+          "description": "{{ errorReason }}"
+        },
+        "commonReasons": {
+          "title": "Raisons courantes",
+          "items": [
+            "Le site Web du fournisseur est temporairement indisponible",
+            "Informations publiques insuffisantes disponibles",
+            "Le nom de l'entreprise ou les détails peuvent être incorrects",
+            "Les sources de données rencontrent actuellement des problèmes"
+          ]
+        },
+        "nextSteps": {
+          "title": "Ce que vous pouvez faire",
+          "steps": [
+            "**Vérifier les détails du fournisseur** - Vérifiez à nouveau le nom de l'entreprise et l'URL du site Web",
+            "**Réessayer plus tard** - Parfois, les problèmes temporaires se résolvent rapidement",
+            "**Contacter le support** - Notre équipe peut vous aider manuellement dans les cas difficiles"
+          ]
+        },
+        "footer": "Nous sommes désolés pour le désagrément. Notre équipe a été informée et nous travaillons à améliorer notre processus de collecte de données."
+      },
+      "cta": {
+        "primary": {
+          "text": "Réessayer",
+          "url": "{{ retryUrl }}"
+        },
+        "secondary": {
+          "text": "Contacter le support",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "研究失败：{{ vendorName }}",
+      "preheader": "我们在您的供应商研究中遇到了问题",
+      "header": {
+        "title": "研究无法完成",
+        "subtitle": "{{ vendorName }}"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "在研究 **{{ vendorName }}** 时我们遇到了问题，无法完成您的报告。",
+        "errorDetails": {
+          "title": "发生了什么？",
+          "description": "{{ errorReason }}"
+        },
+        "commonReasons": {
+          "title": "常见原因",
+          "items": [
+            "供应商网站暂时不可用",
+            "可用的公共信息不足",
+            "公司名称或详细信息可能不正确",
+            "数据源当前遇到问题"
+          ]
+        },
+        "nextSteps": {
+          "title": "您可以做什么",
+          "steps": [
+            "**验证供应商详细信息** - 再次检查公司名称和网站 URL",
+            "**稍后重试** - 有时临时问题会很快解决",
+            "**联系支持** - 我们的团队可以在困难情况下手动协助"
+          ]
+        },
+        "footer": "对于给您带来的不便，我们深表歉意。我们的团队已收到通知，我们正在努力改进数据收集流程。"
+      },
+      "cta": {
+        "primary": {
+          "text": "重试",
+          "url": "{{ retryUrl }}"
+        },
+        "secondary": {
+          "text": "联系支持",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "調査失敗：{{ vendorName }}",
+      "preheader": "ベンダー調査で問題が発生しました",
+      "header": {
+        "title": "調査を完了できませんでした",
+        "subtitle": "{{ vendorName }}"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "**{{ vendorName }}** の調査中に問題が発生し、レポートを完了できませんでした。",
+        "errorDetails": {
+          "title": "何が起こったのか？",
+          "description": "{{ errorReason }}"
+        },
+        "commonReasons": {
+          "title": "一般的な理由",
+          "items": [
+            "ベンダーのウェブサイトが一時的に利用できません",
+            "利用可能な公開情報が不十分です",
+            "会社名または詳細が正しくない可能性があります",
+            "データソースが現在問題を抱えています"
+          ]
+        },
+        "nextSteps": {
+          "title": "できること",
+          "steps": [
+            "**ベンダーの詳細を確認** - 会社名とウェブサイトのURLを再確認してください",
+            "**後で再試行** - 一時的な問題はすぐに解決することがあります",
+            "**サポートに連絡** - 難しいケースでは当社のチームが手動で支援できます"
+          ]
+        },
+        "footer": "ご不便をおかけして申し訳ございません。チームに通知され、データ収集プロセスの改善に取り組んでいます。"
+      },
+      "cta": {
+        "primary": {
+          "text": "再試行",
+          "url": "{{ retryUrl }}"
+        },
+        "secondary": {
+          "text": "サポートに連絡",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "Recherche fehlgeschlagen: {{ vendorName }}",
+      "preheader": "Bei Ihrer Lieferantenrecherche ist ein Problem aufgetreten",
+      "header": {
+        "title": "Recherche konnte nicht abgeschlossen werden",
+        "subtitle": "{{ vendorName }}"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Bei der Recherche zu **{{ vendorName }}** ist ein Problem aufgetreten, und wir konnten Ihren Bericht nicht fertigstellen.",
+        "errorDetails": {
+          "title": "Was ist passiert?",
+          "description": "{{ errorReason }}"
+        },
+        "commonReasons": {
+          "title": "Häufige Gründe",
+          "items": [
+            "Lieferanten-Website ist vorübergehend nicht verfügbar",
+            "Unzureichende öffentliche Informationen verfügbar",
+            "Firmenname oder Details könnten falsch sein",
+            "Datenquellen haben derzeit Probleme"
+          ]
+        },
+        "nextSteps": {
+          "title": "Was Sie tun können",
+          "steps": [
+            "**Lieferantendetails überprüfen** - Überprüfen Sie Firmenname und Website-URL erneut",
+            "**Später erneut versuchen** - Manchmal lösen sich vorübergehende Probleme schnell",
+            "**Support kontaktieren** - Unser Team kann bei schwierigen Fällen manuell helfen"
+          ]
+        },
+        "footer": "Wir entschuldigen uns für die Unannehmlichkeiten. Unser Team wurde benachrichtigt und wir arbeiten daran, unseren Datenerfassungsprozess zu verbessern."
+      },
+      "cta": {
+        "primary": {
+          "text": "Erneut versuchen",
+          "url": "{{ retryUrl }}"
+        },
+        "secondary": {
+          "text": "Support kontaktieren",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    }
+  }
+}
