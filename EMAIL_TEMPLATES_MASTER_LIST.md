@@ -293,10 +293,13 @@ For each new template:
 All email templates must support **multi-language localization**:
 
 #### Supported Languages
-1. **English** (en) - Default/Primary
-2. **Hebrew** (he) - Right-to-left (RTL) support required
-3. **French** (fr) - Future expansion
-4. Additional languages as needed
+1. 🇺🇸 **English** (en) - Default/Primary
+2. 🇮🇱 **עברית / Hebrew** (he) - Right-to-left (RTL) support required
+3. 🇮🇳 **हिंदी / Hindi** (hi) - Devanagari script support
+4. 🇫🇷 **Français / French** (fr) - European market
+5. 🇨🇳 **中文 / Chinese** (zh) - Simplified Chinese
+6. 🇯🇵 **日本語 / Japanese** (ja) - Asian market
+7. 🇩🇪 **Deutsch / German** (de) - European market
 
 #### Implementation Approach
 
@@ -326,7 +329,9 @@ const emailData = {
 };
 ```
 
-#### RTL Support for Hebrew
+#### Special Requirements by Language
+
+**RTL Languages (Hebrew)**
 - Text direction: `dir="rtl"`
 - Layout adjustments for right-aligned content
 - Mirror horizontal spacing and alignment
@@ -337,6 +342,33 @@ const emailData = {
 <div dir="rtl" lang="he">
   <!-- Hebrew content here -->
 </div>
+```
+
+**Complex Scripts**
+- **Hindi (hi)**: Devanagari script - ensure proper font support
+- **Chinese (zh)**: Use simplified characters, proper line breaking
+- **Japanese (ja)**: Mixed scripts (Hiragana, Katakana, Kanji)
+
+**Font Requirements**
+- **Latin scripts** (en, fr, de): Inter font (existing)
+- **Hebrew**: Add Hebrew-compatible font (e.g., Noto Sans Hebrew)
+- **Hindi**: Add Devanagari font (e.g., Noto Sans Devanagari)
+- **CJK** (zh, ja): Add CJK font (e.g., Noto Sans CJK)
+- **Fallback**: System fonts for all languages
+
+**Email Client Font Stack:**
+```css
+/* English, French, German */
+font-family: 'Inter', -apple-system, sans-serif;
+
+/* Hebrew */
+font-family: 'Noto Sans Hebrew', -apple-system, sans-serif;
+
+/* Hindi */
+font-family: 'Noto Sans Devanagari', -apple-system, sans-serif;
+
+/* Chinese, Japanese */
+font-family: 'Noto Sans CJK', -apple-system, sans-serif;
 ```
 
 #### Translation Workflow
@@ -362,23 +394,84 @@ const emailData = {
       "header_title": "ברוכים הבאים ל-Purra!",
       "header_subtitle": "מסע המודיעין של שרשרת האספקה שלך מתחיל",
       "cta_text": "גלה את לוח הבקרה שלך"
+    },
+    "hi": {
+      "subject": "Purra में आपका स्वागत है!",
+      "header_title": "Purra में आपका स्वागत है!",
+      "header_subtitle": "आपकी आपूर्ति श्रृंखला खुफिया यात्रा शुरू होती है",
+      "cta_text": "अपना डैशबोर्ड देखें"
+    },
+    "fr": {
+      "subject": "Bienvenue chez Purra!",
+      "header_title": "Bienvenue chez Purra!",
+      "header_subtitle": "Votre parcours d'intelligence de la chaîne d'approvisionnement commence",
+      "cta_text": "Explorez votre tableau de bord"
+    },
+    "zh": {
+      "subject": "欢迎来到Purra！",
+      "header_title": "欢迎来到Purra！",
+      "header_subtitle": "您的供应链智能之旅开始",
+      "cta_text": "探索您的仪表板"
+    },
+    "ja": {
+      "subject": "Purraへようこそ！",
+      "header_title": "Purraへようこそ！",
+      "header_subtitle": "サプライチェーンインテリジェンスの旅が始まります",
+      "cta_text": "ダッシュボードを見る"
+    },
+    "de": {
+      "subject": "Willkommen bei Purra!",
+      "header_title": "Willkommen bei Purra!",
+      "header_subtitle": "Ihre Supply Chain Intelligence-Reise beginnt",
+      "cta_text": "Dashboard erkunden"
     }
   }
 }
 ```
 
 #### Priority for Translation
+
+**Phase 1: Core Languages** (Launch immediately)
+- 🇺🇸 English (en) - Default
+- 🇮🇱 Hebrew (he) - Primary market
+
+**Phase 2: Major Markets** (Within 3 months)
+- 🇫🇷 French (fr) - European expansion
+- 🇩🇪 German (de) - European expansion
+- 🇮🇳 Hindi (hi) - Indian market
+
+**Phase 3: Asian Markets** (Within 6 months)
+- 🇨🇳 Chinese (zh) - Asian expansion
+- 🇯🇵 Japanese (ja) - Asian expansion
+
+**Template Translation Priority:**
 - **High Priority**: Authentication, billing, critical notifications
 - **Medium Priority**: Reports, onboarding, engagement
 - **Low Priority**: Marketing, newsletters, promotional
 
 #### Testing Requirements
-- [ ] Test all languages in Gmail, Outlook, Apple Mail
-- [ ] Verify RTL layout for Hebrew
-- [ ] Check character encoding (UTF-8)
+
+**Per Language:**
+- [ ] Test in Gmail, Outlook, Apple Mail
+- [ ] Verify correct character encoding (UTF-8)
 - [ ] Validate special characters display correctly
-- [ ] Test on mobile devices for all languages
-- [ ] Verify unsubscribe links work in all languages
+- [ ] Test on mobile devices
+- [ ] Verify unsubscribe links work
+- [ ] Check proper font rendering
+
+**Language-Specific Tests:**
+- [ ] **Hebrew (he)**: RTL layout, right-aligned text, mirrored icons
+- [ ] **Hindi (hi)**: Devanagari script rendering, line breaks
+- [ ] **Chinese (zh)**: Character display, proper line breaks
+- [ ] **Japanese (ja)**: Mixed script rendering (Hiragana/Katakana/Kanji)
+- [ ] **German (de)**: Long compound words, umlaut characters (ä, ö, ü, ß)
+- [ ] **French (fr)**: Accented characters (é, è, ê, à, ç)
+
+**Cross-Language Tests:**
+- [ ] Verify language selector/preference works
+- [ ] Test fallback to English if translation missing
+- [ ] Validate locale-specific date/time formats
+- [ ] Check currency formatting per locale
 
 ### Required Variables (All Templates)
 ```
