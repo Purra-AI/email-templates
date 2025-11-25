@@ -43,6 +43,7 @@ Professional email templates following Purra's design language with electric blu
 {{ ctaText }}            - Call-to-action button text
 {{ additionalContent }}   - Additional paragraphs
 {{ unsubscribeUrl }}     - Unsubscribe link URL
+{{ campaignName }}        - Campaign name for UTM tracking (e.g., welcome_email, newsletter_jan2024)
 ```
 
 **Optional sections** (uncomment to use):
