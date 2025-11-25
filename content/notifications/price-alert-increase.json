@@ -1,0 +1,312 @@
+{
+  "id": "price-alert-increase",
+  "category": "notifications",
+  "campaignName": "price_alert_increase",
+  "layout": "simple",
+  "dynamicFields": [
+    "firstName",
+    "productName",
+    "vendorName",
+    "oldPrice",
+    "newPrice",
+    "percentageChange",
+    "alertUrl",
+    "manageAlertsUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "⚠️ Price Increase Alert: {{ productName }}",
+      "preheader": "{{ productName }} increased by {{ percentageChange }}% to ${{ newPrice }}",
+      "header": {
+        "title": "Price Increase Detected",
+        "subtitle": "{{ productName }} from {{ vendorName }}"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "We detected a price increase for **{{ productName }}** from **{{ vendorName }}** that exceeds your alert threshold.",
+        "priceChange": {
+          "title": "Price Change Details",
+          "oldPrice": "Previous Price: ${{ oldPrice }}",
+          "newPrice": "New Price: ${{ newPrice }}",
+          "change": "Change: +{{ percentageChange }}% increase"
+        },
+        "impact": {
+          "title": "💰 Impact Analysis",
+          "description": "This price increase could affect your budget. Consider reviewing alternative suppliers or negotiating with your current vendor."
+        },
+        "recommendations": {
+          "title": "Recommended Actions",
+          "items": [
+            "Review alternative vendors for better pricing",
+            "Contact {{ vendorName }} to negotiate",
+            "Check if bulk purchasing can reduce costs",
+            "Update your budget forecasts accordingly"
+          ]
+        },
+        "footer": "This alert was triggered based on your monitoring preferences. You can adjust alert thresholds anytime."
+      },
+      "cta": {
+        "primary": {
+          "text": "View Full Details",
+          "url": "{{ alertUrl }}"
+        },
+        "secondary": {
+          "text": "Manage Alerts",
+          "url": "{{ manageAlertsUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "⚠️ התראת עלייה במחיר: {{ productName }}",
+      "preheader": "{{ productName }} עלה ב-{{ percentageChange }}% ל-${{ newPrice }}",
+      "header": {
+        "title": "זוהתה עלייה במחיר",
+        "subtitle": "{{ productName }} מ-{{ vendorName }}"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "זיהינו עלייה במחיר עבור **{{ productName }}** מ-**{{ vendorName }}** שעוברת את סף ההתראה שלכם.",
+        "priceChange": {
+          "title": "פרטי שינוי מחיר",
+          "oldPrice": "מחיר קודם: ${{ oldPrice }}",
+          "newPrice": "מחיר חדש: ${{ newPrice }}",
+          "change": "שינוי: עלייה של +{{ percentageChange }}%"
+        },
+        "impact": {
+          "title": "💰 ניתוח השפעה",
+          "description": "עלייה במחיר זו עלולה להשפיע על התקציב שלכם. שקלו לבדוק ספקים חלופיים או לנהל משא ומתן עם הספק הנוכחי שלכם."
+        },
+        "recommendations": {
+          "title": "פעולות מומלצות",
+          "items": [
+            "בדקו ספקים חלופיים למחירים טובים יותר",
+            "צרו קשר עם {{ vendorName }} למשא ומתן",
+            "בדקו אם רכישה בכמויות גדולות יכולה להפחית עלויות",
+            "עדכנו את תחזיות התקציב שלכם בהתאם"
+          ]
+        },
+        "footer": "התראה זו הופעלה על סמך העדפות הניטור שלכם. אתם יכולים לכוון סף התראות בכל עת."
+      },
+      "cta": {
+        "primary": {
+          "text": "צפו בפרטים מלאים",
+          "url": "{{ alertUrl }}"
+        },
+        "secondary": {
+          "text": "נהלו התראות",
+          "url": "{{ manageAlertsUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "⚠️ मूल्य वृद्धि अलर्ट: {{ productName }}",
+      "preheader": "{{ productName }} {{ percentageChange }}% बढ़कर ${{ newPrice }} हो गया",
+      "header": {
+        "title": "मूल्य वृद्धि का पता चला",
+        "subtitle": "{{ vendorName }} से {{ productName }}"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "हमने **{{ vendorName }}** से **{{ productName }}** के लिए मूल्य वृद्धि का पता लगाया है जो आपकी अलर्ट सीमा से अधिक है।",
+        "priceChange": {
+          "title": "मूल्य परिवर्तन विवरण",
+          "oldPrice": "पिछली कीमत: ${{ oldPrice }}",
+          "newPrice": "नई कीमत: ${{ newPrice }}",
+          "change": "परिवर्तन: +{{ percentageChange }}% वृद्धि"
+        },
+        "impact": {
+          "title": "💰 प्रभाव विश्लेषण",
+          "description": "यह मूल्य वृद्धि आपके बजट को प्रभावित कर सकती है। वैकल्पिक आपूर्तिकर्ताओं की समीक्षा करने या अपने वर्तमान विक्रेता के साथ बातचीत करने पर विचार करें।"
+        },
+        "recommendations": {
+          "title": "अनुशंसित कार्रवाइयाँ",
+          "items": [
+            "बेहतर मूल्य निर्धारण के लिए वैकल्पिक विक्रेताओं की समीक्षा करें",
+            "बातचीत के लिए {{ vendorName }} से संपर्क करें",
+            "जांचें कि क्या थोक खरीद लागत कम कर सकती है",
+            "अपने बजट पूर्वानुमान को तदनुसार अपडेट करें"
+          ]
+        },
+        "footer": "यह अलर्ट आपकी निगरानी प्राथमिकताओं के आधार पर ट्रिगर किया गया था। आप किसी भी समय अलर्ट सीमा को समायोजित कर सकते हैं।"
+      },
+      "cta": {
+        "primary": {
+          "text": "पूर्ण विवरण देखें",
+          "url": "{{ alertUrl }}"
+        },
+        "secondary": {
+          "text": "अलर्ट प्रबंधित करें",
+          "url": "{{ manageAlertsUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "⚠️ Alerte d'augmentation de prix : {{ productName }}",
+      "preheader": "{{ productName }} a augmenté de {{ percentageChange }}% à ${{ newPrice }}",
+      "header": {
+        "title": "Augmentation de prix détectée",
+        "subtitle": "{{ productName }} de {{ vendorName }}"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Nous avons détecté une augmentation de prix pour **{{ productName }}** de **{{ vendorName }}** qui dépasse votre seuil d'alerte.",
+        "priceChange": {
+          "title": "Détails du changement de prix",
+          "oldPrice": "Prix précédent : ${{ oldPrice }}",
+          "newPrice": "Nouveau prix : ${{ newPrice }}",
+          "change": "Changement : +{{ percentageChange }}% d'augmentation"
+        },
+        "impact": {
+          "title": "💰 Analyse d'impact",
+          "description": "Cette augmentation de prix pourrait affecter votre budget. Envisagez d'examiner des fournisseurs alternatifs ou de négocier avec votre fournisseur actuel."
+        },
+        "recommendations": {
+          "title": "Actions recommandées",
+          "items": [
+            "Examinez les fournisseurs alternatifs pour de meilleurs prix",
+            "Contactez {{ vendorName }} pour négocier",
+            "Vérifiez si les achats en gros peuvent réduire les coûts",
+            "Mettez à jour vos prévisions budgétaires en conséquence"
+          ]
+        },
+        "footer": "Cette alerte a été déclenchée en fonction de vos préférences de surveillance. Vous pouvez ajuster les seuils d'alerte à tout moment."
+      },
+      "cta": {
+        "primary": {
+          "text": "Voir les détails complets",
+          "url": "{{ alertUrl }}"
+        },
+        "secondary": {
+          "text": "Gérer les alertes",
+          "url": "{{ manageAlertsUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "⚠️ 价格上涨警报：{{ productName }}",
+      "preheader": "{{ productName }} 上涨 {{ percentageChange }}% 至 ${{ newPrice }}",
+      "header": {
+        "title": "检测到价格上涨",
+        "subtitle": "来自 {{ vendorName }} 的 {{ productName }}"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "我们检测到来自 **{{ vendorName }}** 的 **{{ productName }}** 价格上涨超过您的警报阈值。",
+        "priceChange": {
+          "title": "价格变动详情",
+          "oldPrice": "之前价格：${{ oldPrice }}",
+          "newPrice": "新价格：${{ newPrice }}",
+          "change": "变化：+{{ percentageChange }}% 上涨"
+        },
+        "impact": {
+          "title": "💰 影响分析",
+          "description": "此价格上涨可能会影响您的预算。考虑审查替代供应商或与当前供应商谈判。"
+        },
+        "recommendations": {
+          "title": "推荐行动",
+          "items": [
+            "审查替代供应商以获得更好的价格",
+            "联系 {{ vendorName }} 进行谈判",
+            "检查批量采购是否可以降低成本",
+            "相应更新您的预算预测"
+          ]
+        },
+        "footer": "此警报是根据您的监控偏好触发的。您可以随时调整警报阈值。"
+      },
+      "cta": {
+        "primary": {
+          "text": "查看完整详情",
+          "url": "{{ alertUrl }}"
+        },
+        "secondary": {
+          "text": "管理警报",
+          "url": "{{ manageAlertsUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "⚠️ 価格上昇アラート：{{ productName }}",
+      "preheader": "{{ productName }} が {{ percentageChange }}% 上昇して ${{ newPrice }} になりました",
+      "header": {
+        "title": "価格上昇を検出",
+        "subtitle": "{{ vendorName }} の {{ productName }}"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "**{{ vendorName }}** の **{{ productName }}** の価格上昇がアラートしきい値を超えたことを検出しました。",
+        "priceChange": {
+          "title": "価格変更の詳細",
+          "oldPrice": "以前の価格：${{ oldPrice }}",
+          "newPrice": "新価格：${{ newPrice }}",
+          "change": "変化：+{{ percentageChange }}% 上昇"
+        },
+        "impact": {
+          "title": "💰 影響分析",
+          "description": "この価格上昇は予算に影響を与える可能性があります。代替サプライヤーの検討または現在のベンダーとの交渉を検討してください。"
+        },
+        "recommendations": {
+          "title": "推奨アクション",
+          "items": [
+            "より良い価格設定のために代替ベンダーを確認",
+            "{{ vendorName }} に連絡して交渉",
+            "一括購入でコストを削減できるか確認",
+            "それに応じて予算予測を更新"
+          ]
+        },
+        "footer": "このアラートは、監視設定に基づいてトリガーされました。アラートしきい値はいつでも調整できます。"
+      },
+      "cta": {
+        "primary": {
+          "text": "詳細を表示",
+          "url": "{{ alertUrl }}"
+        },
+        "secondary": {
+          "text": "アラートを管理",
+          "url": "{{ manageAlertsUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "⚠️ Preiserhöhungsalarm: {{ productName }}",
+      "preheader": "{{ productName }} um {{ percentageChange }}% auf ${{ newPrice }} gestiegen",
+      "header": {
+        "title": "Preiserhöhung erkannt",
+        "subtitle": "{{ productName }} von {{ vendorName }}"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Wir haben eine Preiserhöhung für **{{ productName }}** von **{{ vendorName }}** festgestellt, die Ihre Alarmschwelle überschreitet.",
+        "priceChange": {
+          "title": "Details zur Preisänderung",
+          "oldPrice": "Vorheriger Preis: ${{ oldPrice }}",
+          "newPrice": "Neuer Preis: ${{ newPrice }}",
+          "change": "Änderung: +{{ percentageChange }}% Erhöhung"
+        },
+        "impact": {
+          "title": "💰 Auswirkungsanalyse",
+          "description": "Diese Preiserhöhung könnte Ihr Budget beeinflussen. Erwägen Sie die Prüfung alternativer Lieferanten oder Verhandlungen mit Ihrem aktuellen Anbieter."
+        },
+        "recommendations": {
+          "title": "Empfohlene Maßnahmen",
+          "items": [
+            "Überprüfen Sie alternative Anbieter für bessere Preise",
+            "Kontaktieren Sie {{ vendorName }} zum Verhandeln",
+            "Prüfen Sie, ob Großeinkäufe Kosten senken können",
+            "Aktualisieren Sie Ihre Budgetprognosen entsprechend"
+          ]
+        },
+        "footer": "Dieser Alarm wurde basierend auf Ihren Überwachungseinstellungen ausgelöst. Sie können Alarmschwellen jederzeit anpassen."
+      },
+      "cta": {
+        "primary": {
+          "text": "Vollständige Details anzeigen",
+          "url": "{{ alertUrl }}"
+        },
+        "secondary": {
+          "text": "Alarme verwalten",
+          "url": "{{ manageAlertsUrl }}"
+        }
+      }
+    }
+  }
+}

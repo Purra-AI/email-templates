@@ -1,0 +1,312 @@
+{
+  "id": "price-alert-threshold",
+  "category": "notifications",
+  "campaignName": "price_alert_threshold",
+  "layout": "simple",
+  "dynamicFields": [
+    "firstName",
+    "productName",
+    "vendorName",
+    "currentPrice",
+    "targetPrice",
+    "percentageFromTarget",
+    "alertUrl",
+    "manageAlertsUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "Price Alert: {{ productName }} Approaching Target",
+      "preheader": "{{ productName }} is now {{ percentageFromTarget }}% from your target price",
+      "header": {
+        "title": "Price Approaching Your Target",
+        "subtitle": "{{ productName }} from {{ vendorName }}"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "The price for **{{ productName }}** from **{{ vendorName }}** is approaching the target price you set.",
+        "priceDetails": {
+          "title": "Price Status",
+          "currentPrice": "Current Price: ${{ currentPrice }}",
+          "targetPrice": "Your Target Price: ${{ targetPrice }}",
+          "difference": "Distance from Target: {{ percentageFromTarget }}%"
+        },
+        "status": {
+          "title": "📊 What This Means",
+          "description": "The price is moving towards your desired range. You may want to start preparing for a potential purchase or continue monitoring for further drops."
+        },
+        "nextSteps": {
+          "title": "What You Can Do",
+          "items": [
+            "Monitor the trend - prices may continue to drop",
+            "Prepare purchase authorization if needed",
+            "Check inventory levels and timing requirements",
+            "Review vendor terms and delivery schedules"
+          ]
+        },
+        "footer": "We'll notify you immediately when the price reaches your target. You can adjust your target price anytime."
+      },
+      "cta": {
+        "primary": {
+          "text": "View Price Trend",
+          "url": "{{ alertUrl }}"
+        },
+        "secondary": {
+          "text": "Adjust Target Price",
+          "url": "{{ manageAlertsUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "התראת מחיר: {{ productName }} מתקרב ליעד",
+      "preheader": "{{ productName }} נמצא כעת {{ percentageFromTarget }}% מהמחיר היעד שלכם",
+      "header": {
+        "title": "המחיר מתקרב ליעד שלכם",
+        "subtitle": "{{ productName }} מ-{{ vendorName }}"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "המחיר עבור **{{ productName }}** מ-**{{ vendorName }}** מתקרב למחיר היעד שהגדרתם.",
+        "priceDetails": {
+          "title": "סטטוס מחיר",
+          "currentPrice": "מחיר נוכחי: ${{ currentPrice }}",
+          "targetPrice": "המחיר היעד שלכם: ${{ targetPrice }}",
+          "difference": "מרחק מהיעד: {{ percentageFromTarget }}%"
+        },
+        "status": {
+          "title": "📊 מה זה אומר",
+          "description": "המחיר נע לכיוון הטווח הרצוי שלכם. כדאי להתחיל להתכונן לרכישה פוטנציאלית או להמשיך לעקוב אחר ירידות נוספות."
+        },
+        "nextSteps": {
+          "title": "מה אתם יכולים לעשות",
+          "items": [
+            "עקבו אחר המגמה - המחירים עשויים להמשיך לרדת",
+            "הכינו אישור רכישה במידת הצורך",
+            "בדקו רמות מלאי ודרישות תזמון",
+            "סקרו תנאי ספק ולוחות זמנים למשלוח"
+          ]
+        },
+        "footer": "נודיע לכם מיד כשהמחיר יגיע ליעד שלכם. אתם יכולים להתאים את מחיר היעד בכל עת."
+      },
+      "cta": {
+        "primary": {
+          "text": "צפו במגמת מחירים",
+          "url": "{{ alertUrl }}"
+        },
+        "secondary": {
+          "text": "התאימו מחיר יעד",
+          "url": "{{ manageAlertsUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "मूल्य अलर्ट: {{ productName }} लक्ष्य के करीब पहुंच रहा है",
+      "preheader": "{{ productName }} अब आपकी लक्ष्य कीमत से {{ percentageFromTarget }}% दूर है",
+      "header": {
+        "title": "कीमत आपके लक्ष्य के करीब पहुंच रही है",
+        "subtitle": "{{ vendorName }} से {{ productName }}"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "**{{ vendorName }}** से **{{ productName }}** की कीमत आपके द्वारा निर्धारित लक्ष्य मूल्य के करीब पहुंच रही है।",
+        "priceDetails": {
+          "title": "मूल्य स्थिति",
+          "currentPrice": "वर्तमान मूल्य: ${{ currentPrice }}",
+          "targetPrice": "आपका लक्ष्य मूल्य: ${{ targetPrice }}",
+          "difference": "लक्ष्य से दूरी: {{ percentageFromTarget }}%"
+        },
+        "status": {
+          "title": "📊 इसका क्या मतलब है",
+          "description": "कीमत आपकी वांछित सीमा की ओर बढ़ रही है। आप संभावित खरीदारी के लिए तैयारी शुरू करना चाह सकते हैं या आगे की गिरावट के लिए निगरानी जारी रख सकते हैं।"
+        },
+        "nextSteps": {
+          "title": "आप क्या कर सकते हैं",
+          "items": [
+            "रुझान की निगरानी करें - कीमतें गिरती रह सकती हैं",
+            "यदि आवश्यक हो तो खरीद प्राधिकरण तैयार करें",
+            "इन्वेंटरी स्तर और समय आवश्यकताओं की जांच करें",
+            "विक्रेता शर्तों और वितरण कार्यक्रमों की समीक्षा करें"
+          ]
+        },
+        "footer": "जब कीमत आपके लक्ष्य तक पहुंच जाएगी तो हम आपको तुरंत सूचित करेंगे। आप किसी भी समय अपनी लक्ष्य कीमत को समायोजित कर सकते हैं।"
+      },
+      "cta": {
+        "primary": {
+          "text": "मूल्य रुझान देखें",
+          "url": "{{ alertUrl }}"
+        },
+        "secondary": {
+          "text": "लक्ष्य मूल्य समायोजित करें",
+          "url": "{{ manageAlertsUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "Alerte de prix : {{ productName }} s'approche de la cible",
+      "preheader": "{{ productName }} est maintenant à {{ percentageFromTarget }}% de votre prix cible",
+      "header": {
+        "title": "Le prix s'approche de votre cible",
+        "subtitle": "{{ productName }} de {{ vendorName }}"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Le prix de **{{ productName }}** de **{{ vendorName }}** s'approche du prix cible que vous avez défini.",
+        "priceDetails": {
+          "title": "État du prix",
+          "currentPrice": "Prix actuel : ${{ currentPrice }}",
+          "targetPrice": "Votre prix cible : ${{ targetPrice }}",
+          "difference": "Distance de la cible : {{ percentageFromTarget }}%"
+        },
+        "status": {
+          "title": "📊 Ce que cela signifie",
+          "description": "Le prix se rapproche de votre fourchette souhaitée. Vous voudrez peut-être commencer à préparer un achat potentiel ou continuer à surveiller pour d'autres baisses."
+        },
+        "nextSteps": {
+          "title": "Ce que vous pouvez faire",
+          "items": [
+            "Surveiller la tendance - les prix peuvent continuer à baisser",
+            "Préparer l'autorisation d'achat si nécessaire",
+            "Vérifier les niveaux de stock et les exigences de calendrier",
+            "Examiner les conditions des fournisseurs et les calendriers de livraison"
+          ]
+        },
+        "footer": "Nous vous informerons immédiatement lorsque le prix atteindra votre cible. Vous pouvez ajuster votre prix cible à tout moment."
+      },
+      "cta": {
+        "primary": {
+          "text": "Voir la tendance des prix",
+          "url": "{{ alertUrl }}"
+        },
+        "secondary": {
+          "text": "Ajuster le prix cible",
+          "url": "{{ manageAlertsUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "价格警报：{{ productName }} 接近目标",
+      "preheader": "{{ productName }} 现在距离您的目标价格 {{ percentageFromTarget }}%",
+      "header": {
+        "title": "价格接近您的目标",
+        "subtitle": "来自 {{ vendorName }} 的 {{ productName }}"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "来自 **{{ vendorName }}** 的 **{{ productName }}** 价格正在接近您设定的目标价格。",
+        "priceDetails": {
+          "title": "价格状态",
+          "currentPrice": "当前价格：${{ currentPrice }}",
+          "targetPrice": "您的目标价格：${{ targetPrice }}",
+          "difference": "距离目标：{{ percentageFromTarget }}%"
+        },
+        "status": {
+          "title": "📊 这意味着什么",
+          "description": "价格正在向您期望的范围移动。您可能希望开始准备潜在的购买或继续监控进一步的下降。"
+        },
+        "nextSteps": {
+          "title": "您可以做什么",
+          "items": [
+            "监控趋势 - 价格可能继续下降",
+            "如有需要，准备购买授权",
+            "检查库存水平和时间要求",
+            "审查供应商条款和交付时间表"
+          ]
+        },
+        "footer": "当价格达到您的目标时，我们会立即通知您。您可以随时调整目标价格。"
+      },
+      "cta": {
+        "primary": {
+          "text": "查看价格趋势",
+          "url": "{{ alertUrl }}"
+        },
+        "secondary": {
+          "text": "调整目标价格",
+          "url": "{{ manageAlertsUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "価格アラート：{{ productName }} がターゲットに近づいています",
+      "preheader": "{{ productName }} は現在、目標価格から {{ percentageFromTarget }}% です",
+      "header": {
+        "title": "価格がターゲットに近づいています",
+        "subtitle": "{{ vendorName }} の {{ productName }}"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "**{{ vendorName }}** の **{{ productName }}** の価格が、設定した目標価格に近づいています。",
+        "priceDetails": {
+          "title": "価格ステータス",
+          "currentPrice": "現在の価格：${{ currentPrice }}",
+          "targetPrice": "目標価格：${{ targetPrice }}",
+          "difference": "ターゲットからの距離：{{ percentageFromTarget }}%"
+        },
+        "status": {
+          "title": "📊 これが意味すること",
+          "description": "価格は希望する範囲に向かって動いています。潜在的な購入の準備を始めたり、さらなる下落を監視したりすることをお勧めします。"
+        },
+        "nextSteps": {
+          "title": "できること",
+          "items": [
+            "トレンドを監視 - 価格はさらに下がる可能性があります",
+            "必要に応じて購入承認を準備",
+            "在庫レベルとタイミング要件を確認",
+            "ベンダーの条件と配送スケジュールを確認"
+          ]
+        },
+        "footer": "価格が目標に達したら直ちに通知します。目標価格はいつでも調整できます。"
+      },
+      "cta": {
+        "primary": {
+          "text": "価格トレンドを表示",
+          "url": "{{ alertUrl }}"
+        },
+        "secondary": {
+          "text": "目標価格を調整",
+          "url": "{{ manageAlertsUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "Preisalarm: {{ productName }} nähert sich dem Ziel",
+      "preheader": "{{ productName }} ist jetzt {{ percentageFromTarget }}% von Ihrem Zielpreis entfernt",
+      "header": {
+        "title": "Preis nähert sich Ihrem Ziel",
+        "subtitle": "{{ productName }} von {{ vendorName }}"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Der Preis für **{{ productName }}** von **{{ vendorName }}** nähert sich dem von Ihnen festgelegten Zielpreis.",
+        "priceDetails": {
+          "title": "Preisstatus",
+          "currentPrice": "Aktueller Preis: ${{ currentPrice }}",
+          "targetPrice": "Ihr Zielpreis: ${{ targetPrice }}",
+          "difference": "Abstand vom Ziel: {{ percentageFromTarget }}%"
+        },
+        "status": {
+          "title": "📊 Was das bedeutet",
+          "description": "Der Preis bewegt sich in Richtung Ihres gewünschten Bereichs. Sie möchten vielleicht mit der Vorbereitung eines möglichen Kaufs beginnen oder die Überwachung auf weitere Rückgänge fortsetzen."
+        },
+        "nextSteps": {
+          "title": "Was Sie tun können",
+          "items": [
+            "Trend überwachen - Preise können weiter fallen",
+            "Kaufgenehmigung vorbereiten, falls erforderlich",
+            "Lagerbestände und Zeitanforderungen prüfen",
+            "Lieferantenbedingungen und Lieferpläne überprüfen"
+          ]
+        },
+        "footer": "Wir benachrichtigen Sie sofort, wenn der Preis Ihr Ziel erreicht. Sie können Ihren Zielpreis jederzeit anpassen."
+      },
+      "cta": {
+        "primary": {
+          "text": "Preistrend anzeigen",
+          "url": "{{ alertUrl }}"
+        },
+        "secondary": {
+          "text": "Zielpreis anpassen",
+          "url": "{{ manageAlertsUrl }}"
+        }
+      }
+    }
+  }
+}
