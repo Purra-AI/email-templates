@@ -1,0 +1,474 @@
+{
+  "id": "supply-chain-risk-report",
+  "category": "reports",
+  "campaignName": "supply_chain_risk_report",
+  "layout": "base",
+  "dynamicFields": [
+    "firstName",
+    "reportPeriod",
+    "overallRiskScore",
+    "highRiskVendors",
+    "criticalCategories",
+    "riskTrends",
+    "mitigation Recommendations",
+    "reportUrl",
+    "dashboardUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "⚠️ Supply Chain Risk Assessment - {{ reportPeriod }}",
+      "preheader": "Comprehensive risk analysis across your vendor network",
+      "header": {
+        "title": "Supply Chain Risk Report",
+        "subtitle": "{{ reportPeriod }}"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "Here's your comprehensive supply chain risk assessment identifying potential vulnerabilities and risk factors across your vendor network.",
+        "riskScore": {
+          "title": "📊 Overall Risk Score",
+          "score": "{{ overallRiskScore }}/100",
+          "description": "This score represents the aggregate risk across all vendors, categories, and geographic regions in your supply chain."
+        },
+        "highRisk": {
+          "title": "🚨 High-Risk Vendors",
+          "count": "{{ highRiskVendors }} vendors require immediate attention",
+          "description": "These vendors have elevated risk scores due to financial instability, compliance issues, or geographic risks."
+        },
+        "criticalCategories": {
+          "title": "⚠️ Critical Risk Categories",
+          "description": "{{ criticalCategories }}"
+        },
+        "riskFactors": {
+          "title": "Risk Factors Analyzed",
+          "items": [
+            "Financial stability and credit ratings",
+            "Geographic and geopolitical risks",
+            "Regulatory compliance status",
+            "Operational capacity and reliability",
+            "Cybersecurity and data protection",
+            "Supply chain concentration"
+          ]
+        },
+        "trends": {
+          "title": "📈 Risk Trends",
+          "description": "{{ riskTrends }}"
+        },
+        "mitigation": {
+          "title": "Mitigation Recommendations",
+          "description": "{{ mitigationRecommendations }}"
+        },
+        "urgentActions": {
+          "title": "Urgent Actions Required",
+          "items": [
+            "Review contracts with high-risk vendors",
+            "Diversify sourcing for critical categories",
+            "Implement backup supplier agreements",
+            "Increase monitoring frequency for at-risk vendors"
+          ]
+        },
+        "footer": "Proactive risk management powered by Purra's AI-driven analytics."
+      },
+      "cta": {
+        "primary": {
+          "text": "View Full Risk Analysis",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "Manage Vendor Risks",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "⚠️ הערכת סיכוני שרשרת אספקה - {{ reportPeriod }}",
+      "preheader": "ניתוח סיכונים מקיף ברחבי רשת הספקים שלכם",
+      "header": {
+        "title": "דוח סיכוני שרשרת אספקה",
+        "subtitle": "{{ reportPeriod }}"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "הנה הערכת סיכוני שרשרת האספקה המקיפה שלכם המזהה פגיעויות אפשריות וגורמי סיכון ברחבי רשת הספקים שלכם.",
+        "riskScore": {
+          "title": "📊 ציון סיכון כולל",
+          "score": "{{ overallRiskScore }}/100",
+          "description": "ציון זה מייצג את הסיכון המצרפי על פני כל הספקים, הקטגוריות והאזורים הגיאוגרפיים בשרשרת האספקה שלכם."
+        },
+        "highRisk": {
+          "title": "🚨 ספקים בסיכון גבוה",
+          "count": "{{ highRiskVendors }} ספקים דורשים תשומת לב מיידית",
+          "description": "לספקים אלה יש ציוני סיכון מוגברים עקב חוסר יציבות פיננסית, בעיות ציות או סיכונים גיאוגרפיים."
+        },
+        "criticalCategories": {
+          "title": "⚠️ קטגוריות סיכון קריטיות",
+          "description": "{{ criticalCategories }}"
+        },
+        "riskFactors": {
+          "title": "גורמי סיכון שנותחו",
+          "items": [
+            "יציבות פיננסית ודירוגי אשראי",
+            "סיכונים גיאוגרפיים וגיאופוליטיים",
+            "סטטוס ציות רגולטורי",
+            "יכולת תפעולית ואמינות",
+            "אבטחת סייבר והגנת מידע",
+            "ריכוז שרשרת אספקה"
+          ]
+        },
+        "trends": {
+          "title": "📈 מגמות סיכון",
+          "description": "{{ riskTrends }}"
+        },
+        "mitigation": {
+          "title": "המלצות להפחתת סיכון",
+          "description": "{{ mitigationRecommendations }}"
+        },
+        "urgentActions": {
+          "title": "פעולות דחופות נדרשות",
+          "items": [
+            "בדקו חוזים עם ספקים בסיכון גבוה",
+            "גוונו מקורות לקטגוריות קריטיות",
+            "יישמו הסכמי ספקים גיבוי",
+            "הגבירו תדירות ניטור עבור ספקים בסיכון"
+          ]
+        },
+        "footer": "ניהול סיכונים פרואקטיבי המופעל על ידי ניתוחי AI של Purra."
+      },
+      "cta": {
+        "primary": {
+          "text": "צפו בניתוח סיכונים מלא",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "נהלו סיכוני ספקים",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "⚠️ आपूर्ति श्रृंखला जोखिम मूल्यांकन - {{ reportPeriod }}",
+      "preheader": "आपके विक्रेता नेटवर्क में व्यापक जोखिम विश्लेषण",
+      "header": {
+        "title": "आपूर्ति श्रृंखला जोखिम रिपोर्ट",
+        "subtitle": "{{ reportPeriod }}"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "यहां आपकी व्यापक आपूर्ति श्रृंखला जोखिम मूल्यांकन है जो आपके विक्रेता नेटवर्क में संभावित कमजोरियों और जोखिम कारकों की पहचान करती है।",
+        "riskScore": {
+          "title": "📊 समग्र जोखिम स्कोर",
+          "score": "{{ overallRiskScore }}/100",
+          "description": "यह स्कोर आपकी आपूर्ति श्रृंखला में सभी विक्रेताओं, श्रेणियों और भौगोलिक क्षेत्रों में कुल जोखिम का प्रतिनिधित्व करता है।"
+        },
+        "highRisk": {
+          "title": "🚨 उच्च-जोखिम विक्रेता",
+          "count": "{{ highRiskVendors }} विक्रेताओं को तत्काल ध्यान की आवश्यकता है",
+          "description": "वित्तीय अस्थिरता, अनुपालन मुद्दों या भौगोलिक जोखिमों के कारण इन विक्रेताओं के पास उच्च जोखिम स्कोर हैं।"
+        },
+        "criticalCategories": {
+          "title": "⚠️ महत्वपूर्ण जोखिम श्रेणियां",
+          "description": "{{ criticalCategories }}"
+        },
+        "riskFactors": {
+          "title": "विश्लेषित जोखिम कारक",
+          "items": [
+            "वित्तीय स्थिरता और क्रेडिट रेटिंग",
+            "भौगोलिक और भूराजनीतिक जोखिम",
+            "नियामक अनुपालन स्थिति",
+            "परिचालन क्षमता और विश्वसनीयता",
+            "साइबर सुरक्षा और डेटा सुरक्षा",
+            "आपूर्ति श्रृंखला एकाग्रता"
+          ]
+        },
+        "trends": {
+          "title": "📈 जोखिम रुझान",
+          "description": "{{ riskTrends }}"
+        },
+        "mitigation": {
+          "title": "शमन सिफारिशें",
+          "description": "{{ mitigationRecommendations }}"
+        },
+        "urgentActions": {
+          "title": "आवश्यक तत्काल कार्रवाई",
+          "items": [
+            "उच्च-जोखिम विक्रेताओं के साथ अनुबंधों की समीक्षा करें",
+            "महत्वपूर्ण श्रेणियों के लिए सोर्सिंग में विविधता लाएं",
+            "बैकअप आपूर्तिकर्ता समझौतों को लागू करें",
+            "जोखिम में विक्रेताओं के लिए निगरानी आवृत्ति बढ़ाएं"
+          ]
+        },
+        "footer": "Purra के AI-संचालित विश्लेषण द्वारा संचालित सक्रिय जोखिम प्रबंधन।"
+      },
+      "cta": {
+        "primary": {
+          "text": "पूर्ण जोखिम विश्लेषण देखें",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "विक्रेता जोखिम प्रबंधित करें",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "⚠️ Évaluation des risques de la chaîne d'approvisionnement - {{ reportPeriod }}",
+      "preheader": "Analyse complète des risques dans votre réseau de fournisseurs",
+      "header": {
+        "title": "Rapport sur les risques de la chaîne d'approvisionnement",
+        "subtitle": "{{ reportPeriod }}"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Voici votre évaluation complète des risques de la chaîne d'approvisionnement identifiant les vulnérabilités potentielles et les facteurs de risque dans votre réseau de fournisseurs.",
+        "riskScore": {
+          "title": "📊 Score de risque global",
+          "score": "{{ overallRiskScore }}/100",
+          "description": "Ce score représente le risque agrégé sur tous les fournisseurs, catégories et régions géographiques de votre chaîne d'approvisionnement."
+        },
+        "highRisk": {
+          "title": "🚨 Fournisseurs à haut risque",
+          "count": "{{ highRiskVendors }} fournisseurs nécessitent une attention immédiate",
+          "description": "Ces fournisseurs ont des scores de risque élevés en raison d'une instabilité financière, de problèmes de conformité ou de risques géographiques."
+        },
+        "criticalCategories": {
+          "title": "⚠️ Catégories de risques critiques",
+          "description": "{{ criticalCategories }}"
+        },
+        "riskFactors": {
+          "title": "Facteurs de risque analysés",
+          "items": [
+            "Stabilité financière et notations de crédit",
+            "Risques géographiques et géopolitiques",
+            "Statut de conformité réglementaire",
+            "Capacité opérationnelle et fiabilité",
+            "Cybersécurité et protection des données",
+            "Concentration de la chaîne d'approvisionnement"
+          ]
+        },
+        "trends": {
+          "title": "📈 Tendances des risques",
+          "description": "{{ riskTrends }}"
+        },
+        "mitigation": {
+          "title": "Recommandations d'atténuation",
+          "description": "{{ mitigationRecommendations }}"
+        },
+        "urgentActions": {
+          "title": "Actions urgentes requises",
+          "items": [
+            "Examiner les contrats avec les fournisseurs à haut risque",
+            "Diversifier les sources pour les catégories critiques",
+            "Mettre en place des accords de fournisseurs de secours",
+            "Augmenter la fréquence de surveillance pour les fournisseurs à risque"
+          ]
+        },
+        "footer": "Gestion proactive des risques alimentée par l'analyse IA de Purra."
+      },
+      "cta": {
+        "primary": {
+          "text": "Voir l'analyse complète des risques",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "Gérer les risques fournisseurs",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "⚠️ 供应链风险评估 - {{ reportPeriod }}",
+      "preheader": "供应商网络的综合风险分析",
+      "header": {
+        "title": "供应链风险报告",
+        "subtitle": "{{ reportPeriod }}"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "这是您的综合供应链风险评估，识别供应商网络中的潜在脆弱性和风险因素。",
+        "riskScore": {
+          "title": "📊 总体风险评分",
+          "score": "{{ overallRiskScore }}/100",
+          "description": "此评分代表供应链中所有供应商、类别和地理区域的综合风险。"
+        },
+        "highRisk": {
+          "title": "🚨 高风险供应商",
+          "count": "{{ highRiskVendors }} 个供应商需要立即关注",
+          "description": "由于财务不稳定、合规问题或地理风险，这些供应商的风险评分较高。"
+        },
+        "criticalCategories": {
+          "title": "⚠️ 关键风险类别",
+          "description": "{{ criticalCategories }}"
+        },
+        "riskFactors": {
+          "title": "分析的风险因素",
+          "items": [
+            "财务稳定性和信用评级",
+            "地理和地缘政治风险",
+            "监管合规状态",
+            "运营能力和可靠性",
+            "网络安全和数据保护",
+            "供应链集中度"
+          ]
+        },
+        "trends": {
+          "title": "📈 风险趋势",
+          "description": "{{ riskTrends }}"
+        },
+        "mitigation": {
+          "title": "缓解建议",
+          "description": "{{ mitigationRecommendations }}"
+        },
+        "urgentActions": {
+          "title": "需要的紧急行动",
+          "items": [
+            "审查与高风险供应商的合同",
+            "为关键类别分散采购",
+            "实施备用供应商协议",
+            "增加对风险供应商的监控频率"
+          ]
+        },
+        "footer": "由Purra的AI驱动分析提供的主动风险管理。"
+      },
+      "cta": {
+        "primary": {
+          "text": "查看完整风险分析",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "管理供应商风险",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "⚠️ サプライチェーンリスク評価 - {{ reportPeriod }}",
+      "preheader": "ベンダーネットワーク全体の包括的リスク分析",
+      "header": {
+        "title": "サプライチェーンリスクレポート",
+        "subtitle": "{{ reportPeriod }}"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "ベンダーネットワーク全体の潜在的な脆弱性とリスク要因を特定する包括的なサプライチェーンリスク評価です。",
+        "riskScore": {
+          "title": "📊 総合リスクスコア",
+          "score": "{{ overallRiskScore }}/100",
+          "description": "このスコアは、サプライチェーン内のすべてのベンダー、カテゴリ、地理的地域にわたる総合リスクを表します。"
+        },
+        "highRisk": {
+          "title": "🚨 高リスクベンダー",
+          "count": "{{ highRiskVendors }} のベンダーが即座の対応を必要としています",
+          "description": "これらのベンダーは、財務不安定性、コンプライアンス問題、または地理的リスクにより高いリスクスコアを持っています。"
+        },
+        "criticalCategories": {
+          "title": "⚠️ 重大なリスクカテゴリ",
+          "description": "{{ criticalCategories }}"
+        },
+        "riskFactors": {
+          "title": "分析されたリスク要因",
+          "items": [
+            "財務安定性と信用格付け",
+            "地理的および地政学的リスク",
+            "規制コンプライアンスステータス",
+            "運用能力と信頼性",
+            "サイバーセキュリティとデータ保護",
+            "サプライチェーンの集中"
+          ]
+        },
+        "trends": {
+          "title": "📈 リスクトレンド",
+          "description": "{{ riskTrends }}"
+        },
+        "mitigation": {
+          "title": "緩和策の推奨",
+          "description": "{{ mitigationRecommendations }}"
+        },
+        "urgentActions": {
+          "title": "必要な緊急対応",
+          "items": [
+            "高リスクベンダーとの契約を見直す",
+            "重要カテゴリの調達を多様化",
+            "バックアップサプライヤー契約を実装",
+            "リスクのあるベンダーの監視頻度を増やす"
+          ]
+        },
+        "footer": "PurraのAI駆動分析による積極的なリスク管理。"
+      },
+      "cta": {
+        "primary": {
+          "text": "完全なリスク分析を表示",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "ベンダーリスクを管理",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "⚠️ Lieferketten-Risikobewertung - {{ reportPeriod }}",
+      "preheader": "Umfassende Risikoanalyse in Ihrem Lieferantennetzwerk",
+      "header": {
+        "title": "Lieferketten-Risikobericht",
+        "subtitle": "{{ reportPeriod }}"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Hier ist Ihre umfassende Lieferketten-Risikobewertung, die potenzielle Schwachstellen und Risikofaktoren in Ihrem Lieferantennetzwerk identifiziert.",
+        "riskScore": {
+          "title": "📊 Gesamtrisikobewertung",
+          "score": "{{ overallRiskScore }}/100",
+          "description": "Diese Bewertung repräsentiert das aggregierte Risiko über alle Lieferanten, Kategorien und geografischen Regionen in Ihrer Lieferkette."
+        },
+        "highRisk": {
+          "title": "🚨 Hochrisiko-Lieferanten",
+          "count": "{{ highRiskVendors }} Lieferanten benötigen sofortige Aufmerksamkeit",
+          "description": "Diese Lieferanten haben aufgrund finanzieller Instabilität, Compliance-Problemen oder geografischen Risiken erhöhte Risikobewertungen."
+        },
+        "criticalCategories": {
+          "title": "⚠️ Kritische Risikokategorien",
+          "description": "{{ criticalCategories }}"
+        },
+        "riskFactors": {
+          "title": "Analysierte Risikofaktoren",
+          "items": [
+            "Finanzielle Stabilität und Kreditratings",
+            "Geografische und geopolitische Risiken",
+            "Regulatorischer Compliance-Status",
+            "Betriebskapazität und Zuverlässigkeit",
+            "Cybersicherheit und Datenschutz",
+            "Lieferkettenkonzentration"
+          ]
+        },
+        "trends": {
+          "title": "📈 Risikotrends",
+          "description": "{{ riskTrends }}"
+        },
+        "mitigation": {
+          "title": "Minderungsempfehlungen",
+          "description": "{{ mitigationRecommendations }}"
+        },
+        "urgentActions": {
+          "title": "Erforderliche dringende Maßnahmen",
+          "items": [
+            "Verträge mit Hochrisiko-Lieferanten überprüfen",
+            "Beschaffung für kritische Kategorien diversifizieren",
+            "Backup-Lieferantenvereinbarungen implementieren",
+            "Überwachungshäufigkeit für Risikolieferanten erhöhen"
+          ]
+        },
+        "footer": "Proaktives Risikomanagement angetrieben durch Purras KI-gestützte Analysen."
+      },
+      "cta": {
+        "primary": {
+          "text": "Vollständige Risikoanalyse anzeigen",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "Lieferantenrisiken verwalten",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    }
+  }
+}

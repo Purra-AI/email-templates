@@ -1,0 +1,333 @@
+{
+  "id": "market-trend-alert",
+  "category": "reports",
+  "campaignName": "market_trend_alert",
+  "layout": "base",
+  "dynamicFields": [
+    "firstName",
+    "trendName",
+    "trendDescription",
+    "affectedCategories",
+    "recommendedActions",
+    "impactLevel",
+    "trendUrl",
+    "dashboardUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "🚨 Market Trend Alert: {{ trendName }}",
+      "preheader": "Significant market changes detected that may impact your supply chain",
+      "header": {
+        "title": "Market Trend Alert",
+        "subtitle": "Immediate attention required"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "We've detected a significant market trend that could impact your procurement strategy.",
+        "trend": {
+          "title": "📈 Trend Detected",
+          "name": "{{ trendName }}",
+          "description": "{{ trendDescription }}"
+        },
+        "impact": {
+          "title": "⚠️ Impact Level",
+          "level": "{{ impactLevel }}",
+          "description": "This trend may affect pricing, availability, and lead times for your key categories."
+        },
+        "affected": {
+          "title": "Affected Categories",
+          "description": "{{ affectedCategories }}"
+        },
+        "recommendations": {
+          "title": "Recommended Actions",
+          "description": "{{ recommendedActions }}"
+        },
+        "urgency": {
+          "title": "Time Sensitivity",
+          "description": "We recommend reviewing your sourcing strategy within the next 48 hours to minimize potential disruptions."
+        },
+        "footer": "Stay informed with real-time market intelligence from Purra."
+      },
+      "cta": {
+        "primary": {
+          "text": "View Detailed Analysis",
+          "url": "{{ trendUrl }}"
+        },
+        "secondary": {
+          "text": "Go to Dashboard",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "🚨 התראת מגמת שוק: {{ trendName }}",
+      "preheader": "זוהו שינויים משמעותיים בשוק העלולים להשפיע על שרשרת האספקה שלכם",
+      "header": {
+        "title": "התראת מגמת שוק",
+        "subtitle": "נדרשת תשומת לב מיידית"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "זיהינו מגמת שוק משמעותית שעלולה להשפיע על אסטרטגיית הרכש שלכם.",
+        "trend": {
+          "title": "📈 מגמה שזוהתה",
+          "name": "{{ trendName }}",
+          "description": "{{ trendDescription }}"
+        },
+        "impact": {
+          "title": "⚠️ רמת השפעה",
+          "level": "{{ impactLevel }}",
+          "description": "מגמה זו עלולה להשפיע על תמחור, זמינות וזמני אספקה עבור הקטגוריות המרכזיות שלכם."
+        },
+        "affected": {
+          "title": "קטגוריות מושפעות",
+          "description": "{{ affectedCategories }}"
+        },
+        "recommendations": {
+          "title": "פעולות מומלצות",
+          "description": "{{ recommendedActions }}"
+        },
+        "urgency": {
+          "title": "רגישות זמן",
+          "description": "אנו ממליצים לבדוק את אסטרטגיית המקורות שלכם בתוך 48 השעות הקרובות כדי למזער שיבושים אפשריים."
+        },
+        "footer": "הישארו מעודכנים עם מודיעין שוק בזמן אמת מבית Purra."
+      },
+      "cta": {
+        "primary": {
+          "text": "צפו בניתוח מפורט",
+          "url": "{{ trendUrl }}"
+        },
+        "secondary": {
+          "text": "עברו ללוח בקרה",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "🚨 बाजार प्रवृत्ति अलर्ट: {{ trendName }}",
+      "preheader": "महत्वपूर्ण बाजार परिवर्तन का पता चला जो आपकी आपूर्ति श्रृंखला को प्रभावित कर सकता है",
+      "header": {
+        "title": "बाजार प्रवृत्ति अलर्ट",
+        "subtitle": "तत्काल ध्यान आवश्यक"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "हमने एक महत्वपूर्ण बाजार प्रवृत्ति का पता लगाया है जो आपकी खरीद रणनीति को प्रभावित कर सकती है।",
+        "trend": {
+          "title": "📈 प्रवृत्ति का पता चला",
+          "name": "{{ trendName }}",
+          "description": "{{ trendDescription }}"
+        },
+        "impact": {
+          "title": "⚠️ प्रभाव स्तर",
+          "level": "{{ impactLevel }}",
+          "description": "यह प्रवृत्ति आपकी प्रमुख श्रेणियों के लिए मूल्य निर्धारण, उपलब्धता और लीड समय को प्रभावित कर सकती है।"
+        },
+        "affected": {
+          "title": "प्रभावित श्रेणियां",
+          "description": "{{ affectedCategories }}"
+        },
+        "recommendations": {
+          "title": "अनुशंसित कार्रवाई",
+          "description": "{{ recommendedActions }}"
+        },
+        "urgency": {
+          "title": "समय संवेदनशीलता",
+          "description": "हम अनुशंसा करते हैं कि संभावित व्यवधानों को कम करने के लिए अगले 48 घंटों के भीतर अपनी सोर्सिंग रणनीति की समीक्षा करें।"
+        },
+        "footer": "Purra से रियल-टाइम बाजार बुद्धिमत्ता के साथ सूचित रहें।"
+      },
+      "cta": {
+        "primary": {
+          "text": "विस्तृत विश्लेषण देखें",
+          "url": "{{ trendUrl }}"
+        },
+        "secondary": {
+          "text": "डैशबोर्ड पर जाएं",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "🚨 Alerte tendance de marché : {{ trendName }}",
+      "preheader": "Changements importants du marché détectés pouvant impacter votre chaîne d'approvisionnement",
+      "header": {
+        "title": "Alerte tendance de marché",
+        "subtitle": "Attention immédiate requise"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Nous avons détecté une tendance de marché importante qui pourrait impacter votre stratégie d'approvisionnement.",
+        "trend": {
+          "title": "📈 Tendance détectée",
+          "name": "{{ trendName }}",
+          "description": "{{ trendDescription }}"
+        },
+        "impact": {
+          "title": "⚠️ Niveau d'impact",
+          "level": "{{ impactLevel }}",
+          "description": "Cette tendance peut affecter les prix, la disponibilité et les délais de livraison pour vos catégories clés."
+        },
+        "affected": {
+          "title": "Catégories affectées",
+          "description": "{{ affectedCategories }}"
+        },
+        "recommendations": {
+          "title": "Actions recommandées",
+          "description": "{{ recommendedActions }}"
+        },
+        "urgency": {
+          "title": "Sensibilité temporelle",
+          "description": "Nous recommandons de réviser votre stratégie d'approvisionnement dans les 48 heures pour minimiser les perturbations potentielles."
+        },
+        "footer": "Restez informé avec l'intelligence de marché en temps réel de Purra."
+      },
+      "cta": {
+        "primary": {
+          "text": "Voir l'analyse détaillée",
+          "url": "{{ trendUrl }}"
+        },
+        "secondary": {
+          "text": "Accéder au tableau de bord",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "🚨 市场趋势警报：{{ trendName }}",
+      "preheader": "检测到可能影响您供应链的重大市场变化",
+      "header": {
+        "title": "市场趋势警报",
+        "subtitle": "需要立即关注"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "我们检测到可能影响您采购策略的重大市场趋势。",
+        "trend": {
+          "title": "📈 检测到的趋势",
+          "name": "{{ trendName }}",
+          "description": "{{ trendDescription }}"
+        },
+        "impact": {
+          "title": "⚠️ 影响程度",
+          "level": "{{ impactLevel }}",
+          "description": "此趋势可能影响您关键类别的定价、可用性和交付时间。"
+        },
+        "affected": {
+          "title": "受影响的类别",
+          "description": "{{ affectedCategories }}"
+        },
+        "recommendations": {
+          "title": "建议行动",
+          "description": "{{ recommendedActions }}"
+        },
+        "urgency": {
+          "title": "时间敏感性",
+          "description": "我们建议在接下来的48小时内审查您的采购策略，以最大限度减少潜在干扰。"
+        },
+        "footer": "通过Purra的实时市场情报保持信息灵通。"
+      },
+      "cta": {
+        "primary": {
+          "text": "查看详细分析",
+          "url": "{{ trendUrl }}"
+        },
+        "secondary": {
+          "text": "转到仪表板",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "🚨 市場トレンドアラート：{{ trendName }}",
+      "preheader": "サプライチェーンに影響を与える可能性のある重大な市場変化を検出",
+      "header": {
+        "title": "市場トレンドアラート",
+        "subtitle": "即時対応が必要"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "調達戦略に影響を与える可能性のある重大な市場トレンドを検出しました。",
+        "trend": {
+          "title": "📈 検出されたトレンド",
+          "name": "{{ trendName }}",
+          "description": "{{ trendDescription }}"
+        },
+        "impact": {
+          "title": "⚠️ 影響レベル",
+          "level": "{{ impactLevel }}",
+          "description": "このトレンドは、主要カテゴリの価格、在庫状況、リードタイムに影響を与える可能性があります。"
+        },
+        "affected": {
+          "title": "影響を受けるカテゴリ",
+          "description": "{{ affectedCategories }}"
+        },
+        "recommendations": {
+          "title": "推奨アクション",
+          "description": "{{ recommendedActions }}"
+        },
+        "urgency": {
+          "title": "時間的緊急性",
+          "description": "潜在的な混乱を最小限に抑えるため、48時間以内に調達戦略を見直すことをお勧めします。"
+        },
+        "footer": "Purraのリアルタイム市場インテリジェンスで常に最新情報を入手。"
+      },
+      "cta": {
+        "primary": {
+          "text": "詳細分析を表示",
+          "url": "{{ trendUrl }}"
+        },
+        "secondary": {
+          "text": "ダッシュボードへ",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "🚨 Markttrend-Warnung: {{ trendName }}",
+      "preheader": "Bedeutende Marktveränderungen erkannt, die Ihre Lieferkette beeinträchtigen könnten",
+      "header": {
+        "title": "Markttrend-Warnung",
+        "subtitle": "Sofortige Aufmerksamkeit erforderlich"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Wir haben einen bedeutenden Markttrend erkannt, der Ihre Beschaffungsstrategie beeinflussen könnte.",
+        "trend": {
+          "title": "📈 Erkannter Trend",
+          "name": "{{ trendName }}",
+          "description": "{{ trendDescription }}"
+        },
+        "impact": {
+          "title": "⚠️ Auswirkungsgrad",
+          "level": "{{ impactLevel }}",
+          "description": "Dieser Trend kann sich auf Preise, Verfügbarkeit und Lieferzeiten für Ihre Schlüsselkategorien auswirken."
+        },
+        "affected": {
+          "title": "Betroffene Kategorien",
+          "description": "{{ affectedCategories }}"
+        },
+        "recommendations": {
+          "title": "Empfohlene Maßnahmen",
+          "description": "{{ recommendedActions }}"
+        },
+        "urgency": {
+          "title": "Zeitkritisch",
+          "description": "Wir empfehlen, Ihre Beschaffungsstrategie innerhalb der nächsten 48 Stunden zu überprüfen, um potenzielle Störungen zu minimieren."
+        },
+        "footer": "Bleiben Sie mit Echtzeit-Marktintelligenz von Purra informiert."
+      },
+      "cta": {
+        "primary": {
+          "text": "Detaillierte Analyse anzeigen",
+          "url": "{{ trendUrl }}"
+        },
+        "secondary": {
+          "text": "Zum Dashboard",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    }
+  }
+}

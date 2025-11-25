@@ -1,0 +1,405 @@
+{
+  "id": "compliance-status-report",
+  "category": "reports",
+  "campaignName": "compliance_status_report",
+  "layout": "base",
+  "dynamicFields": [
+    "firstName",
+    "reportMonth",
+    "totalVendors",
+    "compliantVendors",
+    "nonCompliantVendors",
+    "pendingReviews",
+    "criticalIssues",
+    "complianceRate",
+    "reportUrl",
+    "dashboardUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "📋 Monthly Compliance Status Report - {{ reportMonth }}",
+      "preheader": "Your vendor compliance overview for {{ reportMonth }}",
+      "header": {
+        "title": "Compliance Status Report",
+        "subtitle": "{{ reportMonth }}"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "Here's your monthly vendor compliance status report summarizing all compliance activities and vendor standings.",
+        "overview": {
+          "title": "📊 Compliance Overview",
+          "totalVendors": "Total Active Vendors: {{ totalVendors }}",
+          "compliant": "✅ Fully Compliant: {{ compliantVendors }}",
+          "nonCompliant": "⚠️ Non-Compliant: {{ nonCompliantVendors }}",
+          "pending": "⏳ Pending Reviews: {{ pendingReviews }}",
+          "rate": "Overall Compliance Rate: {{ complianceRate }}%"
+        },
+        "criticalIssues": {
+          "title": "🚨 Critical Issues Requiring Attention",
+          "description": "{{ criticalIssues }}"
+        },
+        "categories": {
+          "title": "Compliance Categories Reviewed",
+          "items": [
+            "Certifications & Licenses",
+            "Insurance Requirements",
+            "Safety & Quality Standards",
+            "Environmental Regulations",
+            "Labor & Ethics Compliance",
+            "Data Security & Privacy"
+          ]
+        },
+        "actionItems": {
+          "title": "Recommended Actions",
+          "items": [
+            "Follow up with non-compliant vendors within 7 days",
+            "Review and approve pending compliance documents",
+            "Schedule audits for vendors with expired certifications",
+            "Update compliance requirements for new regulations"
+          ]
+        },
+        "footer": "Stay compliant with automated vendor monitoring from Purra."
+      },
+      "cta": {
+        "primary": {
+          "text": "View Full Report",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "Manage Compliance",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "📋 דוח סטטוס ציות חודשי - {{ reportMonth }}",
+      "preheader": "סקירת הציות של הספקים שלכם עבור {{ reportMonth }}",
+      "header": {
+        "title": "דוח סטטוס ציות",
+        "subtitle": "{{ reportMonth }}"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "הנה דוח סטטוס הציות החודשי שלכם המסכם את כל פעילויות הציות ומעמד הספקים.",
+        "overview": {
+          "title": "📊 סקירת ציות",
+          "totalVendors": "סך הספקים הפעילים: {{ totalVendors }}",
+          "compliant": "✅ בציות מלא: {{ compliantVendors }}",
+          "nonCompliant": "⚠️ לא בציות: {{ nonCompliantVendors }}",
+          "pending": "⏳ ממתינים לבדיקה: {{ pendingReviews }}",
+          "rate": "שיעור ציות כללי: {{ complianceRate }}%"
+        },
+        "criticalIssues": {
+          "title": "🚨 בעיות קריטיות הדורשות תשומת לב",
+          "description": "{{ criticalIssues }}"
+        },
+        "categories": {
+          "title": "קטגוריות ציות שנבדקו",
+          "items": [
+            "אישורים ורישיונות",
+            "דרישות ביטוח",
+            "תקני בטיחות ואיכות",
+            "תקנות סביבתיות",
+            "ציות עבודה ואתיקה",
+            "אבטחת מידע ופרטיות"
+          ]
+        },
+        "actionItems": {
+          "title": "פעולות מומלצות",
+          "items": [
+            "עקבו אחר ספקים שאינם בציות תוך 7 ימים",
+            "בדקו ואשרו מסמכי ציות ממתינים",
+            "קבעו ביקורות לספקים עם אישורים שפגו",
+            "עדכנו דרישות ציות לתקנות חדשות"
+          ]
+        },
+        "footer": "הישארו בציות עם ניטור אוטומטי של ספקים מבית Purra."
+      },
+      "cta": {
+        "primary": {
+          "text": "צפו בדוח מלא",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "נהלו ציות",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "📋 मासिक अनुपालन स्थिति रिपोर्ट - {{ reportMonth }}",
+      "preheader": "{{ reportMonth }} के लिए आपका विक्रेता अनुपालन अवलोकन",
+      "header": {
+        "title": "अनुपालन स्थिति रिपोर्ट",
+        "subtitle": "{{ reportMonth }}"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "यहां आपकी मासिक विक्रेता अनुपालन स्थिति रिपोर्ट है जो सभी अनुपालन गतिविधियों और विक्रेता स्थितियों को संक्षेप में बताती है।",
+        "overview": {
+          "title": "📊 अनुपालन अवलोकन",
+          "totalVendors": "कुल सक्रिय विक्रेता: {{ totalVendors }}",
+          "compliant": "✅ पूर्ण रूप से अनुपालन: {{ compliantVendors }}",
+          "nonCompliant": "⚠️ गैर-अनुपालन: {{ nonCompliantVendors }}",
+          "pending": "⏳ समीक्षा लंबित: {{ pendingReviews }}",
+          "rate": "समग्र अनुपालन दर: {{ complianceRate }}%"
+        },
+        "criticalIssues": {
+          "title": "🚨 ध्यान देने योग्य महत्वपूर्ण मुद्दे",
+          "description": "{{ criticalIssues }}"
+        },
+        "categories": {
+          "title": "समीक्षा किए गए अनुपालन श्रेणियां",
+          "items": [
+            "प्रमाणपत्र और लाइसेंस",
+            "बीमा आवश्यकताएं",
+            "सुरक्षा और गुणवत्ता मानक",
+            "पर्यावरण नियम",
+            "श्रम और नैतिकता अनुपालन",
+            "डेटा सुरक्षा और गोपनीयता"
+          ]
+        },
+        "actionItems": {
+          "title": "अनुशंसित कार्रवाई",
+          "items": [
+            "7 दिनों के भीतर गैर-अनुपालन विक्रेताओं से संपर्क करें",
+            "लंबित अनुपालन दस्तावेजों की समीक्षा और अनुमोदन करें",
+            "समाप्त प्रमाणपत्र वाले विक्रेताओं के लिए ऑडिट शेड्यूल करें",
+            "नए नियमों के लिए अनुपालन आवश्यकताओं को अपडेट करें"
+          ]
+        },
+        "footer": "Purra से स्वचालित विक्रेता निगरानी के साथ अनुपालन बनाए रखें।"
+      },
+      "cta": {
+        "primary": {
+          "text": "पूर्ण रिपोर्ट देखें",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "अनुपालन प्रबंधित करें",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "📋 Rapport mensuel de conformité - {{ reportMonth }}",
+      "preheader": "Votre aperçu de conformité des fournisseurs pour {{ reportMonth }}",
+      "header": {
+        "title": "Rapport de conformité",
+        "subtitle": "{{ reportMonth }}"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Voici votre rapport mensuel de conformité des fournisseurs résumant toutes les activités de conformité et les positions des fournisseurs.",
+        "overview": {
+          "title": "📊 Aperçu de la conformité",
+          "totalVendors": "Total fournisseurs actifs : {{ totalVendors }}",
+          "compliant": "✅ Entièrement conforme : {{ compliantVendors }}",
+          "nonCompliant": "⚠️ Non conforme : {{ nonCompliantVendors }}",
+          "pending": "⏳ Examens en attente : {{ pendingReviews }}",
+          "rate": "Taux de conformité global : {{ complianceRate }}%"
+        },
+        "criticalIssues": {
+          "title": "🚨 Problèmes critiques nécessitant une attention",
+          "description": "{{ criticalIssues }}"
+        },
+        "categories": {
+          "title": "Catégories de conformité examinées",
+          "items": [
+            "Certifications et licences",
+            "Exigences d'assurance",
+            "Normes de sécurité et qualité",
+            "Réglementations environnementales",
+            "Conformité du travail et éthique",
+            "Sécurité des données et confidentialité"
+          ]
+        },
+        "actionItems": {
+          "title": "Actions recommandées",
+          "items": [
+            "Suivi des fournisseurs non conformes dans les 7 jours",
+            "Examiner et approuver les documents de conformité en attente",
+            "Planifier des audits pour les fournisseurs avec certifications expirées",
+            "Mettre à jour les exigences de conformité pour les nouvelles réglementations"
+          ]
+        },
+        "footer": "Restez conforme avec la surveillance automatisée des fournisseurs de Purra."
+      },
+      "cta": {
+        "primary": {
+          "text": "Voir le rapport complet",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "Gérer la conformité",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "📋 月度合规状态报告 - {{ reportMonth }}",
+      "preheader": "您的 {{ reportMonth }} 供应商合规概览",
+      "header": {
+        "title": "合规状态报告",
+        "subtitle": "{{ reportMonth }}"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "这是您的月度供应商合规状态报告，总结了所有合规活动和供应商状态。",
+        "overview": {
+          "title": "📊 合规概览",
+          "totalVendors": "活跃供应商总数：{{ totalVendors }}",
+          "compliant": "✅ 完全合规：{{ compliantVendors }}",
+          "nonCompliant": "⚠️ 不合规：{{ nonCompliantVendors }}",
+          "pending": "⏳ 待审查：{{ pendingReviews }}",
+          "rate": "总体合规率：{{ complianceRate }}%"
+        },
+        "criticalIssues": {
+          "title": "🚨 需要关注的关键问题",
+          "description": "{{ criticalIssues }}"
+        },
+        "categories": {
+          "title": "审查的合规类别",
+          "items": [
+            "认证和许可证",
+            "保险要求",
+            "安全和质量标准",
+            "环境法规",
+            "劳工和道德合规",
+            "数据安全和隐私"
+          ]
+        },
+        "actionItems": {
+          "title": "建议措施",
+          "items": [
+            "7天内跟进不合规供应商",
+            "审查和批准待处理的合规文件",
+            "为证书过期的供应商安排审计",
+            "更新新法规的合规要求"
+          ]
+        },
+        "footer": "通过Purra的自动供应商监控保持合规。"
+      },
+      "cta": {
+        "primary": {
+          "text": "查看完整报告",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "管理合规",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "📋 月次コンプライアンスステータスレポート - {{ reportMonth }}",
+      "preheader": "{{ reportMonth }}のベンダーコンプライアンス概要",
+      "header": {
+        "title": "コンプライアンスステータスレポート",
+        "subtitle": "{{ reportMonth }}"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "すべてのコンプライアンス活動とベンダーの状況を要約した月次ベンダーコンプライアンスステータスレポートです。",
+        "overview": {
+          "title": "📊 コンプライアンス概要",
+          "totalVendors": "アクティブベンダー総数：{{ totalVendors }}",
+          "compliant": "✅ 完全準拠：{{ compliantVendors }}",
+          "nonCompliant": "⚠️ 非準拠：{{ nonCompliantVendors }}",
+          "pending": "⏳ レビュー待ち：{{ pendingReviews }}",
+          "rate": "全体的なコンプライアンス率：{{ complianceRate }}%"
+        },
+        "criticalIssues": {
+          "title": "🚨 注意が必要な重大な問題",
+          "description": "{{ criticalIssues }}"
+        },
+        "categories": {
+          "title": "レビューされたコンプライアンスカテゴリ",
+          "items": [
+            "認証とライセンス",
+            "保険要件",
+            "安全と品質基準",
+            "環境規制",
+            "労働と倫理のコンプライアンス",
+            "データセキュリティとプライバシー"
+          ]
+        },
+        "actionItems": {
+          "title": "推奨アクション",
+          "items": [
+            "7日以内に非準拠ベンダーをフォローアップ",
+            "保留中のコンプライアンス文書を確認・承認",
+            "証明書の期限切れベンダーの監査をスケジュール",
+            "新しい規制のコンプライアンス要件を更新"
+          ]
+        },
+        "footer": "Purraの自動ベンダー監視でコンプライアンスを維持。"
+      },
+      "cta": {
+        "primary": {
+          "text": "完全なレポートを表示",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "コンプライアンスを管理",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "📋 Monatlicher Compliance-Statusbericht - {{ reportMonth }}",
+      "preheader": "Ihre Lieferanten-Compliance-Übersicht für {{ reportMonth }}",
+      "header": {
+        "title": "Compliance-Statusbericht",
+        "subtitle": "{{ reportMonth }}"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Hier ist Ihr monatlicher Lieferanten-Compliance-Statusbericht, der alle Compliance-Aktivitäten und Lieferantenpositionen zusammenfasst.",
+        "overview": {
+          "title": "📊 Compliance-Übersicht",
+          "totalVendors": "Aktive Lieferanten gesamt: {{ totalVendors }}",
+          "compliant": "✅ Vollständig konform: {{ compliantVendors }}",
+          "nonCompliant": "⚠️ Nicht konform: {{ nonCompliantVendors }}",
+          "pending": "⏳ Ausstehende Überprüfungen: {{ pendingReviews }}",
+          "rate": "Gesamte Compliance-Rate: {{ complianceRate }}%"
+        },
+        "criticalIssues": {
+          "title": "🚨 Kritische Probleme, die Aufmerksamkeit erfordern",
+          "description": "{{ criticalIssues }}"
+        },
+        "categories": {
+          "title": "Überprüfte Compliance-Kategorien",
+          "items": [
+            "Zertifizierungen und Lizenzen",
+            "Versicherungsanforderungen",
+            "Sicherheits- und Qualitätsstandards",
+            "Umweltvorschriften",
+            "Arbeits- und Ethik-Compliance",
+            "Datensicherheit und Datenschutz"
+          ]
+        },
+        "actionItems": {
+          "title": "Empfohlene Maßnahmen",
+          "items": [
+            "Nachverfolgung nicht konformer Lieferanten innerhalb von 7 Tagen",
+            "Ausstehende Compliance-Dokumente überprüfen und genehmigen",
+            "Audits für Lieferanten mit abgelaufenen Zertifizierungen planen",
+            "Compliance-Anforderungen für neue Vorschriften aktualisieren"
+          ]
+        },
+        "footer": "Bleiben Sie konform mit automatisierter Lieferantenüberwachung von Purra."
+      },
+      "cta": {
+        "primary": {
+          "text": "Vollständigen Bericht anzeigen",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "Compliance verwalten",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    }
+  }
+}

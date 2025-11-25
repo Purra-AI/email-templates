@@ -1,0 +1,354 @@
+{
+  "id": "custom-report-ready",
+  "category": "reports",
+  "campaignName": "custom_report_ready",
+  "layout": "base",
+  "dynamicFields": [
+    "firstName",
+    "reportName",
+    "reportType",
+    "dateRange",
+    "keyFindings",
+    "recordsAnalyzed",
+    "reportUrl",
+    "dashboardUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "✅ Your Custom Report is Ready: {{ reportName }}",
+      "preheader": "Your requested analysis has been completed",
+      "header": {
+        "title": "Custom Report Ready",
+        "subtitle": "{{ reportName }}"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "Great news! Your custom report has been generated and is ready to view.",
+        "reportDetails": {
+          "title": "📊 Report Details",
+          "name": "Report Name: {{ reportName }}",
+          "type": "Report Type: {{ reportType }}",
+          "period": "Date Range: {{ dateRange }}",
+          "records": "Records Analyzed: {{ recordsAnalyzed }}"
+        },
+        "highlights": {
+          "title": "Key Findings",
+          "description": "{{ keyFindings }}"
+        },
+        "features": {
+          "title": "What's Included",
+          "items": [
+            "Interactive charts and visualizations",
+            "Detailed data tables with export options",
+            "Executive summary with actionable insights",
+            "Comparative analysis and trends",
+            "Downloadable PDF and Excel formats"
+          ]
+        },
+        "nextSteps": {
+          "title": "Next Steps",
+          "description": "Review your report and share it with your team. You can schedule recurring reports of this type or request modifications from your dashboard."
+        },
+        "footer": "Your custom analytics, delivered by Purra."
+      },
+      "cta": {
+        "primary": {
+          "text": "View Report",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "Request Another Report",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "✅ הדוח המותאם שלך מוכן: {{ reportName }}",
+      "preheader": "הניתוח שביקשת הושלם",
+      "header": {
+        "title": "דוח מותאם מוכן",
+        "subtitle": "{{ reportName }}"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "חדשות טובות! הדוח המותאם שלך נוצר ומוכן לצפייה.",
+        "reportDetails": {
+          "title": "📊 פרטי הדוח",
+          "name": "שם הדוח: {{ reportName }}",
+          "type": "סוג הדוח: {{ reportType }}",
+          "period": "טווח תאריכים: {{ dateRange }}",
+          "records": "רשומות שנותחו: {{ recordsAnalyzed }}"
+        },
+        "highlights": {
+          "title": "ממצאים מרכזיים",
+          "description": "{{ keyFindings }}"
+        },
+        "features": {
+          "title": "מה כלול",
+          "items": [
+            "גרפים ותצוגות אינטראקטיביות",
+            "טבלאות נתונים מפורטות עם אפשרויות ייצוא",
+            "סיכום מנהלים עם תובנות ישימות",
+            "ניתוח השוואתי ומגמות",
+            "פורמטים להורדה PDF ו-Excel"
+          ]
+        },
+        "nextSteps": {
+          "title": "צעדים הבאים",
+          "description": "סקרו את הדוח שלכם ושתפו אותו עם הצוות. תוכלו לתזמן דוחות חוזרים מסוג זה או לבקש שינויים מלוח הבקרה שלכם."
+        },
+        "footer": "הניתוחים המותאמים שלכם, מבית Purra."
+      },
+      "cta": {
+        "primary": {
+          "text": "צפו בדוח",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "בקשו דוח נוסף",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "✅ आपकी कस्टम रिपोर्ट तैयार है: {{ reportName }}",
+      "preheader": "आपका अनुरोधित विश्लेषण पूरा हो गया है",
+      "header": {
+        "title": "कस्टम रिपोर्ट तैयार",
+        "subtitle": "{{ reportName }}"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "बढ़िया खबर! आपकी कस्टम रिपोर्ट जेनरेट हो गई है और देखने के लिए तैयार है।",
+        "reportDetails": {
+          "title": "📊 रिपोर्ट विवरण",
+          "name": "रिपोर्ट नाम: {{ reportName }}",
+          "type": "रिपोर्ट प्रकार: {{ reportType }}",
+          "period": "तिथि सीमा: {{ dateRange }}",
+          "records": "विश्लेषित रिकॉर्ड: {{ recordsAnalyzed }}"
+        },
+        "highlights": {
+          "title": "मुख्य निष्कर्ष",
+          "description": "{{ keyFindings }}"
+        },
+        "features": {
+          "title": "क्या शामिल है",
+          "items": [
+            "इंटरैक्टिव चार्ट और विज़ुअलाइज़ेशन",
+            "निर्यात विकल्पों के साथ विस्तृत डेटा तालिकाएं",
+            "कार्रवाई योग्य अंतर्दृष्टि के साथ कार्यकारी सारांश",
+            "तुलनात्मक विश्लेषण और रुझान",
+            "डाउनलोड करने योग्य PDF और Excel प्रारूप"
+          ]
+        },
+        "nextSteps": {
+          "title": "अगले कदम",
+          "description": "अपनी रिपोर्ट की समीक्षा करें और इसे अपनी टीम के साथ साझा करें। आप इस प्रकार की आवर्ती रिपोर्ट शेड्यूल कर सकते हैं या अपने डैशबोर्ड से संशोधन का अनुरोध कर सकते हैं।"
+        },
+        "footer": "आपके कस्टम विश्लेषण, Purra द्वारा वितरित।"
+      },
+      "cta": {
+        "primary": {
+          "text": "रिपोर्ट देखें",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "दूसरी रिपोर्ट का अनुरोध करें",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "✅ Votre rapport personnalisé est prêt : {{ reportName }}",
+      "preheader": "Votre analyse demandée a été complétée",
+      "header": {
+        "title": "Rapport personnalisé prêt",
+        "subtitle": "{{ reportName }}"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Bonne nouvelle ! Votre rapport personnalisé a été généré et est prêt à être consulté.",
+        "reportDetails": {
+          "title": "📊 Détails du rapport",
+          "name": "Nom du rapport : {{ reportName }}",
+          "type": "Type de rapport : {{ reportType }}",
+          "period": "Période : {{ dateRange }}",
+          "records": "Enregistrements analysés : {{ recordsAnalyzed }}"
+        },
+        "highlights": {
+          "title": "Principales conclusions",
+          "description": "{{ keyFindings }}"
+        },
+        "features": {
+          "title": "Ce qui est inclus",
+          "items": [
+            "Graphiques et visualisations interactifs",
+            "Tableaux de données détaillés avec options d'exportation",
+            "Résumé exécutif avec insights actionnables",
+            "Analyse comparative et tendances",
+            "Formats téléchargeables PDF et Excel"
+          ]
+        },
+        "nextSteps": {
+          "title": "Prochaines étapes",
+          "description": "Examinez votre rapport et partagez-le avec votre équipe. Vous pouvez planifier des rapports récurrents de ce type ou demander des modifications depuis votre tableau de bord."
+        },
+        "footer": "Vos analyses personnalisées, livrées par Purra."
+      },
+      "cta": {
+        "primary": {
+          "text": "Voir le rapport",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "Demander un autre rapport",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "✅ 您的自定义报告已准备就绪：{{ reportName }}",
+      "preheader": "您请求的分析已完成",
+      "header": {
+        "title": "自定义报告准备就绪",
+        "subtitle": "{{ reportName }}"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "好消息！您的自定义报告已生成并准备好查看。",
+        "reportDetails": {
+          "title": "📊 报告详情",
+          "name": "报告名称：{{ reportName }}",
+          "type": "报告类型：{{ reportType }}",
+          "period": "日期范围：{{ dateRange }}",
+          "records": "分析记录数：{{ recordsAnalyzed }}"
+        },
+        "highlights": {
+          "title": "主要发现",
+          "description": "{{ keyFindings }}"
+        },
+        "features": {
+          "title": "包含内容",
+          "items": [
+            "交互式图表和可视化",
+            "带导出选项的详细数据表",
+            "包含可操作洞察的执行摘要",
+            "比较分析和趋势",
+            "可下载的PDF和Excel格式"
+          ]
+        },
+        "nextSteps": {
+          "title": "下一步",
+          "description": "查看您的报告并与团队分享。您可以安排此类定期报告或从仪表板请求修改。"
+        },
+        "footer": "您的自定义分析，由Purra提供。"
+      },
+      "cta": {
+        "primary": {
+          "text": "查看报告",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "请求另一份报告",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "✅ カスタムレポートの準備が完了しました：{{ reportName }}",
+      "preheader": "リクエストされた分析が完了しました",
+      "header": {
+        "title": "カスタムレポート準備完了",
+        "subtitle": "{{ reportName }}"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "朗報です！カスタムレポートが生成され、閲覧可能になりました。",
+        "reportDetails": {
+          "title": "📊 レポート詳細",
+          "name": "レポート名：{{ reportName }}",
+          "type": "レポートタイプ：{{ reportType }}",
+          "period": "対象期間：{{ dateRange }}",
+          "records": "分析レコード数：{{ recordsAnalyzed }}"
+        },
+        "highlights": {
+          "title": "主な発見",
+          "description": "{{ keyFindings }}"
+        },
+        "features": {
+          "title": "含まれる内容",
+          "items": [
+            "インタラクティブなグラフと視覚化",
+            "エクスポートオプション付きの詳細データテーブル",
+            "実用的なインサイトを含むエグゼクティブサマリー",
+            "比較分析とトレンド",
+            "ダウンロード可能なPDFおよびExcel形式"
+          ]
+        },
+        "nextSteps": {
+          "title": "次のステップ",
+          "description": "レポートを確認してチームと共有してください。このタイプの定期レポートをスケジュールしたり、ダッシュボードから変更をリクエストできます。"
+        },
+        "footer": "カスタム分析をPurraが提供します。"
+      },
+      "cta": {
+        "primary": {
+          "text": "レポートを表示",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "別のレポートをリクエスト",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "✅ Ihr benutzerdefinierter Bericht ist fertig: {{ reportName }}",
+      "preheader": "Ihre angeforderte Analyse wurde abgeschlossen",
+      "header": {
+        "title": "Benutzerdefinierter Bericht fertig",
+        "subtitle": "{{ reportName }}"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Gute Nachrichten! Ihr benutzerdefinierter Bericht wurde erstellt und ist bereit zur Ansicht.",
+        "reportDetails": {
+          "title": "📊 Berichtsdetails",
+          "name": "Berichtsname: {{ reportName }}",
+          "type": "Berichtstyp: {{ reportType }}",
+          "period": "Zeitraum: {{ dateRange }}",
+          "records": "Analysierte Datensätze: {{ recordsAnalyzed }}"
+        },
+        "highlights": {
+          "title": "Wichtige Erkenntnisse",
+          "description": "{{ keyFindings }}"
+        },
+        "features": {
+          "title": "Was enthalten ist",
+          "items": [
+            "Interaktive Diagramme und Visualisierungen",
+            "Detaillierte Datentabellen mit Exportoptionen",
+            "Executive Summary mit umsetzbaren Erkenntnissen",
+            "Vergleichsanalyse und Trends",
+            "Herunterladbare PDF- und Excel-Formate"
+          ]
+        },
+        "nextSteps": {
+          "title": "Nächste Schritte",
+          "description": "Überprüfen Sie Ihren Bericht und teilen Sie ihn mit Ihrem Team. Sie können wiederkehrende Berichte dieses Typs planen oder Änderungen über Ihr Dashboard anfordern."
+        },
+        "footer": "Ihre maßgeschneiderte Analyse, geliefert von Purra."
+      },
+      "cta": {
+        "primary": {
+          "text": "Bericht anzeigen",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "Weiteren Bericht anfordern",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    }
+  }
+}
