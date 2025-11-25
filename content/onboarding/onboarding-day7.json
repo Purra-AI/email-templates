@@ -1,0 +1,330 @@
+{
+  "id": "onboarding-day7",
+  "category": "onboarding",
+  "campaignName": "onboarding_day7",
+  "layout": "base",
+  "dynamicFields": [
+    "firstName",
+    "reportsCompleted",
+    "alertsSet",
+    "analyticsUrl",
+    "supportUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "Day 7: Master Advanced Analytics",
+      "preheader": "Unlock powerful insights from your procurement data",
+      "header": {
+        "title": "Welcome to Day 7!",
+        "subtitle": "Let's explore advanced analytics"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "Congratulations! You've been with Purra for a week now. Let's look at what you've achieved and unlock some powerful analytics features.",
+        "achievements": {
+          "title": "Your Progress This Week",
+          "stats": [
+            "**{{ reportsCompleted }}** vendor reports completed",
+            "**{{ alertsSet }}** price alerts configured",
+            "Access to **real-time market intelligence**"
+          ]
+        },
+        "nextLevel": {
+          "title": "Unlock Advanced Features",
+          "items": [
+            "**Custom Reports** - Generate reports tailored to your specific needs",
+            "**Trend Analysis** - Visualize price and market trends over time",
+            "**Comparative Analytics** - Compare multiple vendors side-by-side",
+            "**Predictive Insights** - Get AI-powered forecasts for price movements",
+            "**Export & Integration** - Connect with your existing procurement tools"
+          ]
+        },
+        "callout": {
+          "title": "🎯 Ready to Level Up?",
+          "description": "Schedule a quick call with our team to unlock advanced features and get personalized tips for your industry."
+        },
+        "footer": "You're doing great! Keep exploring and don't hesitate to reach out if you need help."
+      },
+      "cta": {
+        "primary": {
+          "text": "Explore Analytics",
+          "url": "{{ analyticsUrl }}"
+        },
+        "secondary": {
+          "text": "Contact Support",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "יום 7: שלטו באנליטיקה מתקדמת",
+      "preheader": "פתחו תובנות עוצמתיות מנתוני הרכש שלכם",
+      "header": {
+        "title": "ברוכים הבאים ליום 7!",
+        "subtitle": "בואו נחקור אנליטיקה מתקדמת"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "מזל טוב! אתם עם Purra כבר שבוע. בואו נסתכל על מה שהשגתם ונפתח כמה תכונות אנליטיקה עוצמתיות.",
+        "achievements": {
+          "title": "ההתקדמות שלכם השבוע",
+          "stats": [
+            "**{{ reportsCompleted }}** דוחות ספקים הושלמו",
+            "**{{ alertsSet }}** התראות מחיר הוגדרו",
+            "גישה ל**מודיעין שוק בזמן אמת**"
+          ]
+        },
+        "nextLevel": {
+          "title": "פתחו תכונות מתקדמות",
+          "items": [
+            "**דוחות מותאמים אישית** - צרו דוחות מותאמים לצרכים הספציפיים שלכם",
+            "**ניתוח מגמות** - הצגו חזותית מגמות מחירים ושוק לאורך זמן",
+            "**אנליטיקה השוואתית** - השוו מספר ספקים זה לצד זה",
+            "**תובנות חיזוי** - קבלו תחזיות מונעות AI לתנועות מחירים",
+            "**ייצוא ושילוב** - התחברו לכלי הרכש הקיימים שלכם"
+          ]
+        },
+        "callout": {
+          "title": "🎯 מוכנים לעלות רמה?",
+          "description": "תזמנו שיחה קצרה עם הצוות שלנו כדי לפתוח תכונות מתקדמות ולקבל טיפים מותאמים אישית לתעשייה שלכם."
+        },
+        "footer": "אתם עושים מעולה! המשיכו לחקור ואל תהססו לפנות אם אתם צריכים עזרה."
+      },
+      "cta": {
+        "primary": {
+          "text": "חקרו אנליטיקה",
+          "url": "{{ analyticsUrl }}"
+        },
+        "secondary": {
+          "text": "צרו קשר עם תמיכה",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "दिन 7: उन्नत विश्लेषण में महारत हासिल करें",
+      "preheader": "अपने खरीद डेटा से शक्तिशाली अंतर्दृष्टि अनलॉक करें",
+      "header": {
+        "title": "दिन 7 में आपका स्वागत है!",
+        "subtitle": "आइए उन्नत विश्लेषण का पता लगाएं"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "बधाई हो! आप अब एक सप्ताह से Purra के साथ हैं। आइए देखें कि आपने क्या हासिल किया है और कुछ शक्तिशाली विश्लेषण सुविधाओं को अनलॉक करें।",
+        "achievements": {
+          "title": "इस सप्ताह आपकी प्रगति",
+          "stats": [
+            "**{{ reportsCompleted }}** विक्रेता रिपोर्ट पूरी की गईं",
+            "**{{ alertsSet }}** मूल्य अलर्ट कॉन्फ़िगर किए गए",
+            "**वास्तविक समय बाजार खुफिया** तक पहुंच"
+          ]
+        },
+        "nextLevel": {
+          "title": "उन्नत सुविधाएँ अनलॉक करें",
+          "items": [
+            "**कस्टम रिपोर्ट** - अपनी विशिष्ट आवश्यकताओं के अनुरूप रिपोर्ट तैयार करें",
+            "**ट्रेंड विश्लेषण** - समय के साथ मूल्य और बाजार के रुझानों को विज़ुअलाइज़ करें",
+            "**तुलनात्मक विश्लेषण** - कई विक्रेताओं की तुलना करें",
+            "**भविष्यवाणी अंतर्दृष्टि** - मूल्य आंदोलनों के लिए AI-संचालित पूर्वानुमान प्राप्त करें",
+            "**निर्यात और एकीकरण** - अपने मौजूदा खरीद उपकरणों से कनेक्ट करें"
+          ]
+        },
+        "callout": {
+          "title": "🎯 स्तर बढ़ाने के लिए तैयार हैं?",
+          "description": "उन्नत सुविधाओं को अनलॉक करने और अपने उद्योग के लिए वैयक्तिकृत सुझाव प्राप्त करने के लिए हमारी टीम के साथ एक त्वरित कॉल शेड्यूल करें।"
+        },
+        "footer": "आप बहुत अच्छा कर रहे हैं! खोज जारी रखें और यदि आपको सहायता की आवश्यकता है तो संपर्क करने में संकोच न करें।"
+      },
+      "cta": {
+        "primary": {
+          "text": "विश्लेषण का अन्वेषण करें",
+          "url": "{{ analyticsUrl }}"
+        },
+        "secondary": {
+          "text": "सहायता से संपर्क करें",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "Jour 7 : Maîtrisez les analyses avancées",
+      "preheader": "Débloquez des informations puissantes à partir de vos données d'approvisionnement",
+      "header": {
+        "title": "Bienvenue au Jour 7 !",
+        "subtitle": "Explorons les analyses avancées"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Félicitations ! Vous êtes avec Purra depuis une semaine maintenant. Voyons ce que vous avez accompli et débloquez des fonctionnalités d'analyse puissantes.",
+        "achievements": {
+          "title": "Vos progrès cette semaine",
+          "stats": [
+            "**{{ reportsCompleted }}** rapports de fournisseurs complétés",
+            "**{{ alertsSet }}** alertes de prix configurées",
+            "Accès à **l'intelligence de marché en temps réel**"
+          ]
+        },
+        "nextLevel": {
+          "title": "Débloquez les fonctionnalités avancées",
+          "items": [
+            "**Rapports personnalisés** - Générez des rapports adaptés à vos besoins spécifiques",
+            "**Analyse des tendances** - Visualisez les tendances des prix et du marché au fil du temps",
+            "**Analyse comparative** - Comparez plusieurs fournisseurs côte à côte",
+            "**Insights prédictifs** - Obtenez des prévisions alimentées par l'IA pour les mouvements de prix",
+            "**Export & Intégration** - Connectez-vous avec vos outils d'approvisionnement existants"
+          ]
+        },
+        "callout": {
+          "title": "🎯 Prêt à monter de niveau ?",
+          "description": "Planifiez un appel rapide avec notre équipe pour débloquer les fonctionnalités avancées et obtenir des conseils personnalisés pour votre secteur."
+        },
+        "footer": "Vous vous débrouillez très bien ! Continuez à explorer et n'hésitez pas à nous contacter si vous avez besoin d'aide."
+      },
+      "cta": {
+        "primary": {
+          "text": "Explorer les analyses",
+          "url": "{{ analyticsUrl }}"
+        },
+        "secondary": {
+          "text": "Contacter le support",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "第 7 天：掌握高级分析",
+      "preheader": "从您的采购数据中解锁强大的见解",
+      "header": {
+        "title": "欢迎来到第 7 天！",
+        "subtitle": "让我们探索高级分析"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "恭喜！您已经使用 Purra 一周了。让我们看看您取得了什么成就，并解锁一些强大的分析功能。",
+        "achievements": {
+          "title": "本周您的进展",
+          "stats": [
+            "完成 **{{ reportsCompleted }}** 份供应商报告",
+            "配置 **{{ alertsSet }}** 个价格警报",
+            "访问**实时市场情报**"
+          ]
+        },
+        "nextLevel": {
+          "title": "解锁高级功能",
+          "items": [
+            "**自定义报告** - 生成适合您特定需求的报告",
+            "**趋势分析** - 随时间可视化价格和市场趋势",
+            "**比较分析** - 并排比较多个供应商",
+            "**预测洞察** - 获取AI驱动的价格走势预测",
+            "**导出和集成** - 与您现有的采购工具连接"
+          ]
+        },
+        "callout": {
+          "title": "🎯 准备升级了吗？",
+          "description": "与我们的团队安排快速通话，以解锁高级功能并获得针对您行业的个性化提示。"
+        },
+        "footer": "您做得很好！继续探索，如果需要帮助，请随时联系我们。"
+      },
+      "cta": {
+        "primary": {
+          "text": "探索分析",
+          "url": "{{ analyticsUrl }}"
+        },
+        "secondary": {
+          "text": "联系支持",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "7日目：高度な分析をマスター",
+      "preheader": "調達データから強力な洞察を引き出す",
+      "header": {
+        "title": "7日目へようこそ！",
+        "subtitle": "高度な分析を探求しましょう"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "おめでとうございます！Purraを1週間使用していただきました。あなたが達成したことを見て、強力な分析機能を解放しましょう。",
+        "achievements": {
+          "title": "今週の進捗",
+          "stats": [
+            "**{{ reportsCompleted }}** 件のベンダーレポートを完了",
+            "**{{ alertsSet }}** 件の価格アラートを設定",
+            "**リアルタイム市場インテリジェンス**へのアクセス"
+          ]
+        },
+        "nextLevel": {
+          "title": "高度な機能を解放",
+          "items": [
+            "**カスタムレポート** - 特定のニーズに合わせたレポートを生成",
+            "**トレンド分析** - 時間の経過に伴う価格と市場のトレンドを視覚化",
+            "**比較分析** - 複数のベンダーを並べて比較",
+            "**予測インサイト** - AIを活用した価格動向の予測を取得",
+            "**エクスポートと統合** - 既存の調達ツールと接続"
+          ]
+        },
+        "callout": {
+          "title": "🎯 レベルアップの準備はできましたか？",
+          "description": "チームと簡単な通話をスケジュールして、高度な機能を解放し、業界向けのパーソナライズされたヒントを取得してください。"
+        },
+        "footer": "素晴らしい成果です！探索を続けて、サポートが必要な場合はお気軽にお問い合わせください。"
+      },
+      "cta": {
+        "primary": {
+          "text": "分析を探索",
+          "url": "{{ analyticsUrl }}"
+        },
+        "secondary": {
+          "text": "サポートに連絡",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "Tag 7: Beherrschen Sie erweiterte Analysen",
+      "preheader": "Schalten Sie leistungsstarke Erkenntnisse aus Ihren Beschaffungsdaten frei",
+      "header": {
+        "title": "Willkommen zu Tag 7!",
+        "subtitle": "Lassen Sie uns erweiterte Analysen erkunden"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Herzlichen Glückwunsch! Sie sind jetzt seit einer Woche bei Purra. Schauen wir uns an, was Sie erreicht haben, und schalten Sie leistungsstarke Analysefunktionen frei.",
+        "achievements": {
+          "title": "Ihr Fortschritt diese Woche",
+          "stats": [
+            "**{{ reportsCompleted }}** Lieferantenberichte abgeschlossen",
+            "**{{ alertsSet }}** Preisalarme konfiguriert",
+            "Zugriff auf **Echtzeit-Marktintelligenz**"
+          ]
+        },
+        "nextLevel": {
+          "title": "Erweiterte Funktionen freischalten",
+          "items": [
+            "**Benutzerdefinierte Berichte** - Erstellen Sie Berichte, die auf Ihre spezifischen Bedürfnisse zugeschnitten sind",
+            "**Trendanalyse** - Visualisieren Sie Preis- und Markttrends im Zeitverlauf",
+            "**Vergleichende Analytik** - Vergleichen Sie mehrere Lieferanten nebeneinander",
+            "**Prädiktive Erkenntnisse** - Erhalten Sie KI-gestützte Prognosen für Preisbewegungen",
+            "**Export & Integration** - Verbinden Sie sich mit Ihren bestehenden Beschaffungstools"
+          ]
+        },
+        "callout": {
+          "title": "🎯 Bereit zum Aufsteigen?",
+          "description": "Vereinbaren Sie einen kurzen Anruf mit unserem Team, um erweiterte Funktionen freizuschalten und personalisierte Tipps für Ihre Branche zu erhalten."
+        },
+        "footer": "Sie machen das großartig! Erkunden Sie weiter und zögern Sie nicht, uns zu kontaktieren, wenn Sie Hilfe benötigen."
+      },
+      "cta": {
+        "primary": {
+          "text": "Analysen erkunden",
+          "url": "{{ analyticsUrl }}"
+        },
+        "secondary": {
+          "text": "Support kontaktieren",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    }
+  }
+}

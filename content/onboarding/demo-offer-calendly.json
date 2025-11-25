@@ -1,0 +1,272 @@
+{
+  "id": "demo-offer-calendly",
+  "category": "onboarding",
+  "campaignName": "demo_offer",
+  "layout": "base",
+  "dynamicFields": [
+    "firstName",
+    "calendlyUrl",
+    "supportUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "Get a Personalized Purra Demo",
+      "preheader": "Book a 30-minute session with our team to unlock full potential",
+      "header": {
+        "title": "Ready to See Purra in Action?",
+        "subtitle": "Get a personalized walkthrough tailored to your needs"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "We noticed you've been exploring Purra. Want to see how it can transform your procurement process? Our team would love to give you a **personalized demo** tailored to your specific needs.",
+        "benefits": {
+          "title": "What You'll Learn",
+          "items": [
+            "How to run comprehensive vendor due diligence in minutes",
+            "Setting up automated price monitoring and alerts",
+            "Generating custom procurement analytics reports",
+            "Best practices from top procurement teams",
+            "Advanced features specific to your industry"
+          ]
+        },
+        "offer": {
+          "title": "📅 Book Your Demo",
+          "description": "Choose a time that works best for you. Our demos are **30 minutes**, completely free, and there's no obligation."
+        },
+        "footer": "Not ready for a demo? No problem! Reply to this email with any questions and we'll get back to you within 24 hours."
+      },
+      "cta": {
+        "primary": {
+          "text": "Schedule My Demo",
+          "url": "{{ calendlyUrl }}"
+        },
+        "secondary": {
+          "text": "Contact Support",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "קבלו הדגמה מותאמת אישית של Purra",
+      "preheader": "הזמינו פגישה של 30 דקות עם הצוות שלנו כדי לפתוח את מלוא הפוטנציאל",
+      "header": {
+        "title": "מוכנים לראות את Purra בפעולה?",
+        "subtitle": "קבלו הדרכה מותאמת אישית לצרכים שלכם"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "שמנו לב שאתם חוקרים את Purra. רוצים לראות איך זה יכול לשנות את תהליך הרכש שלכם? הצוות שלנו ישמח לתת לכם **הדגמה מותאמת אישית** לצרכים הספציפיים שלכם.",
+        "benefits": {
+          "title": "מה תלמדו",
+          "items": [
+            "איך להריץ בדיקת נאותות מקיפה של ספקים תוך דקות",
+            "הגדרת ניטור מחירים אוטומטי והתראות",
+            "יצירת דוחות אנליטיים מותאמים אישית לרכש",
+            "שיטות עבודה מומלצות מצוותי רכש מובילים",
+            "תכונות מתקדמות ספציפיות לתעשייה שלכם"
+          ]
+        },
+        "offer": {
+          "title": "📅 הזמינו את ההדגמה שלכם",
+          "description": "בחרו זמן שמתאים לכם הכי טוב. ההדגמות שלנו הן **30 דקות**, חינם לגמרי, וללא התחייבות."
+        },
+        "footer": "לא מוכנים להדגמה? אין בעיה! השיבו לאימייל הזה עם כל שאלה ונחזור אליכם תוך 24 שעות."
+      },
+      "cta": {
+        "primary": {
+          "text": "תזמנו את ההדגמה שלי",
+          "url": "{{ calendlyUrl }}"
+        },
+        "secondary": {
+          "text": "צרו קשר עם תמיכה",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "वैयक्तिकृत Purra डेमो प्राप्त करें",
+      "preheader": "पूर्ण क्षमता अनलॉक करने के लिए हमारी टीम के साथ 30 मिनट का सत्र बुक करें",
+      "header": {
+        "title": "Purra को कार्रवाई में देखने के लिए तैयार हैं?",
+        "subtitle": "अपनी आवश्यकताओं के अनुसार वैयक्तिकृत वॉकथ्रू प्राप्त करें"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "हमने देखा कि आप Purra का अन्वेषण कर रहे हैं। देखना चाहते हैं कि यह आपकी खरीद प्रक्रिया को कैसे बदल सकता है? हमारी टीम आपकी विशिष्ट आवश्यकताओं के अनुरूप **वैयक्तिकृत डेमो** देना पसंद करेगी।",
+        "benefits": {
+          "title": "आप क्या सीखेंगे",
+          "items": [
+            "मिनटों में व्यापक विक्रेता उचित परिश्रम कैसे चलाएं",
+            "स्वचालित मूल्य निगरानी और अलर्ट सेट करना",
+            "कस्टम खरीद विश्लेषण रिपोर्ट तैयार करना",
+            "शीर्ष खरीद टीमों से सर्वोत्तम प्रथाएं",
+            "आपके उद्योग के लिए विशिष्ट उन्नत सुविधाएँ"
+          ]
+        },
+        "offer": {
+          "title": "📅 अपना डेमो बुक करें",
+          "description": "वह समय चुनें जो आपके लिए सबसे अच्छा काम करता है। हमारे डेमो **30 मिनट** के हैं, पूरी तरह से मुफ्त हैं, और कोई बाध्यता नहीं है।"
+        },
+        "footer": "डेमो के लिए तैयार नहीं हैं? कोई समस्या नहीं! किसी भी प्रश्न के साथ इस ईमेल का उत्तर दें और हम 24 घंटे के भीतर आपसे संपर्क करेंगे।"
+      },
+      "cta": {
+        "primary": {
+          "text": "मेरा डेमो शेड्यूल करें",
+          "url": "{{ calendlyUrl }}"
+        },
+        "secondary": {
+          "text": "सहायता से संपर्क करें",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "Obtenez une démo Purra personnalisée",
+      "preheader": "Réservez une session de 30 minutes avec notre équipe pour débloquer tout le potentiel",
+      "header": {
+        "title": "Prêt à voir Purra en action ?",
+        "subtitle": "Obtenez une présentation personnalisée adaptée à vos besoins"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Nous avons remarqué que vous explorez Purra. Vous voulez voir comment cela peut transformer votre processus d'approvisionnement ? Notre équipe aimerait vous offrir une **démo personnalisée** adaptée à vos besoins spécifiques.",
+        "benefits": {
+          "title": "Ce que vous apprendrez",
+          "items": [
+            "Comment effectuer une diligence raisonnable complète des fournisseurs en quelques minutes",
+            "Configuration de la surveillance automatique des prix et des alertes",
+            "Génération de rapports d'analyse d'approvisionnement personnalisés",
+            "Meilleures pratiques des meilleures équipes d'approvisionnement",
+            "Fonctionnalités avancées spécifiques à votre secteur"
+          ]
+        },
+        "offer": {
+          "title": "📅 Réservez votre démo",
+          "description": "Choisissez l'heure qui vous convient le mieux. Nos démos durent **30 minutes**, sont totalement gratuites et sans obligation."
+        },
+        "footer": "Pas prêt pour une démo ? Pas de problème ! Répondez à cet email avec vos questions et nous vous répondrons sous 24 heures."
+      },
+      "cta": {
+        "primary": {
+          "text": "Planifier ma démo",
+          "url": "{{ calendlyUrl }}"
+        },
+        "secondary": {
+          "text": "Contacter le support",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "获取个性化的 Purra 演示",
+      "preheader": "与我们的团队预订 30 分钟的会议以释放全部潜力",
+      "header": {
+        "title": "准备好看 Purra 的实际操作了吗？",
+        "subtitle": "获取根据您的需求量身定制的个性化演示"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "我们注意到您一直在探索 Purra。想看看它如何改变您的采购流程吗？我们的团队很乐意为您提供**个性化演示**，根据您的具体需求量身定制。",
+        "benefits": {
+          "title": "您将学到什么",
+          "items": [
+            "如何在几分钟内进行全面的供应商尽职调查",
+            "设置自动价格监控和警报",
+            "生成定制采购分析报告",
+            "顶级采购团队的最佳实践",
+            "特定于您行业的高级功能"
+          ]
+        },
+        "offer": {
+          "title": "📅 预订您的演示",
+          "description": "选择最适合您的时间。我们的演示为 **30 分钟**，完全免费，无任何义务。"
+        },
+        "footer": "还没准备好演示？没问题！回复此电子邮件提出任何问题，我们将在 24 小时内回复您。"
+      },
+      "cta": {
+        "primary": {
+          "text": "安排我的演示",
+          "url": "{{ calendlyUrl }}"
+        },
+        "secondary": {
+          "text": "联系支持",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "パーソナライズされたPurraデモを取得",
+      "preheader": "フルポテンシャルを引き出すために、私たちのチームと30分のセッションを予約してください",
+      "header": {
+        "title": "Purraの実際の動作を見る準備はできましたか？",
+        "subtitle": "あなたのニーズに合わせたパーソナライズされたウォークスルーを取得"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "Purraを探索されていることに気づきました。調達プロセスをどのように変革できるか見たいですか？私たちのチームは、あなたの特定のニーズに合わせた**パーソナライズされたデモ**を提供したいと思っています。",
+        "benefits": {
+          "title": "学べること",
+          "items": [
+            "数分で包括的なベンダーデューデリジェンスを実行する方法",
+            "自動価格監視とアラートの設定",
+            "カスタム調達分析レポートの生成",
+            "トップ調達チームのベストプラクティス",
+            "あなたの業界に特化した高度な機能"
+          ]
+        },
+        "offer": {
+          "title": "📅 デモを予約",
+          "description": "最適な時間をお選びください。デモは**30分**で、完全に無料で、義務はありません。"
+        },
+        "footer": "デモの準備ができていませんか？問題ありません！このメールに質問を返信していただければ、24時間以内に返信いたします。"
+      },
+      "cta": {
+        "primary": {
+          "text": "デモをスケジュール",
+          "url": "{{ calendlyUrl }}"
+        },
+        "secondary": {
+          "text": "サポートに連絡",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "Holen Sie sich eine personalisierte Purra-Demo",
+      "preheader": "Buchen Sie eine 30-minütige Sitzung mit unserem Team, um das volle Potenzial freizusetzen",
+      "header": {
+        "title": "Bereit, Purra in Aktion zu sehen?",
+        "subtitle": "Erhalten Sie eine personalisierte Einführung, die auf Ihre Bedürfnisse zugeschnitten ist"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Wir haben bemerkt, dass Sie Purra erkunden. Möchten Sie sehen, wie es Ihren Beschaffungsprozess transformieren kann? Unser Team würde Ihnen gerne eine **personalisierte Demo** geben, die auf Ihre spezifischen Bedürfnisse zugeschnitten ist.",
+        "benefits": {
+          "title": "Was Sie lernen werden",
+          "items": [
+            "Wie Sie in wenigen Minuten umfassende Lieferanten-Due-Diligence durchführen",
+            "Einrichten automatischer Preisüberwachung und Warnungen",
+            "Generieren benutzerdefinierter Beschaffungsanalyseberichte",
+            "Best Practices von Top-Beschaffungsteams",
+            "Erweiterte Funktionen speziell für Ihre Branche"
+          ]
+        },
+        "offer": {
+          "title": "📅 Buchen Sie Ihre Demo",
+          "description": "Wählen Sie eine Zeit, die am besten für Sie passt. Unsere Demos dauern **30 Minuten**, sind völlig kostenlos und unverbindlich."
+        },
+        "footer": "Noch nicht bereit für eine Demo? Kein Problem! Antworten Sie auf diese E-Mail mit Fragen und wir melden uns innerhalb von 24 Stunden bei Ihnen."
+      },
+      "cta": {
+        "primary": {
+          "text": "Meine Demo planen",
+          "url": "{{ calendlyUrl }}"
+        },
+        "secondary": {
+          "text": "Support kontaktieren",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    }
+  }
+}

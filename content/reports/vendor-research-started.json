@@ -1,0 +1,245 @@
+{
+  "id": "vendor-research-started",
+  "category": "reports",
+  "campaignName": "research_started",
+  "layout": "simple",
+  "dynamicFields": [
+    "firstName",
+    "vendorName",
+    "estimatedTime",
+    "dashboardUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "Your Vendor Research Has Started",
+      "preheader": "We're analyzing {{ vendorName }} - estimated completion in {{ estimatedTime }}",
+      "header": {
+        "title": "Research in Progress",
+        "subtitle": "We're analyzing {{ vendorName }} for you"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "Good news! We've started your comprehensive due diligence research on **{{ vendorName }}**.",
+        "process": {
+          "title": "What We're Analyzing",
+          "items": [
+            "Company background and financial health",
+            "Compliance and regulatory status",
+            "Supply chain reliability",
+            "Risk factors and red flags",
+            "Market position and competitive analysis"
+          ]
+        },
+        "timing": {
+          "title": "⏱️ Estimated Completion",
+          "description": "Your report will be ready in approximately **{{ estimatedTime }}**. We'll send you an email as soon as it's complete."
+        },
+        "footer": "You can track the progress in your dashboard at any time."
+      },
+      "cta": {
+        "primary": {
+          "text": "View Dashboard",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "המחקר על הספק שלכם התחיל",
+      "preheader": "אנחנו מנתחים את {{ vendorName }} - השלמה משוערת תוך {{ estimatedTime }}",
+      "header": {
+        "title": "מחקר בתהליך",
+        "subtitle": "אנחנו מנתחים את {{ vendorName }} עבורכם"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "חדשות טובות! התחלנו את מחקר בדיקת הנאותות המקיף שלכם על **{{ vendorName }}**.",
+        "process": {
+          "title": "מה אנחנו מנתחים",
+          "items": [
+            "רקע החברה ובריאות פיננסית",
+            "סטטוס ציות ורגולטורי",
+            "אמינות שרשרת האספקה",
+            "גורמי סיכון ודגלים אדומים",
+            "מיקום בשוק וניתוח תחרותי"
+          ]
+        },
+        "timing": {
+          "title": "⏱️ זמן השלמה משוער",
+          "description": "הדוח שלכם יהיה מוכן תוך בערך **{{ estimatedTime }}**. נשלח לכם אימייל ברגע שיושלם."
+        },
+        "footer": "אתם יכולים לעקוב אחר ההתקדמות בלוח הבקרה שלכם בכל עת."
+      },
+      "cta": {
+        "primary": {
+          "text": "צפו בלוח הבקרה",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "आपका विक्रेता अनुसंधान शुरू हो गया है",
+      "preheader": "हम {{ vendorName }} का विश्लेषण कर रहे हैं - अनुमानित समापन {{ estimatedTime }} में",
+      "header": {
+        "title": "अनुसंधान प्रगति पर है",
+        "subtitle": "हम आपके लिए {{ vendorName }} का विश्लेषण कर रहे हैं"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "अच्छी खबर! हमने **{{ vendorName }}** पर आपका व्यापक उचित परिश्रम अनुसंधान शुरू कर दिया है।",
+        "process": {
+          "title": "हम क्या विश्लेषण कर रहे हैं",
+          "items": [
+            "कंपनी पृष्ठभूमि और वित्तीय स्वास्थ्य",
+            "अनुपालन और नियामक स्थिति",
+            "आपूर्ति श्रृंखला विश्वसनीयता",
+            "जोखिम कारक और लाल झंडे",
+            "बाजार स्थिति और प्रतिस्पर्धी विश्लेषण"
+          ]
+        },
+        "timing": {
+          "title": "⏱️ अनुमानित समापन",
+          "description": "आपकी रिपोर्ट लगभग **{{ estimatedTime }}** में तैयार हो जाएगी। जैसे ही यह पूरा होगा हम आपको एक ईमेल भेजेंगे।"
+        },
+        "footer": "आप किसी भी समय अपने डैशबोर्ड में प्रगति को ट्रैक कर सकते हैं।"
+      },
+      "cta": {
+        "primary": {
+          "text": "डैशबोर्ड देखें",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "Votre recherche de fournisseur a commencé",
+      "preheader": "Nous analysons {{ vendorName }} - achèvement estimé dans {{ estimatedTime }}",
+      "header": {
+        "title": "Recherche en cours",
+        "subtitle": "Nous analysons {{ vendorName }} pour vous"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Bonne nouvelle ! Nous avons commencé votre recherche de diligence raisonnable complète sur **{{ vendorName }}**.",
+        "process": {
+          "title": "Ce que nous analysons",
+          "items": [
+            "Contexte de l'entreprise et santé financière",
+            "Statut de conformité et réglementaire",
+            "Fiabilité de la chaîne d'approvisionnement",
+            "Facteurs de risque et signaux d'alerte",
+            "Position sur le marché et analyse concurrentielle"
+          ]
+        },
+        "timing": {
+          "title": "⏱️ Achèvement estimé",
+          "description": "Votre rapport sera prêt dans environ **{{ estimatedTime }}**. Nous vous enverrons un email dès qu'il sera terminé."
+        },
+        "footer": "Vous pouvez suivre les progrès dans votre tableau de bord à tout moment."
+      },
+      "cta": {
+        "primary": {
+          "text": "Voir le tableau de bord",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "您的供应商研究已开始",
+      "preheader": "我们正在分析 {{ vendorName }} - 预计 {{ estimatedTime }} 完成",
+      "header": {
+        "title": "研究进行中",
+        "subtitle": "我们正在为您分析 {{ vendorName }}"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "好消息！我们已经开始对 **{{ vendorName }}** 进行全面的尽职调查研究。",
+        "process": {
+          "title": "我们正在分析的内容",
+          "items": [
+            "公司背景和财务健康状况",
+            "合规和监管状态",
+            "供应链可靠性",
+            "风险因素和红旗",
+            "市场地位和竞争分析"
+          ]
+        },
+        "timing": {
+          "title": "⏱️ 预计完成时间",
+          "description": "您的报告将在大约 **{{ estimatedTime }}** 准备好。完成后我们会立即向您发送电子邮件。"
+        },
+        "footer": "您可以随时在仪表板中跟踪进度。"
+      },
+      "cta": {
+        "primary": {
+          "text": "查看仪表板",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "ベンダー調査が開始されました",
+      "preheader": "{{ vendorName }} を分析中 - 推定完了時間 {{ estimatedTime }}",
+      "header": {
+        "title": "調査進行中",
+        "subtitle": "{{ vendorName }} を分析中です"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "良いニュースです！**{{ vendorName }}** に関する包括的なデューデリジェンス調査を開始しました。",
+        "process": {
+          "title": "分析内容",
+          "items": [
+            "企業背景と財務健全性",
+            "コンプライアンスと規制状況",
+            "サプライチェーンの信頼性",
+            "リスク要因と警告信号",
+            "市場ポジションと競合分析"
+          ]
+        },
+        "timing": {
+          "title": "⏱️ 推定完了時間",
+          "description": "レポートは約 **{{ estimatedTime }}** で準備できます。完了次第、メールでお知らせします。"
+        },
+        "footer": "ダッシュボードでいつでも進捗状況を追跡できます。"
+      },
+      "cta": {
+        "primary": {
+          "text": "ダッシュボードを表示",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "Ihre Lieferantenrecherche hat begonnen",
+      "preheader": "Wir analysieren {{ vendorName }} - geschätzte Fertigstellung in {{ estimatedTime }}",
+      "header": {
+        "title": "Recherche läuft",
+        "subtitle": "Wir analysieren {{ vendorName }} für Sie"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Gute Nachrichten! Wir haben Ihre umfassende Due-Diligence-Recherche zu **{{ vendorName }}** gestartet.",
+        "process": {
+          "title": "Was wir analysieren",
+          "items": [
+            "Unternehmenshintergrund und finanzielle Gesundheit",
+            "Compliance- und Regulierungsstatus",
+            "Zuverlässigkeit der Lieferkette",
+            "Risikofaktoren und Warnsignale",
+            "Marktposition und Wettbewerbsanalyse"
+          ]
+        },
+        "timing": {
+          "title": "⏱️ Geschätzte Fertigstellung",
+          "description": "Ihr Bericht wird in etwa **{{ estimatedTime }}** fertig sein. Wir senden Ihnen eine E-Mail, sobald er fertig ist."
+        },
+        "footer": "Sie können den Fortschritt jederzeit in Ihrem Dashboard verfolgen."
+      },
+      "cta": {
+        "primary": {
+          "text": "Dashboard anzeigen",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    }
+  }
+}

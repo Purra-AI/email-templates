@@ -1,0 +1,259 @@
+{
+  "id": "onboarding-day1",
+  "category": "onboarding",
+  "campaignName": "onboarding_day1",
+  "layout": "base",
+  "dynamicFields": [
+    "firstName",
+    "dashboardUrl",
+    "tutorialUrl",
+    "supportUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "Day 1: Start Your First Vendor Research",
+      "preheader": "Learn how to run comprehensive vendor due diligence in minutes",
+      "header": {
+        "title": "Welcome to Day 1!",
+        "subtitle": "Let's run your first vendor research"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "Welcome to your first day with Purra! Today, we'll help you run your first vendor due diligence research. It's quick, powerful, and incredibly easy.",
+        "steps": {
+          "title": "3 Simple Steps to Get Started",
+          "items": [
+            "**Enter vendor details** - Just add the company name or website URL",
+            "**Wait 5-10 minutes** - Our AI analyzes hundreds of data sources",
+            "**Review your report** - Get comprehensive insights on financial health, compliance, and risks"
+          ]
+        },
+        "quickTip": {
+          "title": "💡 Pro Tip",
+          "description": "Start with a vendor you're already familiar with. This helps you see exactly what Purra can uncover!"
+        },
+        "footer": "Have questions? Our support team is here to help 24/7."
+      },
+      "cta": {
+        "primary": {
+          "text": "Run My First Research",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "Watch Tutorial",
+          "url": "{{ tutorialUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "יום 1: התחילו את המחקר הראשון שלכם על ספק",
+      "preheader": "למדו איך להריץ בדיקת נאותות מקיפה של ספקים תוך דקות",
+      "header": {
+        "title": "ברוכים הבאים ליום 1!",
+        "subtitle": "בואו נריץ את מחקר הספק הראשון שלכם"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "ברוכים הבאים ליום הראשון שלכם עם Purra! היום, נעזור לכם להריץ את מחקר בדיקת הנאותות הראשון שלכם על ספק. זה מהיר, חזק, וקל להפליא.",
+        "steps": {
+          "title": "3 צעדים פשוטים להתחלה",
+          "items": [
+            "**הזינו פרטי ספק** - פשוט הוסיפו את שם החברה או כתובת האתר",
+            "**המתינו 5-10 דקות** - הבינה המלאכותית שלנו מנתחת מאות מקורות מידע",
+            "**בדקו את הדוח שלכם** - קבלו תובנות מקיפות על בריאות פיננסית, ציות וסיכונים"
+          ]
+        },
+        "quickTip": {
+          "title": "💡 טיפ מקצועי",
+          "description": "התחילו עם ספק שאתם כבר מכירים. זה עוזר לכם לראות בדיוק מה Purra יכולה לגלות!"
+        },
+        "footer": "יש שאלות? צוות התמיכה שלנו כאן כדי לעזור 24/7."
+      },
+      "cta": {
+        "primary": {
+          "text": "הריצו את המחקר הראשון שלי",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "צפו במדריך",
+          "url": "{{ tutorialUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "दिन 1: अपना पहला विक्रेता अनुसंधान शुरू करें",
+      "preheader": "मिनटों में व्यापक विक्रेता उचित परिश्रम कैसे चलाएं सीखें",
+      "header": {
+        "title": "दिन 1 में आपका स्वागत है!",
+        "subtitle": "आइए अपना पहला विक्रेता अनुसंधान चलाएं"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "Purra के साथ आपके पहले दिन में आपका स्वागत है! आज, हम आपको अपना पहला विक्रेता उचित परिश्रम अनुसंधान चलाने में मदद करेंगे। यह त्वरित, शक्तिशाली और अविश्वसनीय रूप से आसान है।",
+        "steps": {
+          "title": "शुरू करने के लिए 3 सरल कदम",
+          "items": [
+            "**विक्रेता विवरण दर्ज करें** - बस कंपनी का नाम या वेबसाइट URL जोड़ें",
+            "**5-10 मिनट प्रतीक्षा करें** - हमारा AI सैकड़ों डेटा स्रोतों का विश्लेषण करता है",
+            "**अपनी रिपोर्ट की समीक्षा करें** - वित्तीय स्वास्थ्य, अनुपालन और जोखिमों पर व्यापक जानकारी प्राप्त करें"
+          ]
+        },
+        "quickTip": {
+          "title": "💡 प्रो टिप",
+          "description": "एक ऐसे विक्रेता से शुरू करें जिससे आप पहले से परिचित हैं। यह आपको यह देखने में मदद करता है कि Purra क्या खोज सकता है!"
+        },
+        "footer": "प्रश्न हैं? हमारी सहायता टीम 24/7 मदद के लिए यहां है।"
+      },
+      "cta": {
+        "primary": {
+          "text": "मेरा पहला अनुसंधान चलाएं",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "ट्यूटोरियल देखें",
+          "url": "{{ tutorialUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "Jour 1 : Commencez votre première recherche de fournisseur",
+      "preheader": "Apprenez à effectuer une diligence raisonnable complète des fournisseurs en quelques minutes",
+      "header": {
+        "title": "Bienvenue au Jour 1 !",
+        "subtitle": "Effectuons votre première recherche de fournisseur"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Bienvenue pour votre premier jour avec Purra ! Aujourd'hui, nous allons vous aider à effectuer votre première recherche de diligence raisonnable sur un fournisseur. C'est rapide, puissant et incroyablement facile.",
+        "steps": {
+          "title": "3 étapes simples pour commencer",
+          "items": [
+            "**Entrez les détails du fournisseur** - Ajoutez simplement le nom de l'entreprise ou l'URL du site Web",
+            "**Attendez 5-10 minutes** - Notre IA analyse des centaines de sources de données",
+            "**Consultez votre rapport** - Obtenez des informations complètes sur la santé financière, la conformité et les risques"
+          ]
+        },
+        "quickTip": {
+          "title": "💡 Conseil de pro",
+          "description": "Commencez avec un fournisseur que vous connaissez déjà. Cela vous aide à voir exactement ce que Purra peut découvrir !"
+        },
+        "footer": "Vous avez des questions ? Notre équipe d'assistance est là pour vous aider 24h/24 et 7j/7."
+      },
+      "cta": {
+        "primary": {
+          "text": "Lancer ma première recherche",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "Regarder le tutoriel",
+          "url": "{{ tutorialUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "第 1 天：开始您的第一次供应商研究",
+      "preheader": "了解如何在几分钟内进行全面的供应商尽职调查",
+      "header": {
+        "title": "欢迎来到第 1 天！",
+        "subtitle": "让我们进行您的第一次供应商研究"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "欢迎来到您与 Purra 的第一天！今天，我们将帮助您进行第一次供应商尽职调查研究。它快速、强大且非常简单。",
+        "steps": {
+          "title": "入门的 3 个简单步骤",
+          "items": [
+            "**输入供应商详细信息** - 只需添加公司名称或网站 URL",
+            "**等待 5-10 分钟** - 我们的 AI 分析数百个数据源",
+            "**查看您的报告** - 获取有关财务健康、合规和风险的全面见解"
+          ]
+        },
+        "quickTip": {
+          "title": "💡 专业提示",
+          "description": "从您已经熟悉的供应商开始。这可以帮助您准确看到 Purra 可以发现什么！"
+        },
+        "footer": "有疑问吗？我们的支持团队全天候为您提供帮助。"
+      },
+      "cta": {
+        "primary": {
+          "text": "运行我的第一次研究",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "观看教程",
+          "url": "{{ tutorialUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "1日目：最初のベンダー調査を開始",
+      "preheader": "数分で包括的なベンダーデューデリジェンスを実行する方法を学ぶ",
+      "header": {
+        "title": "1日目へようこそ！",
+        "subtitle": "最初のベンダー調査を実行しましょう"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "Purraでの初日へようこそ！今日は、最初のベンダーデューデリジェンス調査を実行するお手伝いをします。迅速で、強力で、信じられないほど簡単です。",
+        "steps": {
+          "title": "開始するための3つの簡単なステップ",
+          "items": [
+            "**ベンダーの詳細を入力** - 会社名またはウェブサイトのURLを追加するだけです",
+            "**5〜10分待つ** - 私たちのAIが何百ものデータソースを分析します",
+            "**レポートを確認** - 財務健全性、コンプライアンス、リスクに関する包括的な洞察を得る"
+          ]
+        },
+        "quickTip": {
+          "title": "💡 プロのヒント",
+          "description": "すでに知っているベンダーから始めてください。これにより、Purraが正確に何を発見できるかがわかります！"
+        },
+        "footer": "質問がありますか？サポートチームが24時間年中無休でサポートします。"
+      },
+      "cta": {
+        "primary": {
+          "text": "最初の調査を実行",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "チュートリアルを見る",
+          "url": "{{ tutorialUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "Tag 1: Starten Sie Ihre erste Lieferantenrecherche",
+      "preheader": "Erfahren Sie, wie Sie in wenigen Minuten eine umfassende Lieferanten-Due-Diligence durchführen",
+      "header": {
+        "title": "Willkommen zu Tag 1!",
+        "subtitle": "Lassen Sie uns Ihre erste Lieferantenrecherche durchführen"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Willkommen zu Ihrem ersten Tag mit Purra! Heute helfen wir Ihnen, Ihre erste Lieferanten-Due-Diligence-Recherche durchzuführen. Es ist schnell, leistungsstark und unglaublich einfach.",
+        "steps": {
+          "title": "3 einfache Schritte zum Einstieg",
+          "items": [
+            "**Lieferantendetails eingeben** - Fügen Sie einfach den Firmennamen oder die Website-URL hinzu",
+            "**5-10 Minuten warten** - Unsere KI analysiert Hunderte von Datenquellen",
+            "**Ihren Bericht überprüfen** - Erhalten Sie umfassende Einblicke in finanzielle Gesundheit, Compliance und Risiken"
+          ]
+        },
+        "quickTip": {
+          "title": "💡 Profi-Tipp",
+          "description": "Beginnen Sie mit einem Lieferanten, den Sie bereits kennen. Dies hilft Ihnen zu sehen, was Purra genau aufdecken kann!"
+        },
+        "footer": "Haben Sie Fragen? Unser Support-Team ist rund um die Uhr für Sie da."
+      },
+      "cta": {
+        "primary": {
+          "text": "Meine erste Recherche starten",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "Tutorial ansehen",
+          "url": "{{ tutorialUrl }}"
+        }
+      }
+    }
+  }
+}

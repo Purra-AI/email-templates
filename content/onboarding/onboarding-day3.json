@@ -1,0 +1,308 @@
+{
+  "id": "onboarding-day3",
+  "category": "onboarding",
+  "campaignName": "onboarding_day3",
+  "layout": "base",
+  "dynamicFields": [
+    "firstName",
+    "alertsUrl",
+    "tutorialUrl",
+    "supportUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "Day 3: Set Up Price Alerts & Monitoring",
+      "preheader": "Never miss price changes with automated alerts",
+      "header": {
+        "title": "Welcome to Day 3!",
+        "subtitle": "Automate your price monitoring"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "You're making great progress! Today, we'll show you how to set up automated price alerts so you never miss important market changes.",
+        "benefits": {
+          "title": "Why Price Monitoring Matters",
+          "items": [
+            "**Catch opportunities** - Get notified when prices drop",
+            "**Avoid surprises** - Know about increases before they hit your budget",
+            "**Track trends** - Understand long-term price patterns",
+            "**Save time** - No more manual price checking",
+            "**Stay competitive** - React faster than your competitors"
+          ]
+        },
+        "howTo": {
+          "title": "Setting Up Alerts in 2 Minutes",
+          "steps": [
+            "Navigate to the Alerts section in your dashboard",
+            "Select the products or vendors you want to monitor",
+            "Set your threshold (e.g., notify me if price changes by 5%)",
+            "Choose your notification preferences (email, SMS, or both)"
+          ]
+        },
+        "footer": "Questions about alerts? Our support team is ready to help!"
+      },
+      "cta": {
+        "primary": {
+          "text": "Set Up My Alerts",
+          "url": "{{ alertsUrl }}"
+        },
+        "secondary": {
+          "text": "Watch Tutorial",
+          "url": "{{ tutorialUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "יום 3: הגדירו התראות מחיר וניטור",
+      "preheader": "לעולם אל תפספסו שינויי מחיר עם התראות אוטומטיות",
+      "header": {
+        "title": "ברוכים הבאים ליום 3!",
+        "subtitle": "הפכו את ניטור המחירים שלכם לאוטומטי"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "אתם עושים התקדמות מעולה! היום, נראה לכם איך להגדיר התראות מחיר אוטומטיות כדי שלעולם לא תפספסו שינויי שוק חשובים.",
+        "benefits": {
+          "title": "למה ניטור מחירים חשוב",
+          "items": [
+            "**תפסו הזדמנויות** - קבלו התראה כאשר המחירים יורדים",
+            "**הימנעו מהפתעות** - דעו על עליות לפני שהן מכות בתקציב שלכם",
+            "**עקבו אחר מגמות** - הבינו דפוסי מחירים לטווח ארוך",
+            "**חסכו זמן** - לא עוד בדיקת מחירים ידנית",
+            "**הישארו תחרותיים** - הגיבו מהר יותר מהמתחרים שלכם"
+          ]
+        },
+        "howTo": {
+          "title": "הגדרת התראות תוך דקותיים",
+          "steps": [
+            "נווטו לקטע ההתראות בלוח הבקרה שלכם",
+            "בחרו את המוצרים או הספקים שאתם רוצים לעקוב אחריהם",
+            "הגדירו את הסף שלכם (למשל, הודיעו לי אם המחיר משתנה ב-5%)",
+            "בחרו את העדפות ההתראות שלכם (אימייל, SMS, או שניהם)"
+          ]
+        },
+        "footer": "יש שאלות לגבי התראות? צוות התמיכה שלנו מוכן לעזור!"
+      },
+      "cta": {
+        "primary": {
+          "text": "הגדירו את ההתראות שלי",
+          "url": "{{ alertsUrl }}"
+        },
+        "secondary": {
+          "text": "צפו במדריך",
+          "url": "{{ tutorialUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "दिन 3: मूल्य अलर्ट और निगरानी सेट करें",
+      "preheader": "स्वचालित अलर्ट के साथ मूल्य परिवर्तन कभी न चूकें",
+      "header": {
+        "title": "दिन 3 में आपका स्वागत है!",
+        "subtitle": "अपनी मूल्य निगरानी को स्वचालित करें"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "आप बहुत अच्छी प्रगति कर रहे हैं! आज, हम आपको दिखाएंगे कि स्वचालित मूल्य अलर्ट कैसे सेट करें ताकि आप कभी भी महत्वपूर्ण बाजार परिवर्तन न चूकें।",
+        "benefits": {
+          "title": "मूल्य निगरानी क्यों महत्वपूर्ण है",
+          "items": [
+            "**अवसर पकड़ें** - जब कीमतें गिरें तो सूचित हों",
+            "**आश्चर्य से बचें** - अपने बजट पर असर डालने से पहले वृद्धि के बारे में जानें",
+            "**रुझान ट्रैक करें** - दीर्घकालिक मूल्य पैटर्न को समझें",
+            "**समय बचाएं** - अब और मैनुअल मूल्य जांच नहीं",
+            "**प्रतिस्पर्धी बने रहें** - अपने प्रतिस्पर्धियों से तेजी से प्रतिक्रिया दें"
+          ]
+        },
+        "howTo": {
+          "title": "2 मिनट में अलर्ट सेट करना",
+          "steps": [
+            "अपने डैशबोर्ड में अलर्ट अनुभाग पर नेविगेट करें",
+            "उन उत्पादों या विक्रेताओं का चयन करें जिन्हें आप मॉनिटर करना चाहते हैं",
+            "अपनी सीमा निर्धारित करें (जैसे, मुझे सूचित करें यदि मूल्य 5% से बदलता है)",
+            "अपनी सूचना प्राथमिकताओं का चयन करें (ईमेल, एसएमएस, या दोनों)"
+          ]
+        },
+        "footer": "अलर्ट के बारे में प्रश्न? हमारी सहायता टीम मदद के लिए तैयार है!"
+      },
+      "cta": {
+        "primary": {
+          "text": "मेरे अलर्ट सेट करें",
+          "url": "{{ alertsUrl }}"
+        },
+        "secondary": {
+          "text": "ट्यूटोरियल देखें",
+          "url": "{{ tutorialUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "Jour 3 : Configurez les alertes et la surveillance des prix",
+      "preheader": "Ne manquez jamais les changements de prix avec des alertes automatisées",
+      "header": {
+        "title": "Bienvenue au Jour 3 !",
+        "subtitle": "Automatisez votre surveillance des prix"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Vous faites de grands progrès ! Aujourd'hui, nous allons vous montrer comment configurer des alertes de prix automatisées pour ne jamais manquer les changements importants du marché.",
+        "benefits": {
+          "title": "Pourquoi la surveillance des prix est importante",
+          "items": [
+            "**Saisissez les opportunités** - Soyez notifié lorsque les prix baissent",
+            "**Évitez les surprises** - Soyez informé des augmentations avant qu'elles n'affectent votre budget",
+            "**Suivez les tendances** - Comprenez les modèles de prix à long terme",
+            "**Gagnez du temps** - Plus de vérifications manuelles des prix",
+            "**Restez compétitif** - Réagissez plus rapidement que vos concurrents"
+          ]
+        },
+        "howTo": {
+          "title": "Configuration des alertes en 2 minutes",
+          "steps": [
+            "Accédez à la section Alertes de votre tableau de bord",
+            "Sélectionnez les produits ou fournisseurs que vous souhaitez surveiller",
+            "Définissez votre seuil (par ex., me notifier si le prix change de 5%)",
+            "Choisissez vos préférences de notification (email, SMS ou les deux)"
+          ]
+        },
+        "footer": "Des questions sur les alertes ? Notre équipe d'assistance est prête à vous aider !"
+      },
+      "cta": {
+        "primary": {
+          "text": "Configurer mes alertes",
+          "url": "{{ alertsUrl }}"
+        },
+        "secondary": {
+          "text": "Regarder le tutoriel",
+          "url": "{{ tutorialUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "第 3 天：设置价格警报和监控",
+      "preheader": "通过自动警报永远不会错过价格变化",
+      "header": {
+        "title": "欢迎来到第 3 天！",
+        "subtitle": "自动化您的价格监控"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "您正在取得很大进展！今天，我们将向您展示如何设置自动价格警报，这样您就不会错过重要的市场变化。",
+        "benefits": {
+          "title": "为什么价格监控很重要",
+          "items": [
+            "**抓住机会** - 当价格下降时收到通知",
+            "**避免意外** - 在影响预算之前了解涨价",
+            "**跟踪趋势** - 了解长期价格模式",
+            "**节省时间** - 不再需要手动检查价格",
+            "**保持竞争力** - 比竞争对手反应更快"
+          ]
+        },
+        "howTo": {
+          "title": "2 分钟内设置警报",
+          "steps": [
+            "导航到仪表板中的警报部分",
+            "选择您要监控的产品或供应商",
+            "设置您的阈值（例如，如果价格变化 5% 请通知我）",
+            "选择您的通知偏好（电子邮件、短信或两者）"
+          ]
+        },
+        "footer": "对警报有疑问吗？我们的支持团队随时准备提供帮助！"
+      },
+      "cta": {
+        "primary": {
+          "text": "设置我的警报",
+          "url": "{{ alertsUrl }}"
+        },
+        "secondary": {
+          "text": "观看教程",
+          "url": "{{ tutorialUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "3日目：価格アラートと監視を設定",
+      "preheader": "自動アラートで価格変動を見逃さない",
+      "header": {
+        "title": "3日目へようこそ！",
+        "subtitle": "価格監視を自動化しましょう"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "素晴らしい進歩を遂げています！今日は、重要な市場の変化を見逃さないように、自動価格アラートを設定する方法を紹介します。",
+        "benefits": {
+          "title": "価格監視が重要な理由",
+          "items": [
+            "**機会をつかむ** - 価格が下がったときに通知を受け取る",
+            "**驚きを避ける** - 予算に影響を与える前に値上げについて知る",
+            "**トレンドを追跡** - 長期的な価格パターンを理解する",
+            "**時間を節約** - もう手動での価格チェックは不要",
+            "**競争力を維持** - 競合他社よりも速く反応する"
+          ]
+        },
+        "howTo": {
+          "title": "2分でアラートを設定",
+          "steps": [
+            "ダッシュボードのアラートセクションに移動",
+            "監視したい製品またはベンダーを選択",
+            "しきい値を設定（例：価格が5%変化したら通知）",
+            "通知設定を選択（メール、SMS、または両方）"
+          ]
+        },
+        "footer": "アラートについて質問がありますか？サポートチームがサポートします！"
+      },
+      "cta": {
+        "primary": {
+          "text": "アラートを設定",
+          "url": "{{ alertsUrl }}"
+        },
+        "secondary": {
+          "text": "チュートリアルを見る",
+          "url": "{{ tutorialUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "Tag 3: Preisalarme & Überwachung einrichten",
+      "preheader": "Verpassen Sie mit automatischen Alarmen keine Preisänderungen",
+      "header": {
+        "title": "Willkommen zu Tag 3!",
+        "subtitle": "Automatisieren Sie Ihre Preisüberwachung"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Sie machen großartige Fortschritte! Heute zeigen wir Ihnen, wie Sie automatische Preisalarme einrichten, damit Sie keine wichtigen Marktveränderungen verpassen.",
+        "benefits": {
+          "title": "Warum Preisüberwachung wichtig ist",
+          "items": [
+            "**Chancen nutzen** - Werden Sie benachrichtigt, wenn Preise fallen",
+            "**Überraschungen vermeiden** - Erfahren Sie von Erhöhungen, bevor sie Ihr Budget belasten",
+            "**Trends verfolgen** - Verstehen Sie langfristige Preismuster",
+            "**Zeit sparen** - Keine manuelle Preisüberprüfung mehr",
+            "**Wettbewerbsfähig bleiben** - Reagieren Sie schneller als Ihre Konkurrenten"
+          ]
+        },
+        "howTo": {
+          "title": "Alarme in 2 Minuten einrichten",
+          "steps": [
+            "Navigieren Sie zum Bereich Alarme in Ihrem Dashboard",
+            "Wählen Sie die Produkte oder Lieferanten aus, die Sie überwachen möchten",
+            "Legen Sie Ihren Schwellenwert fest (z.B. benachrichtigen Sie mich, wenn sich der Preis um 5% ändert)",
+            "Wählen Sie Ihre Benachrichtigungspräferenzen (E-Mail, SMS oder beides)"
+          ]
+        },
+        "footer": "Fragen zu Alarmen? Unser Support-Team ist bereit zu helfen!"
+      },
+      "cta": {
+        "primary": {
+          "text": "Meine Alarme einrichten",
+          "url": "{{ alertsUrl }}"
+        },
+        "secondary": {
+          "text": "Tutorial ansehen",
+          "url": "{{ tutorialUrl }}"
+        }
+      }
+    }
+  }
+}
