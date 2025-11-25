@@ -1,0 +1,402 @@
+{
+  "id": "progress-milestone",
+  "category": "onboarding",
+  "campaignName": "onboarding_progress_milestone",
+  "layout": "base",
+  "dynamicFields": [
+    "firstName",
+    "milestoneName",
+    "achievementDescription",
+    "nextMilestone",
+    "progressPercentage",
+    "rewardUrl",
+    "dashboardUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "🏆 Milestone Achieved: {{ milestoneName }}!",
+      "preheader": "Celebrate your procurement success with Purra",
+      "header": {
+        "title": "Congratulations!",
+        "subtitle": "You've Reached a Major Milestone"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "We're excited to celebrate an important milestone with you!",
+        "achievement": {
+          "title": "🎉 You've Achieved: {{ milestoneName }}",
+          "description": "{{ achievementDescription }}"
+        },
+        "impact": {
+          "title": "Why This Matters",
+          "description": "This milestone demonstrates your commitment to data-driven procurement and positions your team for even greater success. You're now among the top-performing Purra users!"
+        },
+        "progress": {
+          "title": "📊 Your Journey",
+          "percentage": "{{ progressPercentage }}% Complete",
+          "description": "You've mastered key features and are well on your way to procurement excellence."
+        },
+        "nextGoal": {
+          "title": "🎯 What's Next?",
+          "milestone": "Next Milestone: {{ nextMilestone }}",
+          "description": "Keep up the momentum! Your next milestone is within reach and will unlock even more powerful capabilities."
+        },
+        "celebration": {
+          "title": "🎁 Special Recognition",
+          "description": "As a thank you for your progress, we've unlocked exclusive content and features for you:",
+          "rewards": [
+            "Access to advanced analytics templates",
+            "Priority support queue",
+            "Invitation to exclusive user community",
+            "Early access to beta features"
+          ]
+        },
+        "share": {
+          "title": "Share Your Success",
+          "description": "Your team would love to celebrate with you! Share this milestone on your dashboard to inspire collaboration."
+        },
+        "footer": "Keep reaching new heights!"
+      },
+      "cta": {
+        "primary": {
+          "text": "Claim Your Rewards",
+          "url": "{{ rewardUrl }}"
+        },
+        "secondary": {
+          "text": "View My Progress",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "🏆 אבן דרך הושגה: {{ milestoneName }}!",
+      "preheader": "חגגו את הצלחת הרכש שלכם עם Purra",
+      "header": {
+        "title": "מזל טוב!",
+        "subtitle": "הגעתם לאבן דרך משמעותית"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "אנו נרגשים לחגוג אבן דרך חשובה איתכם!",
+        "achievement": {
+          "title": "🎉 השגתם: {{ milestoneName }}",
+          "description": "{{ achievementDescription }}"
+        },
+        "impact": {
+          "title": "למה זה חשוב",
+          "description": "אבן דרך זו מוכיחה את המחויבות שלכם לרכש מונחה נתונים וממקמת את הצוות שלכם להצלחה גדולה עוד יותר. אתם כעת בין משתמשי Purra המובילים!"
+        },
+        "progress": {
+          "title": "📊 המסע שלכם",
+          "percentage": "{{ progressPercentage }}% הושלם",
+          "description": "שלטתם בתכונות מפתח ואתם בדרך הנכונה למצוינות ברכש."
+        },
+        "nextGoal": {
+          "title": "🎯 מה הלאה?",
+          "milestone": "אבן הדרך הבאה: {{ nextMilestone }}",
+          "description": "המשיכו את המומנטום! אבן הדרך הבאה שלכם בהישג יד ותפתח יכולות עוד יותר עוצמתיות."
+        },
+        "celebration": {
+          "title": "🎁 הכרה מיוחדת",
+          "description": "כתודה על ההתקדמות שלכם, פתחנו עבורכם תוכן ותכונות בלעדיות:",
+          "rewards": [
+            "גישה לתבניות ניתוח מתקדמות",
+            "תור תמיכה עדיפות",
+            "הזמנה לקהילת משתמשים בלעדית",
+            "גישה מוקדמת לתכונות בטא"
+          ]
+        },
+        "share": {
+          "title": "שתפו את ההצלחה שלכם",
+          "description": "הצוות שלכם ישמח לחגוג איתכם! שתפו אבן דרך זו בלוח הבקרה שלכם כדי לעורר שיתוף פעולה."
+        },
+        "footer": "המשיכו להגיע לגבהים חדשים!"
+      },
+      "cta": {
+        "primary": {
+          "text": "תבעו את הפרסים שלכם",
+          "url": "{{ rewardUrl }}"
+        },
+        "secondary": {
+          "text": "צפו בהתקדמות שלי",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "🏆 मील का पत्थर हासिल किया: {{ milestoneName }}!",
+      "preheader": "Purra के साथ अपनी खरीद सफलता का जश्न मनाएं",
+      "header": {
+        "title": "बधाई हो!",
+        "subtitle": "आपने एक प्रमुख मील का पत्थर हासिल किया है"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "हम आपके साथ एक महत्वपूर्ण मील के पत्थर का जश्न मनाने के लिए उत्साहित हैं!",
+        "achievement": {
+          "title": "🎉 आपने हासिल किया: {{ milestoneName }}",
+          "description": "{{ achievementDescription }}"
+        },
+        "impact": {
+          "title": "यह क्यों मायने रखता है",
+          "description": "यह मील का पत्थर डेटा-संचालित खरीद के प्रति आपकी प्रतिबद्धता को प्रदर्शित करता है और आपकी टीम को और भी बड़ी सफलता के लिए तैयार करता है। अब आप शीर्ष प्रदर्शन करने वाले Purra उपयोगकर्ताओं में से हैं!"
+        },
+        "progress": {
+          "title": "📊 आपकी यात्रा",
+          "percentage": "{{ progressPercentage }}% पूर्ण",
+          "description": "आपने मुख्य सुविधाओं में महारत हासिल कर ली है और खरीद उत्कृष्टता की ओर अच्छी तरह से आगे बढ़ रहे हैं।"
+        },
+        "nextGoal": {
+          "title": "🎯 आगे क्या है?",
+          "milestone": "अगला मील का पत्थर: {{ nextMilestone }}",
+          "description": "गति बनाए रखें! आपका अगला मील का पत्थर पहुंच के भीतर है और यह और भी शक्तिशाली क्षमताओं को अनलॉक करेगा।"
+        },
+        "celebration": {
+          "title": "🎁 विशेष मान्यता",
+          "description": "आपकी प्रगति के लिए धन्यवाद के रूप में, हमने आपके लिए विशेष सामग्री और सुविधाएं अनलॉक की हैं:",
+          "rewards": [
+            "उन्नत विश्लेषण टेम्पलेट तक पहुंच",
+            "प्राथमिकता समर्थन कतार",
+            "विशेष उपयोगकर्ता समुदाय के लिए आमंत्रण",
+            "बीटा सुविधाओं के लिए प्रारंभिक पहुंच"
+          ]
+        },
+        "share": {
+          "title": "अपनी सफलता साझा करें",
+          "description": "आपकी टीम आपके साथ जश्न मनाना पसंद करेगी! सहयोग को प्रेरित करने के लिए अपने डैशबोर्ड पर इस मील के पत्थर को साझा करें।"
+        },
+        "footer": "नई ऊंचाइयों तक पहुंचते रहें!"
+      },
+      "cta": {
+        "primary": {
+          "text": "अपने पुरस्कार का दावा करें",
+          "url": "{{ rewardUrl }}"
+        },
+        "secondary": {
+          "text": "मेरी प्रगति देखें",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "🏆 Jalon atteint : {{ milestoneName }} !",
+      "preheader": "Célébrez votre succès en approvisionnement avec Purra",
+      "header": {
+        "title": "Félicitations !",
+        "subtitle": "Vous avez atteint un jalon majeur"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Nous sommes ravis de célébrer un jalon important avec vous !",
+        "achievement": {
+          "title": "🎉 Vous avez atteint : {{ milestoneName }}",
+          "description": "{{ achievementDescription }}"
+        },
+        "impact": {
+          "title": "Pourquoi c'est important",
+          "description": "Ce jalon démontre votre engagement envers un approvisionnement basé sur les données et positionne votre équipe pour un succès encore plus grand. Vous faites désormais partie des meilleurs utilisateurs de Purra !"
+        },
+        "progress": {
+          "title": "📊 Votre parcours",
+          "percentage": "{{ progressPercentage }}% Terminé",
+          "description": "Vous maîtrisez les fonctionnalités clés et êtes bien sur la voie de l'excellence en approvisionnement."
+        },
+        "nextGoal": {
+          "title": "🎯 Et maintenant ?",
+          "milestone": "Prochain jalon : {{ nextMilestone }}",
+          "description": "Maintenez l'élan ! Votre prochain jalon est à portée de main et débloquera des capacités encore plus puissantes."
+        },
+        "celebration": {
+          "title": "🎁 Reconnaissance spéciale",
+          "description": "En guise de remerciement pour vos progrès, nous avons débloqué du contenu et des fonctionnalités exclusifs pour vous :",
+          "rewards": [
+            "Accès aux modèles d'analyse avancés",
+            "File d'attente de support prioritaire",
+            "Invitation à la communauté d'utilisateurs exclusive",
+            "Accès anticipé aux fonctionnalités bêta"
+          ]
+        },
+        "share": {
+          "title": "Partagez votre succès",
+          "description": "Votre équipe aimerait célébrer avec vous ! Partagez ce jalon sur votre tableau de bord pour inspirer la collaboration."
+        },
+        "footer": "Continuez à atteindre de nouveaux sommets !"
+      },
+      "cta": {
+        "primary": {
+          "text": "Réclamez vos récompenses",
+          "url": "{{ rewardUrl }}"
+        },
+        "secondary": {
+          "text": "Voir mes progrès",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "🏆 达成里程碑：{{ milestoneName }}！",
+      "preheader": "与Purra一起庆祝您的采购成功",
+      "header": {
+        "title": "恭喜！",
+        "subtitle": "您已达成重要里程碑"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "我们很高兴与您一起庆祝这个重要的里程碑！",
+        "achievement": {
+          "title": "🎉 您已达成：{{ milestoneName }}",
+          "description": "{{ achievementDescription }}"
+        },
+        "impact": {
+          "title": "为什么重要",
+          "description": "这个里程碑展示了您对数据驱动采购的承诺，并使您的团队更有可能取得更大的成功。您现在是表现最好的Purra用户之一！"
+        },
+        "progress": {
+          "title": "📊 您的旅程",
+          "percentage": "{{ progressPercentage }}% 完成",
+          "description": "您已掌握关键功能，正朝着采购卓越的方向前进。"
+        },
+        "nextGoal": {
+          "title": "🎯 下一步是什么？",
+          "milestone": "下一个里程碑：{{ nextMilestone }}",
+          "description": "保持势头！您的下一个里程碑触手可及，将解锁更强大的功能。"
+        },
+        "celebration": {
+          "title": "🎁 特别认可",
+          "description": "作为对您进步的感谢，我们为您解锁了独家内容和功能：",
+          "rewards": [
+            "访问高级分析模板",
+            "优先支持队列",
+            "邀请加入独家用户社区",
+            "抢先体验测试版功能"
+          ]
+        },
+        "share": {
+          "title": "分享您的成功",
+          "description": "您的团队会很高兴与您一起庆祝！在仪表板上分享此里程碑以激发协作。"
+        },
+        "footer": "继续达到新高度！"
+      },
+      "cta": {
+        "primary": {
+          "text": "领取您的奖励",
+          "url": "{{ rewardUrl }}"
+        },
+        "secondary": {
+          "text": "查看我的进度",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "🏆 マイルストーン達成：{{ milestoneName }}！",
+      "preheader": "Purraで調達の成功を祝いましょう",
+      "header": {
+        "title": "おめでとうございます！",
+        "subtitle": "重要なマイルストーンに到達しました"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "重要なマイルストーンを一緒に祝うことができて嬉しく思います！",
+        "achievement": {
+          "title": "🎉 達成しました：{{ milestoneName }}",
+          "description": "{{ achievementDescription }}"
+        },
+        "impact": {
+          "title": "なぜ重要か",
+          "description": "このマイルストーンは、データ駆動型調達へのコミットメントを示し、チームをさらなる成功へと導きます。あなたはPurraのトップパフォーマーの一人です！"
+        },
+        "progress": {
+          "title": "📊 あなたの旅",
+          "percentage": "{{ progressPercentage }}% 完了",
+          "description": "主要機能をマスターし、調達の卓越性への道を順調に進んでいます。"
+        },
+        "nextGoal": {
+          "title": "🎯 次は何ですか？",
+          "milestone": "次のマイルストーン：{{ nextMilestone }}",
+          "description": "勢いを維持してください！次のマイルストーンは手の届くところにあり、さらに強力な機能をアンロックします。"
+        },
+        "celebration": {
+          "title": "🎁 特別な表彰",
+          "description": "進歩への感謝の印として、限定コンテンツと機能をアンロックしました：",
+          "rewards": [
+            "高度な分析テンプレートへのアクセス",
+            "優先サポートキュー",
+            "限定ユーザーコミュニティへの招待",
+            "ベータ機能への早期アクセス"
+          ]
+        },
+        "share": {
+          "title": "成功を共有",
+          "description": "チームはあなたと一緒に祝いたいでしょう！ダッシュボードでこのマイルストーンを共有してコラボレーションを促進してください。"
+        },
+        "footer": "新しい高みに到達し続けてください！"
+      },
+      "cta": {
+        "primary": {
+          "text": "報酬を請求",
+          "url": "{{ rewardUrl }}"
+        },
+        "secondary": {
+          "text": "進捗を表示",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "🏆 Meilenstein erreicht: {{ milestoneName }}!",
+      "preheader": "Feiern Sie Ihren Beschaffungserfolg mit Purra",
+      "header": {
+        "title": "Herzlichen Glückwunsch!",
+        "subtitle": "Sie haben einen wichtigen Meilenstein erreicht"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Wir freuen uns, einen wichtigen Meilenstein mit Ihnen zu feiern!",
+        "achievement": {
+          "title": "🎉 Sie haben erreicht: {{ milestoneName }}",
+          "description": "{{ achievementDescription }}"
+        },
+        "impact": {
+          "title": "Warum das wichtig ist",
+          "description": "Dieser Meilenstein zeigt Ihr Engagement für datengesteuerte Beschaffung und positioniert Ihr Team für noch größeren Erfolg. Sie gehören jetzt zu den leistungsstärksten Purra-Nutzern!"
+        },
+        "progress": {
+          "title": "📊 Ihre Reise",
+          "percentage": "{{ progressPercentage }}% Abgeschlossen",
+          "description": "Sie haben Schlüsselfunktionen gemeistert und sind auf dem besten Weg zur Beschaffungsexzellenz."
+        },
+        "nextGoal": {
+          "title": "🎯 Was kommt als Nächstes?",
+          "milestone": "Nächster Meilenstein: {{ nextMilestone }}",
+          "description": "Halten Sie die Dynamik aufrecht! Ihr nächster Meilenstein ist in Reichweite und wird noch leistungsfähigere Funktionen freischalten."
+        },
+        "celebration": {
+          "title": "🎁 Besondere Anerkennung",
+          "description": "Als Dankeschön für Ihren Fortschritt haben wir exklusive Inhalte und Funktionen für Sie freigeschaltet:",
+          "rewards": [
+            "Zugang zu erweiterten Analysevorlagen",
+            "Prioritäts-Supportwarteschlange",
+            "Einladung zur exklusiven Benutzer-Community",
+            "Frühzeitiger Zugang zu Beta-Funktionen"
+          ]
+        },
+        "share": {
+          "title": "Teilen Sie Ihren Erfolg",
+          "description": "Ihr Team würde gerne mit Ihnen feiern! Teilen Sie diesen Meilenstein auf Ihrem Dashboard, um die Zusammenarbeit zu fördern."
+        },
+        "footer": "Erreichen Sie weiterhin neue Höhen!"
+      },
+      "cta": {
+        "primary": {
+          "text": "Belohnungen einfordern",
+          "url": "{{ rewardUrl }}"
+        },
+        "secondary": {
+          "text": "Meinen Fortschritt anzeigen",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    }
+  }
+}

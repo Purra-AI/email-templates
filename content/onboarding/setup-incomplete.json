@@ -1,0 +1,381 @@
+{
+  "id": "setup-incomplete",
+  "category": "onboarding",
+  "campaignName": "onboarding_setup_incomplete",
+  "layout": "base",
+  "dynamicFields": [
+    "firstName",
+    "missingSteps",
+    "completionPercentage",
+    "estimatedTime",
+    "setupUrl",
+    "supportUrl",
+    "dashboardUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "⏰ Complete Your Setup - You're Almost There!",
+      "preheader": "Finish setting up Purra to unlock full value",
+      "header": {
+        "title": "Just a Few Steps Away",
+        "subtitle": "Complete Your Purra Setup"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "We noticed you haven't finished setting up your Purra account yet. You're {{ completionPercentage }}% done - just a few more steps to unlock the full power of procurement intelligence!",
+        "benefits": {
+          "title": "🎯 What You're Missing",
+          "description": "Complete your setup to access:",
+          "items": [
+            "**Automated vendor research** - Save hours on due diligence",
+            "**Real-time price alerts** - Never miss a cost-saving opportunity",
+            "**Custom analytics dashboards** - Make data-driven decisions",
+            "**Team collaboration tools** - Streamline your procurement process",
+            "**AI-powered insights** - Get proactive recommendations"
+          ]
+        },
+        "missingSteps": {
+          "title": "📋 What's Left to Complete",
+          "description": "{{ missingSteps }}",
+          "time": "Estimated time: {{ estimatedTime }} minutes"
+        },
+        "urgency": {
+          "title": "Why Complete Now?",
+          "items": [
+            "Start identifying cost savings immediately",
+            "Don't lose momentum in your procurement transformation",
+            "Your team is waiting to collaborate",
+            "Get ahead of price fluctuations"
+          ]
+        },
+        "assistance": {
+          "title": "Need Help?",
+          "description": "Our team is here to assist you. Book a quick 15-minute setup call or use our live chat for instant guidance."
+        },
+        "footer": "You're so close to procurement excellence!"
+      },
+      "cta": {
+        "primary": {
+          "text": "Complete Setup Now",
+          "url": "{{ setupUrl }}"
+        },
+        "secondary": {
+          "text": "Get Setup Help",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "⏰ השלימו את ההגדרה - אתם כמעט שם!",
+      "preheader": "סיימו להגדיר את Purra כדי לפתוח ערך מלא",
+      "header": {
+        "title": "רק כמה צעדים",
+        "subtitle": "השלימו את הגדרת Purra"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "שמנו לב שעדיין לא סיימתם להגדיר את חשבון ה-Purra שלכם. הסתיים {{ completionPercentage }}% - רק עוד כמה צעדים כדי לפתוח את המלוא הכוח של מודיעין רכש!",
+        "benefits": {
+          "title": "🎯 מה שאתם מפספסים",
+          "description": "השלימו את ההגדרה כדי לגשת ל:",
+          "items": [
+            "**מחקר ספקים אוטומטי** - חסכו שעות בבדיקת נאותות",
+            "**התראות מחיר בזמן אמת** - לעולם אל תפספסו הזדמנות לחיסכון בעלויות",
+            "**לוחות בקרה של ניתוח מותאמים** - קבלו החלטות מבוססות נתונים",
+            "**כלי שיתוף פעולה של צוות** - ייעלו את תהליך הרכש שלכם",
+            "**תובנות מונחות AI** - קבלו המלצות פרואקטיביות"
+          ]
+        },
+        "missingSteps": {
+          "title": "📋 מה נותר להשלמה",
+          "description": "{{ missingSteps }}",
+          "time": "זמן משוער: {{ estimatedTime }} דקות"
+        },
+        "urgency": {
+          "title": "למה להשלים עכשיו?",
+          "items": [
+            "התחילו לזהות חיסכון בעלויות מיד",
+            "אל תאבדו תנופה בטרנספורמציית הרכש שלכם",
+            "הצוות שלכם ממתין לשתף פעולה",
+            "הקדימו את תנודות המחירים"
+          ]
+        },
+        "assistance": {
+          "title": "צריכים עזרה?",
+          "description": "הצוות שלנו כאן כדי לסייע לכם. הזמינו שיחת הגדרה מהירה של 15 דקות או השתמשו בצ'אט החי שלנו להדרכה מיידית."
+        },
+        "footer": "אתם כל כך קרובים למצוינות ברכש!"
+      },
+      "cta": {
+        "primary": {
+          "text": "השלימו הגדרה עכשיו",
+          "url": "{{ setupUrl }}"
+        },
+        "secondary": {
+          "text": "קבלו עזרה בהגדרה",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "⏰ अपना सेटअप पूरा करें - आप लगभग पहुंच गए हैं!",
+      "preheader": "पूर्ण मूल्य अनलॉक करने के लिए Purra सेटअप समाप्त करें",
+      "header": {
+        "title": "बस कुछ कदम दूर",
+        "subtitle": "अपना Purra सेटअप पूरा करें"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "हमने देखा कि आपने अभी तक अपना Purra खाता सेट करना समाप्त नहीं किया है। आप {{ completionPercentage }}% पूर्ण हैं - खरीद बुद्धिमत्ता की पूरी शक्ति को अनलॉक करने के लिए बस कुछ और कदम!",
+        "benefits": {
+          "title": "🎯 आप क्या चूक रहे हैं",
+          "description": "एक्सेस के लिए अपना सेटअप पूरा करें:",
+          "items": [
+            "**स्वचालित विक्रेता अनुसंधान** - उचित परिश्रम पर घंटों की बचत करें",
+            "**रियल-टाइम मूल्य अलर्ट** - कभी भी लागत बचत के अवसर को न चूकें",
+            "**कस्टम एनालिटिक्स डैशबोर्ड** - डेटा-संचालित निर्णय लें",
+            "**टीम सहयोग उपकरण** - अपनी खरीद प्रक्रिया को सुव्यवस्थित करें",
+            "**AI-संचालित अंतर्दृष्टि** - सक्रिय सिफारिशें प्राप्त करें"
+          ]
+        },
+        "missingSteps": {
+          "title": "📋 पूर्ण करने के लिए क्या बचा है",
+          "description": "{{ missingSteps }}",
+          "time": "अनुमानित समय: {{ estimatedTime }} मिनट"
+        },
+        "urgency": {
+          "title": "अब क्यों पूरा करें?",
+          "items": [
+            "तुरंत लागत बचत की पहचान शुरू करें",
+            "अपने खरीद परिवर्तन में गति न खोएं",
+            "आपकी टीम सहयोग करने की प्रतीक्षा कर रही है",
+            "मूल्य उतार-चढ़ाव से आगे रहें"
+          ]
+        },
+        "assistance": {
+          "title": "मदद चाहिए?",
+          "description": "हमारी टीम आपकी सहायता के लिए यहां है। त्वरित 15-मिनट की सेटअप कॉल बुक करें या तत्काल मार्गदर्शन के लिए हमारी लाइव चैट का उपयोग करें।"
+        },
+        "footer": "आप खरीद उत्कृष्टता के इतने करीब हैं!"
+      },
+      "cta": {
+        "primary": {
+          "text": "अब सेटअप पूरा करें",
+          "url": "{{ setupUrl }}"
+        },
+        "secondary": {
+          "text": "सेटअप सहायता प्राप्त करें",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "⏰ Terminez votre configuration - Vous y êtes presque !",
+      "preheader": "Terminez la configuration de Purra pour débloquer la pleine valeur",
+      "header": {
+        "title": "Plus que quelques étapes",
+        "subtitle": "Terminez votre configuration Purra"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Nous avons remarqué que vous n'avez pas encore terminé la configuration de votre compte Purra. Vous êtes à {{ completionPercentage }}% - il ne vous reste que quelques étapes pour débloquer toute la puissance de l'intelligence d'approvisionnement !",
+        "benefits": {
+          "title": "🎯 Ce que vous manquez",
+          "description": "Terminez votre configuration pour accéder à :",
+          "items": [
+            "**Recherche de fournisseurs automatisée** - Économisez des heures de diligence raisonnable",
+            "**Alertes de prix en temps réel** - Ne manquez jamais une opportunité d'économie",
+            "**Tableaux de bord analytiques personnalisés** - Prenez des décisions basées sur les données",
+            "**Outils de collaboration d'équipe** - Rationalisez votre processus d'approvisionnement",
+            "**Insights alimentés par l'IA** - Obtenez des recommandations proactives"
+          ]
+        },
+        "missingSteps": {
+          "title": "📋 Ce qu'il reste à compléter",
+          "description": "{{ missingSteps }}",
+          "time": "Temps estimé : {{ estimatedTime }} minutes"
+        },
+        "urgency": {
+          "title": "Pourquoi terminer maintenant ?",
+          "items": [
+            "Commencez à identifier des économies immédiatement",
+            "Ne perdez pas l'élan de votre transformation des achats",
+            "Votre équipe attend de collaborer",
+            "Anticipez les fluctuations de prix"
+          ]
+        },
+        "assistance": {
+          "title": "Besoin d'aide ?",
+          "description": "Notre équipe est là pour vous aider. Réservez un appel de configuration rapide de 15 minutes ou utilisez notre chat en direct pour une assistance instantanée."
+        },
+        "footer": "Vous êtes si près de l'excellence en approvisionnement !"
+      },
+      "cta": {
+        "primary": {
+          "text": "Terminer la configuration maintenant",
+          "url": "{{ setupUrl }}"
+        },
+        "secondary": {
+          "text": "Obtenir de l'aide pour la configuration",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "⏰ 完成您的设置 - 您快到了！",
+      "preheader": "完成Purra设置以解锁全部价值",
+      "header": {
+        "title": "只差几步",
+        "subtitle": "完成您的Purra设置"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "我们注意到您还没有完成Purra账户的设置。您已完成{{ completionPercentage }}% - 只需再几步即可解锁采购智能的全部力量！",
+        "benefits": {
+          "title": "🎯 您错过的内容",
+          "description": "完成设置以访问：",
+          "items": [
+            "**自动供应商研究** - 节省尽职调查的时间",
+            "**实时价格警报** - 永不错过成本节省机会",
+            "**自定义分析仪表板** - 做出数据驱动的决策",
+            "**团队协作工具** - 简化您的采购流程",
+            "**AI驱动的洞察** - 获得主动建议"
+          ]
+        },
+        "missingSteps": {
+          "title": "📋 还需完成的内容",
+          "description": "{{ missingSteps }}",
+          "time": "预计时间：{{ estimatedTime }} 分钟"
+        },
+        "urgency": {
+          "title": "为什么现在完成？",
+          "items": [
+            "立即开始识别成本节省",
+            "不要失去采购转型的势头",
+            "您的团队正在等待协作",
+            "领先于价格波动"
+          ]
+        },
+        "assistance": {
+          "title": "需要帮助？",
+          "description": "我们的团队随时为您提供帮助。预订15分钟的快速设置通话或使用我们的实时聊天获得即时指导。"
+        },
+        "footer": "您离采购卓越如此之近！"
+      },
+      "cta": {
+        "primary": {
+          "text": "立即完成设置",
+          "url": "{{ setupUrl }}"
+        },
+        "secondary": {
+          "text": "获取设置帮助",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "⏰ セットアップを完了 - もう少しです！",
+      "preheader": "Purraのセットアップを完了して全機能をアンロック",
+      "header": {
+        "title": "あと少しです",
+        "subtitle": "Purraのセットアップを完了"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "Purraアカウントのセットアップがまだ完了していないことに気づきました。{{ completionPercentage }}%完了しています - 調達インテリジェンスのフルパワーをアンロックするにはあと数ステップです！",
+        "benefits": {
+          "title": "🎯 見逃している機能",
+          "description": "セットアップを完了してアクセス：",
+          "items": [
+            "**自動ベンダーリサーチ** - デューデリジェンスの時間を節約",
+            "**リアルタイム価格アラート** - コスト削減の機会を見逃さない",
+            "**カスタム分析ダッシュボード** - データ駆動型の意思決定を行う",
+            "**チームコラボレーションツール** - 調達プロセスを合理化",
+            "**AI搭載インサイト** - プロアクティブな推奨事項を取得"
+          ]
+        },
+        "missingSteps": {
+          "title": "📋 完了に必要な内容",
+          "description": "{{ missingSteps }}",
+          "time": "推定時間：{{ estimatedTime }} 分"
+        },
+        "urgency": {
+          "title": "今完了する理由は？",
+          "items": [
+            "すぐにコスト削減の特定を開始",
+            "調達変革の勢いを失わない",
+            "チームがコラボレーションを待っている",
+            "価格変動の先を行く"
+          ]
+        },
+        "assistance": {
+          "title": "サポートが必要ですか？",
+          "description": "当社のチームがお手伝いします。15分間のクイックセットアップ通話を予約するか、ライブチャットを使用して即座にガイダンスを受けてください。"
+        },
+        "footer": "調達の卓越性にとても近づいています！"
+      },
+      "cta": {
+        "primary": {
+          "text": "今すぐセットアップを完了",
+          "url": "{{ setupUrl }}"
+        },
+        "secondary": {
+          "text": "セットアップのヘルプを取得",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "⏰ Vervollständigen Sie Ihre Einrichtung - Sie sind fast da!",
+      "preheader": "Beenden Sie die Purra-Einrichtung, um den vollen Wert freizuschalten",
+      "header": {
+        "title": "Nur noch wenige Schritte",
+        "subtitle": "Vervollständigen Sie Ihre Purra-Einrichtung"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Wir haben bemerkt, dass Sie die Einrichtung Ihres Purra-Kontos noch nicht abgeschlossen haben. Sie sind zu {{ completionPercentage }}% fertig - nur noch ein paar Schritte, um die volle Kraft der Beschaffungsintelligenz freizuschalten!",
+        "benefits": {
+          "title": "🎯 Was Sie verpassen",
+          "description": "Vervollständigen Sie Ihre Einrichtung, um zuzugreifen auf:",
+          "items": [
+            "**Automatisierte Lieferantenrecherche** - Sparen Sie Stunden bei der Due Diligence",
+            "**Echtzeit-Preisbenachrichtigungen** - Verpassen Sie keine Kosteneinsparmöglichkeit",
+            "**Benutzerdefinierte Analyse-Dashboards** - Treffen Sie datengestützte Entscheidungen",
+            "**Team-Collaboration-Tools** - Optimieren Sie Ihren Beschaffungsprozess",
+            "**KI-gestützte Erkenntnisse** - Erhalten Sie proaktive Empfehlungen"
+          ]
+        },
+        "missingSteps": {
+          "title": "📋 Was noch zu erledigen ist",
+          "description": "{{ missingSteps }}",
+          "time": "Geschätzte Zeit: {{ estimatedTime }} Minuten"
+        },
+        "urgency": {
+          "title": "Warum jetzt abschließen?",
+          "items": [
+            "Beginnen Sie sofort mit der Identifizierung von Kosteneinsparungen",
+            "Verlieren Sie nicht die Dynamik Ihrer Beschaffungstransformation",
+            "Ihr Team wartet auf die Zusammenarbeit",
+            "Bleiben Sie Preisschwankungen voraus"
+          ]
+        },
+        "assistance": {
+          "title": "Benötigen Sie Hilfe?",
+          "description": "Unser Team steht Ihnen zur Verfügung. Buchen Sie ein schnelles 15-Minuten-Einrichtungsgespräch oder nutzen Sie unseren Live-Chat für sofortige Anleitung."
+        },
+        "footer": "Sie sind der Beschaffungsexzellenz so nahe!"
+      },
+      "cta": {
+        "primary": {
+          "text": "Einrichtung jetzt abschließen",
+          "url": "{{ setupUrl }}"
+        },
+        "secondary": {
+          "text": "Einrichtungshilfe erhalten",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    }
+  }
+}

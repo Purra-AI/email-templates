@@ -1,0 +1,445 @@
+{
+  "id": "quick-wins",
+  "category": "onboarding",
+  "campaignName": "onboarding_quick_wins",
+  "layout": "base",
+  "dynamicFields": [
+    "firstName",
+    "quickWin1",
+    "quickWin2",
+    "quickWin3",
+    "estimatedSavings",
+    "actionUrl",
+    "supportUrl",
+    "dashboardUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "🎯 3 Quick Wins to Maximize Your Purra Value",
+      "preheader": "Simple actions that deliver immediate results",
+      "header": {
+        "title": "Quick Wins for Immediate Impact",
+        "subtitle": "Get more value in less time"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "We've analyzed your account and identified 3 quick actions that can deliver immediate value. Each takes less than 10 minutes but can have significant impact.",
+        "quickWins": {
+          "title": "🎯 Your Personalized Quick Wins",
+          "win1": {
+            "title": "1. {{ quickWin1 }}",
+            "description": "This simple action could save you time on repetitive tasks.",
+            "time": "⏱️ 5 minutes",
+            "impact": "💰 High impact"
+          },
+          "win2": {
+            "title": "2. {{ quickWin2 }}",
+            "description": "Enable this feature to get automated insights.",
+            "time": "⏱️ 3 minutes",
+            "impact": "📈 Immediate results"
+          },
+          "win3": {
+            "title": "3. {{ quickWin3 }}",
+            "description": "A quick configuration change for better visibility.",
+            "time": "⏱️ 2 minutes",
+            "impact": "👀 Better insights"
+          }
+        },
+        "potentialValue": {
+          "title": "💡 Estimated Value",
+          "description": "Implementing these three quick wins could deliver an estimated **${{ estimatedSavings }}** in annual value through time savings and better procurement decisions."
+        },
+        "howTo": {
+          "title": "Getting Started",
+          "steps": [
+            "Click the button below to access your personalized action plan",
+            "Follow the step-by-step guides for each quick win",
+            "See immediate results in your dashboard",
+            "Share your success with your team"
+          ]
+        },
+        "support": {
+          "title": "Need Help?",
+          "description": "Our team is standing by to help you implement these quick wins. Schedule a 15-minute call or use our live chat for instant assistance."
+        },
+        "footer": "Small actions, big results!"
+      },
+      "cta": {
+        "primary": {
+          "text": "Start My Quick Wins",
+          "url": "{{ actionUrl }}"
+        },
+        "secondary": {
+          "text": "Get Help",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "🎯 3 הצלחות מהירות למקסום ערך ה-Purra שלכם",
+      "preheader": "פעולות פשוטות שמספקות תוצאות מיידיות",
+      "header": {
+        "title": "הצלחות מהירות להשפעה מיידית",
+        "subtitle": "קבלו יותר ערך בפחות זמן"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "ניתחנו את החשבון שלכם וזיהינו 3 פעולות מהירות שיכולות לספק ערך מיידי. כל אחת לוקחת פחות מ-10 דקות אבל יכולה להיות בעלת השפעה משמעותית.",
+        "quickWins": {
+          "title": "🎯 ההצלחות המהירות המותאמות אישית שלכם",
+          "win1": {
+            "title": "1. {{ quickWin1 }}",
+            "description": "פעולה פשוטה זו עשויה לחסוך לכם זמן במשימות חוזרות.",
+            "time": "⏱️ 5 דקות",
+            "impact": "💰 השפעה גבוהה"
+          },
+          "win2": {
+            "title": "2. {{ quickWin2 }}",
+            "description": "אפשרו תכונה זו כדי לקבל תובנות אוטומטיות.",
+            "time": "⏱️ 3 דקות",
+            "impact": "📈 תוצאות מיידיות"
+          },
+          "win3": {
+            "title": "3. {{ quickWin3 }}",
+            "description": "שינוי תצורה מהיר לנראות טובה יותר.",
+            "time": "⏱️ 2 דקות",
+            "impact": "👀 תובנות טובות יותר"
+          }
+        },
+        "potentialValue": {
+          "title": "💡 ערך משוער",
+          "description": "יישום שלושת ההצלחות המהירות הללו עשוי לספק ערך שנתי משוער של **${{ estimatedSavings }}** באמצעות חיסכון בזמן והחלטות רכש טובות יותר."
+        },
+        "howTo": {
+          "title": "איך להתחיל",
+          "steps": [
+            "לחצו על הכפתור למטה כדי לגשת לתוכנית הפעולה המותאמת אישית שלכם",
+            "עקבו אחר המדריכים שלב אחר שלב לכל הצלחה מהירה",
+            "ראו תוצאות מיידיות בלוח הבקרה שלכם",
+            "שתפו את ההצלחה שלכם עם הצוות"
+          ]
+        },
+        "support": {
+          "title": "צריכים עזרה?",
+          "description": "הצוות שלנו עומד לרשותכם כדי לעזור לכם ליישם הצלחות מהירות אלה. קבעו שיחה של 15 דקות או השתמשו בצ'אט החי שלנו לסיוע מיידי."
+        },
+        "footer": "פעולות קטנות, תוצאות גדולות!"
+      },
+      "cta": {
+        "primary": {
+          "text": "התחילו את ההצלחות המהירות שלי",
+          "url": "{{ actionUrl }}"
+        },
+        "secondary": {
+          "text": "קבלו עזרה",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "🎯 अपने Purra मूल्य को अधिकतम करने के लिए 3 त्वरित जीत",
+      "preheader": "सरल कार्य जो तत्काल परिणाम प्रदान करते हैं",
+      "header": {
+        "title": "तत्काल प्रभाव के लिए त्वरित जीत",
+        "subtitle": "कम समय में अधिक मूल्य प्राप्त करें"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "हमने आपके खाते का विश्लेषण किया है और 3 त्वरित कार्यों की पहचान की है जो तत्काल मूल्य प्रदान कर सकते हैं। प्रत्येक में 10 मिनट से कम का समय लगता है लेकिन महत्वपूर्ण प्रभाव हो सकता है।",
+        "quickWins": {
+          "title": "🎯 आपकी व्यक्तिगत त्वरित जीत",
+          "win1": {
+            "title": "1. {{ quickWin1 }}",
+            "description": "यह सरल कार्रवाई दोहराए जाने वाले कार्यों पर आपका समय बचा सकती है।",
+            "time": "⏱️ 5 मिनट",
+            "impact": "💰 उच्च प्रभाव"
+          },
+          "win2": {
+            "title": "2. {{ quickWin2 }}",
+            "description": "स्वचालित अंतर्दृष्टि प्राप्त करने के लिए इस सुविधा को सक्षम करें।",
+            "time": "⏱️ 3 मिनट",
+            "impact": "📈 तत्काल परिणाम"
+          },
+          "win3": {
+            "title": "3. {{ quickWin3 }}",
+            "description": "बेहतर दृश्यता के लिए एक त्वरित कॉन्फ़िगरेशन परिवर्तन।",
+            "time": "⏱️ 2 मिनट",
+            "impact": "👀 बेहतर अंतर्दृष्टि"
+          }
+        },
+        "potentialValue": {
+          "title": "💡 अनुमानित मूल्य",
+          "description": "इन तीन त्वरित जीत को लागू करने से समय बचत और बेहतर खरीद निर्णयों के माध्यम से अनुमानित **${{ estimatedSavings }}** का वार्षिक मूल्य प्रदान किया जा सकता है।"
+        },
+        "howTo": {
+          "title": "शुरू करना",
+          "steps": [
+            "अपनी व्यक्तिगत कार्य योजना तक पहुंचने के लिए नीचे दिए गए बटन पर क्लिक करें",
+            "प्रत्येक त्वरित जीत के लिए चरण-दर-चरण गाइड का पालन करें",
+            "अपने डैशबोर्ड में तत्काल परिणाम देखें",
+            "अपनी टीम के साथ अपनी सफलता साझा करें"
+          ]
+        },
+        "support": {
+          "title": "मदद चाहिए?",
+          "description": "हमारी टीम इन त्वरित जीत को लागू करने में आपकी मदद करने के लिए तैयार है। 15 मिनट की कॉल शेड्यूल करें या तत्काल सहायता के लिए हमारी लाइव चैट का उपयोग करें।"
+        },
+        "footer": "छोटे कार्य, बड़े परिणाम!"
+      },
+      "cta": {
+        "primary": {
+          "text": "मेरी त्वरित जीत शुरू करें",
+          "url": "{{ actionUrl }}"
+        },
+        "secondary": {
+          "text": "मदद प्राप्त करें",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "🎯 3 victoires rapides pour maximiser votre valeur Purra",
+      "preheader": "Actions simples qui offrent des résultats immédiats",
+      "header": {
+        "title": "Victoires rapides pour un impact immédiat",
+        "subtitle": "Obtenez plus de valeur en moins de temps"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Nous avons analysé votre compte et identifié 3 actions rapides qui peuvent offrir une valeur immédiate. Chacune prend moins de 10 minutes mais peut avoir un impact significatif.",
+        "quickWins": {
+          "title": "🎯 Vos victoires rapides personnalisées",
+          "win1": {
+            "title": "1. {{ quickWin1 }}",
+            "description": "Cette action simple pourrait vous faire gagner du temps sur les tâches répétitives.",
+            "time": "⏱️ 5 minutes",
+            "impact": "💰 Impact élevé"
+          },
+          "win2": {
+            "title": "2. {{ quickWin2 }}",
+            "description": "Activez cette fonctionnalité pour obtenir des insights automatisés.",
+            "time": "⏱️ 3 minutes",
+            "impact": "📈 Résultats immédiats"
+          },
+          "win3": {
+            "title": "3. {{ quickWin3 }}",
+            "description": "Un changement de configuration rapide pour une meilleure visibilité.",
+            "time": "⏱️ 2 minutes",
+            "impact": "👀 Meilleurs insights"
+          }
+        },
+        "potentialValue": {
+          "title": "💡 Valeur estimée",
+          "description": "La mise en œuvre de ces trois victoires rapides pourrait générer une valeur annuelle estimée à **${{ estimatedSavings }}** grâce aux économies de temps et à de meilleures décisions d'approvisionnement."
+        },
+        "howTo": {
+          "title": "Pour commencer",
+          "steps": [
+            "Cliquez sur le bouton ci-dessous pour accéder à votre plan d'action personnalisé",
+            "Suivez les guides étape par étape pour chaque victoire rapide",
+            "Voyez les résultats immédiats dans votre tableau de bord",
+            "Partagez votre succès avec votre équipe"
+          ]
+        },
+        "support": {
+          "title": "Besoin d'aide ?",
+          "description": "Notre équipe est là pour vous aider à mettre en œuvre ces victoires rapides. Planifiez un appel de 15 minutes ou utilisez notre chat en direct pour une assistance instantanée."
+        },
+        "footer": "Petites actions, grands résultats !"
+      },
+      "cta": {
+        "primary": {
+          "text": "Commencer mes victoires rapides",
+          "url": "{{ actionUrl }}"
+        },
+        "secondary": {
+          "text": "Obtenir de l'aide",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "🎯 3个快速胜利以最大化您的Purra价值",
+      "preheader": "简单的行动可带来立竿见影的效果",
+      "header": {
+        "title": "立即产生影响的快速胜利",
+        "subtitle": "用更少的时间获得更多价值"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "我们分析了您的账户并确定了3个可以立即带来价值的快速行动。每个行动花费不到10分钟，但可以产生重大影响。",
+        "quickWins": {
+          "title": "🎯 您的个性化快速胜利",
+          "win1": {
+            "title": "1. {{ quickWin1 }}",
+            "description": "这个简单的操作可以节省您在重复任务上的时间。",
+            "time": "⏱️ 5分钟",
+            "impact": "💰 高影响"
+          },
+          "win2": {
+            "title": "2. {{ quickWin2 }}",
+            "description": "启用此功能以获得自动化洞察。",
+            "time": "⏱️ 3分钟",
+            "impact": "📈 立即结果"
+          },
+          "win3": {
+            "title": "3. {{ quickWin3 }}",
+            "description": "快速配置更改以获得更好的可见性。",
+            "time": "⏱️ 2分钟",
+            "impact": "👀 更好的洞察"
+          }
+        },
+        "potentialValue": {
+          "title": "💡 估计价值",
+          "description": "实施这三个快速胜利可能通过节省时间和更好的采购决策提供估计 **${{ estimatedSavings }}** 的年度价值。"
+        },
+        "howTo": {
+          "title": "开始",
+          "steps": [
+            "单击下面的按钮访问您的个性化行动计划",
+            "按照每个快速胜利的分步指南进行操作",
+            "在仪表板中查看立即结果",
+            "与您的团队分享您的成功"
+          ]
+        },
+        "support": {
+          "title": "需要帮助？",
+          "description": "我们的团队随时准备帮助您实施这些快速胜利。安排15分钟通话或使用我们的实时聊天获得即时帮助。"
+        },
+        "footer": "小行动，大结果！"
+      },
+      "cta": {
+        "primary": {
+          "text": "开始我的快速胜利",
+          "url": "{{ actionUrl }}"
+        },
+        "secondary": {
+          "text": "获取帮助",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "🎯 Purraの価値を最大化する3つのクイックウィン",
+      "preheader": "即座に結果をもたらす簡単なアクション",
+      "header": {
+        "title": "即座の影響のためのクイックウィン",
+        "subtitle": "より短い時間でより多くの価値を得る"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "あなたのアカウントを分析し、即座に価値を提供できる3つのクイックアクションを特定しました。それぞれ10分未満ですが、大きな影響を与えることができます。",
+        "quickWins": {
+          "title": "🎯 あなたのパーソナライズされたクイックウィン",
+          "win1": {
+            "title": "1. {{ quickWin1 }}",
+            "description": "この簡単なアクションは、反復的なタスクの時間を節約できます。",
+            "time": "⏱️ 5分",
+            "impact": "💰 高い影響"
+          },
+          "win2": {
+            "title": "2. {{ quickWin2 }}",
+            "description": "自動化されたインサイトを取得するには、この機能を有効にします。",
+            "time": "⏱️ 3分",
+            "impact": "📈 即座の結果"
+          },
+          "win3": {
+            "title": "3. {{ quickWin3 }}",
+            "description": "より良い可視性のための迅速な設定変更。",
+            "time": "⏱️ 2分",
+            "impact": "👀 より良いインサイト"
+          }
+        },
+        "potentialValue": {
+          "title": "💡 推定価値",
+          "description": "これら3つのクイックウィンを実装することで、時間の節約とより良い調達決定を通じて推定 **${{ estimatedSavings }}** の年間価値を提供できます。"
+        },
+        "howTo": {
+          "title": "始める",
+          "steps": [
+            "下のボタンをクリックして、パーソナライズされたアクションプランにアクセス",
+            "各クイックウィンのステップバイステップガイドに従う",
+            "ダッシュボードで即座の結果を確認",
+            "チームと成功を共有"
+          ]
+        },
+        "support": {
+          "title": "サポートが必要ですか？",
+          "description": "当社のチームは、これらのクイックウィンを実装するお手伝いをする準備ができています。15分の通話をスケジュールするか、ライブチャットを使用して即座にサポートを受けてください。"
+        },
+        "footer": "小さなアクション、大きな結果！"
+      },
+      "cta": {
+        "primary": {
+          "text": "クイックウィンを開始",
+          "url": "{{ actionUrl }}"
+        },
+        "secondary": {
+          "text": "サポートを受ける",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "🎯 3 schnelle Erfolge zur Maximierung Ihres Purra-Werts",
+      "preheader": "Einfache Aktionen, die sofortige Ergebnisse liefern",
+      "header": {
+        "title": "Schnelle Erfolge für sofortige Wirkung",
+        "subtitle": "Mehr Wert in kürzerer Zeit"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Wir haben Ihr Konto analysiert und 3 schnelle Aktionen identifiziert, die sofortigen Wert liefern können. Jede dauert weniger als 10 Minuten, kann aber erhebliche Auswirkungen haben.",
+        "quickWins": {
+          "title": "🎯 Ihre personalisierten schnellen Erfolge",
+          "win1": {
+            "title": "1. {{ quickWin1 }}",
+            "description": "Diese einfache Aktion könnte Ihnen Zeit bei sich wiederholenden Aufgaben sparen.",
+            "time": "⏱️ 5 Minuten",
+            "impact": "💰 Hohe Wirkung"
+          },
+          "win2": {
+            "title": "2. {{ quickWin2 }}",
+            "description": "Aktivieren Sie diese Funktion, um automatisierte Einblicke zu erhalten.",
+            "time": "⏱️ 3 Minuten",
+            "impact": "📈 Sofortige Ergebnisse"
+          },
+          "win3": {
+            "title": "3. {{ quickWin3 }}",
+            "description": "Eine schnelle Konfigurationsänderung für bessere Sichtbarkeit.",
+            "time": "⏱️ 2 Minuten",
+            "impact": "👀 Bessere Einblicke"
+          }
+        },
+        "potentialValue": {
+          "title": "💡 Geschätzter Wert",
+          "description": "Die Umsetzung dieser drei schnellen Erfolge könnte einen geschätzten jährlichen Wert von **${{ estimatedSavings }}** durch Zeitersparnis und bessere Beschaffungsentscheidungen liefern."
+        },
+        "howTo": {
+          "title": "Erste Schritte",
+          "steps": [
+            "Klicken Sie auf die Schaltfläche unten, um auf Ihren personalisierten Aktionsplan zuzugreifen",
+            "Befolgen Sie die Schritt-für-Schritt-Anleitungen für jeden schnellen Erfolg",
+            "Sehen Sie sofortige Ergebnisse in Ihrem Dashboard",
+            "Teilen Sie Ihren Erfolg mit Ihrem Team"
+          ]
+        },
+        "support": {
+          "title": "Benötigen Sie Hilfe?",
+          "description": "Unser Team steht bereit, um Ihnen bei der Umsetzung dieser schnellen Erfolge zu helfen. Vereinbaren Sie einen 15-minütigen Anruf oder nutzen Sie unseren Live-Chat für sofortige Unterstützung."
+        },
+        "footer": "Kleine Aktionen, große Ergebnisse!"
+      },
+      "cta": {
+        "primary": {
+          "text": "Meine schnellen Erfolge starten",
+          "url": "{{ actionUrl }}"
+        },
+        "secondary": {
+          "text": "Hilfe erhalten",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    }
+  }
+}

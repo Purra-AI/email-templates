@@ -1,0 +1,424 @@
+{
+  "id": "onboarding-day30",
+  "category": "onboarding",
+  "campaignName": "onboarding_day30",
+  "layout": "base",
+  "dynamicFields": [
+    "firstName",
+    "totalSavings",
+    "timesSaved",
+    "vendorsManaged",
+    "teamMembers",
+    "successStoryUrl",
+    "upgradeUrl",
+    "dashboardUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "🎊 One Month Milestone - Your Purra Impact Report",
+      "preheader": "See the value Purra has delivered to your organization",
+      "header": {
+        "title": "Celebrating One Month!",
+        "subtitle": "Your Procurement Transformation"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "It's been one month since you started with Purra! Let's celebrate your procurement transformation with some impressive numbers.",
+        "impact": {
+          "title": "💰 Your Impact in Numbers",
+          "savings": "**${{ totalSavings }}** in identified cost savings",
+          "time": "**{{ timeSaved }}** hours saved through automation",
+          "vendors": "**{{ vendorsManaged }}** vendors actively managed",
+          "collaboration": "**{{ teamMembers }}** team members collaborating"
+        },
+        "transformation": {
+          "title": "🚀 How You're Using Purra",
+          "items": [
+            "Automated vendor due diligence and research",
+            "Real-time price monitoring and alerts",
+            "Data-driven procurement decisions",
+            "Streamlined team collaboration",
+            "Proactive risk management"
+          ]
+        },
+        "nextSteps": {
+          "title": "What's Next?",
+          "description": "You've built a strong foundation. Now let's maximize your ROI:",
+          "recommendations": [
+            "Expand your vendor network for better price comparisons",
+            "Set up custom workflows for your unique processes",
+            "Enable API integrations with your existing systems",
+            "Schedule quarterly business reviews with our team"
+          ]
+        },
+        "successStory": {
+          "title": "📖 Customer Success Story",
+          "description": "See how companies like yours are achieving 20-30% cost reductions and 50% time savings with Purra."
+        },
+        "appreciation": {
+          "title": "Thank You!",
+          "description": "We're thrilled to be part of your procurement journey. Your success is our success, and we're committed to helping you achieve even more."
+        },
+        "footer": "Here's to many more months of smarter procurement!"
+      },
+      "cta": {
+        "primary": {
+          "text": "View Full Impact Report",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "Read Success Story",
+          "url": "{{ successStoryUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "🎊 אבן דרך של חודש - דוח ההשפעה שלכם ב-Purra",
+      "preheader": "ראו את הערך ש-Purra סיפקה לארגון שלכם",
+      "header": {
+        "title": "חוגגים חודש!",
+        "subtitle": "טרנספורמציית הרכש שלכם"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "עבר חודש מאז שהתחלתם עם Purra! בואו נחגוג את טרנספורמציית הרכש שלכם עם מספרים מרשימים.",
+        "impact": {
+          "title": "💰 ההשפעה שלכם במספרים",
+          "savings": "**${{ totalSavings }}** בחיסכון בעלויות שזוהו",
+          "time": "**{{ timeSaved }}** שעות נחסכו באמצעות אוטומציה",
+          "vendors": "**{{ vendorsManaged }}** ספקים מנוהלים באופן פעיל",
+          "collaboration": "**{{ teamMembers }}** חברי צוות משתפים פעולה"
+        },
+        "transformation": {
+          "title": "🚀 איך אתם משתמשים ב-Purra",
+          "items": [
+            "בדיקת נאותות ומחקר ספקים אוטומטיים",
+            "ניטור מחירים והתראות בזמן אמת",
+            "החלטות רכש מונחות נתונים",
+            "שיתוף פעולה מייעל של הצוות",
+            "ניהול סיכונים פרואקטיבי"
+          ]
+        },
+        "nextSteps": {
+          "title": "מה הלאה?",
+          "description": "בניתם בסיס חזק. עכשיו בואו נמקסם את ה-ROI שלכם:",
+          "recommendations": [
+            "הרחיבו את רשת הספקים שלכם להשוואות מחירים טובות יותר",
+            "הגדירו תהליכי עבודה מותאמים אישית לתהליכים הייחודיים שלכם",
+            "אפשרו אינטגרציות API עם המערכות הקיימות שלכם",
+            "קבעו סקירות עסקיות רבעוניות עם הצוות שלנו"
+          ]
+        },
+        "successStory": {
+          "title": "📖 סיפור הצלחה של לקוח",
+          "description": "ראו כיצד חברות כמוכם משיגות הפחתת עלויות של 20-30% וחיסכון בזמן של 50% עם Purra."
+        },
+        "appreciation": {
+          "title": "תודה!",
+          "description": "אנו נרגשים להיות חלק ממסע הרכש שלכם. ההצלחה שלכם היא ההצלחה שלנו, ואנו מחויבים לעזור לכם להשיג עוד יותר."
+        },
+        "footer": "לחודשים רבים נוספים של רכש חכם יותר!"
+      },
+      "cta": {
+        "primary": {
+          "text": "צפו בדוח השפעה מלא",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "קראו סיפור הצלחה",
+          "url": "{{ successStoryUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "🎊 एक महीने का मील का पत्थर - आपकी Purra प्रभाव रिपोर्ट",
+      "preheader": "देखें कि Purra ने आपके संगठन को क्या मूल्य प्रदान किया है",
+      "header": {
+        "title": "एक महीने का जश्न!",
+        "subtitle": "आपका खरीद परिवर्तन"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "Purra के साथ आपको शुरू हुए एक महीना हो गया है! आइए कुछ प्रभावशाली संख्याओं के साथ आपके खरीद परिवर्तन का जश्न मनाएं।",
+        "impact": {
+          "title": "💰 संख्याओं में आपका प्रभाव",
+          "savings": "पहचानी गई लागत बचत में **${{ totalSavings }}**",
+          "time": "स्वचालन के माध्यम से **{{ timeSaved }}** घंटे बचाए गए",
+          "vendors": "**{{ vendorsManaged }}** विक्रेता सक्रिय रूप से प्रबंधित",
+          "collaboration": "**{{ teamMembers }}** टीम के सदस्य सहयोग कर रहे हैं"
+        },
+        "transformation": {
+          "title": "🚀 आप Purra का उपयोग कैसे कर रहे हैं",
+          "items": [
+            "स्वचालित विक्रेता उचित परिश्रम और अनुसंधान",
+            "रियल-टाइम मूल्य निगरानी और अलर्ट",
+            "डेटा-संचालित खरीद निर्णय",
+            "सुव्यवस्थित टीम सहयोग",
+            "सक्रिय जोखिम प्रबंधन"
+          ]
+        },
+        "nextSteps": {
+          "title": "आगे क्या है?",
+          "description": "आपने एक मजबूत नींव बनाई है। अब आइए अपने ROI को अधिकतम करें:",
+          "recommendations": [
+            "बेहतर मूल्य तुलना के लिए अपने विक्रेता नेटवर्क का विस्तार करें",
+            "अपनी अनूठी प्रक्रियाओं के लिए कस्टम वर्कफ़्लो सेट करें",
+            "अपने मौजूदा सिस्टम के साथ API एकीकरण सक्षम करें",
+            "हमारी टीम के साथ त्रैमासिक व्यवसाय समीक्षा शेड्यूल करें"
+          ]
+        },
+        "successStory": {
+          "title": "📖 ग्राहक सफलता की कहानी",
+          "description": "देखें कि आपकी तरह की कंपनियां Purra के साथ 20-30% लागत में कमी और 50% समय की बचत कैसे प्राप्त कर रही हैं।"
+        },
+        "appreciation": {
+          "title": "धन्यवाद!",
+          "description": "हम आपकी खरीद यात्रा का हिस्सा बनकर रोमांचित हैं। आपकी सफलता हमारी सफलता है, और हम आपको और अधिक प्राप्त करने में मदद करने के लिए प्रतिबद्ध हैं।"
+        },
+        "footer": "स्मार्ट खरीद के कई और महीनों के लिए!"
+      },
+      "cta": {
+        "primary": {
+          "text": "पूर्ण प्रभाव रिपोर्ट देखें",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "सफलता की कहानी पढ़ें",
+          "url": "{{ successStoryUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "🎊 Jalon d'un mois - Votre rapport d'impact Purra",
+      "preheader": "Voyez la valeur que Purra a apportée à votre organisation",
+      "header": {
+        "title": "Célébrons un mois !",
+        "subtitle": "Votre transformation des achats"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Cela fait un mois que vous avez commencé avec Purra ! Célébrons votre transformation des achats avec des chiffres impressionnants.",
+        "impact": {
+          "title": "💰 Votre impact en chiffres",
+          "savings": "**${{ totalSavings }}** d'économies de coûts identifiées",
+          "time": "**{{ timeSaved }}** heures économisées grâce à l'automatisation",
+          "vendors": "**{{ vendorsManaged }}** fournisseurs activement gérés",
+          "collaboration": "**{{ teamMembers }}** membres de l'équipe en collaboration"
+        },
+        "transformation": {
+          "title": "🚀 Comment vous utilisez Purra",
+          "items": [
+            "Diligence raisonnable et recherche de fournisseurs automatisées",
+            "Surveillance et alertes de prix en temps réel",
+            "Décisions d'approvisionnement basées sur les données",
+            "Collaboration d'équipe rationalisée",
+            "Gestion proactive des risques"
+          ]
+        },
+        "nextSteps": {
+          "title": "Quelle est la suite ?",
+          "description": "Vous avez construit une base solide. Maximisons maintenant votre ROI :",
+          "recommendations": [
+            "Élargissez votre réseau de fournisseurs pour de meilleures comparaisons de prix",
+            "Configurez des workflows personnalisés pour vos processus uniques",
+            "Activez les intégrations API avec vos systèmes existants",
+            "Planifiez des revues commerciales trimestrielles avec notre équipe"
+          ]
+        },
+        "successStory": {
+          "title": "📖 Histoire de réussite client",
+          "description": "Voyez comment des entreprises comme la vôtre réalisent des réductions de coûts de 20 à 30 % et des économies de temps de 50 % avec Purra."
+        },
+        "appreciation": {
+          "title": "Merci !",
+          "description": "Nous sommes ravis de faire partie de votre parcours d'approvisionnement. Votre succès est notre succès, et nous nous engageons à vous aider à en accomplir encore plus."
+        },
+        "footer": "Voici à beaucoup d'autres mois d'approvisionnement plus intelligent !"
+      },
+      "cta": {
+        "primary": {
+          "text": "Voir le rapport d'impact complet",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "Lire l'histoire de réussite",
+          "url": "{{ successStoryUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "🎊 一个月里程碑 - 您的Purra影响报告",
+      "preheader": "查看Purra为您的组织带来的价值",
+      "header": {
+        "title": "庆祝一个月！",
+        "subtitle": "您的采购转型"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "您使用Purra已经一个月了！让我们用一些令人印象深刻的数字来庆祝您的采购转型。",
+        "impact": {
+          "title": "💰 您的数字影响",
+          "savings": "已识别成本节省 **${{ totalSavings }}**",
+          "time": "通过自动化节省 **{{ timeSaved }}** 小时",
+          "vendors": "主动管理 **{{ vendorsManaged }}** 个供应商",
+          "collaboration": "**{{ teamMembers }}** 名团队成员协作"
+        },
+        "transformation": {
+          "title": "🚀 您如何使用Purra",
+          "items": [
+            "自动化供应商尽职调查和研究",
+            "实时价格监控和警报",
+            "数据驱动的采购决策",
+            "简化的团队协作",
+            "主动风险管理"
+          ]
+        },
+        "nextSteps": {
+          "title": "接下来是什么？",
+          "description": "您已经建立了坚实的基础。现在让我们最大化您的投资回报率：",
+          "recommendations": [
+            "扩展您的供应商网络以获得更好的价格比较",
+            "为您的独特流程设置自定义工作流",
+            "启用与现有系统的API集成",
+            "与我们的团队安排季度业务审查"
+          ]
+        },
+        "successStory": {
+          "title": "📖 客户成功案例",
+          "description": "看看像您这样的公司如何通过Purra实现20-30%的成本降低和50%的时间节省。"
+        },
+        "appreciation": {
+          "title": "谢谢！",
+          "description": "我们很高兴成为您采购之旅的一部分。您的成功就是我们的成功，我们致力于帮助您取得更大的成就。"
+        },
+        "footer": "祝未来更多月份的智能采购！"
+      },
+      "cta": {
+        "primary": {
+          "text": "查看完整影响报告",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "阅读成功案例",
+          "url": "{{ successStoryUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "🎊 1か月のマイルストーン - あなたのPurra影響レポート",
+      "preheader": "Purraが組織にもたらした価値をご覧ください",
+      "header": {
+        "title": "1か月を祝います！",
+        "subtitle": "あなたの調達変革"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "Purraを始めてから1か月が経ちました！印象的な数字であなたの調達変革を祝いましょう。",
+        "impact": {
+          "title": "💰 数字で見るあなたの影響",
+          "savings": "特定されたコスト削減 **${{ totalSavings }}**",
+          "time": "自動化により節約された **{{ timeSaved }}** 時間",
+          "vendors": "積極的に管理されている **{{ vendorsManaged }}** のベンダー",
+          "collaboration": "**{{ teamMembers }}** のチームメンバーが協力"
+        },
+        "transformation": {
+          "title": "🚀 Purraの使用方法",
+          "items": [
+            "自動化されたベンダーデューデリジェンスと調査",
+            "リアルタイムの価格監視とアラート",
+            "データ駆動型の調達決定",
+            "合理化されたチームコラボレーション",
+            "プロアクティブなリスク管理"
+          ]
+        },
+        "nextSteps": {
+          "title": "次は何ですか？",
+          "description": "強固な基盤を構築しました。ROIを最大化しましょう：",
+          "recommendations": [
+            "より良い価格比較のためにベンダーネットワークを拡大",
+            "独自のプロセス用にカスタムワークフローを設定",
+            "既存システムとのAPI統合を有効化",
+            "チームと四半期ごとのビジネスレビューをスケジュール"
+          ]
+        },
+        "successStory": {
+          "title": "📖 顧客成功事例",
+          "description": "Purraを使用して20〜30%のコスト削減と50%の時間節約を達成している企業をご覧ください。"
+        },
+        "appreciation": {
+          "title": "ありがとうございます！",
+          "description": "あなたの調達の旅の一部となれて嬉しく思います。あなたの成功が私たちの成功であり、さらなる成果を達成できるようサポートすることをお約束します。"
+        },
+        "footer": "よりスマートな調達のこれからの多くの月に乾杯！"
+      },
+      "cta": {
+        "primary": {
+          "text": "完全な影響レポートを表示",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "成功事例を読む",
+          "url": "{{ successStoryUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "🎊 Ein-Monats-Meilenstein - Ihr Purra-Wirkungsbericht",
+      "preheader": "Sehen Sie den Wert, den Purra Ihrem Unternehmen gebracht hat",
+      "header": {
+        "title": "Feiern wir einen Monat!",
+        "subtitle": "Ihre Beschaffungstransformation"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Es ist einen Monat her, seit Sie mit Purra begonnen haben! Feiern wir Ihre Beschaffungstransformation mit einigen beeindruckenden Zahlen.",
+        "impact": {
+          "title": "💰 Ihre Wirkung in Zahlen",
+          "savings": "**${{ totalSavings }}** an identifizierten Kosteneinsparungen",
+          "time": "**{{ timeSaved }}** Stunden durch Automatisierung gespart",
+          "vendors": "**{{ vendorsManaged }}** aktiv verwaltete Lieferanten",
+          "collaboration": "**{{ teamMembers }}** Teammitglieder arbeiten zusammen"
+        },
+        "transformation": {
+          "title": "🚀 Wie Sie Purra nutzen",
+          "items": [
+            "Automatisierte Lieferanten-Due-Diligence und -Recherche",
+            "Echtzeit-Preisüberwachung und -Benachrichtigungen",
+            "Datengestützte Beschaffungsentscheidungen",
+            "Optimierte Teamzusammenarbeit",
+            "Proaktives Risikomanagement"
+          ]
+        },
+        "nextSteps": {
+          "title": "Was kommt als Nächstes?",
+          "description": "Sie haben eine starke Grundlage aufgebaut. Maximieren wir jetzt Ihren ROI:",
+          "recommendations": [
+            "Erweitern Sie Ihr Lieferantennetzwerk für bessere Preisvergleiche",
+            "Richten Sie benutzerdefinierte Workflows für Ihre einzigartigen Prozesse ein",
+            "Aktivieren Sie API-Integrationen mit Ihren bestehenden Systemen",
+            "Planen Sie vierteljährliche Geschäftsüberprüfungen mit unserem Team"
+          ]
+        },
+        "successStory": {
+          "title": "📖 Kundenerfolgsgeschichte",
+          "description": "Sehen Sie, wie Unternehmen wie Ihres mit Purra Kostensenkungen von 20-30% und Zeiteinsparungen von 50% erreichen."
+        },
+        "appreciation": {
+          "title": "Vielen Dank!",
+          "description": "Wir freuen uns, Teil Ihrer Beschaffungsreise zu sein. Ihr Erfolg ist unser Erfolg, und wir sind bestrebt, Ihnen zu helfen, noch mehr zu erreichen."
+        },
+        "footer": "Auf viele weitere Monate intelligenterer Beschaffung!"
+      },
+      "cta": {
+        "primary": {
+          "text": "Vollständigen Wirkungsbericht anzeigen",
+          "url": "{{ dashboardUrl }}"
+        },
+        "secondary": {
+          "text": "Erfolgsgeschichte lesen",
+          "url": "{{ successStoryUrl }}"
+        }
+      }
+    }
+  }
+}
