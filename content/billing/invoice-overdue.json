@@ -1,0 +1,347 @@
+{
+  "id": "invoice-overdue",
+  "category": "billing",
+  "campaignName": "invoice_overdue",
+  "layout": "simple",
+  "dynamicFields": [
+    "firstName",
+    "invoiceNumber",
+    "amount",
+    "originalDueDate",
+    "daysPastDue",
+    "invoiceUrl",
+    "paymentUrl",
+    "supportUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "⚠️ Overdue Invoice #{{ invoiceNumber }} - Action Required",
+      "preheader": "${{ amount }} payment is {{ daysPastDue }} days overdue",
+      "header": {
+        "title": "Payment Overdue",
+        "subtitle": "Invoice #{{ invoiceNumber }}"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "Our records show that payment for Invoice #**{{ invoiceNumber }}** is now **{{ daysPastDue }} days overdue**.",
+        "invoiceDetails": {
+          "title": "Payment Details",
+          "invoiceNumber": "Invoice: #{{ invoiceNumber }}",
+          "amount": "Amount Due: ${{ amount }}",
+          "originalDueDate": "Original Due Date: {{ originalDueDate }}",
+          "daysPastDue": "Days Overdue: {{ daysPastDue }}"
+        },
+        "urgentAction": {
+          "title": "⚠️ Immediate Action Required",
+          "description": "To avoid service interruption, please submit payment as soon as possible. If you've already paid, please disregard this notice."
+        },
+        "consequences": {
+          "title": "What Happens Next",
+          "items": [
+            "Continued access requires payment within 7 days",
+            "Late fees may apply per your agreement",
+            "Service suspension after 10 days past due",
+            "Account may be referred to collections after 30 days"
+          ]
+        },
+        "needHelp": {
+          "title": "Payment Difficulty?",
+          "description": "If you're experiencing payment issues, please contact us immediately. We're here to work with you on payment arrangements."
+        },
+        "footer": "If payment has been sent, please reply with confirmation details so we can update your account."
+      },
+      "cta": {
+        "primary": {
+          "text": "Pay Now",
+          "url": "{{ paymentUrl }}"
+        },
+        "secondary": {
+          "text": "Contact Billing Support",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "⚠️ חשבונית באיחור #{{ invoiceNumber }} - נדרשת פעולה",
+      "preheader": "תשלום של ${{ amount }} באיחור של {{ daysPastDue }} ימים",
+      "header": {
+        "title": "תשלום באיחור",
+        "subtitle": "חשבונית #{{ invoiceNumber }}"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "הרשומות שלנו מראות שהתשלום עבור חשבונית #**{{ invoiceNumber }}** נמצא כעת **באיחור של {{ daysPastDue }} ימים**.",
+        "invoiceDetails": {
+          "title": "פרטי תשלום",
+          "invoiceNumber": "חשבונית: #{{ invoiceNumber }}",
+          "amount": "סכום לתשלום: ${{ amount }}",
+          "originalDueDate": "תאריך לתשלום מקורי: {{ originalDueDate }}",
+          "daysPastDue": "ימים באיחור: {{ daysPastDue }}"
+        },
+        "urgentAction": {
+          "title": "⚠️ נדרשת פעולה מיידית",
+          "description": "כדי למנוע הפרעה בשירות, אנא שלחו תשלום בהקדם האפשרי. אם כבר שילמתם, אנא התעלמו מהודעה זו."
+        },
+        "consequences": {
+          "title": "מה קורה הלאה",
+          "items": [
+            "המשך גישה דורש תשלום תוך 7 ימים",
+            "עמלות איחור עשויות לחול לפי ההסכם שלכם",
+            "השעיית שירות לאחר 10 ימים באיחור",
+            "החשבון עשוי להיות מופנה לגבייה לאחר 30 יום"
+          ]
+        },
+        "needHelp": {
+          "title": "קושי בתשלום?",
+          "description": "אם אתם חווים בעיות תשלום, אנא צרו איתנו קשר מיד. אנחנו כאן כדי לעבוד איתכם על הסדרי תשלום."
+        },
+        "footer": "אם התשלום נשלח, אנא השיבו עם פרטי אישור כדי שנוכל לעדכן את החשבון שלכם."
+      },
+      "cta": {
+        "primary": {
+          "text": "שלמו עכשיו",
+          "url": "{{ paymentUrl }}"
+        },
+        "secondary": {
+          "text": "צרו קשר עם תמיכת חיוב",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "⚠️ विलंबित चालान #{{ invoiceNumber }} - कार्रवाई आवश्यक",
+      "preheader": "${{ amount }} भुगतान {{ daysPastDue }} दिन विलंबित है",
+      "header": {
+        "title": "भुगतान विलंबित",
+        "subtitle": "चालान #{{ invoiceNumber }}"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "हमारे रिकॉर्ड दिखाते हैं कि चालान #**{{ invoiceNumber }}** के लिए भुगतान अब **{{ daysPastDue }} दिन विलंबित** है।",
+        "invoiceDetails": {
+          "title": "भुगतान विवरण",
+          "invoiceNumber": "चालान: #{{ invoiceNumber }}",
+          "amount": "देय राशि: ${{ amount }}",
+          "originalDueDate": "मूल नियत तिथि: {{ originalDueDate }}",
+          "daysPastDue": "विलंबित दिन: {{ daysPastDue }}"
+        },
+        "urgentAction": {
+          "title": "⚠️ तत्काल कार्रवाई आवश्यक",
+          "description": "सेवा में रुकावट से बचने के लिए, कृपया जल्द से जल्द भुगतान जमा करें। यदि आपने पहले ही भुगतान कर दिया है, तो कृपया इस सूचना को अनदेखा करें।"
+        },
+        "consequences": {
+          "title": "आगे क्या होता है",
+          "items": [
+            "निरंतर पहुंच के लिए 7 दिनों के भीतर भुगतान आवश्यक है",
+            "आपके समझौते के अनुसार विलंब शुल्क लागू हो सकता है",
+            "नियत तिथि के 10 दिन बाद सेवा निलंबन",
+            "30 दिनों के बाद खाता संग्रह के लिए भेजा जा सकता है"
+          ]
+        },
+        "needHelp": {
+          "title": "भुगतान कठिनाई?",
+          "description": "यदि आप भुगतान समस्याओं का सामना कर रहे हैं, तो कृपया तुरंत हमसे संपर्क करें। हम भुगतान व्यवस्था पर आपके साथ काम करने के लिए यहां हैं।"
+        },
+        "footer": "यदि भुगतान भेज दिया गया है, तो कृपया पुष्टि विवरण के साथ उत्तर दें ताकि हम आपके खाते को अपडेट कर सकें।"
+      },
+      "cta": {
+        "primary": {
+          "text": "अभी भुगतान करें",
+          "url": "{{ paymentUrl }}"
+        },
+        "secondary": {
+          "text": "बिलिंग सहायता से संपर्क करें",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "⚠️ Facture en retard #{{ invoiceNumber }} - Action requise",
+      "preheader": "Le paiement de ${{ amount }} est en retard de {{ daysPastDue }} jours",
+      "header": {
+        "title": "Paiement en retard",
+        "subtitle": "Facture #{{ invoiceNumber }}"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Nos dossiers indiquent que le paiement de la facture #**{{ invoiceNumber }}** est maintenant **en retard de {{ daysPastDue }} jours**.",
+        "invoiceDetails": {
+          "title": "Détails du paiement",
+          "invoiceNumber": "Facture : #{{ invoiceNumber }}",
+          "amount": "Montant dû : ${{ amount }}",
+          "originalDueDate": "Date d'échéance initiale : {{ originalDueDate }}",
+          "daysPastDue": "Jours de retard : {{ daysPastDue }}"
+        },
+        "urgentAction": {
+          "title": "⚠️ Action immédiate requise",
+          "description": "Pour éviter une interruption de service, veuillez soumettre le paiement dès que possible. Si vous avez déjà payé, veuillez ignorer cet avis."
+        },
+        "consequences": {
+          "title": "Ce qui se passe ensuite",
+          "items": [
+            "L'accès continu nécessite un paiement dans les 7 jours",
+            "Des frais de retard peuvent s'appliquer selon votre accord",
+            "Suspension du service après 10 jours de retard",
+            "Le compte peut être référé au recouvrement après 30 jours"
+          ]
+        },
+        "needHelp": {
+          "title": "Difficulté de paiement ?",
+          "description": "Si vous rencontrez des problèmes de paiement, veuillez nous contacter immédiatement. Nous sommes là pour travailler avec vous sur les modalités de paiement."
+        },
+        "footer": "Si le paiement a été envoyé, veuillez répondre avec les détails de confirmation afin que nous puissions mettre à jour votre compte."
+      },
+      "cta": {
+        "primary": {
+          "text": "Payer maintenant",
+          "url": "{{ paymentUrl }}"
+        },
+        "secondary": {
+          "text": "Contacter le support facturation",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "⚠️ 逾期发票 #{{ invoiceNumber }} - 需要采取行动",
+      "preheader": "${{ amount }} 付款已逾期 {{ daysPastDue }} 天",
+      "header": {
+        "title": "付款逾期",
+        "subtitle": "发票 #{{ invoiceNumber }}"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "我们的记录显示发票 #**{{ invoiceNumber }}** 的付款现已**逾期 {{ daysPastDue }} 天**。",
+        "invoiceDetails": {
+          "title": "付款详情",
+          "invoiceNumber": "发票：#{{ invoiceNumber }}",
+          "amount": "应付金额：${{ amount }}",
+          "originalDueDate": "原到期日期：{{ originalDueDate }}",
+          "daysPastDue": "逾期天数：{{ daysPastDue }}"
+        },
+        "urgentAction": {
+          "title": "⚠️ 需要立即采取行动",
+          "description": "为避免服务中断，请尽快提交付款。如果您已付款，请忽略此通知。"
+        },
+        "consequences": {
+          "title": "接下来会发生什么",
+          "items": [
+            "继续访问需要在 7 天内付款",
+            "根据您的协议可能会收取滞纳金",
+            "逾期 10 天后服务暂停",
+            "逾期 30 天后账户可能被移交催收"
+          ]
+        },
+        "needHelp": {
+          "title": "付款困难？",
+          "description": "如果您遇到付款问题，请立即联系我们。我们会与您合作制定付款安排。"
+        },
+        "footer": "如果已发送付款，请回复确认详情，以便我们更新您的账户。"
+      },
+      "cta": {
+        "primary": {
+          "text": "立即支付",
+          "url": "{{ paymentUrl }}"
+        },
+        "secondary": {
+          "text": "联系账单支持",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "⚠️ 延滞請求書 #{{ invoiceNumber }} - 対応が必要です",
+      "preheader": "${{ amount }} の支払いが {{ daysPastDue }} 日延滞しています",
+      "header": {
+        "title": "支払い延滞",
+        "subtitle": "請求書 #{{ invoiceNumber }}"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "当社の記録によると、請求書 #**{{ invoiceNumber }}** の支払いが現在 **{{ daysPastDue }} 日延滞**しています。",
+        "invoiceDetails": {
+          "title": "支払い詳細",
+          "invoiceNumber": "請求書：#{{ invoiceNumber }}",
+          "amount": "支払金額：${{ amount }}",
+          "originalDueDate": "元の支払期限：{{ originalDueDate }}",
+          "daysPastDue": "延滞日数：{{ daysPastDue }}"
+        },
+        "urgentAction": {
+          "title": "⚠️ 早急な対応が必要",
+          "description": "サービスの中断を避けるため、できるだけ早く支払いを送信してください。すでに支払い済みの場合は、この通知を無視してください。"
+        },
+        "consequences": {
+          "title": "次に何が起こるか",
+          "items": [
+            "継続的なアクセスには 7 日以内の支払いが必要",
+            "契約に従って遅延料金が発生する場合があります",
+            "期限経過後 10 日でサービス停止",
+            "30 日後にアカウントが回収に回される可能性があります"
+          ]
+        },
+        "needHelp": {
+          "title": "支払いが困難ですか？",
+          "description": "支払いに問題がある場合は、すぐにお問い合わせください。支払い手配について協力させていただきます。"
+        },
+        "footer": "支払いが送信された場合は、確認の詳細を返信してアカウントを更新してください。"
+      },
+      "cta": {
+        "primary": {
+          "text": "今すぐ支払う",
+          "url": "{{ paymentUrl }}"
+        },
+        "secondary": {
+          "text": "請求サポートに連絡",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "⚠️ Überfällige Rechnung #{{ invoiceNumber }} - Maßnahme erforderlich",
+      "preheader": "${{ amount }} Zahlung ist {{ daysPastDue }} Tage überfällig",
+      "header": {
+        "title": "Zahlung überfällig",
+        "subtitle": "Rechnung #{{ invoiceNumber }}"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Unsere Aufzeichnungen zeigen, dass die Zahlung für Rechnung #**{{ invoiceNumber }}** jetzt **{{ daysPastDue }} Tage überfällig** ist.",
+        "invoiceDetails": {
+          "title": "Zahlungsdetails",
+          "invoiceNumber": "Rechnung: #{{ invoiceNumber }}",
+          "amount": "Fälliger Betrag: ${{ amount }}",
+          "originalDueDate": "Ursprüngliches Fälligkeitsdatum: {{ originalDueDate }}",
+          "daysPastDue": "Tage überfällig: {{ daysPastDue }}"
+        },
+        "urgentAction": {
+          "title": "⚠️ Sofortige Maßnahme erforderlich",
+          "description": "Um eine Serviceunterbrechung zu vermeiden, reichen Sie bitte die Zahlung so schnell wie möglich ein. Falls Sie bereits bezahlt haben, ignorieren Sie bitte diese Mitteilung."
+        },
+        "consequences": {
+          "title": "Was als Nächstes passiert",
+          "items": [
+            "Fortgesetzter Zugriff erfordert Zahlung innerhalb von 7 Tagen",
+            "Verzugsgebühren können gemäß Ihrer Vereinbarung anfallen",
+            "Servicesperrung nach 10 Tagen Überfälligkeit",
+            "Konto kann nach 30 Tagen an Inkasso weitergeleitet werden"
+          ]
+        },
+        "needHelp": {
+          "title": "Zahlungsschwierigkeiten?",
+          "description": "Wenn Sie Zahlungsprobleme haben, kontaktieren Sie uns bitte sofort. Wir sind hier, um mit Ihnen an Zahlungsvereinbarungen zu arbeiten."
+        },
+        "footer": "Falls die Zahlung gesendet wurde, antworten Sie bitte mit Bestätigungsdetails, damit wir Ihr Konto aktualisieren können."
+      },
+      "cta": {
+        "primary": {
+          "text": "Jetzt bezahlen",
+          "url": "{{ paymentUrl }}"
+        },
+        "secondary": {
+          "text": "Abrechnungssupport kontaktieren",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    }
+  }
+}

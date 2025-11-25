@@ -1,0 +1,256 @@
+{
+  "id": "invoice-ready",
+  "category": "billing",
+  "campaignName": "invoice_ready",
+  "layout": "simple",
+  "dynamicFields": [
+    "firstName",
+    "invoiceNumber",
+    "amount",
+    "dueDate",
+    "invoiceDate",
+    "billingPeriod",
+    "invoiceUrl",
+    "paymentUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "Invoice #{{ invoiceNumber }} is Ready",
+      "preheader": "${{ amount }} due by {{ dueDate }}",
+      "header": {
+        "title": "Your Invoice is Ready",
+        "subtitle": "Invoice #{{ invoiceNumber }}"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "Your invoice for the period **{{ billingPeriod }}** is now available.",
+        "invoiceDetails": {
+          "title": "Invoice Details",
+          "invoiceNumber": "Invoice Number: #{{ invoiceNumber }}",
+          "invoiceDate": "Invoice Date: {{ invoiceDate }}",
+          "amount": "Amount Due: ${{ amount }}",
+          "dueDate": "Due Date: {{ dueDate }}"
+        },
+        "paymentMethods": {
+          "title": "Payment Options",
+          "description": "You can pay securely using credit card, ACH transfer, or wire transfer. Payment instructions are included in your invoice."
+        },
+        "footer": "Questions about your invoice? Contact our billing team at billing@purra.ai"
+      },
+      "cta": {
+        "primary": {
+          "text": "View & Pay Invoice",
+          "url": "{{ paymentUrl }}"
+        },
+        "secondary": {
+          "text": "Download Invoice",
+          "url": "{{ invoiceUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "חשבונית #{{ invoiceNumber }} מוכנה",
+      "preheader": "${{ amount }} לתשלום עד {{ dueDate }}",
+      "header": {
+        "title": "החשבונית שלכם מוכנה",
+        "subtitle": "חשבונית #{{ invoiceNumber }}"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "החשבונית שלכם לתקופה **{{ billingPeriod }}** זמינה כעת.",
+        "invoiceDetails": {
+          "title": "פרטי חשבונית",
+          "invoiceNumber": "מספר חשבונית: #{{ invoiceNumber }}",
+          "invoiceDate": "תאריך חשבונית: {{ invoiceDate }}",
+          "amount": "סכום לתשלום: ${{ amount }}",
+          "dueDate": "תאריך לתשלום: {{ dueDate }}"
+        },
+        "paymentMethods": {
+          "title": "אפשרויות תשלום",
+          "description": "אתם יכולים לשלם בצורה מאובטחת באמצעות כרטיס אשראי, העברה בנקאית או העברה בנקאית בינלאומית. הוראות תשלום כלולות בחשבונית שלכם."
+        },
+        "footer": "יש שאלות לגבי החשבונית שלכם? צרו קשר עם צוות החיוב שלנו ב-billing@purra.ai"
+      },
+      "cta": {
+        "primary": {
+          "text": "צפו ושלמו חשבונית",
+          "url": "{{ paymentUrl }}"
+        },
+        "secondary": {
+          "text": "הורידו חשבונית",
+          "url": "{{ invoiceUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "चालान #{{ invoiceNumber }} तैयार है",
+      "preheader": "${{ amount }} {{ dueDate }} तक देय",
+      "header": {
+        "title": "आपका चालान तैयार है",
+        "subtitle": "चालान #{{ invoiceNumber }}"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "अवधि **{{ billingPeriod }}** के लिए आपका चालान अब उपलब्ध है।",
+        "invoiceDetails": {
+          "title": "चालान विवरण",
+          "invoiceNumber": "चालान संख्या: #{{ invoiceNumber }}",
+          "invoiceDate": "चालान तिथि: {{ invoiceDate }}",
+          "amount": "देय राशि: ${{ amount }}",
+          "dueDate": "नियत तिथि: {{ dueDate }}"
+        },
+        "paymentMethods": {
+          "title": "भुगतान विकल्प",
+          "description": "आप क्रेडिट कार्ड, ACH ट्रांसफर, या वायर ट्रांसफर का उपयोग करके सुरक्षित रूप से भुगतान कर सकते हैं। भुगतान निर्देश आपके चालान में शामिल हैं।"
+        },
+        "footer": "अपने चालान के बारे में प्रश्न? billing@purra.ai पर हमारी बिलिंग टीम से संपर्क करें"
+      },
+      "cta": {
+        "primary": {
+          "text": "चालान देखें और भुगतान करें",
+          "url": "{{ paymentUrl }}"
+        },
+        "secondary": {
+          "text": "चालान डाउनलोड करें",
+          "url": "{{ invoiceUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "Facture #{{ invoiceNumber }} est prête",
+      "preheader": "${{ amount }} à payer avant le {{ dueDate }}",
+      "header": {
+        "title": "Votre facture est prête",
+        "subtitle": "Facture #{{ invoiceNumber }}"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Votre facture pour la période **{{ billingPeriod }}** est maintenant disponible.",
+        "invoiceDetails": {
+          "title": "Détails de la facture",
+          "invoiceNumber": "Numéro de facture : #{{ invoiceNumber }}",
+          "invoiceDate": "Date de facture : {{ invoiceDate }}",
+          "amount": "Montant dû : ${{ amount }}",
+          "dueDate": "Date d'échéance : {{ dueDate }}"
+        },
+        "paymentMethods": {
+          "title": "Options de paiement",
+          "description": "Vous pouvez payer en toute sécurité par carte de crédit, virement ACH ou virement bancaire. Les instructions de paiement sont incluses dans votre facture."
+        },
+        "footer": "Des questions sur votre facture ? Contactez notre équipe de facturation à billing@purra.ai"
+      },
+      "cta": {
+        "primary": {
+          "text": "Voir et payer la facture",
+          "url": "{{ paymentUrl }}"
+        },
+        "secondary": {
+          "text": "Télécharger la facture",
+          "url": "{{ invoiceUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "发票 #{{ invoiceNumber }} 已准备好",
+      "preheader": "${{ amount }} 应在 {{ dueDate }} 前支付",
+      "header": {
+        "title": "您的发票已准备好",
+        "subtitle": "发票 #{{ invoiceNumber }}"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "您 **{{ billingPeriod }}** 期间的发票现已可用。",
+        "invoiceDetails": {
+          "title": "发票详情",
+          "invoiceNumber": "发票编号：#{{ invoiceNumber }}",
+          "invoiceDate": "发票日期：{{ invoiceDate }}",
+          "amount": "应付金额：${{ amount }}",
+          "dueDate": "到期日期：{{ dueDate }}"
+        },
+        "paymentMethods": {
+          "title": "付款选项",
+          "description": "您可以使用信用卡、ACH 转账或电汇安全支付。付款说明包含在您的发票中。"
+        },
+        "footer": "对您的发票有疑问？请通过 billing@purra.ai 联系我们的账单团队"
+      },
+      "cta": {
+        "primary": {
+          "text": "查看并支付发票",
+          "url": "{{ paymentUrl }}"
+        },
+        "secondary": {
+          "text": "下载发票",
+          "url": "{{ invoiceUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "請求書 #{{ invoiceNumber }} の準備ができました",
+      "preheader": "${{ amount }} が {{ dueDate }} までに支払期限",
+      "header": {
+        "title": "請求書の準備ができました",
+        "subtitle": "請求書 #{{ invoiceNumber }}"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "期間 **{{ billingPeriod }}** の請求書が利用可能になりました。",
+        "invoiceDetails": {
+          "title": "請求書の詳細",
+          "invoiceNumber": "請求書番号：#{{ invoiceNumber }}",
+          "invoiceDate": "請求書日付：{{ invoiceDate }}",
+          "amount": "支払金額：${{ amount }}",
+          "dueDate": "支払期限：{{ dueDate }}"
+        },
+        "paymentMethods": {
+          "title": "支払いオプション",
+          "description": "クレジットカード、ACH送金、または電信送金を使用して安全に支払うことができます。支払い手順は請求書に含まれています。"
+        },
+        "footer": "請求書について質問がありますか？billing@purra.ai で請求チームにお問い合わせください"
+      },
+      "cta": {
+        "primary": {
+          "text": "請求書を表示して支払う",
+          "url": "{{ paymentUrl }}"
+        },
+        "secondary": {
+          "text": "請求書をダウンロード",
+          "url": "{{ invoiceUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "Rechnung #{{ invoiceNumber }} ist bereit",
+      "preheader": "${{ amount }} fällig bis {{ dueDate }}",
+      "header": {
+        "title": "Ihre Rechnung ist bereit",
+        "subtitle": "Rechnung #{{ invoiceNumber }}"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Ihre Rechnung für den Zeitraum **{{ billingPeriod }}** ist jetzt verfügbar.",
+        "invoiceDetails": {
+          "title": "Rechnungsdetails",
+          "invoiceNumber": "Rechnungsnummer: #{{ invoiceNumber }}",
+          "invoiceDate": "Rechnungsdatum: {{ invoiceDate }}",
+          "amount": "Fälliger Betrag: ${{ amount }}",
+          "dueDate": "Fälligkeitsdatum: {{ dueDate }}"
+        },
+        "paymentMethods": {
+          "title": "Zahlungsoptionen",
+          "description": "Sie können sicher per Kreditkarte, ACH-Überweisung oder Banküberweisung bezahlen. Zahlungsanweisungen sind in Ihrer Rechnung enthalten."
+        },
+        "footer": "Fragen zu Ihrer Rechnung? Kontaktieren Sie unser Abrechnungsteam unter billing@purra.ai"
+      },
+      "cta": {
+        "primary": {
+          "text": "Rechnung anzeigen & bezahlen",
+          "url": "{{ paymentUrl }}"
+        },
+        "secondary": {
+          "text": "Rechnung herunterladen",
+          "url": "{{ invoiceUrl }}"
+        }
+      }
+    }
+  }
+}

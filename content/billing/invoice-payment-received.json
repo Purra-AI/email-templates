@@ -1,0 +1,290 @@
+{
+  "id": "invoice-payment-received",
+  "category": "billing",
+  "campaignName": "invoice_payment_received",
+  "layout": "simple",
+  "dynamicFields": [
+    "firstName",
+    "invoiceNumber",
+    "amount",
+    "paymentDate",
+    "paymentMethod",
+    "receiptUrl",
+    "accountUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "Payment Received - Invoice #{{ invoiceNumber }}",
+      "preheader": "Thank you! Your payment of ${{ amount }} has been processed",
+      "header": {
+        "title": "Payment Received",
+        "subtitle": "Thank you for your payment"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "We've successfully received your payment of **${{ amount }}** for Invoice #**{{ invoiceNumber }}**. Thank you!",
+        "paymentDetails": {
+          "title": "Payment Details",
+          "invoiceNumber": "Invoice: #{{ invoiceNumber }}",
+          "amount": "Amount Paid: ${{ amount }}",
+          "paymentDate": "Payment Date: {{ paymentDate }}",
+          "paymentMethod": "Payment Method: {{ paymentMethod }}"
+        },
+        "confirmation": {
+          "title": "✅ What's Next",
+          "items": [
+            "Your account has been updated and is in good standing",
+            "A receipt has been sent to your email",
+            "Your service will continue without interruption",
+            "Next invoice will be sent at the end of your billing period"
+          ]
+        },
+        "footer": "Your receipt is attached and available in your account dashboard anytime."
+      },
+      "cta": {
+        "primary": {
+          "text": "Download Receipt",
+          "url": "{{ receiptUrl }}"
+        },
+        "secondary": {
+          "text": "View Account",
+          "url": "{{ accountUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "התשלום התקבל - חשבונית #{{ invoiceNumber }}",
+      "preheader": "תודה! התשלום שלכם בסך ${{ amount }} עובד",
+      "header": {
+        "title": "התשלום התקבל",
+        "subtitle": "תודה על התשלום שלכם"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "קיבלנו בהצלחה את התשלום שלכם בסך **${{ amount }}** עבור חשבונית #**{{ invoiceNumber }}**. תודה!",
+        "paymentDetails": {
+          "title": "פרטי תשלום",
+          "invoiceNumber": "חשבונית: #{{ invoiceNumber }}",
+          "amount": "סכום ששולם: ${{ amount }}",
+          "paymentDate": "תאריך תשלום: {{ paymentDate }}",
+          "paymentMethod": "אמצעי תשלום: {{ paymentMethod }}"
+        },
+        "confirmation": {
+          "title": "✅ מה הלאה",
+          "items": [
+            "החשבון שלכם עודכן ונמצא במצב תקין",
+            "קבלה נשלחה לאימייל שלכם",
+            "השירות שלכם ימשיך ללא הפרעה",
+            "החשבונית הבאה תישלח בסוף תקופת החיוב שלכם"
+          ]
+        },
+        "footer": "הקבלה שלכם מצורפת וזמינה בלוח הבקרה של החשבון שלכם בכל עת."
+      },
+      "cta": {
+        "primary": {
+          "text": "הורידו קבלה",
+          "url": "{{ receiptUrl }}"
+        },
+        "secondary": {
+          "text": "צפו בחשבון",
+          "url": "{{ accountUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "भुगतान प्राप्त - चालान #{{ invoiceNumber }}",
+      "preheader": "धन्यवाद! आपका ${{ amount }} का भुगतान संसाधित कर दिया गया है",
+      "header": {
+        "title": "भुगतान प्राप्त हुआ",
+        "subtitle": "आपके भुगतान के लिए धन्यवाद"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "हमने चालान #**{{ invoiceNumber }}** के लिए आपका **${{ amount }}** का भुगतान सफलतापूर्वक प्राप्त कर लिया है। धन्यवाद!",
+        "paymentDetails": {
+          "title": "भुगतान विवरण",
+          "invoiceNumber": "चालान: #{{ invoiceNumber }}",
+          "amount": "भुगतान की गई राशि: ${{ amount }}",
+          "paymentDate": "भुगतान तिथि: {{ paymentDate }}",
+          "paymentMethod": "भुगतान विधि: {{ paymentMethod }}"
+        },
+        "confirmation": {
+          "title": "✅ आगे क्या होगा",
+          "items": [
+            "आपका खाता अपडेट कर दिया गया है और अच्छी स्थिति में है",
+            "एक रसीद आपके ईमेल पर भेजी गई है",
+            "आपकी सेवा बिना किसी रुकावट के जारी रहेगी",
+            "अगला चालान आपकी बिलिंग अवधि के अंत में भेजा जाएगा"
+          ]
+        },
+        "footer": "आपकी रसीद संलग्न है और किसी भी समय आपके खाता डैशबोर्ड में उपलब्ध है।"
+      },
+      "cta": {
+        "primary": {
+          "text": "रसीद डाउनलोड करें",
+          "url": "{{ receiptUrl }}"
+        },
+        "secondary": {
+          "text": "खाता देखें",
+          "url": "{{ accountUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "Paiement reçu - Facture #{{ invoiceNumber }}",
+      "preheader": "Merci ! Votre paiement de ${{ amount }} a été traité",
+      "header": {
+        "title": "Paiement reçu",
+        "subtitle": "Merci pour votre paiement"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Nous avons reçu avec succès votre paiement de **${{ amount }}** pour la facture #**{{ invoiceNumber }}**. Merci !",
+        "paymentDetails": {
+          "title": "Détails du paiement",
+          "invoiceNumber": "Facture : #{{ invoiceNumber }}",
+          "amount": "Montant payé : ${{ amount }}",
+          "paymentDate": "Date de paiement : {{ paymentDate }}",
+          "paymentMethod": "Mode de paiement : {{ paymentMethod }}"
+        },
+        "confirmation": {
+          "title": "✅ Et maintenant",
+          "items": [
+            "Votre compte a été mis à jour et est en règle",
+            "Un reçu a été envoyé à votre email",
+            "Votre service continuera sans interruption",
+            "La prochaine facture sera envoyée à la fin de votre période de facturation"
+          ]
+        },
+        "footer": "Votre reçu est joint et disponible dans le tableau de bord de votre compte à tout moment."
+      },
+      "cta": {
+        "primary": {
+          "text": "Télécharger le reçu",
+          "url": "{{ receiptUrl }}"
+        },
+        "secondary": {
+          "text": "Voir le compte",
+          "url": "{{ accountUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "已收到付款 - 发票 #{{ invoiceNumber }}",
+      "preheader": "谢谢！您的 ${{ amount }} 付款已处理",
+      "header": {
+        "title": "已收到付款",
+        "subtitle": "感谢您的付款"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "我们已成功收到您为发票 #**{{ invoiceNumber }}** 支付的 **${{ amount }}**。谢谢！",
+        "paymentDetails": {
+          "title": "付款详情",
+          "invoiceNumber": "发票：#{{ invoiceNumber }}",
+          "amount": "已付金额：${{ amount }}",
+          "paymentDate": "付款日期：{{ paymentDate }}",
+          "paymentMethod": "付款方式：{{ paymentMethod }}"
+        },
+        "confirmation": {
+          "title": "✅ 接下来",
+          "items": [
+            "您的账户已更新，状态良好",
+            "收据已发送到您的电子邮件",
+            "您的服务将不间断地继续",
+            "下一张发票将在您的账单周期结束时发送"
+          ]
+        },
+        "footer": "您的收据已附上，随时可在您的账户仪表板中查看。"
+      },
+      "cta": {
+        "primary": {
+          "text": "下载收据",
+          "url": "{{ receiptUrl }}"
+        },
+        "secondary": {
+          "text": "查看账户",
+          "url": "{{ accountUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "お支払い受領 - 請求書 #{{ invoiceNumber }}",
+      "preheader": "ありがとうございます！${{ amount }} のお支払いが処理されました",
+      "header": {
+        "title": "お支払い受領",
+        "subtitle": "お支払いありがとうございます"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "請求書 #**{{ invoiceNumber }}** の **${{ amount }}** のお支払いを受領いたしました。ありがとうございます！",
+        "paymentDetails": {
+          "title": "お支払い詳細",
+          "invoiceNumber": "請求書：#{{ invoiceNumber }}",
+          "amount": "お支払い額：${{ amount }}",
+          "paymentDate": "お支払い日：{{ paymentDate }}",
+          "paymentMethod": "お支払い方法：{{ paymentMethod }}"
+        },
+        "confirmation": {
+          "title": "✅ 次のステップ",
+          "items": [
+            "アカウントが更新され、良好な状態です",
+            "領収書がメールに送信されました",
+            "サービスは中断なく継続されます",
+            "次回の請求書は請求期間の終了時に送信されます"
+          ]
+        },
+        "footer": "領収書は添付されており、いつでもアカウントダッシュボードで確認できます。"
+      },
+      "cta": {
+        "primary": {
+          "text": "領収書をダウンロード",
+          "url": "{{ receiptUrl }}"
+        },
+        "secondary": {
+          "text": "アカウントを表示",
+          "url": "{{ accountUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "Zahlung erhalten - Rechnung #{{ invoiceNumber }}",
+      "preheader": "Danke! Ihre Zahlung von ${{ amount }} wurde verarbeitet",
+      "header": {
+        "title": "Zahlung erhalten",
+        "subtitle": "Vielen Dank für Ihre Zahlung"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Wir haben Ihre Zahlung von **${{ amount }}** für Rechnung #**{{ invoiceNumber }}** erfolgreich erhalten. Vielen Dank!",
+        "paymentDetails": {
+          "title": "Zahlungsdetails",
+          "invoiceNumber": "Rechnung: #{{ invoiceNumber }}",
+          "amount": "Gezahlter Betrag: ${{ amount }}",
+          "paymentDate": "Zahlungsdatum: {{ paymentDate }}",
+          "paymentMethod": "Zahlungsmethode: {{ paymentMethod }}"
+        },
+        "confirmation": {
+          "title": "✅ Was kommt als Nächstes",
+          "items": [
+            "Ihr Konto wurde aktualisiert und ist in gutem Stand",
+            "Eine Quittung wurde an Ihre E-Mail gesendet",
+            "Ihr Service wird ohne Unterbrechung fortgesetzt",
+            "Die nächste Rechnung wird am Ende Ihres Abrechnungszeitraums gesendet"
+          ]
+        },
+        "footer": "Ihre Quittung ist beigefügt und jederzeit in Ihrem Konto-Dashboard verfügbar."
+      },
+      "cta": {
+        "primary": {
+          "text": "Quittung herunterladen",
+          "url": "{{ receiptUrl }}"
+        },
+        "secondary": {
+          "text": "Konto anzeigen",
+          "url": "{{ accountUrl }}"
+        }
+      }
+    }
+  }
+}
