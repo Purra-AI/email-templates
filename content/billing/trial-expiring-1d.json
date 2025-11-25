@@ -1,0 +1,100 @@
+{
+  "id": "trial-expiring-1d",
+  "category": "billing",
+  "campaignName": "trial_expiring_1d",
+  "layout": "base",
+  "dynamicFields": ["firstName", "upgradeUrl"],
+  "translations": {
+    "en": {
+      "subject": "🚨 Last Day! Your Purra Trial Expires Tomorrow",
+      "preheader": "Upgrade now or lose access to all features",
+      "header": {"title": "Final Day", "subtitle": "Your trial ends tomorrow"},
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "This is your **final reminder** - your Purra trial expires tomorrow! Upgrade now to avoid losing access to your procurement intelligence.",
+        "warning": "Tomorrow, all your vendor research, price alerts, and analytics will be locked. Don't let your procurement operations slow down.",
+        "offer": "Upgrade today and get your first month at 20% off!",
+        "footer": "Need help choosing a plan? Chat with our team now."
+      },
+      "cta": {"primary": {"text": "Upgrade Before It's Too Late", "url": "{{ upgradeUrl }}"}}
+    },
+    "he": {
+      "subject": "🚨 היום האחרון! תקופת הניסיון של Purra מסתיימת מחר",
+      "preheader": "שדרגו עכשיו או תאבדו גישה לכל התכונות",
+      "header": {"title": "היום האחרון", "subtitle": "תקופת הניסיון מסתיימת מחר"},
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "זו **התזכורת האחרונה** שלכם - תקופת הניסיון של Purra מסתיימת מחר! שדרגו עכשיו כדי להימנע מאובדן גישה למודיעין הרכש שלכם.",
+        "warning": "מחר, כל מחקר הספקים, התראות המחירים והאנליטיקה שלכם ינעלו. אל תתנו לפעולות הרכש שלכם להאט.",
+        "offer": "שדרגו היום וקבלו את החודש הראשון שלכם בהנחה של 20%!",
+        "footer": "צריכים עזרה לבחור תוכנית? שוחחו עם הצוות שלנו עכשיו."
+      },
+      "cta": {"primary": {"text": "שדרגו לפני שיהיה מאוחר מדי", "url": "{{ upgradeUrl }}"}}
+    },
+    "hi": {
+      "subject": "🚨 अंतिम दिन! आपका Purra ट्रायल कल समाप्त हो रहा है",
+      "preheader": "अभी अपग्रेड करें या सभी सुविधाओं तक पहुंच खो दें",
+      "header": {"title": "अंतिम दिन", "subtitle": "आपका ट्रायल कल समाप्त होता है"},
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "यह आपकी **अंतिम अनुस्मारक** है - आपका Purra ट्रायल कल समाप्त होता है! अपनी खरीद बुद्धिमत्ता तक पहुंच खोने से बचने के लिए अभी अपग्रेड करें।",
+        "warning": "कल, आपकी सभी विक्रेता अनुसंधान, मूल्य अलर्ट और विश्लेषण लॉक हो जाएंगे। अपने खरीद संचालन को धीमा न होने दें।",
+        "offer": "आज अपग्रेड करें और अपना पहला महीना 20% छूट पर प्राप्त करें!",
+        "footer": "योजना चुनने में मदद चाहिए? अभी हमारी टीम से चैट करें।"
+      },
+      "cta": {"primary": {"text": "बहुत देर होने से पहले अपग्रेड करें", "url": "{{ upgradeUrl }}"}}
+    },
+    "fr": {
+      "subject": "🚨 Dernier jour ! Votre essai Purra expire demain",
+      "preheader": "Mettez à niveau maintenant ou perdez l'accès à toutes les fonctionnalités",
+      "header": {"title": "Dernier jour", "subtitle": "Votre essai se termine demain"},
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "C'est votre **dernier rappel** - votre essai Purra expire demain ! Mettez à niveau maintenant pour éviter de perdre l'accès à votre intelligence d'approvisionnement.",
+        "warning": "Demain, toutes vos recherches de fournisseurs, alertes de prix et analyses seront verrouillées. Ne laissez pas vos opérations d'approvisionnement ralentir.",
+        "offer": "Mettez à niveau aujourd'hui et obtenez votre premier mois à 20% de réduction !",
+        "footer": "Besoin d'aide pour choisir un plan ? Discutez avec notre équipe maintenant."
+      },
+      "cta": {"primary": {"text": "Mettre à niveau avant qu'il ne soit trop tard", "url": "{{ upgradeUrl }}"}}
+    },
+    "zh": {
+      "subject": "🚨 最后一天！您的 Purra 试用明天到期",
+      "preheader": "立即升级或失去对所有功能的访问权限",
+      "header": {"title": "最后一天", "subtitle": "您的试用明天结束"},
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "这是您的**最后提醒** - 您的 Purra 试用明天到期！立即升级以避免失去对您的采购智能的访问权限。",
+        "warning": "明天，您的所有供应商研究、价格警报和分析将被锁定。不要让您的采购运营放慢速度。",
+        "offer": "今天升级，第一个月享受 20% 折扣！",
+        "footer": "需要帮助选择计划吗？现在与我们的团队聊天。"
+      },
+      "cta": {"primary": {"text": "在为时已晚之前升级", "url": "{{ upgradeUrl }}"}}
+    },
+    "ja": {
+      "subject": "🚨 最終日！Purraトライアルは明日期限切れになります",
+      "preheader": "今すぐアップグレードしないと、すべての機能へのアクセスが失われます",
+      "header": {"title": "最終日", "subtitle": "トライアルは明日終了します"},
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "これは**最後のリマインダー**です - Purraトライアルは明日期限切れになります！調達インテリジェンスへのアクセスを失うことを避けるために今すぐアップグレードしてください。",
+        "warning": "明日、すべてのベンダー調査、価格アラート、分析がロックされます。調達オペレーションを遅らせないでください。",
+        "offer": "今日アップグレードして、最初の月を20%オフで！",
+        "footer": "プラン選択のサポートが必要ですか？今すぐチームとチャットしてください。"
+      },
+      "cta": {"primary": {"text": "手遅れになる前にアップグレード", "url": "{{ upgradeUrl }}"}}
+    },
+    "de": {
+      "subject": "🚨 Letzter Tag! Ihre Purra-Testversion läuft morgen ab",
+      "preheader": "Jetzt upgraden oder Zugriff auf alle Funktionen verlieren",
+      "header": {"title": "Letzter Tag", "subtitle": "Ihre Testversion endet morgen"},
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Dies ist Ihre **letzte Erinnerung** - Ihre Purra-Testversion läuft morgen ab! Upgraden Sie jetzt, um den Verlust des Zugriffs auf Ihre Beschaffungsintelligenz zu vermeiden.",
+        "warning": "Morgen werden alle Ihre Lieferantenrecherchen, Preiswarnungen und Analysen gesperrt. Lassen Sie Ihre Beschaffungsabläufe nicht verlangsamen.",
+        "offer": "Upgraden Sie heute und erhalten Sie Ihren ersten Monat mit 20% Rabatt!",
+        "footer": "Brauchen Sie Hilfe bei der Auswahl eines Plans? Chatten Sie jetzt mit unserem Team."
+      },
+      "cta": {"primary": {"text": "Upgraden Sie, bevor es zu spät ist", "url": "{{ upgradeUrl }}"}}
+    }
+  }
+}

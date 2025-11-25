@@ -1,0 +1,93 @@
+{
+  "id": "trial-expiring-3d",
+  "category": "billing",
+  "campaignName": "trial_expiring_3d",
+  "layout": "base",
+  "dynamicFields": ["firstName", "trialEndDate", "upgradeUrl"],
+  "translations": {
+    "en": {
+      "subject": "⚠️ Only 3 Days Left on Your Purra Trial",
+      "preheader": "Upgrade today to keep your procurement intelligence",
+      "header": {"title": "3 Days Remaining", "subtitle": "Don't lose access to Purra"},
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "Your Purra trial ends in just **3 days** on {{ trialEndDate }}. Upgrade now to maintain uninterrupted access to your procurement data and insights.",
+        "urgency": "After your trial ends, you'll lose access to all vendor research, price monitoring, and analytics features.",
+        "footer": "Questions? Our team is here to help you choose the right plan."
+      },
+      "cta": {"primary": {"text": "Upgrade Now", "url": "{{ upgradeUrl }}"}}
+    },
+    "he": {
+      "subject": "⚠️ נותרו רק 3 ימים לתקופת הניסיון של Purra",
+      "preheader": "שדרגו היום כדי לשמור על מודיעין הרכש שלכם",
+      "header": {"title": "נותרו 3 ימים", "subtitle": "אל תאבדו גישה ל-Purra"},
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "תקופת הניסיון של Purra מסתיימת בעוד **3 ימים בלבד** ב-{{ trialEndDate }}. שדרגו עכשיו כדי לשמור על גישה ללא הפרעה לנתוני והתובנות הרכש שלכם.",
+        "urgency": "לאחר סיום תקופת הניסיון, תאבדו גישה לכל תכונות מחקר הספקים, ניטור המחירים והאנליטיקה.",
+        "footer": "יש שאלות? הצוות שלנו כאן כדי לעזור לכם לבחור את התוכנית המתאימה."
+      },
+      "cta": {"primary": {"text": "שדרגו עכשיו", "url": "{{ upgradeUrl }}"}}
+    },
+    "hi": {
+      "subject": "⚠️ आपके Purra ट्रायल पर केवल 3 दिन शेष हैं",
+      "preheader": "अपनी खरीद बुद्धिमत्ता रखने के लिए आज ही अपग्रेड करें",
+      "header": {"title": "3 दिन शेष", "subtitle": "Purra तक पहुंच न खोएं"},
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "आपका Purra ट्रायल {{ trialEndDate }} को केवल **3 दिनों में** समाप्त हो रहा है। अपने खरीद डेटा और अंतर्दृष्टि तक निर्बाध पहुंच बनाए रखने के लिए अभी अपग्रेड करें।",
+        "urgency": "आपके ट्रायल की समाप्ति के बाद, आप सभी विक्रेता अनुसंधान, मूल्य निगरानी और विश्लेषण सुविधाओं तक पहुंच खो देंगे।",
+        "footer": "प्रश्न हैं? हमारी टीम सही योजना चुनने में आपकी मदद के लिए यहां है।"
+      },
+      "cta": {"primary": {"text": "अभी अपग्रेड करें", "url": "{{ upgradeUrl }}"}}
+    },
+    "fr": {
+      "subject": "⚠️ Plus que 3 jours pour votre essai Purra",
+      "preheader": "Mettez à niveau aujourd'hui pour conserver votre intelligence d'approvisionnement",
+      "header": {"title": "3 jours restants", "subtitle": "Ne perdez pas l'accès à Purra"},
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Votre essai Purra se termine dans seulement **3 jours** le {{ trialEndDate }}. Mettez à niveau maintenant pour maintenir un accès ininterrompu à vos données et informations d'approvisionnement.",
+        "urgency": "Après la fin de votre essai, vous perdrez l'accès à toutes les fonctionnalités de recherche de fournisseurs, de surveillance des prix et d'analyse.",
+        "footer": "Des questions ? Notre équipe est là pour vous aider à choisir le bon plan."
+      },
+      "cta": {"primary": {"text": "Mettre à niveau maintenant", "url": "{{ upgradeUrl }}"}}
+    },
+    "zh": {
+      "subject": "⚠️ 您的 Purra 试用只剩 3 天",
+      "preheader": "今天升级以保留您的采购智能",
+      "header": {"title": "剩余 3 天", "subtitle": "不要失去对 Purra 的访问权限"},
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "您的 Purra 试用将在 {{ trialEndDate }} 的 **3 天内**结束。立即升级以保持对您的采购数据和洞察的不间断访问。",
+        "urgency": "试用结束后，您将失去对所有供应商研究、价格监控和分析功能的访问权限。",
+        "footer": "有疑问吗？我们的团队在这里帮助您选择合适的计划。"
+      },
+      "cta": {"primary": {"text": "立即升级", "url": "{{ upgradeUrl }}"}}
+    },
+    "ja": {
+      "subject": "⚠️ Purraトライアルの残り3日",
+      "preheader": "調達インテリジェンスを維持するために今日アップグレードしてください",
+      "header": {"title": "残り3日", "subtitle": "Purraへのアクセスを失わないでください"},
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "Purraトライアルは {{ trialEndDate }} にわずか**3日で**終了します。調達データとインサイトへの中断のないアクセスを維持するために今すぐアップグレードしてください。",
+        "urgency": "トライアル終了後、すべてのベンダー調査、価格監視、分析機能へのアクセスが失われます。",
+        "footer": "質問がありますか？私たちのチームは適切なプランを選ぶお手伝いをします。"
+      },
+      "cta": {"primary": {"text": "今すぐアップグレード", "url": "{{ upgradeUrl }}"}}
+    },
+    "de": {
+      "subject": "⚠️ Nur noch 3 Tage für Ihre Purra-Testversion",
+      "preheader": "Upgraden Sie heute, um Ihre Beschaffungsintelligenz zu behalten",
+      "header": {"title": "3 Tage verbleibend", "subtitle": "Verlieren Sie nicht den Zugriff auf Purra"},
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Ihre Purra-Testversion endet in nur **3 Tagen** am {{ trialEndDate }}. Upgraden Sie jetzt, um ununterbrochenen Zugriff auf Ihre Beschaffungsdaten und -einblicke zu erhalten.",
+        "urgency": "Nach Ende Ihrer Testversion verlieren Sie den Zugriff auf alle Lieferantenrecherche-, Preisüberwachungs- und Analysefunktionen.",
+        "footer": "Fragen? Unser Team hilft Ihnen gerne bei der Auswahl des richtigen Plans."
+      },
+      "cta": {"primary": {"text": "Jetzt upgraden", "url": "{{ upgradeUrl }}"}}
+    }
+  }
+}

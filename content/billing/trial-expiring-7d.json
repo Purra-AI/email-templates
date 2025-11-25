@@ -1,0 +1,301 @@
+{
+  "id": "trial-expiring-7d",
+  "category": "billing",
+  "campaignName": "trial_expiring_7d",
+  "layout": "base",
+  "dynamicFields": [
+    "firstName",
+    "trialEndDate",
+    "upgradeUrl",
+    "pricingUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "Your Purra Trial Ends in 7 Days",
+      "preheader": "Don't lose access to your procurement insights",
+      "header": {
+        "title": "7 Days Left",
+        "subtitle": "Your trial is ending soon"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "Your Purra free trial ends on **{{ trialEndDate }}**. Don't miss out on the powerful procurement intelligence you've been using!",
+        "achievements": {
+          "title": "What You've Accomplished",
+          "description": "During your trial, you've experienced the power of AI-driven procurement:"
+        },
+        "features": [
+          {
+            "title": "Unlimited Vendor Research",
+            "description": "Continue getting comprehensive due diligence reports instantly"
+          },
+          {
+            "title": "Real-Time Price Monitoring",
+            "description": "Never miss important pricing changes from your suppliers"
+          },
+          {
+            "title": "Advanced Analytics",
+            "description": "Make data-driven decisions with powerful insights"
+          }
+        ],
+        "footer": "Upgrade now to keep your procurement operations running smoothly."
+      },
+      "cta": {
+        "primary": {
+          "text": "Upgrade Now",
+          "url": "{{ upgradeUrl }}"
+        },
+        "secondary": {
+          "text": "View Plans",
+          "url": "{{ pricingUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "תקופת הניסיון של Purra מסתיימת בעוד 7 ימים",
+      "preheader": "אל תאבדו גישה לתובנות הרכש שלכם",
+      "header": {
+        "title": "נותרו 7 ימים",
+        "subtitle": "תקופת הניסיון שלכם מסתיימת בקרוב"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "תקופת הניסיון החינמית של Purra מסתיימת ב-**{{ trialEndDate }}**. אל תפספסו את המודיעין הרכשי החזק שהשתמשתם בו!",
+        "achievements": {
+          "title": "מה השגתם",
+          "description": "במהלך תקופת הניסיון, חוויתם את כוחו של רכש מבוסס AI:"
+        },
+        "features": [
+          {
+            "title": "מחקר ספקים ללא הגבלה",
+            "description": "המשיכו לקבל דוחות בדיקת נאותות מקיפים באופן מיידי"
+          },
+          {
+            "title": "ניטור מחירים בזמן אמת",
+            "description": "לעולם אל תפספסו שינויי מחירים חשובים מהספקים שלכם"
+          },
+          {
+            "title": "אנליטיקה מתקדמת",
+            "description": "קבלו החלטות מבוססות נתונים עם תובנות עוצמתיות"
+          }
+        ],
+        "footer": "שדרגו עכשיו כדי לשמור על פעולות הרכש שלכם חלקות."
+      },
+      "cta": {
+        "primary": {
+          "text": "שדרגו עכשיו",
+          "url": "{{ upgradeUrl }}"
+        },
+        "secondary": {
+          "text": "צפו בתוכניות",
+          "url": "{{ pricingUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "आपका Purra ट्रायल 7 दिनों में समाप्त हो रहा है",
+      "preheader": "अपनी खरीद अंतर्दृष्टि तक पहुंच न खोएं",
+      "header": {
+        "title": "7 दिन शेष",
+        "subtitle": "आपका ट्रायल जल्द ही समाप्त हो रहा है"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "आपका Purra मुफ्त ट्रायल **{{ trialEndDate }}** को समाप्त होता है। आप जिस शक्तिशाली खरीद बुद्धिमत्ता का उपयोग कर रहे हैं, उसे न खोएं!",
+        "achievements": {
+          "title": "आपने क्या हासिल किया",
+          "description": "अपने ट्रायल के दौरान, आपने AI-संचालित खरीद की शक्ति का अनुभव किया है:"
+        },
+        "features": [
+          {
+            "title": "असीमित विक्रेता अनुसंधान",
+            "description": "तुरंत व्यापक उचित परिश्रम रिपोर्ट प्राप्त करना जारी रखें"
+          },
+          {
+            "title": "वास्तविक समय मूल्य निगरानी",
+            "description": "अपने आपूर्तिकर्ताओं से महत्वपूर्ण मूल्य परिवर्तन कभी न चूकें"
+          },
+          {
+            "title": "उन्नत विश्लेषण",
+            "description": "शक्तिशाली अंतर्दृष्टि के साथ डेटा-संचालित निर्णय लें"
+          }
+        ],
+        "footer": "अपने खरीद संचालन को सुचारू रूप से चलाने के लिए अभी अपग्रेड करें।"
+      },
+      "cta": {
+        "primary": {
+          "text": "अभी अपग्रेड करें",
+          "url": "{{ upgradeUrl }}"
+        },
+        "secondary": {
+          "text": "योजनाएं देखें",
+          "url": "{{ pricingUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "Votre essai Purra se termine dans 7 jours",
+      "preheader": "Ne perdez pas l'accès à vos informations d'approvisionnement",
+      "header": {
+        "title": "7 jours restants",
+        "subtitle": "Votre essai se termine bientôt"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Votre essai gratuit Purra se termine le **{{ trialEndDate }}**. Ne manquez pas la puissante intelligence d'approvisionnement que vous avez utilisée !",
+        "achievements": {
+          "title": "Ce que vous avez accompli",
+          "description": "Pendant votre essai, vous avez expérimenté la puissance de l'approvisionnement piloté par l'IA :"
+        },
+        "features": [
+          {
+            "title": "Recherche illimitée de fournisseurs",
+            "description": "Continuez à obtenir des rapports de diligence raisonnable complets instantanément"
+          },
+          {
+            "title": "Surveillance des prix en temps réel",
+            "description": "Ne manquez jamais les changements de prix importants de vos fournisseurs"
+          },
+          {
+            "title": "Analytique avancée",
+            "description": "Prenez des décisions basées sur les données avec des informations puissantes"
+          }
+        ],
+        "footer": "Mettez à niveau maintenant pour maintenir le bon fonctionnement de vos opérations d'approvisionnement."
+      },
+      "cta": {
+        "primary": {
+          "text": "Mettre à niveau maintenant",
+          "url": "{{ upgradeUrl }}"
+        },
+        "secondary": {
+          "text": "Voir les plans",
+          "url": "{{ pricingUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "您的 Purra 试用将在 7 天后结束",
+      "preheader": "不要失去对您采购洞察的访问权限",
+      "header": {
+        "title": "剩余 7 天",
+        "subtitle": "您的试用即将结束"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "您的 Purra 免费试用将于 **{{ trialEndDate }}** 结束。不要错过您一直在使用的强大采购智能！",
+        "achievements": {
+          "title": "您取得的成就",
+          "description": "在试用期间，您体验了 AI 驱动采购的力量："
+        },
+        "features": [
+          {
+            "title": "无限供应商研究",
+            "description": "继续即时获得全面的尽职调查报告"
+          },
+          {
+            "title": "实时价格监控",
+            "description": "永远不会错过供应商的重要价格变化"
+          },
+          {
+            "title": "高级分析",
+            "description": "通过强大的洞察做出数据驱动的决策"
+          }
+        ],
+        "footer": "立即升级以保持您的采购运营顺利进行。"
+      },
+      "cta": {
+        "primary": {
+          "text": "立即升级",
+          "url": "{{ upgradeUrl }}"
+        },
+        "secondary": {
+          "text": "查看计划",
+          "url": "{{ pricingUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "あなたのPurraトライアルは7日後に終了します",
+      "preheader": "調達インサイトへのアクセスを失わないでください",
+      "header": {
+        "title": "残り7日",
+        "subtitle": "トライアルがまもなく終了します"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "Purra無料トライアルは **{{ trialEndDate }}** に終了します。使用してきた強力な調達インテリジェンスをお見逃しなく！",
+        "achievements": {
+          "title": "達成したこと",
+          "description": "トライアル中、AI駆動の調達の力を体験しました："
+        },
+        "features": [
+          {
+            "title": "無制限のベンダー調査",
+            "description": "包括的なデューデリジェンスレポートを即座に取得し続けます"
+          },
+          {
+            "title": "リアルタイム価格監視",
+            "description": "サプライヤーからの重要な価格変更を見逃しません"
+          },
+          {
+            "title": "高度な分析",
+            "description": "強力な洞察でデータ駆動型の意思決定を行います"
+          }
+        ],
+        "footer": "調達オペレーションをスムーズに維持するために今すぐアップグレードしてください。"
+      },
+      "cta": {
+        "primary": {
+          "text": "今すぐアップグレード",
+          "url": "{{ upgradeUrl }}"
+        },
+        "secondary": {
+          "text": "プランを見る",
+          "url": "{{ pricingUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "Ihre Purra-Testversion endet in 7 Tagen",
+      "preheader": "Verlieren Sie nicht den Zugriff auf Ihre Beschaffungs-Insights",
+      "header": {
+        "title": "7 Tage verbleibend",
+        "subtitle": "Ihre Testversion endet bald"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Ihre kostenlose Purra-Testversion endet am **{{ trialEndDate }}**. Verpassen Sie nicht die leistungsstarke Beschaffungsintelligenz, die Sie verwendet haben!",
+        "achievements": {
+          "title": "Was Sie erreicht haben",
+          "description": "Während Ihrer Testversion haben Sie die Kraft der KI-gesteuerten Beschaffung erlebt:"
+        },
+        "features": [
+          {
+            "title": "Unbegrenzte Lieferantenrecherche",
+            "description": "Erhalten Sie weiterhin sofort umfassende Due-Diligence-Berichte"
+          },
+          {
+            "title": "Echtzeit-Preisüberwachung",
+            "description": "Verpassen Sie nie wichtige Preisänderungen Ihrer Lieferanten"
+          },
+          {
+            "title": "Erweiterte Analytik",
+            "description": "Treffen Sie datengestützte Entscheidungen mit leistungsstarken Einblicken"
+          }
+        ],
+        "footer": "Upgraden Sie jetzt, um Ihre Beschaffungsabläufe reibungslos am Laufen zu halten."
+      },
+      "cta": {
+        "primary": {
+          "text": "Jetzt upgraden",
+          "url": "{{ upgradeUrl }}"
+        },
+        "secondary": {
+          "text": "Pläne ansehen",
+          "url": "{{ pricingUrl }}"
+        }
+      }
+    }
+  }
+}
