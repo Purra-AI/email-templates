@@ -1,0 +1,454 @@
+{
+  "id": "contract-renewal-reminder",
+  "category": "notifications",
+  "campaignName": "contract_renewal_reminder",
+  "layout": "base",
+  "dynamicFields": [
+    "firstName",
+    "vendorName",
+    "contractNumber",
+    "renewalDate",
+    "daysUntilRenewal",
+    "currentValue",
+    "contractTerms",
+    "reviewUrl",
+    "vendorUrl",
+    "dashboardUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "📅 Contract Renewal Due: {{ vendorName }} - {{ daysUntilRenewal }} Days",
+      "preheader": "Review and take action on upcoming contract renewal",
+      "header": {
+        "title": "Contract Renewal Reminder",
+        "subtitle": "Action Required"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "An important contract is coming up for renewal soon. Please review the details and take necessary action.",
+        "contractDetails": {
+          "title": "📋 Contract Information",
+          "vendor": "Vendor: {{ vendorName }}",
+          "number": "Contract #: {{ contractNumber }}",
+          "renewal": "Renewal Date: {{ renewalDate }}",
+          "daysLeft": "⏰ {{ daysUntilRenewal }} days until renewal",
+          "value": "Current Contract Value: ${{ currentValue }}"
+        },
+        "urgency": {
+          "title": "⚠️ Why This Matters",
+          "description": "Missing this renewal deadline could result in automatic renewal under current terms, service interruption, or loss of negotiation leverage."
+        },
+        "actionItems": {
+          "title": "Recommended Actions",
+          "items": [
+            "**Review current contract terms** - Ensure they still align with your needs",
+            "**Analyze vendor performance** - Check compliance, quality, and delivery metrics",
+            "**Compare market pricing** - See if better rates are available",
+            "**Negotiate improvements** - Request better terms, pricing, or service levels",
+            "**Evaluate alternatives** - Consider competitive bids if needed"
+          ]
+        },
+        "contractTerms": {
+          "title": "Key Contract Terms",
+          "description": "{{ contractTerms }}"
+        },
+        "timeline": {
+          "title": "📅 Suggested Timeline",
+          "items": [
+            "**Today:** Review contract and vendor performance",
+            "**This Week:** Request competitive quotes if exploring alternatives",
+            "**2 Weeks Before:** Initiate renegotiation discussions",
+            "**1 Week Before:** Finalize renewal decision and documentation"
+          ]
+        },
+        "support": {
+          "title": "Need Assistance?",
+          "description": "Our procurement team can help you with contract analysis, vendor comparisons, and negotiation strategies. Contact us anytime."
+        },
+        "footer": "Stay on top of your contract renewals with Purra."
+      },
+      "cta": {
+        "primary": {
+          "text": "Review Contract",
+          "url": "{{ reviewUrl }}"
+        },
+        "secondary": {
+          "text": "View Vendor Profile",
+          "url": "{{ vendorUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "📅 חידוש חוזה מועד: {{ vendorName }} - {{ daysUntilRenewal }} ימים",
+      "preheader": "בדקו ונקטו פעולה לגבי חידוש חוזה קרוב",
+      "header": {
+        "title": "תזכורת לחידוש חוזה",
+        "subtitle": "נדרשת פעולה"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "חוזה חשוב מתקרב לחידוש בקרוב. אנא בדקו את הפרטים ונקטו בפעולה הנדרשת.",
+        "contractDetails": {
+          "title": "📋 מידע על החוזה",
+          "vendor": "ספק: {{ vendorName }}",
+          "number": "חוזה מס': {{ contractNumber }}",
+          "renewal": "תאריך חידוש: {{ renewalDate }}",
+          "daysLeft": "⏰ {{ daysUntilRenewal }} ימים עד לחידוש",
+          "value": "ערך חוזה נוכחי: ${{ currentValue }}"
+        },
+        "urgency": {
+          "title": "⚠️ למה זה חשוב",
+          "description": "החמצת מועד חידוש זה עלולה לגרום לחידוש אוטומטי בתנאים נוכחיים, הפרעה בשירות או אובדן מינוף למשא ומתן."
+        },
+        "actionItems": {
+          "title": "פעולות מומלצות",
+          "items": [
+            "**בדקו תנאי חוזה נוכחיים** - וודאו שהם עדיין תואמים את הצרכים שלכם",
+            "**נתחו ביצועי ספק** - בדקו ציות, איכות ומדדי אספקה",
+            "**השוו תמחור שוק** - בדקו אם קיימים תעריפים טובים יותר",
+            "**נהלו משא ומתן לשיפורים** - בקשו תנאים, תמחור או רמות שירות טובים יותר",
+            "**העריכו אלטרנטיבות** - שקלו הצעות תחרותיות במידת הצורך"
+          ]
+        },
+        "contractTerms": {
+          "title": "תנאי חוזה מרכזיים",
+          "description": "{{ contractTerms }}"
+        },
+        "timeline": {
+          "title": "📅 לוח זמנים מוצע",
+          "items": [
+            "**היום:** בדקו חוזה וביצועי ספק",
+            "**השבוע:** בקשו הצעות מחיר תחרותיות אם בוחנים אלטרנטיבות",
+            "**שבועיים לפני:** התחילו דיונים במשא ומתן מחדש",
+            "**שבוע לפני:** השלימו החלטת חידוש ותיעוד"
+          ]
+        },
+        "support": {
+          "title": "צריכים סיוע?",
+          "description": "צוות הרכש שלנו יכול לעזור לכם בניתוח חוזה, השוואות ספקים ואסטרטגיות משא ומתן. צרו קשר בכל עת."
+        },
+        "footer": "הישארו מעודכנים לגבי חידושי החוזים שלכם עם Purra."
+      },
+      "cta": {
+        "primary": {
+          "text": "בדקו חוזה",
+          "url": "{{ reviewUrl }}"
+        },
+        "secondary": {
+          "text": "צפו בפרופיל ספק",
+          "url": "{{ vendorUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "📅 अनुबंध नवीनीकरण देय: {{ vendorName }} - {{ daysUntilRenewal }} दिन",
+      "preheader": "आगामी अनुबंध नवीनीकरण की समीक्षा करें और कार्रवाई करें",
+      "header": {
+        "title": "अनुबंध नवीनीकरण अनुस्मारक",
+        "subtitle": "कार्रवाई आवश्यक"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "एक महत्वपूर्ण अनुबंध जल्द ही नवीनीकरण के लिए आ रहा है। कृपया विवरण की समीक्षा करें और आवश्यक कार्रवाई करें।",
+        "contractDetails": {
+          "title": "📋 अनुबंध जानकारी",
+          "vendor": "विक्रेता: {{ vendorName }}",
+          "number": "अनुबंध #: {{ contractNumber }}",
+          "renewal": "नवीनीकरण तिथि: {{ renewalDate }}",
+          "daysLeft": "⏰ नवीनीकरण तक {{ daysUntilRenewal }} दिन",
+          "value": "वर्तमान अनुबंध मूल्य: ${{ currentValue }}"
+        },
+        "urgency": {
+          "title": "⚠️ यह क्यों मायने रखता है",
+          "description": "इस नवीनीकरण समय सीमा को चूकने से वर्तमान शर्तों के तहत स्वचालित नवीनीकरण, सेवा में रुकावट या बातचीत के लाभ का नुकसान हो सकता है।"
+        },
+        "actionItems": {
+          "title": "अनुशंसित कार्रवाई",
+          "items": [
+            "**वर्तमान अनुबंध शर्तों की समीक्षा करें** - सुनिश्चित करें कि वे अभी भी आपकी आवश्यकताओं के अनुरूप हैं",
+            "**विक्रेता प्रदर्शन का विश्लेषण करें** - अनुपालन, गुणवत्ता और डिलीवरी मेट्रिक्स की जांच करें",
+            "**बाजार मूल्य निर्धारण की तुलना करें** - देखें कि क्या बेहतर दरें उपलब्ध हैं",
+            "**सुधारों पर बातचीत करें** - बेहतर शर्तें, मूल्य निर्धारण या सेवा स्तरों का अनुरोध करें",
+            "**विकल्पों का मूल्यांकन करें** - यदि आवश्यक हो तो प्रतिस्पर्धी बोलियों पर विचार करें"
+          ]
+        },
+        "contractTerms": {
+          "title": "मुख्य अनुबंध शर्तें",
+          "description": "{{ contractTerms }}"
+        },
+        "timeline": {
+          "title": "📅 सुझाई गई समयरेखा",
+          "items": [
+            "**आज:** अनुबंध और विक्रेता प्रदर्शन की समीक्षा करें",
+            "**इस सप्ताह:** यदि विकल्पों की खोज कर रहे हैं तो प्रतिस्पर्धी उद्धरणों का अनुरोध करें",
+            "**2 सप्ताह पहले:** पुनर्बातचीत चर्चा शुरू करें",
+            "**1 सप्ताह पहले:** नवीनीकरण निर्णय और दस्तावेज़ीकरण को अंतिम रूप दें"
+          ]
+        },
+        "support": {
+          "title": "सहायता चाहिए?",
+          "description": "हमारी खरीद टीम अनुबंध विश्लेषण, विक्रेता तुलना और बातचीत रणनीतियों में आपकी मदद कर सकती है। कभी भी संपर्क करें।"
+        },
+        "footer": "Purra के साथ अपने अनुबंध नवीनीकरण के शीर्ष पर बने रहें।"
+      },
+      "cta": {
+        "primary": {
+          "text": "अनुबंध की समीक्षा करें",
+          "url": "{{ reviewUrl }}"
+        },
+        "secondary": {
+          "text": "विक्रेता प्रोफ़ाइल देखें",
+          "url": "{{ vendorUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "📅 Renouvellement de contrat dû : {{ vendorName }} - {{ daysUntilRenewal }} jours",
+      "preheader": "Examinez et agissez sur le prochain renouvellement de contrat",
+      "header": {
+        "title": "Rappel de renouvellement de contrat",
+        "subtitle": "Action requise"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Un contrat important arrive bientôt à renouvellement. Veuillez examiner les détails et prendre les mesures nécessaires.",
+        "contractDetails": {
+          "title": "📋 Informations sur le contrat",
+          "vendor": "Fournisseur : {{ vendorName }}",
+          "number": "Contrat n° : {{ contractNumber }}",
+          "renewal": "Date de renouvellement : {{ renewalDate }}",
+          "daysLeft": "⏰ {{ daysUntilRenewal }} jours jusqu'au renouvellement",
+          "value": "Valeur actuelle du contrat : ${{ currentValue }}"
+        },
+        "urgency": {
+          "title": "⚠️ Pourquoi c'est important",
+          "description": "Manquer cette échéance de renouvellement pourrait entraîner un renouvellement automatique aux conditions actuelles, une interruption de service ou une perte de levier de négociation."
+        },
+        "actionItems": {
+          "title": "Actions recommandées",
+          "items": [
+            "**Examiner les conditions contractuelles actuelles** - Assurez-vous qu'elles correspondent toujours à vos besoins",
+            "**Analyser les performances du fournisseur** - Vérifiez la conformité, la qualité et les métriques de livraison",
+            "**Comparer les prix du marché** - Voir si de meilleurs tarifs sont disponibles",
+            "**Négocier des améliorations** - Demander de meilleures conditions, prix ou niveaux de service",
+            "**Évaluer les alternatives** - Considérer les offres concurrentielles si nécessaire"
+          ]
+        },
+        "contractTerms": {
+          "title": "Conditions clés du contrat",
+          "description": "{{ contractTerms }}"
+        },
+        "timeline": {
+          "title": "📅 Calendrier suggéré",
+          "items": [
+            "**Aujourd'hui :** Examiner le contrat et les performances du fournisseur",
+            "**Cette semaine :** Demander des devis concurrentiels si vous explorez des alternatives",
+            "**2 semaines avant :** Initier des discussions de renégociation",
+            "**1 semaine avant :** Finaliser la décision de renouvellement et la documentation"
+          ]
+        },
+        "support": {
+          "title": "Besoin d'assistance ?",
+          "description": "Notre équipe d'approvisionnement peut vous aider avec l'analyse des contrats, les comparaisons de fournisseurs et les stratégies de négociation. Contactez-nous à tout moment."
+        },
+        "footer": "Restez au top de vos renouvellements de contrats avec Purra."
+      },
+      "cta": {
+        "primary": {
+          "text": "Examiner le contrat",
+          "url": "{{ reviewUrl }}"
+        },
+        "secondary": {
+          "text": "Voir le profil du fournisseur",
+          "url": "{{ vendorUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "📅 合同到期续签：{{ vendorName }} - {{ daysUntilRenewal }} 天",
+      "preheader": "审查即将到来的合同续签并采取行动",
+      "header": {
+        "title": "合同续签提醒",
+        "subtitle": "需要采取行动"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "一份重要合同即将到期续签。请审查详细信息并采取必要的行动。",
+        "contractDetails": {
+          "title": "📋 合同信息",
+          "vendor": "供应商：{{ vendorName }}",
+          "number": "合同编号：{{ contractNumber }}",
+          "renewal": "续签日期：{{ renewalDate }}",
+          "daysLeft": "⏰ 距离续签 {{ daysUntilRenewal }} 天",
+          "value": "当前合同价值：${{ currentValue }}"
+        },
+        "urgency": {
+          "title": "⚠️ 为什么重要",
+          "description": "错过此续签截止日期可能导致按当前条款自动续签、服务中断或失去谈判优势。"
+        },
+        "actionItems": {
+          "title": "建议措施",
+          "items": [
+            "**审查当前合同条款** - 确保它们仍然符合您的需求",
+            "**分析供应商表现** - 检查合规性、质量和交付指标",
+            "**比较市场定价** - 查看是否有更好的费率",
+            "**协商改进** - 请求更好的条款、定价或服务水平",
+            "**评估替代方案** - 如需要，考虑竞争性投标"
+          ]
+        },
+        "contractTerms": {
+          "title": "关键合同条款",
+          "description": "{{ contractTerms }}"
+        },
+        "timeline": {
+          "title": "📅 建议时间表",
+          "items": [
+            "**今天：** 审查合同和供应商表现",
+            "**本周：** 如果探索替代方案，请求竞争性报价",
+            "**2周前：** 启动重新谈判讨论",
+            "**1周前：** 最终确定续签决定和文档"
+          ]
+        },
+        "support": {
+          "title": "需要帮助？",
+          "description": "我们的采购团队可以帮助您进行合同分析、供应商比较和谈判策略。随时联系我们。"
+        },
+        "footer": "使用Purra掌握您的合同续签情况。"
+      },
+      "cta": {
+        "primary": {
+          "text": "审查合同",
+          "url": "{{ reviewUrl }}"
+        },
+        "secondary": {
+          "text": "查看供应商档案",
+          "url": "{{ vendorUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "📅 契約更新期限：{{ vendorName }} - {{ daysUntilRenewal }} 日",
+      "preheader": "今後の契約更新を確認して対応してください",
+      "header": {
+        "title": "契約更新リマインダー",
+        "subtitle": "対応が必要"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "重要な契約がまもなく更新期限を迎えます。詳細を確認して必要な対応をしてください。",
+        "contractDetails": {
+          "title": "📋 契約情報",
+          "vendor": "ベンダー：{{ vendorName }}",
+          "number": "契約番号：{{ contractNumber }}",
+          "renewal": "更新日：{{ renewalDate }}",
+          "daysLeft": "⏰ 更新まで {{ daysUntilRenewal }} 日",
+          "value": "現在の契約価値：${{ currentValue }}"
+        },
+        "urgency": {
+          "title": "⚠️ なぜ重要か",
+          "description": "この更新期限を逃すと、現在の条件での自動更新、サービス中断、または交渉力の喪失につながる可能性があります。"
+        },
+        "actionItems": {
+          "title": "推奨アクション",
+          "items": [
+            "**現在の契約条件を確認** - ニーズに合っているか確認",
+            "**ベンダーのパフォーマンスを分析** - コンプライアンス、品質、配送指標を確認",
+            "**市場価格を比較** - より良い料金があるか確認",
+            "**改善を交渉** - より良い条件、価格、サービスレベルを要求",
+            "**代替案を評価** - 必要に応じて競争入札を検討"
+          ]
+        },
+        "contractTerms": {
+          "title": "主な契約条件",
+          "description": "{{ contractTerms }}"
+        },
+        "timeline": {
+          "title": "📅 推奨スケジュール",
+          "items": [
+            "**今日：** 契約とベンダーのパフォーマンスを確認",
+            "**今週：** 代替案を検討している場合は競争見積もりを要求",
+            "**2週間前：** 再交渉の議論を開始",
+            "**1週間前：** 更新決定と文書化を最終決定"
+          ]
+        },
+        "support": {
+          "title": "サポートが必要ですか？",
+          "description": "当社の調達チームは、契約分析、ベンダー比較、交渉戦略でお手伝いできます。いつでもお問い合わせください。"
+        },
+        "footer": "Purraで契約更新を管理しましょう。"
+      },
+      "cta": {
+        "primary": {
+          "text": "契約を確認",
+          "url": "{{ reviewUrl }}"
+        },
+        "secondary": {
+          "text": "ベンダープロフィールを表示",
+          "url": "{{ vendorUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "📅 Vertragsverlängerung fällig: {{ vendorName }} - {{ daysUntilRenewal }} Tage",
+      "preheader": "Überprüfen Sie die bevorstehende Vertragsverlängerung und handeln Sie",
+      "header": {
+        "title": "Erinnerung an Vertragsverlängerung",
+        "subtitle": "Maßnahme erforderlich"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Ein wichtiger Vertrag steht bald zur Verlängerung an. Bitte überprüfen Sie die Details und ergreifen Sie die erforderlichen Maßnahmen.",
+        "contractDetails": {
+          "title": "📋 Vertragsinformationen",
+          "vendor": "Lieferant: {{ vendorName }}",
+          "number": "Vertrag Nr.: {{ contractNumber }}",
+          "renewal": "Verlängerungsdatum: {{ renewalDate }}",
+          "daysLeft": "⏰ {{ daysUntilRenewal }} Tage bis zur Verlängerung",
+          "value": "Aktueller Vertragswert: ${{ currentValue }}"
+        },
+        "urgency": {
+          "title": "⚠️ Warum das wichtig ist",
+          "description": "Das Versäumen dieser Verlängerungsfrist könnte zu einer automatischen Verlängerung unter aktuellen Bedingungen, Serviceunterbrechung oder Verlust von Verhandlungsspielraum führen."
+        },
+        "actionItems": {
+          "title": "Empfohlene Maßnahmen",
+          "items": [
+            "**Aktuelle Vertragsbedingungen überprüfen** - Sicherstellen, dass sie noch Ihren Bedürfnissen entsprechen",
+            "**Lieferantenleistung analysieren** - Compliance, Qualität und Liefermetriken prüfen",
+            "**Marktpreise vergleichen** - Sehen, ob bessere Tarife verfügbar sind",
+            "**Verbesserungen verhandeln** - Bessere Bedingungen, Preise oder Serviceniveaus anfordern",
+            "**Alternativen bewerten** - Wettbewerbsangebote in Betracht ziehen, falls erforderlich"
+          ]
+        },
+        "contractTerms": {
+          "title": "Wichtige Vertragsbedingungen",
+          "description": "{{ contractTerms }}"
+        },
+        "timeline": {
+          "title": "📅 Vorgeschlagener Zeitplan",
+          "items": [
+            "**Heute:** Vertrag und Lieferantenleistung überprüfen",
+            "**Diese Woche:** Wettbewerbsangebote anfordern, falls Alternativen erkundet werden",
+            "**2 Wochen vorher:** Neuverhandlungsgespräche einleiten",
+            "**1 Woche vorher:** Verlängerungsentscheidung und Dokumentation finalisieren"
+          ]
+        },
+        "support": {
+          "title": "Benötigen Sie Unterstützung?",
+          "description": "Unser Beschaffungsteam kann Ihnen bei Vertragsanalyse, Lieferantenvergleichen und Verhandlungsstrategien helfen. Kontaktieren Sie uns jederzeit."
+        },
+        "footer": "Bleiben Sie mit Purra auf dem Laufenden über Ihre Vertragsverlängerungen."
+      },
+      "cta": {
+        "primary": {
+          "text": "Vertrag überprüfen",
+          "url": "{{ reviewUrl }}"
+        },
+        "secondary": {
+          "text": "Lieferantenprofil anzeigen",
+          "url": "{{ vendorUrl }}"
+        }
+      }
+    }
+  }
+}
