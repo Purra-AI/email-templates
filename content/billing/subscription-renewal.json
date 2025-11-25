@@ -1,0 +1,296 @@
+{
+  "id": "subscription-renewal",
+  "category": "billing",
+  "campaignName": "subscription_renewal",
+  "layout": "simple",
+  "dynamicFields": [
+    "firstName",
+    "planName",
+    "renewalDate",
+    "amount",
+    "invoiceUrl",
+    "manageUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "Your Purra Subscription Has Been Renewed",
+      "preheader": "{{ planName }} renewed successfully for ${{ amount }}",
+      "header": {
+        "title": "Subscription Renewed",
+        "subtitle": "Thank you for continuing with Purra"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "Your **{{ planName }}** subscription has been successfully renewed. Your access to all premium features will continue uninterrupted.",
+        "renewalDetails": {
+          "title": "Renewal Details",
+          "plan": "Plan: {{ planName }}",
+          "amount": "Amount: ${{ amount }}",
+          "renewalDate": "Renewal Date: {{ renewalDate }}",
+          "nextBilling": "Next billing date: {{ renewalDate }}"
+        },
+        "whatsIncluded": {
+          "title": "What's Included",
+          "items": [
+            "Unlimited vendor due diligence reports",
+            "Real-time price monitoring and alerts",
+            "Advanced analytics and insights",
+            "Priority support",
+            "API access and integrations"
+          ]
+        },
+        "footer": "Your invoice is attached. You can also download it anytime from your account."
+      },
+      "cta": {
+        "primary": {
+          "text": "Download Invoice",
+          "url": "{{ invoiceUrl }}"
+        },
+        "secondary": {
+          "text": "Manage Subscription",
+          "url": "{{ manageUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "המנוי שלכם ל-Purra חודש",
+      "preheader": "{{ planName }} חודש בהצלחה תמורת ${{ amount }}",
+      "header": {
+        "title": "המנוי חודש",
+        "subtitle": "תודה שממשיכים עם Purra"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "המנוי שלכם ל-**{{ planName }}** חודש בהצלחה. הגישה שלכם לכל התכונות הפרימיום תימשך ללא הפרעה.",
+        "renewalDetails": {
+          "title": "פרטי חידוש",
+          "plan": "תוכנית: {{ planName }}",
+          "amount": "סכום: ${{ amount }}",
+          "renewalDate": "תאריך חידוש: {{ renewalDate }}",
+          "nextBilling": "תאריך חיוב הבא: {{ renewalDate }}"
+        },
+        "whatsIncluded": {
+          "title": "מה כלול",
+          "items": [
+            "דוחות בדיקת נאותות ספקים ללא הגבלה",
+            "ניטור מחירים והתראות בזמן אמת",
+            "אנליטיקה ותובנות מתקדמות",
+            "תמיכה עדיפה",
+            "גישה ל-API ואינטגרציות"
+          ]
+        },
+        "footer": "החשבונית שלכם מצורפת. אתם יכולים גם להוריד אותה בכל עת מהחשבון שלכם."
+      },
+      "cta": {
+        "primary": {
+          "text": "הורידו חשבונית",
+          "url": "{{ invoiceUrl }}"
+        },
+        "secondary": {
+          "text": "נהלו מנוי",
+          "url": "{{ manageUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "आपकी Purra सदस्यता नवीनीकृत हो गई है",
+      "preheader": "{{ planName }} ${{ amount }} के लिए सफलतापूर्वक नवीनीकृत",
+      "header": {
+        "title": "सदस्यता नवीनीकृत",
+        "subtitle": "Purra के साथ जारी रखने के लिए धन्यवाद"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "आपकी **{{ planName }}** सदस्यता सफलतापूर्वक नवीनीकृत कर दी गई है। सभी प्रीमियम सुविधाओं तक आपकी पहुंच बिना किसी रुकावट के जारी रहेगी।",
+        "renewalDetails": {
+          "title": "नवीनीकरण विवरण",
+          "plan": "योजना: {{ planName }}",
+          "amount": "राशि: ${{ amount }}",
+          "renewalDate": "नवीनीकरण तिथि: {{ renewalDate }}",
+          "nextBilling": "अगली बिलिंग तिथि: {{ renewalDate }}"
+        },
+        "whatsIncluded": {
+          "title": "क्या शामिल है",
+          "items": [
+            "असीमित विक्रेता उचित परिश्रम रिपोर्ट",
+            "वास्तविक समय मूल्य निगरानी और अलर्ट",
+            "उन्नत विश्लेषण और अंतर्दृष्टि",
+            "प्राथमिकता सहायता",
+            "API पहुंच और एकीकरण"
+          ]
+        },
+        "footer": "आपका चालान संलग्न है। आप इसे अपने खाते से किसी भी समय डाउनलोड भी कर सकते हैं।"
+      },
+      "cta": {
+        "primary": {
+          "text": "चालान डाउनलोड करें",
+          "url": "{{ invoiceUrl }}"
+        },
+        "secondary": {
+          "text": "सदस्यता प्रबंधित करें",
+          "url": "{{ manageUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "Votre abonnement Purra a été renouvelé",
+      "preheader": "{{ planName }} renouvelé avec succès pour ${{ amount }}",
+      "header": {
+        "title": "Abonnement renouvelé",
+        "subtitle": "Merci de continuer avec Purra"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Votre abonnement **{{ planName }}** a été renouvelé avec succès. Votre accès à toutes les fonctionnalités premium se poursuivra sans interruption.",
+        "renewalDetails": {
+          "title": "Détails du renouvellement",
+          "plan": "Plan : {{ planName }}",
+          "amount": "Montant : ${{ amount }}",
+          "renewalDate": "Date de renouvellement : {{ renewalDate }}",
+          "nextBilling": "Date de facturation suivante : {{ renewalDate }}"
+        },
+        "whatsIncluded": {
+          "title": "Ce qui est inclus",
+          "items": [
+            "Rapports de diligence raisonnable illimités sur les fournisseurs",
+            "Surveillance des prix et alertes en temps réel",
+            "Analyses et informations avancées",
+            "Support prioritaire",
+            "Accès API et intégrations"
+          ]
+        },
+        "footer": "Votre facture est jointe. Vous pouvez également la télécharger à tout moment depuis votre compte."
+      },
+      "cta": {
+        "primary": {
+          "text": "Télécharger la facture",
+          "url": "{{ invoiceUrl }}"
+        },
+        "secondary": {
+          "text": "Gérer l'abonnement",
+          "url": "{{ manageUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "您的 Purra 订阅已续订",
+      "preheader": "{{ planName }} 已成功续订，金额为 ${{ amount }}",
+      "header": {
+        "title": "订阅已续订",
+        "subtitle": "感谢您继续使用 Purra"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "您的 **{{ planName }}** 订阅已成功续订。您对所有高级功能的访问将不间断地继续。",
+        "renewalDetails": {
+          "title": "续订详情",
+          "plan": "计划：{{ planName }}",
+          "amount": "金额：${{ amount }}",
+          "renewalDate": "续订日期：{{ renewalDate }}",
+          "nextBilling": "下次计费日期：{{ renewalDate }}"
+        },
+        "whatsIncluded": {
+          "title": "包含内容",
+          "items": [
+            "无限供应商尽职调查报告",
+            "实时价格监控和警报",
+            "高级分析和洞察",
+            "优先支持",
+            "API 访问和集成"
+          ]
+        },
+        "footer": "您的发票已附上。您也可以随时从您的帐户下载。"
+      },
+      "cta": {
+        "primary": {
+          "text": "下载发票",
+          "url": "{{ invoiceUrl }}"
+        },
+        "secondary": {
+          "text": "管理订阅",
+          "url": "{{ manageUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "あなたのPurraサブスクリプションが更新されました",
+      "preheader": "{{ planName }} が ${{ amount }} で正常に更新されました",
+      "header": {
+        "title": "サブスクリプション更新",
+        "subtitle": "Purraを継続していただきありがとうございます"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "**{{ planName }}** サブスクリプションが正常に更新されました。すべてのプレミアム機能へのアクセスは中断なく継続されます。",
+        "renewalDetails": {
+          "title": "更新の詳細",
+          "plan": "プラン：{{ planName }}",
+          "amount": "金額：${{ amount }}",
+          "renewalDate": "更新日：{{ renewalDate }}",
+          "nextBilling": "次回請求日：{{ renewalDate }}"
+        },
+        "whatsIncluded": {
+          "title": "含まれるもの",
+          "items": [
+            "無制限のベンダーデューデリジェンスレポート",
+            "リアルタイム価格監視とアラート",
+            "高度な分析とインサイト",
+            "優先サポート",
+            "APIアクセスと統合"
+          ]
+        },
+        "footer": "請求書が添付されています。アカウントからいつでもダウンロードすることもできます。"
+      },
+      "cta": {
+        "primary": {
+          "text": "請求書をダウンロード",
+          "url": "{{ invoiceUrl }}"
+        },
+        "secondary": {
+          "text": "サブスクリプションを管理",
+          "url": "{{ manageUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "Ihr Purra-Abonnement wurde erneuert",
+      "preheader": "{{ planName }} erfolgreich für ${{ amount }} erneuert",
+      "header": {
+        "title": "Abonnement erneuert",
+        "subtitle": "Vielen Dank, dass Sie bei Purra bleiben"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Ihr **{{ planName }}**-Abonnement wurde erfolgreich erneuert. Ihr Zugriff auf alle Premium-Funktionen wird ununterbrochen fortgesetzt.",
+        "renewalDetails": {
+          "title": "Erneuerungsdetails",
+          "plan": "Plan: {{ planName }}",
+          "amount": "Betrag: ${{ amount }}",
+          "renewalDate": "Erneuerungsdatum: {{ renewalDate }}",
+          "nextBilling": "Nächstes Abrechnungsdatum: {{ renewalDate }}"
+        },
+        "whatsIncluded": {
+          "title": "Was ist enthalten",
+          "items": [
+            "Unbegrenzte Lieferanten-Due-Diligence-Berichte",
+            "Echtzeit-Preisüberwachung und -Warnungen",
+            "Erweiterte Analytik und Einblicke",
+            "Prioritäts-Support",
+            "API-Zugriff und Integrationen"
+          ]
+        },
+        "footer": "Ihre Rechnung ist beigefügt. Sie können sie auch jederzeit von Ihrem Konto herunterladen."
+      },
+      "cta": {
+        "primary": {
+          "text": "Rechnung herunterladen",
+          "url": "{{ invoiceUrl }}"
+        },
+        "secondary": {
+          "text": "Abonnement verwalten",
+          "url": "{{ manageUrl }}"
+        }
+      }
+    }
+  }
+}

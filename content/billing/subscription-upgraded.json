@@ -1,0 +1,289 @@
+{
+  "id": "subscription-upgraded",
+  "category": "billing",
+  "campaignName": "subscription_upgraded",
+  "layout": "base",
+  "dynamicFields": [
+    "firstName",
+    "oldPlanName",
+    "newPlanName",
+    "effectiveDate",
+    "newFeatures",
+    "dashboardUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "You've Upgraded to {{ newPlanName }}!",
+      "preheader": "Welcome to more powerful features and capabilities",
+      "header": {
+        "title": "Subscription Upgraded!",
+        "subtitle": "Welcome to {{ newPlanName }}"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "Great news! You've successfully upgraded from **{{ oldPlanName }}** to **{{ newPlanName }}**. All your new features are now active and ready to use.",
+        "upgradeDetails": {
+          "title": "Upgrade Details",
+          "oldPlan": "Previous Plan: {{ oldPlanName }}",
+          "newPlan": "New Plan: {{ newPlanName }}",
+          "effectiveDate": "Effective: {{ effectiveDate }}"
+        },
+        "newFeatures": {
+          "title": "✨ What's New for You",
+          "items": [
+            "**Unlimited reports** - No more monthly limits",
+            "**Priority support** - Get help faster with dedicated support",
+            "**Advanced analytics** - Deeper insights and custom dashboards",
+            "**API access** - Integrate with your existing tools",
+            "**Bulk operations** - Process multiple vendors at once"
+          ]
+        },
+        "callout": {
+          "title": "🚀 Get Started",
+          "description": "Jump into your dashboard and explore all the powerful new features now available to you."
+        },
+        "footer": "Need help getting the most out of your new plan? Our team is here to help!"
+      },
+      "cta": {
+        "primary": {
+          "text": "Explore New Features",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "שדרגתם ל-{{ newPlanName }}!",
+      "preheader": "ברוכים הבאים לתכונות ויכולות חזקות יותר",
+      "header": {
+        "title": "המנוי שודרג!",
+        "subtitle": "ברוכים הבאים ל-{{ newPlanName }}"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "חדשות מעולות! שדרגתם בהצלחה מ-**{{ oldPlanName }}** ל-**{{ newPlanName }}**. כל התכונות החדשות שלכם פעילות כעת ומוכנות לשימוש.",
+        "upgradeDetails": {
+          "title": "פרטי שדרוג",
+          "oldPlan": "תוכנית קודמת: {{ oldPlanName }}",
+          "newPlan": "תוכנית חדשה: {{ newPlanName }}",
+          "effectiveDate": "תוקף: {{ effectiveDate }}"
+        },
+        "newFeatures": {
+          "title": "✨ מה חדש עבורכם",
+          "items": [
+            "**דוחות ללא הגבלה** - אין עוד מגבלות חודשיות",
+            "**תמיכה עדיפה** - קבלו עזרה מהר יותר עם תמיכה ייעודית",
+            "**אנליטיקה מתקדמת** - תובנות עמוקות יותר ולוחות בקרה מותאמים אישית",
+            "**גישה ל-API** - התחברו לכלים הקיימים שלכם",
+            "**פעולות בצובר** - עבדו על מספר ספקים בו-זמנית"
+          ]
+        },
+        "callout": {
+          "title": "🚀 התחילו",
+          "description": "קפצו ללוח הבקרה שלכם וחקרו את כל התכונות החדשות והעוצמתיות שזמינות כעת עבורכם."
+        },
+        "footer": "צריכים עזרה להפיק את המיטב מהתוכנית החדשה שלכם? הצוות שלנו כאן כדי לעזור!"
+      },
+      "cta": {
+        "primary": {
+          "text": "חקרו תכונות חדשות",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "आपने {{ newPlanName }} में अपग्रेड कर लिया है!",
+      "preheader": "अधिक शक्तिशाली सुविधाओं और क्षमताओं में आपका स्वागत है",
+      "header": {
+        "title": "सदस्यता अपग्रेड हो गई!",
+        "subtitle": "{{ newPlanName }} में आपका स्वागत है"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "बढ़िया खबर! आपने सफलतापूर्वक **{{ oldPlanName }}** से **{{ newPlanName }}** में अपग्रेड कर लिया है। आपकी सभी नई सुविधाएं अब सक्रिय हैं और उपयोग के लिए तैयार हैं।",
+        "upgradeDetails": {
+          "title": "अपग्रेड विवरण",
+          "oldPlan": "पिछली योजना: {{ oldPlanName }}",
+          "newPlan": "नई योजना: {{ newPlanName }}",
+          "effectiveDate": "प्रभावी: {{ effectiveDate }}"
+        },
+        "newFeatures": {
+          "title": "✨ आपके लिए क्या नया है",
+          "items": [
+            "**असीमित रिपोर्ट** - अब कोई मासिक सीमा नहीं",
+            "**प्राथमिकता सहायता** - समर्पित सहायता के साथ तेजी से मदद पाएं",
+            "**उन्नत विश्लेषण** - गहरी अंतर्दृष्टि और कस्टम डैशबोर्ड",
+            "**API पहुंच** - अपने मौजूदा उपकरणों के साथ एकीकृत करें",
+            "**बल्क ऑपरेशन** - एक साथ कई विक्रेताओं को प्रोसेस करें"
+          ]
+        },
+        "callout": {
+          "title": "🚀 शुरू करें",
+          "description": "अपने डैशबोर्ड में कूदें और अब आपके लिए उपलब्ध सभी शक्तिशाली नई सुविधाओं का अन्वेषण करें।"
+        },
+        "footer": "अपनी नई योजना का अधिकतम लाभ उठाने में मदद चाहिए? हमारी टीम यहां मदद के लिए है!"
+      },
+      "cta": {
+        "primary": {
+          "text": "नई सुविधाओं का अन्वेषण करें",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "Vous avez été mis à niveau vers {{ newPlanName }} !",
+      "preheader": "Bienvenue aux fonctionnalités et capacités plus puissantes",
+      "header": {
+        "title": "Abonnement mis à niveau !",
+        "subtitle": "Bienvenue dans {{ newPlanName }}"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Excellente nouvelle ! Vous avez réussi à passer de **{{ oldPlanName }}** à **{{ newPlanName }}**. Toutes vos nouvelles fonctionnalités sont maintenant actives et prêtes à être utilisées.",
+        "upgradeDetails": {
+          "title": "Détails de la mise à niveau",
+          "oldPlan": "Plan précédent : {{ oldPlanName }}",
+          "newPlan": "Nouveau plan : {{ newPlanName }}",
+          "effectiveDate": "Effectif : {{ effectiveDate }}"
+        },
+        "newFeatures": {
+          "title": "✨ Quoi de neuf pour vous",
+          "items": [
+            "**Rapports illimités** - Plus de limites mensuelles",
+            "**Support prioritaire** - Obtenez de l'aide plus rapidement avec un support dédié",
+            "**Analyses avancées** - Insights plus profonds et tableaux de bord personnalisés",
+            "**Accès API** - Intégrez avec vos outils existants",
+            "**Opérations en masse** - Traitez plusieurs fournisseurs à la fois"
+          ]
+        },
+        "callout": {
+          "title": "🚀 Commencer",
+          "description": "Accédez à votre tableau de bord et explorez toutes les nouvelles fonctionnalités puissantes qui vous sont désormais disponibles."
+        },
+        "footer": "Besoin d'aide pour tirer le meilleur parti de votre nouveau plan ? Notre équipe est là pour vous aider !"
+      },
+      "cta": {
+        "primary": {
+          "text": "Explorer les nouvelles fonctionnalités",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "您已升级到 {{ newPlanName }}！",
+      "preheader": "欢迎使用更强大的功能和能力",
+      "header": {
+        "title": "订阅已升级！",
+        "subtitle": "欢迎来到 {{ newPlanName }}"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "好消息！您已成功从 **{{ oldPlanName }}** 升级到 **{{ newPlanName }}**。您的所有新功能现已激活并可以使用。",
+        "upgradeDetails": {
+          "title": "升级详情",
+          "oldPlan": "之前的计划：{{ oldPlanName }}",
+          "newPlan": "新计划：{{ newPlanName }}",
+          "effectiveDate": "生效日期：{{ effectiveDate }}"
+        },
+        "newFeatures": {
+          "title": "✨ 您的新功能",
+          "items": [
+            "**无限报告** - 不再有每月限制",
+            "**优先支持** - 通过专门支持更快获得帮助",
+            "**高级分析** - 更深入的洞察和自定义仪表板",
+            "**API 访问** - 与您现有的工具集成",
+            "**批量操作** - 一次处理多个供应商"
+          ]
+        },
+        "callout": {
+          "title": "🚀 开始使用",
+          "description": "跳转到您的仪表板，探索现在可供您使用的所有强大新功能。"
+        },
+        "footer": "需要帮助充分利用您的新计划吗？我们的团队随时为您提供帮助！"
+      },
+      "cta": {
+        "primary": {
+          "text": "探索新功能",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "{{ newPlanName }}にアップグレードしました！",
+      "preheader": "より強力な機能と能力へようこそ",
+      "header": {
+        "title": "サブスクリプションアップグレード！",
+        "subtitle": "{{ newPlanName }}へようこそ"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "素晴らしいニュースです！**{{ oldPlanName }}** から **{{ newPlanName }}** へのアップグレードに成功しました。すべての新機能が有効になり、使用できるようになりました。",
+        "upgradeDetails": {
+          "title": "アップグレードの詳細",
+          "oldPlan": "以前のプラン：{{ oldPlanName }}",
+          "newPlan": "新しいプラン：{{ newPlanName }}",
+          "effectiveDate": "有効日：{{ effectiveDate }}"
+        },
+        "newFeatures": {
+          "title": "✨ 新しい機能",
+          "items": [
+            "**無制限レポート** - 月次制限なし",
+            "**優先サポート** - 専用サポートでより速くヘルプを取得",
+            "**高度な分析** - より深い洞察とカスタムダッシュボード",
+            "**APIアクセス** - 既存のツールと統合",
+            "**一括操作** - 複数のベンダーを一度に処理"
+          ]
+        },
+        "callout": {
+          "title": "🚀 始めましょう",
+          "description": "ダッシュボードに移動して、利用可能なすべての強力な新機能を探索してください。"
+        },
+        "footer": "新しいプランを最大限に活用するためのサポートが必要ですか？私たちのチームがお手伝いします！"
+      },
+      "cta": {
+        "primary": {
+          "text": "新機能を探索",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "Sie haben auf {{ newPlanName }} aufgerüstet!",
+      "preheader": "Willkommen zu leistungsstärkeren Funktionen und Möglichkeiten",
+      "header": {
+        "title": "Abonnement aufgerüstet!",
+        "subtitle": "Willkommen bei {{ newPlanName }}"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Großartige Neuigkeiten! Sie haben erfolgreich von **{{ oldPlanName }}** auf **{{ newPlanName }}** aufgerüstet. Alle Ihre neuen Funktionen sind jetzt aktiv und einsatzbereit.",
+        "upgradeDetails": {
+          "title": "Upgrade-Details",
+          "oldPlan": "Vorheriger Plan: {{ oldPlanName }}",
+          "newPlan": "Neuer Plan: {{ newPlanName }}",
+          "effectiveDate": "Gültig ab: {{ effectiveDate }}"
+        },
+        "newFeatures": {
+          "title": "✨ Was ist neu für Sie",
+          "items": [
+            "**Unbegrenzte Berichte** - Keine monatlichen Limits mehr",
+            "**Prioritäts-Support** - Erhalten Sie schneller Hilfe mit dediziertem Support",
+            "**Erweiterte Analytik** - Tiefere Einblicke und benutzerdefinierte Dashboards",
+            "**API-Zugriff** - Integration mit Ihren bestehenden Tools",
+            "**Massenoperationen** - Verarbeiten Sie mehrere Lieferanten auf einmal"
+          ]
+        },
+        "callout": {
+          "title": "🚀 Loslegen",
+          "description": "Springen Sie zu Ihrem Dashboard und erkunden Sie alle leistungsstarken neuen Funktionen, die Ihnen jetzt zur Verfügung stehen."
+        },
+        "footer": "Brauchen Sie Hilfe, um das Beste aus Ihrem neuen Plan herauszuholen? Unser Team ist hier, um zu helfen!"
+      },
+      "cta": {
+        "primary": {
+          "text": "Neue Funktionen erkunden",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    }
+  }
+}

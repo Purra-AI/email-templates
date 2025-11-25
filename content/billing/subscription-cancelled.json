@@ -1,0 +1,337 @@
+{
+  "id": "subscription-cancelled",
+  "category": "billing",
+  "campaignName": "subscription_cancelled",
+  "layout": "simple",
+  "dynamicFields": [
+    "firstName",
+    "planName",
+    "endDate",
+    "feedbackUrl",
+    "reactivateUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "Your Purra Subscription Has Been Cancelled",
+      "preheader": "We're sorry to see you go",
+      "header": {
+        "title": "Subscription Cancelled",
+        "subtitle": "Your access ends on {{ endDate }}"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "Your **{{ planName }}** subscription has been cancelled. You'll continue to have access to all features until **{{ endDate }}**.",
+        "accessDetails": {
+          "title": "What Happens Next",
+          "items": [
+            "**Until {{ endDate }}**: Full access to all features continues",
+            "**After {{ endDate }}**: Your account will be downgraded to free tier",
+            "**Your data**: All reports and data will be preserved",
+            "**Reactivation**: You can reactivate anytime before {{ endDate }}"
+          ]
+        },
+        "freeAccount": {
+          "title": "Free Account Features",
+          "description": "After {{ endDate }}, you'll still have access to:",
+          "items": [
+            "View existing vendor reports (read-only)",
+            "Access historical analytics",
+            "Basic price monitoring (limited)",
+            "Community support"
+          ]
+        },
+        "feedback": {
+          "title": "💭 Help Us Improve",
+          "description": "We'd love to hear why you're leaving. Your feedback helps us build a better product for everyone."
+        },
+        "footer": "Changed your mind? You can reactivate your subscription anytime before {{ endDate }} without losing any data."
+      },
+      "cta": {
+        "primary": {
+          "text": "Share Feedback",
+          "url": "{{ feedbackUrl }}"
+        },
+        "secondary": {
+          "text": "Reactivate Subscription",
+          "url": "{{ reactivateUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "המנוי שלכם ל-Purra בוטל",
+      "preheader": "צר לנו לראות אתכם עוזבים",
+      "header": {
+        "title": "המנוי בוטל",
+        "subtitle": "הגישה שלכם מסתיימת ב-{{ endDate }}"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "המנוי שלכם ל-**{{ planName }}** בוטל. תמשיכו לקבל גישה לכל התכונות עד **{{ endDate }}**.",
+        "accessDetails": {
+          "title": "מה קורה הלאה",
+          "items": [
+            "**עד {{ endDate }}**: גישה מלאה לכל התכונות נמשכת",
+            "**אחרי {{ endDate }}**: החשבון שלכם יורד לרמת החינם",
+            "**הנתונים שלכם**: כל הדוחות והנתונים יישמרו",
+            "**הפעלה מחדש**: אתם יכולים להפעיל מחדש בכל עת לפני {{ endDate }}"
+          ]
+        },
+        "freeAccount": {
+          "title": "תכונות חשבון חינם",
+          "description": "אחרי {{ endDate }}, עדיין תהיה לכם גישה ל:",
+          "items": [
+            "צפייה בדוחות ספקים קיימים (קריאה בלבד)",
+            "גישה לאנליטיקה היסטורית",
+            "ניטור מחירים בסיסי (מוגבל)",
+            "תמיכת קהילה"
+          ]
+        },
+        "feedback": {
+          "title": "💭 עזרו לנו להשתפר",
+          "description": "נשמח לשמוע למה אתם עוזבים. המשוב שלכם עוזר לנו לבנות מוצר טוב יותר עבור כולם."
+        },
+        "footer": "שיניתם דעה? אתם יכולים להפעיל מחדש את המנוי שלכם בכל עת לפני {{ endDate }} מבלי לאבד נתונים."
+      },
+      "cta": {
+        "primary": {
+          "text": "שתפו משוב",
+          "url": "{{ feedbackUrl }}"
+        },
+        "secondary": {
+          "text": "הפעילו מחדש מנוי",
+          "url": "{{ reactivateUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "आपकी Purra सदस्यता रद्द कर दी गई है",
+      "preheader": "हमें आपको जाते देखकर दुख हुआ",
+      "header": {
+        "title": "सदस्यता रद्द",
+        "subtitle": "आपकी पहुंच {{ endDate }} को समाप्त होती है"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "आपकी **{{ planName }}** सदस्यता रद्द कर दी गई है। **{{ endDate }}** तक आपके पास सभी सुविधाओं तक पहुंच जारी रहेगी।",
+        "accessDetails": {
+          "title": "आगे क्या होगा",
+          "items": [
+            "**{{ endDate }} तक**: सभी सुविधाओं तक पूर्ण पहुंच जारी रहती है",
+            "**{{ endDate }} के बाद**: आपका खाता मुफ्त स्तर पर डाउनग्रेड हो जाएगा",
+            "**आपका डेटा**: सभी रिपोर्ट और डेटा संरक्षित रहेंगे",
+            "**पुनः सक्रियण**: आप {{ endDate }} से पहले किसी भी समय पुनः सक्रिय कर सकते हैं"
+          ]
+        },
+        "freeAccount": {
+          "title": "मुफ्त खाता सुविधाएं",
+          "description": "{{ endDate }} के बाद, आपके पास अभी भी पहुंच होगी:",
+          "items": [
+            "मौजूदा विक्रेता रिपोर्ट देखें (केवल पढ़ने के लिए)",
+            "ऐतिहासिक विश्लेषण तक पहुंच",
+            "बुनियादी मूल्य निगरानी (सीमित)",
+            "समुदाय समर्थन"
+          ]
+        },
+        "feedback": {
+          "title": "💭 हमें सुधारने में मदद करें",
+          "description": "हम सुनना पसंद करेंगे कि आप क्यों जा रहे हैं। आपकी प्रतिक्रिया हमें सभी के लिए एक बेहतर उत्पाद बनाने में मदद करती है।"
+        },
+        "footer": "अपना मन बदल लिया? आप {{ endDate }} से पहले किसी भी समय अपनी सदस्यता को बिना कोई डेटा खोए पुनः सक्रिय कर सकते हैं।"
+      },
+      "cta": {
+        "primary": {
+          "text": "प्रतिक्रिया साझा करें",
+          "url": "{{ feedbackUrl }}"
+        },
+        "secondary": {
+          "text": "सदस्यता पुनः सक्रिय करें",
+          "url": "{{ reactivateUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "Votre abonnement Purra a été annulé",
+      "preheader": "Nous sommes désolés de vous voir partir",
+      "header": {
+        "title": "Abonnement annulé",
+        "subtitle": "Votre accès se termine le {{ endDate }}"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Votre abonnement **{{ planName }}** a été annulé. Vous continuerez à avoir accès à toutes les fonctionnalités jusqu'au **{{ endDate }}**.",
+        "accessDetails": {
+          "title": "Ce qui se passe ensuite",
+          "items": [
+            "**Jusqu'au {{ endDate }}** : L'accès complet à toutes les fonctionnalités continue",
+            "**Après le {{ endDate }}** : Votre compte sera rétrogradé au niveau gratuit",
+            "**Vos données** : Tous les rapports et données seront conservés",
+            "**Réactivation** : Vous pouvez réactiver à tout moment avant le {{ endDate }}"
+          ]
+        },
+        "freeAccount": {
+          "title": "Fonctionnalités du compte gratuit",
+          "description": "Après le {{ endDate }}, vous aurez toujours accès à :",
+          "items": [
+            "Voir les rapports de fournisseurs existants (lecture seule)",
+            "Accéder aux analyses historiques",
+            "Surveillance des prix de base (limitée)",
+            "Support communautaire"
+          ]
+        },
+        "feedback": {
+          "title": "💭 Aidez-nous à nous améliorer",
+          "description": "Nous aimerions savoir pourquoi vous partez. Vos commentaires nous aident à créer un meilleur produit pour tout le monde."
+        },
+        "footer": "Vous avez changé d'avis ? Vous pouvez réactiver votre abonnement à tout moment avant le {{ endDate }} sans perdre aucune donnée."
+      },
+      "cta": {
+        "primary": {
+          "text": "Partager vos commentaires",
+          "url": "{{ feedbackUrl }}"
+        },
+        "secondary": {
+          "text": "Réactiver l'abonnement",
+          "url": "{{ reactivateUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "您的 Purra 订阅已取消",
+      "preheader": "我们很遗憾看到您离开",
+      "header": {
+        "title": "订阅已取消",
+        "subtitle": "您的访问权限将于 {{ endDate }} 结束"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "您的 **{{ planName }}** 订阅已被取消。您将继续拥有所有功能的访问权限，直到 **{{ endDate }}**。",
+        "accessDetails": {
+          "title": "接下来会发生什么",
+          "items": [
+            "**直到 {{ endDate }}**：对所有功能的完全访问继续",
+            "**{{ endDate }} 之后**：您的帐户将降级到免费层",
+            "**您的数据**：所有报告和数据都将保留",
+            "**重新激活**：您可以在 {{ endDate }} 之前随时重新激活"
+          ]
+        },
+        "freeAccount": {
+          "title": "免费帐户功能",
+          "description": "{{ endDate }} 之后，您仍然可以访问：",
+          "items": [
+            "查看现有供应商报告（只读）",
+            "访问历史分析",
+            "基本价格监控（受限）",
+            "社区支持"
+          ]
+        },
+        "feedback": {
+          "title": "💭 帮助我们改进",
+          "description": "我们很想听听您离开的原因。您的反馈有助于我们为每个人构建更好的产品。"
+        },
+        "footer": "改变主意了吗？您可以在 {{ endDate }} 之前随时重新激活订阅而不会丢失任何数据。"
+      },
+      "cta": {
+        "primary": {
+          "text": "分享反馈",
+          "url": "{{ feedbackUrl }}"
+        },
+        "secondary": {
+          "text": "重新激活订阅",
+          "url": "{{ reactivateUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "Purraサブスクリプションがキャンセルされました",
+      "preheader": "あなたが去るのを見るのは残念です",
+      "header": {
+        "title": "サブスクリプションキャンセル",
+        "subtitle": "アクセスは {{ endDate }} に終了します"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "**{{ planName }}** サブスクリプションがキャンセルされました。**{{ endDate }}** まですべての機能へのアクセスは継続されます。",
+        "accessDetails": {
+          "title": "次に何が起こるか",
+          "items": [
+            "**{{ endDate }} まで**：すべての機能への完全アクセスは継続",
+            "**{{ endDate }} 以降**：アカウントは無料プランにダウングレード",
+            "**あなたのデータ**：すべてのレポートとデータは保持されます",
+            "**再アクティベーション**：{{ endDate }} 前にいつでも再アクティブ化できます"
+          ]
+        },
+        "freeAccount": {
+          "title": "無料アカウント機能",
+          "description": "{{ endDate }} 以降も、以下へのアクセスがあります：",
+          "items": [
+            "既存のベンダーレポートを表示（読み取り専用）",
+            "履歴分析へのアクセス",
+            "基本的な価格監視（制限付き）",
+            "コミュニティサポート"
+          ]
+        },
+        "feedback": {
+          "title": "💭 改善にご協力ください",
+          "description": "なぜ退会されるのかをお聞かせください。あなたのフィードバックは、全員にとってより良い製品を構築するのに役立ちます。"
+        },
+        "footer": "気が変わりましたか？{{ endDate }} 前であれば、データを失うことなくいつでもサブスクリプションを再アクティブ化できます。"
+      },
+      "cta": {
+        "primary": {
+          "text": "フィードバックを共有",
+          "url": "{{ feedbackUrl }}"
+        },
+        "secondary": {
+          "text": "サブスクリプションを再アクティブ化",
+          "url": "{{ reactivateUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "Ihr Purra-Abonnement wurde gekündigt",
+      "preheader": "Wir bedauern, Sie gehen zu sehen",
+      "header": {
+        "title": "Abonnement gekündigt",
+        "subtitle": "Ihr Zugriff endet am {{ endDate }}"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Ihr **{{ planName }}**-Abonnement wurde gekündigt. Sie haben weiterhin Zugriff auf alle Funktionen bis **{{ endDate }}**.",
+        "accessDetails": {
+          "title": "Was als nächstes passiert",
+          "items": [
+            "**Bis {{ endDate }}**: Vollständiger Zugriff auf alle Funktionen bleibt bestehen",
+            "**Nach {{ endDate }}**: Ihr Konto wird auf die kostenlose Stufe herabgestuft",
+            "**Ihre Daten**: Alle Berichte und Daten werden aufbewahrt",
+            "**Reaktivierung**: Sie können jederzeit vor {{ endDate }} reaktivieren"
+          ]
+        },
+        "freeAccount": {
+          "title": "Funktionen des kostenlosen Kontos",
+          "description": "Nach {{ endDate }} haben Sie weiterhin Zugriff auf:",
+          "items": [
+            "Bestehende Lieferantenberichte anzeigen (nur lesen)",
+            "Auf historische Analysen zugreifen",
+            "Grundlegende Preisüberwachung (begrenzt)",
+            "Community-Support"
+          ]
+        },
+        "feedback": {
+          "title": "💭 Helfen Sie uns, besser zu werden",
+          "description": "Wir würden gerne erfahren, warum Sie gehen. Ihr Feedback hilft uns, ein besseres Produkt für alle zu entwickeln."
+        },
+        "footer": "Haben Sie Ihre Meinung geändert? Sie können Ihr Abonnement jederzeit vor {{ endDate }} reaktivieren, ohne Daten zu verlieren."
+      },
+      "cta": {
+        "primary": {
+          "text": "Feedback teilen",
+          "url": "{{ feedbackUrl }}"
+        },
+        "secondary": {
+          "text": "Abonnement reaktivieren",
+          "url": "{{ reactivateUrl }}"
+        }
+      }
+    }
+  }
+}

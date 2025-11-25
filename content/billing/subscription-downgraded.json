@@ -1,0 +1,310 @@
+{
+  "id": "subscription-downgraded",
+  "category": "billing",
+  "campaignName": "subscription_downgraded",
+  "layout": "simple",
+  "dynamicFields": [
+    "firstName",
+    "oldPlanName",
+    "newPlanName",
+    "effectiveDate",
+    "upgradeUrl",
+    "supportUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "Your Subscription Has Been Changed",
+      "preheader": "You've switched to {{ newPlanName }}",
+      "header": {
+        "title": "Subscription Updated",
+        "subtitle": "You're now on {{ newPlanName }}"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "Your subscription has been changed from **{{ oldPlanName }}** to **{{ newPlanName }}**, effective **{{ effectiveDate }}**.",
+        "changeDetails": {
+          "title": "Change Details",
+          "oldPlan": "Previous Plan: {{ oldPlanName }}",
+          "newPlan": "Current Plan: {{ newPlanName }}",
+          "effectiveDate": "Effective: {{ effectiveDate }}"
+        },
+        "whatYouKeep": {
+          "title": "What You'll Keep",
+          "items": [
+            "Access to your existing vendor reports",
+            "Your saved searches and favorites",
+            "Historical analytics data",
+            "Account settings and preferences"
+          ]
+        },
+        "whatChanges": {
+          "title": "What's Changing",
+          "description": "Some features may be limited based on your new plan. You can review the full feature comparison on our pricing page or upgrade anytime to restore access."
+        },
+        "footer": "Questions about your plan change? Our support team is here to help."
+      },
+      "cta": {
+        "primary": {
+          "text": "View Plan Details",
+          "url": "{{ upgradeUrl }}"
+        },
+        "secondary": {
+          "text": "Contact Support",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "המנוי שלכם שונה",
+      "preheader": "עברתם ל-{{ newPlanName }}",
+      "header": {
+        "title": "המנוי עודכן",
+        "subtitle": "אתם כעת ב-{{ newPlanName }}"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "המנוי שלכם שונה מ-**{{ oldPlanName }}** ל-**{{ newPlanName }}**, בתוקף מ-**{{ effectiveDate }}**.",
+        "changeDetails": {
+          "title": "פרטי שינוי",
+          "oldPlan": "תוכנית קודמת: {{ oldPlanName }}",
+          "newPlan": "תוכנית נוכחית: {{ newPlanName }}",
+          "effectiveDate": "תוקף: {{ effectiveDate }}"
+        },
+        "whatYouKeep": {
+          "title": "מה תשמרו",
+          "items": [
+            "גישה לדוחות הספקים הקיימים שלכם",
+            "החיפושים והמועדפים השמורים שלכם",
+            "נתוני אנליטיקה היסטוריים",
+            "הגדרות חשבון והעדפות"
+          ]
+        },
+        "whatChanges": {
+          "title": "מה משתנה",
+          "description": "תכונות מסוימות עשויות להיות מוגבלות בהתאם לתוכנית החדשה שלכם. אתם יכולים לסקור את ההשוואה המלאה של התכונות בעמוד התמחור שלנו או לשדרג בכל עת כדי לשחזר גישה."
+        },
+        "footer": "יש שאלות לגבי שינוי התוכנית שלכם? צוות התמיכה שלנו כאן כדי לעזור."
+      },
+      "cta": {
+        "primary": {
+          "text": "צפו בפרטי תוכנית",
+          "url": "{{ upgradeUrl }}"
+        },
+        "secondary": {
+          "text": "צרו קשר עם תמיכה",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "आपकी सदस्यता बदल दी गई है",
+      "preheader": "आप {{ newPlanName }} में स्विच कर चुके हैं",
+      "header": {
+        "title": "सदस्यता अपडेट की गई",
+        "subtitle": "आप अब {{ newPlanName }} पर हैं"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "आपकी सदस्यता **{{ oldPlanName }}** से **{{ newPlanName }}** में बदल दी गई है, **{{ effectiveDate }}** से प्रभावी।",
+        "changeDetails": {
+          "title": "परिवर्तन विवरण",
+          "oldPlan": "पिछली योजना: {{ oldPlanName }}",
+          "newPlan": "वर्तमान योजना: {{ newPlanName }}",
+          "effectiveDate": "प्रभावी: {{ effectiveDate }}"
+        },
+        "whatYouKeep": {
+          "title": "आप क्या रखेंगे",
+          "items": [
+            "आपकी मौजूदा विक्रेता रिपोर्ट तक पहुंच",
+            "आपकी सहेजी गई खोजें और पसंदीदा",
+            "ऐतिहासिक विश्लेषण डेटा",
+            "खाता सेटिंग्स और प्राथमिकताएं"
+          ]
+        },
+        "whatChanges": {
+          "title": "क्या बदल रहा है",
+          "description": "आपकी नई योजना के आधार पर कुछ सुविधाएं सीमित हो सकती हैं। आप हमारे मूल्य निर्धारण पृष्ठ पर पूर्ण सुविधा तुलना की समीक्षा कर सकते हैं या पहुंच बहाल करने के लिए किसी भी समय अपग्रेड कर सकते हैं।"
+        },
+        "footer": "आपकी योजना परिवर्तन के बारे में प्रश्न? हमारी सहायता टीम मदद के लिए यहां है।"
+      },
+      "cta": {
+        "primary": {
+          "text": "योजना विवरण देखें",
+          "url": "{{ upgradeUrl }}"
+        },
+        "secondary": {
+          "text": "सहायता से संपर्क करें",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "Votre abonnement a été modifié",
+      "preheader": "Vous êtes passé à {{ newPlanName }}",
+      "header": {
+        "title": "Abonnement mis à jour",
+        "subtitle": "Vous êtes maintenant sur {{ newPlanName }}"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Votre abonnement a été modifié de **{{ oldPlanName }}** à **{{ newPlanName }}**, effectif le **{{ effectiveDate }}**.",
+        "changeDetails": {
+          "title": "Détails du changement",
+          "oldPlan": "Plan précédent : {{ oldPlanName }}",
+          "newPlan": "Plan actuel : {{ newPlanName }}",
+          "effectiveDate": "Effectif : {{ effectiveDate }}"
+        },
+        "whatYouKeep": {
+          "title": "Ce que vous garderez",
+          "items": [
+            "Accès à vos rapports de fournisseurs existants",
+            "Vos recherches et favoris enregistrés",
+            "Données d'analyse historiques",
+            "Paramètres et préférences du compte"
+          ]
+        },
+        "whatChanges": {
+          "title": "Ce qui change",
+          "description": "Certaines fonctionnalités peuvent être limitées en fonction de votre nouveau plan. Vous pouvez consulter la comparaison complète des fonctionnalités sur notre page de tarification ou effectuer une mise à niveau à tout moment pour restaurer l'accès."
+        },
+        "footer": "Des questions sur le changement de votre plan ? Notre équipe d'assistance est là pour vous aider."
+      },
+      "cta": {
+        "primary": {
+          "text": "Voir les détails du plan",
+          "url": "{{ upgradeUrl }}"
+        },
+        "secondary": {
+          "text": "Contacter le support",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "您的订阅已更改",
+      "preheader": "您已切换到 {{ newPlanName }}",
+      "header": {
+        "title": "订阅已更新",
+        "subtitle": "您现在使用 {{ newPlanName }}"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "您的订阅已从 **{{ oldPlanName }}** 更改为 **{{ newPlanName }}**，从 **{{ effectiveDate }}** 开始生效。",
+        "changeDetails": {
+          "title": "更改详情",
+          "oldPlan": "之前的计划：{{ oldPlanName }}",
+          "newPlan": "当前计划：{{ newPlanName }}",
+          "effectiveDate": "生效日期：{{ effectiveDate }}"
+        },
+        "whatYouKeep": {
+          "title": "您将保留的内容",
+          "items": [
+            "访问您现有的供应商报告",
+            "您保存的搜索和收藏夹",
+            "历史分析数据",
+            "帐户设置和偏好"
+          ]
+        },
+        "whatChanges": {
+          "title": "正在更改的内容",
+          "description": "某些功能可能会根据您的新计划受到限制。您可以在我们的定价页面上查看完整的功能比较，或随时升级以恢复访问权限。"
+        },
+        "footer": "对您的计划变更有疑问？我们的支持团队随时为您提供帮助。"
+      },
+      "cta": {
+        "primary": {
+          "text": "查看计划详情",
+          "url": "{{ upgradeUrl }}"
+        },
+        "secondary": {
+          "text": "联系支持",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "サブスクリプションが変更されました",
+      "preheader": "{{ newPlanName }}に切り替わりました",
+      "header": {
+        "title": "サブスクリプション更新",
+        "subtitle": "現在{{ newPlanName }}をご利用中です"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "サブスクリプションが **{{ oldPlanName }}** から **{{ newPlanName }}** に変更され、**{{ effectiveDate }}** から有効になります。",
+        "changeDetails": {
+          "title": "変更の詳細",
+          "oldPlan": "以前のプラン：{{ oldPlanName }}",
+          "newPlan": "現在のプラン：{{ newPlanName }}",
+          "effectiveDate": "有効日：{{ effectiveDate }}"
+        },
+        "whatYouKeep": {
+          "title": "保持されるもの",
+          "items": [
+            "既存のベンダーレポートへのアクセス",
+            "保存された検索とお気に入り",
+            "履歴分析データ",
+            "アカウント設定と設定"
+          ]
+        },
+        "whatChanges": {
+          "title": "変更される内容",
+          "description": "新しいプランに基づいて、一部の機能が制限される場合があります。価格ページで機能の完全な比較を確認するか、いつでもアップグレードしてアクセスを復元できます。"
+        },
+        "footer": "プラン変更について質問がありますか？サポートチームがお手伝いします。"
+      },
+      "cta": {
+        "primary": {
+          "text": "プラン詳細を表示",
+          "url": "{{ upgradeUrl }}"
+        },
+        "secondary": {
+          "text": "サポートに連絡",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "Ihr Abonnement wurde geändert",
+      "preheader": "Sie sind zu {{ newPlanName }} gewechselt",
+      "header": {
+        "title": "Abonnement aktualisiert",
+        "subtitle": "Sie verwenden jetzt {{ newPlanName }}"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Ihr Abonnement wurde von **{{ oldPlanName }}** auf **{{ newPlanName }}** geändert, gültig ab **{{ effectiveDate }}**.",
+        "changeDetails": {
+          "title": "Änderungsdetails",
+          "oldPlan": "Vorheriger Plan: {{ oldPlanName }}",
+          "newPlan": "Aktueller Plan: {{ newPlanName }}",
+          "effectiveDate": "Gültig ab: {{ effectiveDate }}"
+        },
+        "whatYouKeep": {
+          "title": "Was Sie behalten",
+          "items": [
+            "Zugriff auf Ihre bestehenden Lieferantenberichte",
+            "Ihre gespeicherten Suchen und Favoriten",
+            "Historische Analysedaten",
+            "Kontoeinstellungen und Präferenzen"
+          ]
+        },
+        "whatChanges": {
+          "title": "Was sich ändert",
+          "description": "Einige Funktionen können basierend auf Ihrem neuen Plan eingeschränkt sein. Sie können den vollständigen Funktionsvergleich auf unserer Preisseite einsehen oder jederzeit ein Upgrade durchführen, um den Zugriff wiederherzustellen."
+        },
+        "footer": "Fragen zu Ihrer Planänderung? Unser Support-Team ist hier, um zu helfen."
+      },
+      "cta": {
+        "primary": {
+          "text": "Plandetails anzeigen",
+          "url": "{{ upgradeUrl }}"
+        },
+        "secondary": {
+          "text": "Support kontaktieren",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    }
+  }
+}
