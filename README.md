@@ -1,6 +1,68 @@
 # Purra Email Templates
 
-Professional email templates following Purra's design language with electric blue gradients, modern typography, and futuristic styling.
+Professional multi-language email templates following Purra's design language with electric blue gradients, modern typography, and futuristic styling.
+
+## 🚀 Quick Start
+
+```bash
+# Install dependencies
+npm install
+
+# Build all email templates (compiles content JSON + templates for 7 languages)
+npm run build
+
+# Watch mode for development
+npm run build:watch
+```
+
+Compiled emails will be in `compiled/{lang}/{category}/{email-name}.html`
+
+---
+
+## 📚 System Overview
+
+The Purra email system uses a **content-first architecture** that separates content (translations) from presentation (HTML templates).
+
+### Two Ways to Use This System
+
+1. **Content & Template System** (Recommended) - Multi-language support with automated builds
+2. **Legacy Base Templates** - Direct HTML templates with variable replacement
+
+---
+
+## 🌍 Content & Template System (NEW)
+
+**For multi-language emails with automated compilation.**
+
+### How It Works
+
+1. **Create Content JSON** with translations for all 7 languages
+2. **Create HTML Template** with `data-i18n` attributes for translation keys
+3. **Run Build** - Compiler combines content + template → final HTML for each language
+4. **Use Compiled HTML** in your backend with runtime variable replacement
+
+### Supported Languages
+
+- English (en)
+- Hebrew (עברית) - RTL support
+- Hindi (हिंदी)
+- French (fr)
+- Chinese (中文)
+- Japanese (日本語)
+- German (de)
+
+### Complete Guide
+
+See **[CONTENT_TEMPLATE_SYSTEM.md](CONTENT_TEMPLATE_SYSTEM.md)** for:
+- Creating new templates
+- JSON content schema
+- Translation system
+- Dynamic variables
+- RTL support
+- Build process
+- Examples
+
+---
 
 ## 🎨 Design System
 
@@ -27,9 +89,42 @@ Professional email templates following Purra's design language with electric blu
 - **Dividers**: Gradient dividers with electric blue glow
 - **Badges**: Status badges with semantic colors
 
-## 📁 Available Templates
+## 📁 Directory Structure
 
-### 1. `purra-modern-template.html`
+```
+email-templates/
+├── content/                    # Content JSON files with translations
+│   ├── authentication/
+│   ├── reports/
+│   └── ...
+├── templates/                  # HTML templates with data-i18n attributes
+│   ├── authentication/
+│   ├── reports/
+│   └── ...
+├── compiled/                   # Built emails (gitignored)
+│   ├── en/, he/, hi/, fr/, zh/, ja/, de/
+│   └── ...
+├── base-templates/             # Legacy base templates
+│   └── purra-modern-template.html
+├── builder/                    # Build system
+│   ├── compile.js
+│   └── templates/base-layout.html
+└── docs/                       # Documentation
+```
+
+---
+
+## 📧 Available Example Templates
+
+### New System (Multi-Language)
+
+1. **Welcome Email** - `content/authentication/welcome-email.json`
+2. **Password Reset** - `content/authentication/password-reset.json`
+3. **Report Ready** - `content/reports/due-diligence-report-ready.json`
+
+### Legacy Templates
+
+### 1. `base-templates/purra-modern-template.html`
 **Base template** with placeholders for all common email components.
 
 **Variables to replace:**
