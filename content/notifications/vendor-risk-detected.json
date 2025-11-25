@@ -1,0 +1,325 @@
+{
+  "id": "vendor-risk-detected",
+  "category": "notifications",
+  "campaignName": "vendor_risk_detected",
+  "layout": "simple",
+  "dynamicFields": [
+    "firstName",
+    "vendorName",
+    "riskLevel",
+    "riskCategory",
+    "riskDescription",
+    "reportUrl",
+    "supportUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "⚠️ Risk Alert: {{ vendorName }}",
+      "preheader": "{{ riskLevel }} risk detected - {{ riskCategory }}",
+      "header": {
+        "title": "Vendor Risk Detected",
+        "subtitle": "{{ vendorName }} - {{ riskLevel }} Risk"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "Our monitoring system has detected a **{{ riskLevel }} risk** for **{{ vendorName }}** that requires your attention.",
+        "riskDetails": {
+          "title": "Risk Details",
+          "vendor": "Vendor: {{ vendorName }}",
+          "level": "Risk Level: {{ riskLevel }}",
+          "category": "Category: {{ riskCategory }}",
+          "description": "{{ riskDescription }}"
+        },
+        "impact": {
+          "title": "⚠️ Potential Impact",
+          "description": "This risk could affect your supply chain continuity, compliance status, or financial exposure. Immediate review is recommended."
+        },
+        "recommendations": {
+          "title": "Recommended Actions",
+          "items": [
+            "Review the full risk assessment report",
+            "Contact the vendor to verify and discuss",
+            "Evaluate alternative suppliers as contingency",
+            "Update internal risk registers and stakeholders",
+            "Consider adjusting contract terms or payment schedules"
+          ]
+        },
+        "footer": "Our team monitors vendor risks continuously. Contact support if you need assistance with risk mitigation strategies."
+      },
+      "cta": {
+        "primary": {
+          "text": "View Full Risk Report",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "Contact Support",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "⚠️ התראת סיכון: {{ vendorName }}",
+      "preheader": "זוהה סיכון {{ riskLevel }} - {{ riskCategory }}",
+      "header": {
+        "title": "זוהה סיכון ספק",
+        "subtitle": "{{ vendorName }} - סיכון {{ riskLevel }}"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "מערכת הניטור שלנו זיהתה **סיכון {{ riskLevel }}** עבור **{{ vendorName }}** שדורש את תשומת הלב שלכם.",
+        "riskDetails": {
+          "title": "פרטי סיכון",
+          "vendor": "ספק: {{ vendorName }}",
+          "level": "רמת סיכון: {{ riskLevel }}",
+          "category": "קטגוריה: {{ riskCategory }}",
+          "description": "{{ riskDescription }}"
+        },
+        "impact": {
+          "title": "⚠️ השפעה פוטנציאלית",
+          "description": "סיכון זה עלול להשפיע על המשכיות שרשרת האספקה שלכם, סטטוס ציות או חשיפה פיננסית. מומלץ לבדוק מיד."
+        },
+        "recommendations": {
+          "title": "פעולות מומלצות",
+          "items": [
+            "בדקו את דוח הערכת הסיכונים המלא",
+            "צרו קשר עם הספק כדי לאמת ולדון",
+            "העריכו ספקים חלופיים כתוכנית מגירה",
+            "עדכנו רישומי סיכונים פנימיים ובעלי עניין",
+            "שקלו התאמת תנאי חוזה או לוחות זמנים לתשלום"
+          ]
+        },
+        "footer": "הצוות שלנו מנטר סיכוני ספקים ברציפות. צרו קשר עם תמיכה אם אתם זקוקים לסיוע באסטרטגיות להפחתת סיכונים."
+      },
+      "cta": {
+        "primary": {
+          "text": "צפו בדוח סיכונים מלא",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "צרו קשר עם תמיכה",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "⚠️ जोखिम अलर्ट: {{ vendorName }}",
+      "preheader": "{{ riskLevel }} जोखिम का पता चला - {{ riskCategory }}",
+      "header": {
+        "title": "विक्रेता जोखिम का पता चला",
+        "subtitle": "{{ vendorName }} - {{ riskLevel }} जोखिम"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "हमारी निगरानी प्रणाली ने **{{ vendorName }}** के लिए **{{ riskLevel }} जोखिम** का पता लगाया है जिस पर आपका ध्यान आवश्यक है।",
+        "riskDetails": {
+          "title": "जोखिम विवरण",
+          "vendor": "विक्रेता: {{ vendorName }}",
+          "level": "जोखिम स्तर: {{ riskLevel }}",
+          "category": "श्रेणी: {{ riskCategory }}",
+          "description": "{{ riskDescription }}"
+        },
+        "impact": {
+          "title": "⚠️ संभावित प्रभाव",
+          "description": "यह जोखिम आपकी आपूर्ति श्रृंखला निरंतरता, अनुपालन स्थिति या वित्तीय जोखिम को प्रभावित कर सकता है। तत्काल समीक्षा की सिफारिश की जाती है।"
+        },
+        "recommendations": {
+          "title": "अनुशंसित कार्रवाइयाँ",
+          "items": [
+            "पूर्ण जोखिम मूल्यांकन रिपोर्ट की समीक्षा करें",
+            "सत्यापित करने और चर्चा करने के लिए विक्रेता से संपर्क करें",
+            "आकस्मिकता के रूप में वैकल्पिक आपूर्तिकर्ताओं का मूल्यांकन करें",
+            "आंतरिक जोखिम रजिस्टर और हितधारकों को अपडेट करें",
+            "अनुबंध शर्तों या भुगतान कार्यक्रम को समायोजित करने पर विचार करें"
+          ]
+        },
+        "footer": "हमारी टीम विक्रेता जोखिमों की लगातार निगरानी करती है। यदि आपको जोखिम शमन रणनीतियों में सहायता की आवश्यकता है तो सहायता से संपर्क करें।"
+      },
+      "cta": {
+        "primary": {
+          "text": "पूर्ण जोखिम रिपोर्ट देखें",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "सहायता से संपर्क करें",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "⚠️ Alerte de risque : {{ vendorName }}",
+      "preheader": "Risque {{ riskLevel }} détecté - {{ riskCategory }}",
+      "header": {
+        "title": "Risque fournisseur détecté",
+        "subtitle": "{{ vendorName }} - Risque {{ riskLevel }}"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Notre système de surveillance a détecté un **risque {{ riskLevel }}** pour **{{ vendorName }}** qui nécessite votre attention.",
+        "riskDetails": {
+          "title": "Détails du risque",
+          "vendor": "Fournisseur : {{ vendorName }}",
+          "level": "Niveau de risque : {{ riskLevel }}",
+          "category": "Catégorie : {{ riskCategory }}",
+          "description": "{{ riskDescription }}"
+        },
+        "impact": {
+          "title": "⚠️ Impact potentiel",
+          "description": "Ce risque pourrait affecter la continuité de votre chaîne d'approvisionnement, le statut de conformité ou l'exposition financière. Un examen immédiat est recommandé."
+        },
+        "recommendations": {
+          "title": "Actions recommandées",
+          "items": [
+            "Examinez le rapport complet d'évaluation des risques",
+            "Contactez le fournisseur pour vérifier et discuter",
+            "Évaluez les fournisseurs alternatifs comme plan de secours",
+            "Mettez à jour les registres de risques internes et les parties prenantes",
+            "Envisagez d'ajuster les conditions contractuelles ou les échéanciers de paiement"
+          ]
+        },
+        "footer": "Notre équipe surveille les risques des fournisseurs en continu. Contactez le support si vous avez besoin d'aide pour les stratégies d'atténuation des risques."
+      },
+      "cta": {
+        "primary": {
+          "text": "Voir le rapport de risque complet",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "Contacter le support",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "⚠️ 风险警报：{{ vendorName }}",
+      "preheader": "检测到 {{ riskLevel }} 风险 - {{ riskCategory }}",
+      "header": {
+        "title": "检测到供应商风险",
+        "subtitle": "{{ vendorName }} - {{ riskLevel }} 风险"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "我们的监控系统检测到 **{{ vendorName }}** 存在 **{{ riskLevel }} 风险**，需要您注意。",
+        "riskDetails": {
+          "title": "风险详情",
+          "vendor": "供应商：{{ vendorName }}",
+          "level": "风险级别：{{ riskLevel }}",
+          "category": "类别：{{ riskCategory }}",
+          "description": "{{ riskDescription }}"
+        },
+        "impact": {
+          "title": "⚠️ 潜在影响",
+          "description": "此风险可能影响您的供应链连续性、合规状态或财务风险。建议立即审查。"
+        },
+        "recommendations": {
+          "title": "推荐行动",
+          "items": [
+            "审查完整的风险评估报告",
+            "联系供应商进行核实和讨论",
+            "评估替代供应商作为应急措施",
+            "更新内部风险登记和利益相关者",
+            "考虑调整合同条款或付款时间表"
+          ]
+        },
+        "footer": "我们的团队持续监控供应商风险。如果您需要风险缓解策略方面的帮助，请联系支持。"
+      },
+      "cta": {
+        "primary": {
+          "text": "查看完整风险报告",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "联系支持",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "⚠️ リスクアラート：{{ vendorName }}",
+      "preheader": "{{ riskLevel }} リスクを検出 - {{ riskCategory }}",
+      "header": {
+        "title": "ベンダーリスクを検出",
+        "subtitle": "{{ vendorName }} - {{ riskLevel }} リスク"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "当社の監視システムが **{{ vendorName }}** について **{{ riskLevel }} リスク**を検出しました。注意が必要です。",
+        "riskDetails": {
+          "title": "リスクの詳細",
+          "vendor": "ベンダー：{{ vendorName }}",
+          "level": "リスクレベル：{{ riskLevel }}",
+          "category": "カテゴリ：{{ riskCategory }}",
+          "description": "{{ riskDescription }}"
+        },
+        "impact": {
+          "title": "⚠️ 潜在的な影響",
+          "description": "このリスクはサプライチェーンの継続性、コンプライアンスステータス、または財務リスクに影響を与える可能性があります。即座の確認をお勧めします。"
+        },
+        "recommendations": {
+          "title": "推奨アクション",
+          "items": [
+            "完全なリスク評価レポートを確認",
+            "ベンダーに連絡して確認・議論",
+            "代替サプライヤーを緊急措置として評価",
+            "内部リスク登録と利害関係者を更新",
+            "契約条件または支払いスケジュールの調整を検討"
+          ]
+        },
+        "footer": "私たちのチームはベンダーリスクを継続的に監視しています。リスク軽減戦略についてサポートが必要な場合は、サポートにお問い合わせください。"
+      },
+      "cta": {
+        "primary": {
+          "text": "完全なリスクレポートを表示",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "サポートに連絡",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "⚠️ Risikoalarm: {{ vendorName }}",
+      "preheader": "{{ riskLevel }} Risiko erkannt - {{ riskCategory }}",
+      "header": {
+        "title": "Lieferantenrisiko erkannt",
+        "subtitle": "{{ vendorName }} - {{ riskLevel }} Risiko"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Unser Überwachungssystem hat ein **{{ riskLevel }} Risiko** für **{{ vendorName }}** festgestellt, das Ihre Aufmerksamkeit erfordert.",
+        "riskDetails": {
+          "title": "Risikodetails",
+          "vendor": "Lieferant: {{ vendorName }}",
+          "level": "Risikostufe: {{ riskLevel }}",
+          "category": "Kategorie: {{ riskCategory }}",
+          "description": "{{ riskDescription }}"
+        },
+        "impact": {
+          "title": "⚠️ Potenzielle Auswirkungen",
+          "description": "Dieses Risiko könnte Ihre Lieferkettenkontinuität, den Compliance-Status oder das finanzielle Risiko beeinträchtigen. Eine sofortige Überprüfung wird empfohlen."
+        },
+        "recommendations": {
+          "title": "Empfohlene Maßnahmen",
+          "items": [
+            "Überprüfen Sie den vollständigen Risikobewertungsbericht",
+            "Kontaktieren Sie den Lieferanten zur Überprüfung und Diskussion",
+            "Bewerten Sie alternative Lieferanten als Notfallplan",
+            "Aktualisieren Sie interne Risikoregister und Stakeholder",
+            "Erwägen Sie die Anpassung von Vertragsbedingungen oder Zahlungsplänen"
+          ]
+        },
+        "footer": "Unser Team überwacht Lieferantenrisiken kontinuierlich. Kontaktieren Sie den Support, wenn Sie Unterstützung bei Risikominderungsstrategien benötigen."
+      },
+      "cta": {
+        "primary": {
+          "text": "Vollständigen Risikobericht anzeigen",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "Support kontaktieren",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,325 @@
+{
+  "id": "vendor-compliance-issue",
+  "category": "notifications",
+  "campaignName": "vendor_compliance_issue",
+  "layout": "simple",
+  "dynamicFields": [
+    "firstName",
+    "vendorName",
+    "complianceType",
+    "issueDescription",
+    "severity",
+    "reportUrl",
+    "supportUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "Compliance Alert: {{ vendorName }}",
+      "preheader": "{{ complianceType }} compliance issue detected",
+      "header": {
+        "title": "Compliance Issue Detected",
+        "subtitle": "{{ vendorName }}"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "We've identified a **{{ complianceType }}** compliance issue with **{{ vendorName }}** that may impact your operations.",
+        "issueDetails": {
+          "title": "Issue Details",
+          "vendor": "Vendor: {{ vendorName }}",
+          "type": "Compliance Type: {{ complianceType }}",
+          "severity": "Severity: {{ severity }}",
+          "description": "{{ issueDescription }}"
+        },
+        "regulatoryImpact": {
+          "title": "📋 Regulatory Impact",
+          "description": "This compliance issue could affect your organization's regulatory standing, certifications, or expose you to legal risks. Prompt action is recommended."
+        },
+        "nextSteps": {
+          "title": "Required Actions",
+          "items": [
+            "Review the detailed compliance report",
+            "Contact the vendor to verify their status",
+            "Assess impact on current contracts and orders",
+            "Notify your compliance and legal teams",
+            "Prepare contingency plans if needed"
+          ]
+        },
+        "footer": "We continuously monitor vendor compliance across multiple regulatory frameworks. Contact us for guidance on remediation steps."
+      },
+      "cta": {
+        "primary": {
+          "text": "View Compliance Report",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "Get Compliance Support",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "התראת ציות: {{ vendorName }}",
+      "preheader": "זוהתה בעיית ציות {{ complianceType }}",
+      "header": {
+        "title": "זוהתה בעיית ציות",
+        "subtitle": "{{ vendorName }}"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "זיהינו בעיית ציות **{{ complianceType }}** עם **{{ vendorName }}** שעלולה להשפיע על הפעילות שלכם.",
+        "issueDetails": {
+          "title": "פרטי בעיה",
+          "vendor": "ספק: {{ vendorName }}",
+          "type": "סוג ציות: {{ complianceType }}",
+          "severity": "חומרה: {{ severity }}",
+          "description": "{{ issueDescription }}"
+        },
+        "regulatoryImpact": {
+          "title": "📋 השפעה רגולטורית",
+          "description": "בעיית ציות זו עלולה להשפיע על המעמד הרגולטורי של הארגון שלכם, הסמכות או לחשוף אתכם לסיכונים משפטיים. מומלץ לפעול מיד."
+        },
+        "nextSteps": {
+          "title": "פעולות נדרשות",
+          "items": [
+            "בדקו את דוח הציות המפורט",
+            "צרו קשר עם הספק כדי לאמת את מעמדו",
+            "העריכו השפעה על חוזים והזמנות נוכחיים",
+            "הודיעו לצוותי הציות והמשפטיים שלכם",
+            "הכינו תוכניות מגירה במידת הצורך"
+          ]
+        },
+        "footer": "אנו מנטרים ברציפות ציות ספקים על פני מסגרות רגולטוריות מרובות. צרו איתנו קשר להנחיה על שלבי תיקון."
+      },
+      "cta": {
+        "primary": {
+          "text": "צפו בדוח ציות",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "קבלו תמיכת ציות",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "अनुपालन अलर्ट: {{ vendorName }}",
+      "preheader": "{{ complianceType }} अनुपालन समस्या का पता चला",
+      "header": {
+        "title": "अनुपालन समस्या का पता चला",
+        "subtitle": "{{ vendorName }}"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "हमने **{{ vendorName }}** के साथ **{{ complianceType }}** अनुपालन समस्या की पहचान की है जो आपके संचालन को प्रभावित कर सकती है।",
+        "issueDetails": {
+          "title": "समस्या विवरण",
+          "vendor": "विक्रेता: {{ vendorName }}",
+          "type": "अनुपालन प्रकार: {{ complianceType }}",
+          "severity": "गंभीरता: {{ severity }}",
+          "description": "{{ issueDescription }}"
+        },
+        "regulatoryImpact": {
+          "title": "📋 नियामक प्रभाव",
+          "description": "यह अनुपालन समस्या आपके संगठन की नियामक स्थिति, प्रमाणपत्रों को प्रभावित कर सकती है या आपको कानूनी जोखिमों के लिए उजागर कर सकती है। त्वरित कार्रवाई की सिफारिश की जाती है।"
+        },
+        "nextSteps": {
+          "title": "आवश्यक कार्रवाइयाँ",
+          "items": [
+            "विस्तृत अनुपालन रिपोर्ट की समीक्षा करें",
+            "उनकी स्थिति सत्यापित करने के लिए विक्रेता से संपर्क करें",
+            "वर्तमान अनुबंधों और आदेशों पर प्रभाव का आकलन करें",
+            "अपनी अनुपालन और कानूनी टीमों को सूचित करें",
+            "यदि आवश्यक हो तो आकस्मिक योजनाएं तैयार करें"
+          ]
+        },
+        "footer": "हम कई नियामक ढांचे में विक्रेता अनुपालन की लगातार निगरानी करते हैं। उपचार चरणों पर मार्गदर्शन के लिए हमसे संपर्क करें।"
+      },
+      "cta": {
+        "primary": {
+          "text": "अनुपालन रिपोर्ट देखें",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "अनुपालन सहायता प्राप्त करें",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "Alerte de conformité : {{ vendorName }}",
+      "preheader": "Problème de conformité {{ complianceType }} détecté",
+      "header": {
+        "title": "Problème de conformité détecté",
+        "subtitle": "{{ vendorName }}"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Nous avons identifié un problème de conformité **{{ complianceType }}** avec **{{ vendorName }}** qui pourrait impacter vos opérations.",
+        "issueDetails": {
+          "title": "Détails du problème",
+          "vendor": "Fournisseur : {{ vendorName }}",
+          "type": "Type de conformité : {{ complianceType }}",
+          "severity": "Gravité : {{ severity }}",
+          "description": "{{ issueDescription }}"
+        },
+        "regulatoryImpact": {
+          "title": "📋 Impact réglementaire",
+          "description": "Ce problème de conformité pourrait affecter le statut réglementaire de votre organisation, les certifications ou vous exposer à des risques juridiques. Une action rapide est recommandée."
+        },
+        "nextSteps": {
+          "title": "Actions requises",
+          "items": [
+            "Examinez le rapport de conformité détaillé",
+            "Contactez le fournisseur pour vérifier son statut",
+            "Évaluez l'impact sur les contrats et commandes en cours",
+            "Informez vos équipes de conformité et juridiques",
+            "Préparez des plans d'urgence si nécessaire"
+          ]
+        },
+        "footer": "Nous surveillons en continu la conformité des fournisseurs à travers plusieurs cadres réglementaires. Contactez-nous pour obtenir des conseils sur les étapes de remédiation."
+      },
+      "cta": {
+        "primary": {
+          "text": "Voir le rapport de conformité",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "Obtenir un support de conformité",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "合规警报：{{ vendorName }}",
+      "preheader": "检测到 {{ complianceType }} 合规问题",
+      "header": {
+        "title": "检测到合规问题",
+        "subtitle": "{{ vendorName }}"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "我们发现 **{{ vendorName }}** 存在 **{{ complianceType }}** 合规问题，可能会影响您的运营。",
+        "issueDetails": {
+          "title": "问题详情",
+          "vendor": "供应商：{{ vendorName }}",
+          "type": "合规类型：{{ complianceType }}",
+          "severity": "严重程度：{{ severity }}",
+          "description": "{{ issueDescription }}"
+        },
+        "regulatoryImpact": {
+          "title": "📋 监管影响",
+          "description": "此合规问题可能影响您组织的监管地位、认证，或使您面临法律风险。建议迅速采取行动。"
+        },
+        "nextSteps": {
+          "title": "必需行动",
+          "items": [
+            "审查详细的合规报告",
+            "联系供应商验证其状态",
+            "评估对当前合同和订单的影响",
+            "通知您的合规和法律团队",
+            "如有需要，准备应急计划"
+          ]
+        },
+        "footer": "我们持续监控多个监管框架中的供应商合规性。如需补救步骤指导，请联系我们。"
+      },
+      "cta": {
+        "primary": {
+          "text": "查看合规报告",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "获取合规支持",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "コンプライアンスアラート：{{ vendorName }}",
+      "preheader": "{{ complianceType }} コンプライアンス問題を検出",
+      "header": {
+        "title": "コンプライアンス問題を検出",
+        "subtitle": "{{ vendorName }}"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "**{{ vendorName }}** に関する **{{ complianceType }}** コンプライアンス問題を特定しました。運営に影響を与える可能性があります。",
+        "issueDetails": {
+          "title": "問題の詳細",
+          "vendor": "ベンダー：{{ vendorName }}",
+          "type": "コンプライアンスタイプ：{{ complianceType }}",
+          "severity": "重大度：{{ severity }}",
+          "description": "{{ issueDescription }}"
+        },
+        "regulatoryImpact": {
+          "title": "📋 規制への影響",
+          "description": "このコンプライアンス問題は、組織の規制上の地位、認証に影響を与えたり、法的リスクにさらされる可能性があります。迅速な対応をお勧めします。"
+        },
+        "nextSteps": {
+          "title": "必要なアクション",
+          "items": [
+            "詳細なコンプライアンスレポートを確認",
+            "ベンダーに連絡してステータスを確認",
+            "現在の契約と注文への影響を評価",
+            "コンプライアンスおよび法務チームに通知",
+            "必要に応じて緊急計画を準備"
+          ]
+        },
+        "footer": "複数の規制フレームワークにわたってベンダーのコンプライアンスを継続的に監視しています。改善ステップのガイダンスについてはお問い合わせください。"
+      },
+      "cta": {
+        "primary": {
+          "text": "コンプライアンスレポートを表示",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "コンプライアンスサポートを受ける",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "Compliance-Alarm: {{ vendorName }}",
+      "preheader": "{{ complianceType }} Compliance-Problem erkannt",
+      "header": {
+        "title": "Compliance-Problem erkannt",
+        "subtitle": "{{ vendorName }}"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Wir haben ein **{{ complianceType }}** Compliance-Problem mit **{{ vendorName }}** identifiziert, das Ihre Operationen beeinträchtigen könnte.",
+        "issueDetails": {
+          "title": "Problemdetails",
+          "vendor": "Lieferant: {{ vendorName }}",
+          "type": "Compliance-Typ: {{ complianceType }}",
+          "severity": "Schweregrad: {{ severity }}",
+          "description": "{{ issueDescription }}"
+        },
+        "regulatoryImpact": {
+          "title": "📋 Regulatorische Auswirkungen",
+          "description": "Dieses Compliance-Problem könnte den regulatorischen Status Ihrer Organisation, Zertifizierungen beeinträchtigen oder Sie rechtlichen Risiken aussetzen. Schnelles Handeln wird empfohlen."
+        },
+        "nextSteps": {
+          "title": "Erforderliche Maßnahmen",
+          "items": [
+            "Überprüfen Sie den detaillierten Compliance-Bericht",
+            "Kontaktieren Sie den Lieferanten zur Statusüberprüfung",
+            "Bewerten Sie die Auswirkungen auf aktuelle Verträge und Bestellungen",
+            "Informieren Sie Ihre Compliance- und Rechtsteams",
+            "Bereiten Sie bei Bedarf Notfallpläne vor"
+          ]
+        },
+        "footer": "Wir überwachen kontinuierlich die Lieferanten-Compliance über mehrere regulatorische Rahmenbedingungen hinweg. Kontaktieren Sie uns für Anleitung zu Abhilfemaßnahmen."
+      },
+      "cta": {
+        "primary": {
+          "text": "Compliance-Bericht anzeigen",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "Compliance-Support erhalten",
+          "url": "{{ supportUrl }}"
+        }
+      }
+    }
+  }
+}
