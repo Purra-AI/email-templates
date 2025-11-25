@@ -1,0 +1,327 @@
+{
+  "id": "price-comparison-ready",
+  "category": "reports",
+  "campaignName": "price_comparison_ready",
+  "layout": "base",
+  "dynamicFields": [
+    "firstName",
+    "productName",
+    "vendorCount",
+    "lowestPrice",
+    "highestPrice",
+    "averagePrice",
+    "potentialSavings",
+    "reportUrl",
+    "dashboardUrl"
+  ],
+  "translations": {
+    "en": {
+      "subject": "Price Comparison Ready: {{ productName }}",
+      "preheader": "{{ vendorCount }} vendors compared - save up to ${{ potentialSavings }}",
+      "header": {
+        "title": "Price Comparison Complete",
+        "subtitle": "{{ productName }}"
+      },
+      "body": {
+        "greeting": "Hi {{ firstName }},",
+        "intro": "Your price comparison for **{{ productName }}** is ready! We analyzed **{{ vendorCount }} vendors** to help you find the best deal.",
+        "priceRange": {
+          "title": "Price Range Overview",
+          "lowest": "Lowest Price: ${{ lowestPrice }}",
+          "highest": "Highest Price: ${{ highestPrice }}",
+          "average": "Average Price: ${{ averagePrice }}",
+          "savings": "💰 Potential Savings: ${{ potentialSavings }}"
+        },
+        "keyFindings": {
+          "title": "Key Findings",
+          "items": [
+            "**Price variation of {{ priceVariation }}%** across vendors",
+            "**Best value** identified based on price, quality, and reliability",
+            "**Volume discounts** available from 3 vendors",
+            "**Delivery times** range from 2-7 business days",
+            "**Payment terms** vary - some offer net-30"
+          ]
+        },
+        "recommendations": {
+          "title": "💡 Our Recommendations",
+          "description": "Based on our analysis, we recommend reviewing the top 3 vendors in detail. Consider factors beyond price, such as reliability, delivery speed, and payment terms."
+        },
+        "footer": "Prices are updated in real-time. Your comparison includes the latest data available."
+      },
+      "cta": {
+        "primary": {
+          "text": "View Full Comparison",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "Go to Dashboard",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "he": {
+      "subject": "השוואת מחירים מוכנה: {{ productName }}",
+      "preheader": "{{ vendorCount }} ספקים הושוו - חסכו עד ${{ potentialSavings }}",
+      "header": {
+        "title": "השוואת מחירים הושלמה",
+        "subtitle": "{{ productName }}"
+      },
+      "body": {
+        "greeting": "שלום {{ firstName }},",
+        "intro": "השוואת המחירים שלכם עבור **{{ productName }}** מוכנה! ניתחנו **{{ vendorCount }} ספקים** כדי לעזור לכם למצוא את העסקה הטובה ביותר.",
+        "priceRange": {
+          "title": "סקירת טווח מחירים",
+          "lowest": "מחיר נמוך ביותר: ${{ lowestPrice }}",
+          "highest": "מחיר גבוה ביותר: ${{ highestPrice }}",
+          "average": "מחיר ממוצע: ${{ averagePrice }}",
+          "savings": "💰 חיסכון פוטנציאלי: ${{ potentialSavings }}"
+        },
+        "keyFindings": {
+          "title": "ממצאים מרכזיים",
+          "items": [
+            "**שונות מחירים של {{ priceVariation }}%** בין ספקים",
+            "**הערך הטוב ביותר** זוהה על סמך מחיר, איכות ואמינות",
+            "**הנחות כמות** זמינות מ-3 ספקים",
+            "**זמני משלוח** נעים בין 2-7 ימי עסקים",
+            "**תנאי תשלום** משתנים - חלקם מציעים נט-30"
+          ]
+        },
+        "recommendations": {
+          "title": "💡 ההמלצות שלנו",
+          "description": "על סמך הניתוח שלנו, אנו מציעים לבדוק את 3 הספקים המובילים בפירוט. שקלו גורמים מעבר למחיר, כגון אמינות, מהירות משלוח ותנאי תשלום."
+        },
+        "footer": "המחירים מתעדכנים בזמן אמת. ההשוואה שלכם כוללת את הנתונים העדכניים ביותר הזמינים."
+      },
+      "cta": {
+        "primary": {
+          "text": "צפו בהשוואה מלאה",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "עברו ללוח הבקרה",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "hi": {
+      "subject": "मूल्य तुलना तैयार: {{ productName }}",
+      "preheader": "{{ vendorCount }} विक्रेताओं की तुलना - ${{ potentialSavings }} तक बचाएं",
+      "header": {
+        "title": "मूल्य तुलना पूर्ण",
+        "subtitle": "{{ productName }}"
+      },
+      "body": {
+        "greeting": "नमस्ते {{ firstName }},",
+        "intro": "**{{ productName }}** के लिए आपकी मूल्य तुलना तैयार है! हमने आपको सर्वोत्तम सौदा खोजने में मदद करने के लिए **{{ vendorCount }} विक्रेताओं** का विश्लेषण किया।",
+        "priceRange": {
+          "title": "मूल्य सीमा अवलोकन",
+          "lowest": "सबसे कम कीमत: ${{ lowestPrice }}",
+          "highest": "सबसे अधिक कीमत: ${{ highestPrice }}",
+          "average": "औसत कीमत: ${{ averagePrice }}",
+          "savings": "💰 संभावित बचत: ${{ potentialSavings }}"
+        },
+        "keyFindings": {
+          "title": "प्रमुख निष्कर्ष",
+          "items": [
+            "विक्रेताओं में **{{ priceVariation }}% की मूल्य भिन्नता**",
+            "मूल्य, गुणवत्ता और विश्वसनीयता के आधार पर **सर्वोत्तम मूल्य** की पहचान की गई",
+            "3 विक्रेताओं से **थोक छूट** उपलब्ध",
+            "**डिलीवरी समय** 2-7 व्यावसायिक दिनों की सीमा में",
+            "**भुगतान शर्तें** भिन्न होती हैं - कुछ नेट-30 की पेशकश करते हैं"
+          ]
+        },
+        "recommendations": {
+          "title": "💡 हमारी सिफारिशें",
+          "description": "हमारे विश्लेषण के आधार पर, हम शीर्ष 3 विक्रेताओं की विस्तार से समीक्षा करने की सलाह देते हैं। मूल्य से परे कारकों पर विचार करें, जैसे विश्वसनीयता, वितरण गति और भुगतान शर्तें।"
+        },
+        "footer": "कीमतें वास्तविक समय में अपडेट होती हैं। आपकी तुलना में उपलब्ध नवीनतम डेटा शामिल है।"
+      },
+      "cta": {
+        "primary": {
+          "text": "पूर्ण तुलना देखें",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "डैशबोर्ड पर जाएं",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "fr": {
+      "subject": "Comparaison de prix prête : {{ productName }}",
+      "preheader": "{{ vendorCount }} fournisseurs comparés - économisez jusqu'à ${{ potentialSavings }}",
+      "header": {
+        "title": "Comparaison de prix terminée",
+        "subtitle": "{{ productName }}"
+      },
+      "body": {
+        "greeting": "Bonjour {{ firstName }},",
+        "intro": "Votre comparaison de prix pour **{{ productName }}** est prête ! Nous avons analysé **{{ vendorCount }} fournisseurs** pour vous aider à trouver la meilleure offre.",
+        "priceRange": {
+          "title": "Aperçu de la fourchette de prix",
+          "lowest": "Prix le plus bas : ${{ lowestPrice }}",
+          "highest": "Prix le plus élevé : ${{ highestPrice }}",
+          "average": "Prix moyen : ${{ averagePrice }}",
+          "savings": "💰 Économies potentielles : ${{ potentialSavings }}"
+        },
+        "keyFindings": {
+          "title": "Principales conclusions",
+          "items": [
+            "**Variation de prix de {{ priceVariation }}%** entre les fournisseurs",
+            "**Meilleur rapport qualité-prix** identifié basé sur le prix, la qualité et la fiabilité",
+            "**Remises sur volume** disponibles auprès de 3 fournisseurs",
+            "**Délais de livraison** de 2 à 7 jours ouvrables",
+            "**Conditions de paiement** variables - certains offrent net-30"
+          ]
+        },
+        "recommendations": {
+          "title": "💡 Nos recommandations",
+          "description": "Sur la base de notre analyse, nous recommandons d'examiner en détail les 3 meilleurs fournisseurs. Considérez des facteurs au-delà du prix, tels que la fiabilité, la rapidité de livraison et les conditions de paiement."
+        },
+        "footer": "Les prix sont mis à jour en temps réel. Votre comparaison inclut les dernières données disponibles."
+      },
+      "cta": {
+        "primary": {
+          "text": "Voir la comparaison complète",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "Aller au tableau de bord",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "zh": {
+      "subject": "价格比较就绪：{{ productName }}",
+      "preheader": "已比较 {{ vendorCount }} 家供应商 - 节省高达 ${{ potentialSavings }}",
+      "header": {
+        "title": "价格比较完成",
+        "subtitle": "{{ productName }}"
+      },
+      "body": {
+        "greeting": "您好 {{ firstName }}，",
+        "intro": "您的 **{{ productName }}** 价格比较已准备就绪！我们分析了 **{{ vendorCount }} 家供应商**以帮助您找到最优惠的交易。",
+        "priceRange": {
+          "title": "价格范围概览",
+          "lowest": "最低价格：${{ lowestPrice }}",
+          "highest": "最高价格：${{ highestPrice }}",
+          "average": "平均价格：${{ averagePrice }}",
+          "savings": "💰 潜在节省：${{ potentialSavings }}"
+        },
+        "keyFindings": {
+          "title": "主要发现",
+          "items": [
+            "供应商之间**{{ priceVariation }}% 的价格差异**",
+            "基于价格、质量和可靠性确定的**最佳价值**",
+            "3 家供应商提供**批量折扣**",
+            "**交付时间**从 2-7 个工作日不等",
+            "**付款条件**各异 - 部分提供净 30 天"
+          ]
+        },
+        "recommendations": {
+          "title": "💡 我们的建议",
+          "description": "根据我们的分析，我们建议详细审查前 3 名供应商。考虑价格以外的因素，如可靠性、交付速度和付款条件。"
+        },
+        "footer": "价格实时更新。您的比较包含最新可用数据。"
+      },
+      "cta": {
+        "primary": {
+          "text": "查看完整比较",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "转到仪表板",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "ja": {
+      "subject": "価格比較準備完了：{{ productName }}",
+      "preheader": "{{ vendorCount }} ベンダーを比較 - 最大 ${{ potentialSavings }} 節約",
+      "header": {
+        "title": "価格比較完了",
+        "subtitle": "{{ productName }}"
+      },
+      "body": {
+        "greeting": "こんにちは、{{ firstName }}さん",
+        "intro": "**{{ productName }}** の価格比較の準備ができました！最良の取引を見つけるために **{{ vendorCount }} ベンダー**を分析しました。",
+        "priceRange": {
+          "title": "価格範囲の概要",
+          "lowest": "最低価格：${{ lowestPrice }}",
+          "highest": "最高価格：${{ highestPrice }}",
+          "average": "平均価格：${{ averagePrice }}",
+          "savings": "💰 潜在的な節約：${{ potentialSavings }}"
+        },
+        "keyFindings": {
+          "title": "主な調査結果",
+          "items": [
+            "ベンダー間で**{{ priceVariation }}% の価格差**",
+            "価格、品質、信頼性に基づいて**最高の価値**を特定",
+            "3 ベンダーから**ボリューム割引**利用可能",
+            "**配送時間**は 2〜7 営業日",
+            "**支払い条件**は様々 - 一部はネット 30 を提供"
+          ]
+        },
+        "recommendations": {
+          "title": "💡 当社の推奨事項",
+          "description": "分析に基づいて、上位 3 ベンダーを詳細に確認することをお勧めします。価格以外の要因、例えば信頼性、配送速度、支払い条件も考慮してください。"
+        },
+        "footer": "価格はリアルタイムで更新されます。比較には利用可能な最新データが含まれています。"
+      },
+      "cta": {
+        "primary": {
+          "text": "完全な比較を表示",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "ダッシュボードに移動",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    },
+    "de": {
+      "subject": "Preisvergleich bereit: {{ productName }}",
+      "preheader": "{{ vendorCount }} Anbieter verglichen - sparen Sie bis zu ${{ potentialSavings }}",
+      "header": {
+        "title": "Preisvergleich abgeschlossen",
+        "subtitle": "{{ productName }}"
+      },
+      "body": {
+        "greeting": "Hallo {{ firstName }},",
+        "intro": "Ihr Preisvergleich für **{{ productName }}** ist fertig! Wir haben **{{ vendorCount }} Anbieter** analysiert, um Ihnen beim Finden des besten Angebots zu helfen.",
+        "priceRange": {
+          "title": "Preisspannenübersicht",
+          "lowest": "Niedrigster Preis: ${{ lowestPrice }}",
+          "highest": "Höchster Preis: ${{ highestPrice }}",
+          "average": "Durchschnittspreis: ${{ averagePrice }}",
+          "savings": "💰 Potenzielle Einsparungen: ${{ potentialSavings }}"
+        },
+        "keyFindings": {
+          "title": "Wichtige Erkenntnisse",
+          "items": [
+            "**Preisvariation von {{ priceVariation }}%** zwischen Anbietern",
+            "**Bestes Preis-Leistungs-Verhältnis** identifiziert basierend auf Preis, Qualität und Zuverlässigkeit",
+            "**Mengenrabatte** verfügbar bei 3 Anbietern",
+            "**Lieferzeiten** von 2-7 Werktagen",
+            "**Zahlungsbedingungen** variieren - einige bieten Netto-30"
+          ]
+        },
+        "recommendations": {
+          "title": "💡 Unsere Empfehlungen",
+          "description": "Basierend auf unserer Analyse empfehlen wir, die Top-3-Anbieter detailliert zu überprüfen. Berücksichtigen Sie Faktoren jenseits des Preises, wie Zuverlässigkeit, Liefergeschwindigkeit und Zahlungsbedingungen."
+        },
+        "footer": "Preise werden in Echtzeit aktualisiert. Ihr Vergleich enthält die neuesten verfügbaren Daten."
+      },
+      "cta": {
+        "primary": {
+          "text": "Vollständigen Vergleich anzeigen",
+          "url": "{{ reportUrl }}"
+        },
+        "secondary": {
+          "text": "Zum Dashboard gehen",
+          "url": "{{ dashboardUrl }}"
+        }
+      }
+    }
+  }
+}
