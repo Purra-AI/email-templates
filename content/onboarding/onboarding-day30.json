@@ -32,7 +32,7 @@
           "collaboration": "**{{ teamMembers }}** team members collaborating"
         },
         "transformation": {
-          "title": "🚀 How You're Using Purra",
+          "title": "   How You're Using Purra",
           "items": [
             "Automated vendor due diligence and research",
             "Real-time price monitoring and alerts",
@@ -90,7 +90,7 @@
           "collaboration": "**{{ teamMembers }}** חברי צוות משתפים פעולה"
         },
         "transformation": {
-          "title": "🚀 איך אתם משתמשים ב-Purra",
+          "title": "   איך אתם משתמשים ב-Purra",
           "items": [
             "בדיקת נאותות ומחקר ספקים אוטומטיים",
             "ניטור מחירים והתראות בזמן אמת",
@@ -148,7 +148,7 @@
           "collaboration": "**{{ teamMembers }}** टीम के सदस्य सहयोग कर रहे हैं"
         },
         "transformation": {
-          "title": "🚀 आप Purra का उपयोग कैसे कर रहे हैं",
+          "title": "   आप Purra का उपयोग कैसे कर रहे हैं",
           "items": [
             "स्वचालित विक्रेता उचित परिश्रम और अनुसंधान",
             "रियल-टाइम मूल्य निगरानी और अलर्ट",
@@ -206,7 +206,7 @@
           "collaboration": "**{{ teamMembers }}** membres de l'équipe en collaboration"
         },
         "transformation": {
-          "title": "🚀 Comment vous utilisez Purra",
+          "title": "   Comment vous utilisez Purra",
           "items": [
             "Diligence raisonnable et recherche de fournisseurs automatisées",
             "Surveillance et alertes de prix en temps réel",
@@ -264,7 +264,7 @@
           "collaboration": "**{{ teamMembers }}** 名团队成员协作"
         },
         "transformation": {
-          "title": "🚀 您如何使用Purra",
+          "title": "   您如何使用Purra",
           "items": [
             "自动化供应商尽职调查和研究",
             "实时价格监控和警报",
@@ -322,7 +322,7 @@
           "collaboration": "**{{ teamMembers }}** のチームメンバーが協力"
         },
         "transformation": {
-          "title": "🚀 Purraの使用方法",
+          "title": "   Purraの使用方法",
           "items": [
             "自動化されたベンダーデューデリジェンスと調査",
             "リアルタイムの価格監視とアラート",
@@ -380,7 +380,7 @@
           "collaboration": "**{{ teamMembers }}** Teammitglieder arbeiten zusammen"
         },
         "transformation": {
-          "title": "🚀 Wie Sie Purra nutzen",
+          "title": "   Wie Sie Purra nutzen",
           "items": [
             "Automatisierte Lieferanten-Due-Diligence und -Recherche",
             "Echtzeit-Preisüberwachung und -Benachrichtigungen",

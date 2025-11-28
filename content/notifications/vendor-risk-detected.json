@@ -14,7 +14,7 @@
   ],
   "translations": {
     "en": {
-      "subject": "⚠️ Risk Alert: {{ vendorName }}",
+      "subject": "  Risk Alert: {{ vendorName }}",
       "preheader": "{{ riskLevel }} risk detected - {{ riskCategory }}",
       "header": {
         "title": "Vendor Risk Detected",
@@ -31,7 +31,7 @@
           "description": "{{ riskDescription }}"
         },
         "impact": {
-          "title": "⚠️ Potential Impact",
+          "title": "  Potential Impact",
           "description": "This risk could affect your supply chain continuity, compliance status, or financial exposure. Immediate review is recommended."
         },
         "recommendations": {
@@ -58,7 +58,7 @@
       }
     },
     "he": {
-      "subject": "⚠️ התראת סיכון: {{ vendorName }}",
+      "subject": "  התראת סיכון: {{ vendorName }}",
       "preheader": "זוהה סיכון {{ riskLevel }} - {{ riskCategory }}",
       "header": {
         "title": "זוהה סיכון ספק",
@@ -75,7 +75,7 @@
           "description": "{{ riskDescription }}"
         },
         "impact": {
-          "title": "⚠️ השפעה פוטנציאלית",
+          "title": "  השפעה פוטנציאלית",
           "description": "סיכון זה עלול להשפיע על המשכיות שרשרת האספקה שלכם, סטטוס ציות או חשיפה פיננסית. מומלץ לבדוק מיד."
         },
         "recommendations": {
@@ -102,7 +102,7 @@
       }
     },
     "hi": {
-      "subject": "⚠️ जोखिम अलर्ट: {{ vendorName }}",
+      "subject": "  जोखिम अलर्ट: {{ vendorName }}",
       "preheader": "{{ riskLevel }} जोखिम का पता चला - {{ riskCategory }}",
       "header": {
         "title": "विक्रेता जोखिम का पता चला",
@@ -119,7 +119,7 @@
           "description": "{{ riskDescription }}"
         },
         "impact": {
-          "title": "⚠️ संभावित प्रभाव",
+          "title": "  संभावित प्रभाव",
           "description": "यह जोखिम आपकी आपूर्ति श्रृंखला निरंतरता, अनुपालन स्थिति या वित्तीय जोखिम को प्रभावित कर सकता है। तत्काल समीक्षा की सिफारिश की जाती है।"
         },
         "recommendations": {
@@ -146,7 +146,7 @@
       }
     },
     "fr": {
-      "subject": "⚠️ Alerte de risque : {{ vendorName }}",
+      "subject": "  Alerte de risque : {{ vendorName }}",
       "preheader": "Risque {{ riskLevel }} détecté - {{ riskCategory }}",
       "header": {
         "title": "Risque fournisseur détecté",
@@ -163,7 +163,7 @@
           "description": "{{ riskDescription }}"
         },
         "impact": {
-          "title": "⚠️ Impact potentiel",
+          "title": "  Impact potentiel",
           "description": "Ce risque pourrait affecter la continuité de votre chaîne d'approvisionnement, le statut de conformité ou l'exposition financière. Un examen immédiat est recommandé."
         },
         "recommendations": {
@@ -190,7 +190,7 @@
       }
     },
     "zh": {
-      "subject": "⚠️ 风险警报：{{ vendorName }}",
+      "subject": "  风险警报：{{ vendorName }}",
       "preheader": "检测到 {{ riskLevel }} 风险 - {{ riskCategory }}",
       "header": {
         "title": "检测到供应商风险",
@@ -207,7 +207,7 @@
           "description": "{{ riskDescription }}"
         },
         "impact": {
-          "title": "⚠️ 潜在影响",
+          "title": "  潜在影响",
           "description": "此风险可能影响您的供应链连续性、合规状态或财务风险。建议立即审查。"
         },
         "recommendations": {
@@ -234,7 +234,7 @@
       }
     },
     "ja": {
-      "subject": "⚠️ リスクアラート：{{ vendorName }}",
+      "subject": "  リスクアラート：{{ vendorName }}",
       "preheader": "{{ riskLevel }} リスクを検出 - {{ riskCategory }}",
       "header": {
         "title": "ベンダーリスクを検出",
@@ -251,7 +251,7 @@
           "description": "{{ riskDescription }}"
         },
         "impact": {
-          "title": "⚠️ 潜在的な影響",
+          "title": "  潜在的な影響",
           "description": "このリスクはサプライチェーンの継続性、コンプライアンスステータス、または財務リスクに影響を与える可能性があります。即座の確認をお勧めします。"
         },
         "recommendations": {
@@ -278,7 +278,7 @@
       }
     },
     "de": {
-      "subject": "⚠️ Risikoalarm: {{ vendorName }}",
+      "subject": "  Risikoalarm: {{ vendorName }}",
       "preheader": "{{ riskLevel }} Risiko erkannt - {{ riskCategory }}",
       "header": {
         "title": "Lieferantenrisiko erkannt",
@@ -295,7 +295,7 @@
           "description": "{{ riskDescription }}"
         },
         "impact": {
-          "title": "⚠️ Potenzielle Auswirkungen",
+          "title": "  Potenzielle Auswirkungen",
           "description": "Dieses Risiko könnte Ihre Lieferkettenkontinuität, den Compliance-Status oder das finanzielle Risiko beeinträchtigen. Eine sofortige Überprüfung wird empfohlen."
         },
         "recommendations": {

@@ -6,7 +6,7 @@
   "dynamicFields": ["firstName", "trialEndDate", "upgradeUrl"],
   "translations": {
     "en": {
-      "subject": "⚠️ Only 3 Days Left on Your Purra Trial",
+      "subject": "  Only 3 Days Left on Your Purra Trial",
       "preheader": "Upgrade today to keep your procurement intelligence",
       "header": {"title": "3 Days Remaining", "subtitle": "Don't lose access to Purra"},
       "body": {
@@ -18,7 +18,7 @@
       "cta": {"primary": {"text": "Upgrade Now", "url": "{{ upgradeUrl }}"}}
     },
     "he": {
-      "subject": "⚠️ נותרו רק 3 ימים לתקופת הניסיון של Purra",
+      "subject": "  נותרו רק 3 ימים לתקופת הניסיון של Purra",
       "preheader": "שדרגו היום כדי לשמור על מודיעין הרכש שלכם",
       "header": {"title": "נותרו 3 ימים", "subtitle": "אל תאבדו גישה ל-Purra"},
       "body": {
@@ -30,7 +30,7 @@
       "cta": {"primary": {"text": "שדרגו עכשיו", "url": "{{ upgradeUrl }}"}}
     },
     "hi": {
-      "subject": "⚠️ आपके Purra ट्रायल पर केवल 3 दिन शेष हैं",
+      "subject": "  आपके Purra ट्रायल पर केवल 3 दिन शेष हैं",
       "preheader": "अपनी खरीद बुद्धिमत्ता रखने के लिए आज ही अपग्रेड करें",
       "header": {"title": "3 दिन शेष", "subtitle": "Purra तक पहुंच न खोएं"},
       "body": {
@@ -42,7 +42,7 @@
       "cta": {"primary": {"text": "अभी अपग्रेड करें", "url": "{{ upgradeUrl }}"}}
     },
     "fr": {
-      "subject": "⚠️ Plus que 3 jours pour votre essai Purra",
+      "subject": "  Plus que 3 jours pour votre essai Purra",
       "preheader": "Mettez à niveau aujourd'hui pour conserver votre intelligence d'approvisionnement",
       "header": {"title": "3 jours restants", "subtitle": "Ne perdez pas l'accès à Purra"},
       "body": {
@@ -54,7 +54,7 @@
       "cta": {"primary": {"text": "Mettre à niveau maintenant", "url": "{{ upgradeUrl }}"}}
     },
     "zh": {
-      "subject": "⚠️ 您的 Purra 试用只剩 3 天",
+      "subject": "  您的 Purra 试用只剩 3 天",
       "preheader": "今天升级以保留您的采购智能",
       "header": {"title": "剩余 3 天", "subtitle": "不要失去对 Purra 的访问权限"},
       "body": {
@@ -66,7 +66,7 @@
       "cta": {"primary": {"text": "立即升级", "url": "{{ upgradeUrl }}"}}
     },
     "ja": {
-      "subject": "⚠️ Purraトライアルの残り3日",
+      "subject": "  Purraトライアルの残り3日",
       "preheader": "調達インテリジェンスを維持するために今日アップグレードしてください",
       "header": {"title": "残り3日", "subtitle": "Purraへのアクセスを失わないでください"},
       "body": {
@@ -78,7 +78,7 @@
       "cta": {"primary": {"text": "今すぐアップグレード", "url": "{{ upgradeUrl }}"}}
     },
     "de": {
-      "subject": "⚠️ Nur noch 3 Tage für Ihre Purra-Testversion",
+      "subject": "  Nur noch 3 Tage für Ihre Purra-Testversion",
       "preheader": "Upgraden Sie heute, um Ihre Beschaffungsintelligenz zu behalten",
       "header": {"title": "3 Tage verbleibend", "subtitle": "Verlieren Sie nicht den Zugriff auf Purra"},
       "body": {

@@ -35,7 +35,7 @@
           "value": "Current Contract Value: ${{ currentValue }}"
         },
         "urgency": {
-          "title": "⚠️ Why This Matters",
+          "title": "  Why This Matters",
           "description": "Missing this renewal deadline could result in automatic renewal under current terms, service interruption, or loss of negotiation leverage."
         },
         "actionItems": {
@@ -97,7 +97,7 @@
           "value": "ערך חוזה נוכחי: ${{ currentValue }}"
         },
         "urgency": {
-          "title": "⚠️ למה זה חשוב",
+          "title": "  למה זה חשוב",
           "description": "החמצת מועד חידוש זה עלולה לגרום לחידוש אוטומטי בתנאים נוכחיים, הפרעה בשירות או אובדן מינוף למשא ומתן."
         },
         "actionItems": {
@@ -159,7 +159,7 @@
           "value": "वर्तमान अनुबंध मूल्य: ${{ currentValue }}"
         },
         "urgency": {
-          "title": "⚠️ यह क्यों मायने रखता है",
+          "title": "  यह क्यों मायने रखता है",
           "description": "इस नवीनीकरण समय सीमा को चूकने से वर्तमान शर्तों के तहत स्वचालित नवीनीकरण, सेवा में रुकावट या बातचीत के लाभ का नुकसान हो सकता है।"
         },
         "actionItems": {
@@ -221,7 +221,7 @@
           "value": "Valeur actuelle du contrat : ${{ currentValue }}"
         },
         "urgency": {
-          "title": "⚠️ Pourquoi c'est important",
+          "title": "  Pourquoi c'est important",
           "description": "Manquer cette échéance de renouvellement pourrait entraîner un renouvellement automatique aux conditions actuelles, une interruption de service ou une perte de levier de négociation."
         },
         "actionItems": {
@@ -283,7 +283,7 @@
           "value": "当前合同价值：${{ currentValue }}"
         },
         "urgency": {
-          "title": "⚠️ 为什么重要",
+          "title": "  为什么重要",
           "description": "错过此续签截止日期可能导致按当前条款自动续签、服务中断或失去谈判优势。"
         },
         "actionItems": {
@@ -345,7 +345,7 @@
           "value": "現在の契約価値：${{ currentValue }}"
         },
         "urgency": {
-          "title": "⚠️ なぜ重要か",
+          "title": "  なぜ重要か",
           "description": "この更新期限を逃すと、現在の条件での自動更新、サービス中断、または交渉力の喪失につながる可能性があります。"
         },
         "actionItems": {
@@ -407,7 +407,7 @@
           "value": "Aktueller Vertragswert: ${{ currentValue }}"
         },
         "urgency": {
-          "title": "⚠️ Warum das wichtig ist",
+          "title": "  Warum das wichtig ist",
           "description": "Das Versäumen dieser Verlängerungsfrist könnte zu einer automatischen Verlängerung unter aktuellen Bedingungen, Serviceunterbrechung oder Verlust von Verhandlungsspielraum führen."
         },
         "actionItems": {

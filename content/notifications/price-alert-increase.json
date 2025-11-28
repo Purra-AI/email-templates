@@ -15,7 +15,7 @@
   ],
   "translations": {
     "en": {
-      "subject": "⚠️ Price Increase Alert: {{ productName }}",
+      "subject": "  Price Increase Alert: {{ productName }}",
       "preheader": "{{ productName }} increased by {{ percentageChange }}% to ${{ newPrice }}",
       "header": {
         "title": "Price Increase Detected",
@@ -57,7 +57,7 @@
       }
     },
     "he": {
-      "subject": "⚠️ התראת עלייה במחיר: {{ productName }}",
+      "subject": "  התראת עלייה במחיר: {{ productName }}",
       "preheader": "{{ productName }} עלה ב-{{ percentageChange }}% ל-${{ newPrice }}",
       "header": {
         "title": "זוהתה עלייה במחיר",
@@ -99,7 +99,7 @@
       }
     },
     "hi": {
-      "subject": "⚠️ मूल्य वृद्धि अलर्ट: {{ productName }}",
+      "subject": "  मूल्य वृद्धि अलर्ट: {{ productName }}",
       "preheader": "{{ productName }} {{ percentageChange }}% बढ़कर ${{ newPrice }} हो गया",
       "header": {
         "title": "मूल्य वृद्धि का पता चला",
@@ -141,7 +141,7 @@
       }
     },
     "fr": {
-      "subject": "⚠️ Alerte d'augmentation de prix : {{ productName }}",
+      "subject": "  Alerte d'augmentation de prix : {{ productName }}",
       "preheader": "{{ productName }} a augmenté de {{ percentageChange }}% à ${{ newPrice }}",
       "header": {
         "title": "Augmentation de prix détectée",
@@ -183,7 +183,7 @@
       }
     },
     "zh": {
-      "subject": "⚠️ 价格上涨警报：{{ productName }}",
+      "subject": "  价格上涨警报：{{ productName }}",
       "preheader": "{{ productName }} 上涨 {{ percentageChange }}% 至 ${{ newPrice }}",
       "header": {
         "title": "检测到价格上涨",
@@ -225,7 +225,7 @@
       }
     },
     "ja": {
-      "subject": "⚠️ 価格上昇アラート：{{ productName }}",
+      "subject": "  価格上昇アラート：{{ productName }}",
       "preheader": "{{ productName }} が {{ percentageChange }}% 上昇して ${{ newPrice }} になりました",
       "header": {
         "title": "価格上昇を検出",
@@ -267,7 +267,7 @@
       }
     },
     "de": {
-      "subject": "⚠️ Preiserhöhungsalarm: {{ productName }}",
+      "subject": "  Preiserhöhungsalarm: {{ productName }}",
       "preheader": "{{ productName }} um {{ percentageChange }}% auf ${{ newPrice }} gestiegen",
       "header": {
         "title": "Preiserhöhung erkannt",

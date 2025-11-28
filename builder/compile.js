@@ -141,7 +141,7 @@ function compileTemplate(contentPath) {
     // Compile for each language
     CONFIG.languages.forEach(lang => {
       if (!translations[lang]) {
-        console.warn(`⚠️  No translation for ${lang}, skipping`);
+        console.warn(`   No translation for ${lang}, skipping`);
         return;
       }
 
@@ -217,7 +217,7 @@ function findContentFiles(dir) {
  * Main compilation function
  */
 function main() {
-  console.log('🚀 Purra Email Template Compiler\n');
+  console.log('   Purra Email Template Compiler\n');
   console.log(`Content directory: ${CONFIG.contentDir}`);
   console.log(`Base template: ${CONFIG.baseTemplate}`);
   console.log(`Output directory: ${CONFIG.compiledDir}`);

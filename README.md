@@ -2,7 +2,7 @@
 
 Professional multi-language email templates following Purra's design language with electric blue gradients, modern typography, and futuristic styling.
 
-## 🚀 Quick Start
+##    Quick Start
 
 ```bash
 # Install dependencies
@@ -152,7 +152,7 @@ email-templates/
 
 **Use case:** New user onboarding
 
-## 🚀 Usage
+##    Usage
 
 ### Method 1: Direct Variable Replacement
 ```javascript

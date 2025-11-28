@@ -14,7 +14,7 @@
   ],
   "translations": {
     "en": {
-      "subject": "⚠️ Unusual Sign-In Detected",
+      "subject": "  Unusual Sign-In Detected",
       "preheader": "We detected a login from an unrecognized device or location",
       "header": {
         "title": "Security Alert",
@@ -31,7 +31,7 @@
           "device": "Device: {{ deviceInfo }}"
         },
         "wasntYou": {
-          "title": "⚠️ Wasn't You?",
+          "title": "  Wasn't You?",
           "description": "If you don't recognize this activity, your account may have been compromised. Take action immediately:",
           "actions": [
             "Change your password right away",
@@ -65,7 +65,7 @@
       }
     },
     "he": {
-      "subject": "⚠️ זוהתה כניסה חריגה",
+      "subject": "  זוהתה כניסה חריגה",
       "preheader": "זיהינו התחברות ממכשיר או מיקום לא מזוהה",
       "header": {
         "title": "התראת אבטחה",
@@ -82,7 +82,7 @@
           "device": "מכשיר: {{ deviceInfo }}"
         },
         "wasntYou": {
-          "title": "⚠️ זה לא היה אתם?",
+          "title": "  זה לא היה אתם?",
           "description": "אם אתם לא מזהים פעילות זו, החשבון שלכם עלול להיפגע. פעלו מיד:",
           "actions": [
             "שנו את הסיסמה שלכם מיד",
@@ -116,7 +116,7 @@
       }
     },
     "hi": {
-      "subject": "⚠️ असामान्य साइन-इन का पता चला",
+      "subject": "  असामान्य साइन-इन का पता चला",
       "preheader": "हमने एक अपरिचित डिवाइस या स्थान से लॉगिन का पता लगाया",
       "header": {
         "title": "सुरक्षा चेतावनी",
@@ -133,7 +133,7 @@
           "device": "डिवाइस: {{ deviceInfo }}"
         },
         "wasntYou": {
-          "title": "⚠️ आप नहीं थे?",
+          "title": "  आप नहीं थे?",
           "description": "यदि आप इस गतिविधि को पहचान नहीं पाते हैं, तो आपका खाता समझौता किया जा सकता है। तुरंत कार्रवाई करें:",
           "actions": [
             "तुरंत अपना पासवर्ड बदलें",
@@ -167,7 +167,7 @@
       }
     },
     "fr": {
-      "subject": "⚠️ Connexion inhabituelle détectée",
+      "subject": "  Connexion inhabituelle détectée",
       "preheader": "Nous avons détecté une connexion depuis un appareil ou un emplacement non reconnu",
       "header": {
         "title": "Alerte de sécurité",
@@ -184,7 +184,7 @@
           "device": "Appareil : {{ deviceInfo }}"
         },
         "wasntYou": {
-          "title": "⚠️ Ce n'était pas vous ?",
+          "title": "  Ce n'était pas vous ?",
           "description": "Si vous ne reconnaissez pas cette activité, votre compte peut avoir été compromis. Agissez immédiatement :",
           "actions": [
             "Changez votre mot de passe immédiatement",
@@ -218,7 +218,7 @@
       }
     },
     "zh": {
-      "subject": "⚠️ 检测到异常登录",
+      "subject": "  检测到异常登录",
       "preheader": "我们检测到从无法识别的设备或位置登录",
       "header": {
         "title": "安全警报",
@@ -235,7 +235,7 @@
           "device": "设备：{{ deviceInfo }}"
         },
         "wasntYou": {
-          "title": "⚠️ 不是您？",
+          "title": "  不是您？",
           "description": "如果您不认识此活动，您的账户可能已被入侵。立即采取行动：",
           "actions": [
             "立即更改您的密码",
@@ -269,7 +269,7 @@
       }
     },
     "ja": {
-      "subject": "⚠️ 異常なサインインが検出されました",
+      "subject": "  異常なサインインが検出されました",
       "preheader": "認識されていないデバイスまたは場所からのログインを検出しました",
       "header": {
         "title": "セキュリティ警告",
@@ -286,7 +286,7 @@
           "device": "デバイス：{{ deviceInfo }}"
         },
         "wasntYou": {
-          "title": "⚠️ あなたではありませんか？",
+          "title": "  あなたではありませんか？",
           "description": "このアクティビティに覚えがない場合、アカウントが侵害されている可能性があります。すぐに対処してください：",
           "actions": [
             "すぐにパスワードを変更してください",
@@ -320,7 +320,7 @@
       }
     },
     "de": {
-      "subject": "⚠️ Ungewöhnliche Anmeldung erkannt",
+      "subject": "  Ungewöhnliche Anmeldung erkannt",
       "preheader": "Wir haben eine Anmeldung von einem nicht erkannten Gerät oder Standort festgestellt",
       "header": {
         "title": "Sicherheitswarnung",
@@ -337,7 +337,7 @@
           "device": "Gerät: {{ deviceInfo }}"
         },
         "wasntYou": {
-          "title": "⚠️ Waren Sie das nicht?",
+          "title": "  Waren Sie das nicht?",
           "description": "Wenn Sie diese Aktivität nicht erkennen, könnte Ihr Konto kompromittiert worden sein. Handeln Sie sofort:",
           "actions": [
             "Ändern Sie Ihr Passwort sofort",

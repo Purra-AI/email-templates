@@ -15,7 +15,7 @@
   ],
   "translations": {
     "en": {
-      "subject": "⚠️ Overdue Invoice #{{ invoiceNumber }} - Action Required",
+      "subject": "  Overdue Invoice #{{ invoiceNumber }} - Action Required",
       "preheader": "${{ amount }} payment is {{ daysPastDue }} days overdue",
       "header": {
         "title": "Payment Overdue",
@@ -32,7 +32,7 @@
           "daysPastDue": "Days Overdue: {{ daysPastDue }}"
         },
         "urgentAction": {
-          "title": "⚠️ Immediate Action Required",
+          "title": "  Immediate Action Required",
           "description": "To avoid service interruption, please submit payment as soon as possible. If you've already paid, please disregard this notice."
         },
         "consequences": {
@@ -62,7 +62,7 @@
       }
     },
     "he": {
-      "subject": "⚠️ חשבונית באיחור #{{ invoiceNumber }} - נדרשת פעולה",
+      "subject": "  חשבונית באיחור #{{ invoiceNumber }} - נדרשת פעולה",
       "preheader": "תשלום של ${{ amount }} באיחור של {{ daysPastDue }} ימים",
       "header": {
         "title": "תשלום באיחור",
@@ -79,7 +79,7 @@
           "daysPastDue": "ימים באיחור: {{ daysPastDue }}"
         },
         "urgentAction": {
-          "title": "⚠️ נדרשת פעולה מיידית",
+          "title": "  נדרשת פעולה מיידית",
           "description": "כדי למנוע הפרעה בשירות, אנא שלחו תשלום בהקדם האפשרי. אם כבר שילמתם, אנא התעלמו מהודעה זו."
         },
         "consequences": {
@@ -109,7 +109,7 @@
       }
     },
     "hi": {
-      "subject": "⚠️ विलंबित चालान #{{ invoiceNumber }} - कार्रवाई आवश्यक",
+      "subject": "  विलंबित चालान #{{ invoiceNumber }} - कार्रवाई आवश्यक",
       "preheader": "${{ amount }} भुगतान {{ daysPastDue }} दिन विलंबित है",
       "header": {
         "title": "भुगतान विलंबित",
@@ -126,7 +126,7 @@
           "daysPastDue": "विलंबित दिन: {{ daysPastDue }}"
         },
         "urgentAction": {
-          "title": "⚠️ तत्काल कार्रवाई आवश्यक",
+          "title": "  तत्काल कार्रवाई आवश्यक",
           "description": "सेवा में रुकावट से बचने के लिए, कृपया जल्द से जल्द भुगतान जमा करें। यदि आपने पहले ही भुगतान कर दिया है, तो कृपया इस सूचना को अनदेखा करें।"
         },
         "consequences": {
@@ -156,7 +156,7 @@
       }
     },
     "fr": {
-      "subject": "⚠️ Facture en retard #{{ invoiceNumber }} - Action requise",
+      "subject": "  Facture en retard #{{ invoiceNumber }} - Action requise",
       "preheader": "Le paiement de ${{ amount }} est en retard de {{ daysPastDue }} jours",
       "header": {
         "title": "Paiement en retard",
@@ -173,7 +173,7 @@
           "daysPastDue": "Jours de retard : {{ daysPastDue }}"
         },
         "urgentAction": {
-          "title": "⚠️ Action immédiate requise",
+          "title": "  Action immédiate requise",
           "description": "Pour éviter une interruption de service, veuillez soumettre le paiement dès que possible. Si vous avez déjà payé, veuillez ignorer cet avis."
         },
         "consequences": {
@@ -203,7 +203,7 @@
       }
     },
     "zh": {
-      "subject": "⚠️ 逾期发票 #{{ invoiceNumber }} - 需要采取行动",
+      "subject": "  逾期发票 #{{ invoiceNumber }} - 需要采取行动",
       "preheader": "${{ amount }} 付款已逾期 {{ daysPastDue }} 天",
       "header": {
         "title": "付款逾期",
@@ -220,7 +220,7 @@
           "daysPastDue": "逾期天数：{{ daysPastDue }}"
         },
         "urgentAction": {
-          "title": "⚠️ 需要立即采取行动",
+          "title": "  需要立即采取行动",
           "description": "为避免服务中断，请尽快提交付款。如果您已付款，请忽略此通知。"
         },
         "consequences": {
@@ -250,7 +250,7 @@
       }
     },
     "ja": {
-      "subject": "⚠️ 延滞請求書 #{{ invoiceNumber }} - 対応が必要です",
+      "subject": "  延滞請求書 #{{ invoiceNumber }} - 対応が必要です",
       "preheader": "${{ amount }} の支払いが {{ daysPastDue }} 日延滞しています",
       "header": {
         "title": "支払い延滞",
@@ -267,7 +267,7 @@
           "daysPastDue": "延滞日数：{{ daysPastDue }}"
         },
         "urgentAction": {
-          "title": "⚠️ 早急な対応が必要",
+          "title": "  早急な対応が必要",
           "description": "サービスの中断を避けるため、できるだけ早く支払いを送信してください。すでに支払い済みの場合は、この通知を無視してください。"
         },
         "consequences": {
@@ -297,7 +297,7 @@
       }
     },
     "de": {
-      "subject": "⚠️ Überfällige Rechnung #{{ invoiceNumber }} - Maßnahme erforderlich",
+      "subject": "  Überfällige Rechnung #{{ invoiceNumber }} - Maßnahme erforderlich",
       "preheader": "${{ amount }} Zahlung ist {{ daysPastDue }} Tage überfällig",
       "header": {
         "title": "Zahlung überfällig",
@@ -314,7 +314,7 @@
           "daysPastDue": "Tage überfällig: {{ daysPastDue }}"
         },
         "urgentAction": {
-          "title": "⚠️ Sofortige Maßnahme erforderlich",
+          "title": "  Sofortige Maßnahme erforderlich",
           "description": "Um eine Serviceunterbrechung zu vermeiden, reichen Sie bitte die Zahlung so schnell wie möglich ein. Falls Sie bereits bezahlt haben, ignorieren Sie bitte diese Mitteilung."
         },
         "consequences": {

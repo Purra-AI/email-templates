@@ -15,7 +15,7 @@
   ],
   "translations": {
     "en": {
-      "subject": "🚀 New in Purra: {{ updateTitle }}",
+      "subject": "   New in Purra: {{ updateTitle }}",
       "preheader": "Discover the latest features designed to enhance your procurement workflow",
       "header": {
         "title": "Product Update",
@@ -68,7 +68,7 @@
       }
     },
     "he": {
-      "subject": "🚀 חדש ב-Purra: {{ updateTitle }}",
+      "subject": "   חדש ב-Purra: {{ updateTitle }}",
       "preheader": "גלו את התכונות האחרונות שתוכננו לשיפור תהליך הרכש שלכם",
       "header": {
         "title": "עדכון מוצר",
@@ -121,7 +121,7 @@
       }
     },
     "hi": {
-      "subject": "🚀 Purra में नया: {{ updateTitle }}",
+      "subject": "   Purra में नया: {{ updateTitle }}",
       "preheader": "अपने खरीद वर्कफ़्लो को बेहतर बनाने के लिए डिज़ाइन की गई नवीनतम सुविधाओं की खोज करें",
       "header": {
         "title": "उत्पाद अपडेट",
@@ -174,7 +174,7 @@
       }
     },
     "fr": {
-      "subject": "🚀 Nouveau dans Purra : {{ updateTitle }}",
+      "subject": "   Nouveau dans Purra : {{ updateTitle }}",
       "preheader": "Découvrez les dernières fonctionnalités conçues pour améliorer votre flux de travail d'approvisionnement",
       "header": {
         "title": "Mise à jour du produit",
@@ -227,7 +227,7 @@
       }
     },
     "zh": {
-      "subject": "🚀 Purra新功能：{{ updateTitle }}",
+      "subject": "   Purra新功能：{{ updateTitle }}",
       "preheader": "发现旨在增强您采购工作流程的最新功能",
       "header": {
         "title": "产品更新",
@@ -280,7 +280,7 @@
       }
     },
     "ja": {
-      "subject": "🚀 Purraの新機能：{{ updateTitle }}",
+      "subject": "   Purraの新機能：{{ updateTitle }}",
       "preheader": "調達ワークフローを強化するために設計された最新機能を発見してください",
       "header": {
         "title": "製品アップデート",
@@ -333,7 +333,7 @@
       }
     },
     "de": {
-      "subject": "🚀 Neu in Purra: {{ updateTitle }}",
+      "subject": "   Neu in Purra: {{ updateTitle }}",
       "preheader": "Entdecken Sie die neuesten Funktionen zur Verbesserung Ihres Beschaffungsworkflows",
       "header": {
         "title": "Produktaktualisierung",

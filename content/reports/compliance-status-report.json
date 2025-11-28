@@ -30,7 +30,7 @@
           "title": "📊 Compliance Overview",
           "totalVendors": "Total Active Vendors: {{ totalVendors }}",
           "compliant": "✅ Fully Compliant: {{ compliantVendors }}",
-          "nonCompliant": "⚠️ Non-Compliant: {{ nonCompliantVendors }}",
+          "nonCompliant": "  Non-Compliant: {{ nonCompliantVendors }}",
           "pending": "⏳ Pending Reviews: {{ pendingReviews }}",
           "rate": "Overall Compliance Rate: {{ complianceRate }}%"
         },
@@ -85,7 +85,7 @@
           "title": "📊 סקירת ציות",
           "totalVendors": "סך הספקים הפעילים: {{ totalVendors }}",
           "compliant": "✅ בציות מלא: {{ compliantVendors }}",
-          "nonCompliant": "⚠️ לא בציות: {{ nonCompliantVendors }}",
+          "nonCompliant": "  לא בציות: {{ nonCompliantVendors }}",
           "pending": "⏳ ממתינים לבדיקה: {{ pendingReviews }}",
           "rate": "שיעור ציות כללי: {{ complianceRate }}%"
         },
@@ -140,7 +140,7 @@
           "title": "📊 अनुपालन अवलोकन",
           "totalVendors": "कुल सक्रिय विक्रेता: {{ totalVendors }}",
           "compliant": "✅ पूर्ण रूप से अनुपालन: {{ compliantVendors }}",
-          "nonCompliant": "⚠️ गैर-अनुपालन: {{ nonCompliantVendors }}",
+          "nonCompliant": "  गैर-अनुपालन: {{ nonCompliantVendors }}",
           "pending": "⏳ समीक्षा लंबित: {{ pendingReviews }}",
           "rate": "समग्र अनुपालन दर: {{ complianceRate }}%"
         },
@@ -195,7 +195,7 @@
           "title": "📊 Aperçu de la conformité",
           "totalVendors": "Total fournisseurs actifs : {{ totalVendors }}",
           "compliant": "✅ Entièrement conforme : {{ compliantVendors }}",
-          "nonCompliant": "⚠️ Non conforme : {{ nonCompliantVendors }}",
+          "nonCompliant": "  Non conforme : {{ nonCompliantVendors }}",
           "pending": "⏳ Examens en attente : {{ pendingReviews }}",
           "rate": "Taux de conformité global : {{ complianceRate }}%"
         },
@@ -250,7 +250,7 @@
           "title": "📊 合规概览",
           "totalVendors": "活跃供应商总数：{{ totalVendors }}",
           "compliant": "✅ 完全合规：{{ compliantVendors }}",
-          "nonCompliant": "⚠️ 不合规：{{ nonCompliantVendors }}",
+          "nonCompliant": "  不合规：{{ nonCompliantVendors }}",
           "pending": "⏳ 待审查：{{ pendingReviews }}",
           "rate": "总体合规率：{{ complianceRate }}%"
         },
@@ -305,7 +305,7 @@
           "title": "📊 コンプライアンス概要",
           "totalVendors": "アクティブベンダー総数：{{ totalVendors }}",
           "compliant": "✅ 完全準拠：{{ compliantVendors }}",
-          "nonCompliant": "⚠️ 非準拠：{{ nonCompliantVendors }}",
+          "nonCompliant": "  非準拠：{{ nonCompliantVendors }}",
           "pending": "⏳ レビュー待ち：{{ pendingReviews }}",
           "rate": "全体的なコンプライアンス率：{{ complianceRate }}%"
         },
@@ -360,7 +360,7 @@
           "title": "📊 Compliance-Übersicht",
           "totalVendors": "Aktive Lieferanten gesamt: {{ totalVendors }}",
           "compliant": "✅ Vollständig konform: {{ compliantVendors }}",
-          "nonCompliant": "⚠️ Nicht konform: {{ nonCompliantVendors }}",
+          "nonCompliant": "  Nicht konform: {{ nonCompliantVendors }}",
           "pending": "⏳ Ausstehende Überprüfungen: {{ pendingReviews }}",
           "rate": "Gesamte Compliance-Rate: {{ complianceRate }}%"
         },

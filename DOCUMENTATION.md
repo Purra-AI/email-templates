@@ -926,7 +926,7 @@ ls -la content/category/
 
 ### Issue: Missing Translations
 
-**Error:** `⚠️ No translation for he, skipping`
+**Error:** `  No translation for he, skipping`
 
 **Solution:** Add missing language to translations object in content JSON:
 ```json

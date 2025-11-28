@@ -16,7 +16,7 @@
   ],
   "translations": {
     "en": {
-      "subject": "⚠️ Supply Chain Risk Assessment - {{ reportPeriod }}",
+      "subject": "  Supply Chain Risk Assessment - {{ reportPeriod }}",
       "preheader": "Comprehensive risk analysis across your vendor network",
       "header": {
         "title": "Supply Chain Risk Report",
@@ -36,7 +36,7 @@
           "description": "These vendors have elevated risk scores due to financial instability, compliance issues, or geographic risks."
         },
         "criticalCategories": {
-          "title": "⚠️ Critical Risk Categories",
+          "title": "  Critical Risk Categories",
           "description": "{{ criticalCategories }}"
         },
         "riskFactors": {
@@ -81,7 +81,7 @@
       }
     },
     "he": {
-      "subject": "⚠️ הערכת סיכוני שרשרת אספקה - {{ reportPeriod }}",
+      "subject": "  הערכת סיכוני שרשרת אספקה - {{ reportPeriod }}",
       "preheader": "ניתוח סיכונים מקיף ברחבי רשת הספקים שלכם",
       "header": {
         "title": "דוח סיכוני שרשרת אספקה",
@@ -101,7 +101,7 @@
           "description": "לספקים אלה יש ציוני סיכון מוגברים עקב חוסר יציבות פיננסית, בעיות ציות או סיכונים גיאוגרפיים."
         },
         "criticalCategories": {
-          "title": "⚠️ קטגוריות סיכון קריטיות",
+          "title": "  קטגוריות סיכון קריטיות",
           "description": "{{ criticalCategories }}"
         },
         "riskFactors": {
@@ -146,7 +146,7 @@
       }
     },
     "hi": {
-      "subject": "⚠️ आपूर्ति श्रृंखला जोखिम मूल्यांकन - {{ reportPeriod }}",
+      "subject": "  आपूर्ति श्रृंखला जोखिम मूल्यांकन - {{ reportPeriod }}",
       "preheader": "आपके विक्रेता नेटवर्क में व्यापक जोखिम विश्लेषण",
       "header": {
         "title": "आपूर्ति श्रृंखला जोखिम रिपोर्ट",
@@ -166,7 +166,7 @@
           "description": "वित्तीय अस्थिरता, अनुपालन मुद्दों या भौगोलिक जोखिमों के कारण इन विक्रेताओं के पास उच्च जोखिम स्कोर हैं।"
         },
         "criticalCategories": {
-          "title": "⚠️ महत्वपूर्ण जोखिम श्रेणियां",
+          "title": "  महत्वपूर्ण जोखिम श्रेणियां",
           "description": "{{ criticalCategories }}"
         },
         "riskFactors": {
@@ -211,7 +211,7 @@
       }
     },
     "fr": {
-      "subject": "⚠️ Évaluation des risques de la chaîne d'approvisionnement - {{ reportPeriod }}",
+      "subject": "  Évaluation des risques de la chaîne d'approvisionnement - {{ reportPeriod }}",
       "preheader": "Analyse complète des risques dans votre réseau de fournisseurs",
       "header": {
         "title": "Rapport sur les risques de la chaîne d'approvisionnement",
@@ -231,7 +231,7 @@
           "description": "Ces fournisseurs ont des scores de risque élevés en raison d'une instabilité financière, de problèmes de conformité ou de risques géographiques."
         },
         "criticalCategories": {
-          "title": "⚠️ Catégories de risques critiques",
+          "title": "  Catégories de risques critiques",
           "description": "{{ criticalCategories }}"
         },
         "riskFactors": {
@@ -276,7 +276,7 @@
       }
     },
     "zh": {
-      "subject": "⚠️ 供应链风险评估 - {{ reportPeriod }}",
+      "subject": "  供应链风险评估 - {{ reportPeriod }}",
       "preheader": "供应商网络的综合风险分析",
       "header": {
         "title": "供应链风险报告",
@@ -296,7 +296,7 @@
           "description": "由于财务不稳定、合规问题或地理风险，这些供应商的风险评分较高。"
         },
         "criticalCategories": {
-          "title": "⚠️ 关键风险类别",
+          "title": "  关键风险类别",
           "description": "{{ criticalCategories }}"
         },
         "riskFactors": {
@@ -341,7 +341,7 @@
       }
     },
     "ja": {
-      "subject": "⚠️ サプライチェーンリスク評価 - {{ reportPeriod }}",
+      "subject": "  サプライチェーンリスク評価 - {{ reportPeriod }}",
       "preheader": "ベンダーネットワーク全体の包括的リスク分析",
       "header": {
         "title": "サプライチェーンリスクレポート",
@@ -361,7 +361,7 @@
           "description": "これらのベンダーは、財務不安定性、コンプライアンス問題、または地理的リスクにより高いリスクスコアを持っています。"
         },
         "criticalCategories": {
-          "title": "⚠️ 重大なリスクカテゴリ",
+          "title": "  重大なリスクカテゴリ",
           "description": "{{ criticalCategories }}"
         },
         "riskFactors": {
@@ -406,7 +406,7 @@
       }
     },
     "de": {
-      "subject": "⚠️ Lieferketten-Risikobewertung - {{ reportPeriod }}",
+      "subject": "  Lieferketten-Risikobewertung - {{ reportPeriod }}",
       "preheader": "Umfassende Risikoanalyse in Ihrem Lieferantennetzwerk",
       "header": {
         "title": "Lieferketten-Risikobericht",
@@ -426,7 +426,7 @@
           "description": "Diese Lieferanten haben aufgrund finanzieller Instabilität, Compliance-Problemen oder geografischen Risiken erhöhte Risikobewertungen."
         },
         "criticalCategories": {
-          "title": "⚠️ Kritische Risikokategorien",
+          "title": "  Kritische Risikokategorien",
           "description": "{{ criticalCategories }}"
         },
         "riskFactors": {
